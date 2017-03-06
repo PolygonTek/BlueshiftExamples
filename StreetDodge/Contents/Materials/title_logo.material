@@ -1,0 +1,10 @@
+material "title_logo" {
+  noShadow
+  cull twoSided
+  pass {
+    blendFunc blend
+    map "637D7E2E2E0C1013002F0055B5594E0C"
+    tc (1.000 1.000) (0.000 0.000)
+    color (1 1 1 1)
+  }
+}

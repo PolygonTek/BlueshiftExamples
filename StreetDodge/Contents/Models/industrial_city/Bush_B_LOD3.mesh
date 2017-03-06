@@ -1,0 +1,47 @@
+MESH 1
+numJoints 0
+numMaterials 4
+materials {
+	"Bush_Billboard_mat" "D:/Users/Perforce/Products/Industrial City/Working Files/Unreal/IndustrialCity/Content/IndustrialCity/Textures/Bush_Billboard_A.tga" "" ""
+	"Leaves" "D:/PolyPixel/P4/Products/Industrial City/Working Files/Source//IndustrialCity/Textures/Leaves_A.tga" "D:/PolyPixel/P4/Products/Industrial City/Working Files/Source//IndustrialCity/Textures/Leaves_N.tga" ""
+	"Bark_mat" "D:/PolyPixel/P4/Products/Industrial City/Working Files/Source//IndustrialCity/Textures/Bark_A.tga" "C:/Users/Cody/Desktop/AshBarkNormal.tga" ""
+	"Branch" "D:/Users/Perforce/Products/Industrial City/Working Files/Unreal/IndustrialCity/Content/IndustrialCity/Textures/Branch_A.tga" "C:/Users/Cody/Desktop/Branch_N.tga" ""
+}
+numSubMeshes 1
+subMeshes {
+	subMesh "Bush_B_LOD3" 0 {
+		hasMaterial true
+		hasNormals true
+		hasTangents false
+		hasVertexColors false
+		numVerts 8
+		verts {
+			( 0.0000004835 -133.6604309082 0.0000019073 ) 0 
+			( 0.0000004835 113.4379272461 0.0000019073 ) 0 
+			( 0.0000004835 -133.6604309082 238.9854125977 ) 0 
+			( 0.0000004835 113.4379272461 238.9854125977 ) 0 
+			( 126.2808837891 0 0.0000019073 ) 0 
+			( -108.5511474609 0 0.0000019073 ) 0 
+			( 126.2808837891 -0 238.9854125977 ) 0 
+			( -108.5511474609 -0 238.9854125977 ) 0 
+		}
+		numTVerts 8
+		tverts {
+			( 0 1 )
+			( 1 1 )
+			( 0 0 )
+			( 1 0 )
+			( 0 1 )
+			( 1 1 )
+			( 1 0 )
+			( 0 0 )
+		}
+		numFaces 4
+		faces {
+			3 2 0 3 2 0 0 -1 ( 1 -0 0 ) ( 1 -0 0 ) ( 1 -0 0 ) 
+			3 0 1 3 0 1 0 -1 ( 1 -0 0 ) ( 1 -0 0 ) ( 1 -0 0 ) 
+			6 4 7 7 4 6 0 -1 ( 0 1 0 ) ( 0 1 0 ) ( 0 1 0 ) 
+			4 5 7 4 5 6 0 -1 ( 0 1 0 ) ( 0 1 0 ) ( 0 1 0 ) 
+		}
+	}
+}

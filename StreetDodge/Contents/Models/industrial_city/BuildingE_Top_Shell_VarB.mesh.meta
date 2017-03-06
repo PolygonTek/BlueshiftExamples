@@ -1,0 +1,16 @@
+{
+   "classname" : "MeshAsset",
+   "guid" : "109021CD050C0D0B00050378A9D3E9A9",
+   "importer" : {
+      "classname" : "MeshImporter",
+      "importMaterials" : true,
+      "materialNaming" : 0,
+      "materialSearch" : 1,
+      "maxSkinningWeights" : 4,
+      "merge" : true,
+      "normals" : 0,
+      "optimize" : true,
+      "tangents" : 1
+   },
+   "timeStamp" : "636180891520000000"
+}

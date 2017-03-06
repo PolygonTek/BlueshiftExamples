@@ -1,0 +1,25 @@
+material "BrickB_A" {
+  sort opaque
+  lightSort 2
+  cull back
+  pass {
+    shader "000000000000000000000000000000C8" {
+      _DIFFUSE_SOURCE "1"
+      diffuseColor "1 1 1 1"
+      diffuseMap "00785FB5200C0C0B0035022E3D1C52B5"
+      _NORMAL_SOURCE "1"
+      normalMap "007E2D83220C0C0B003502413D6D5C3B"
+      detailNormalMap "0000000000000000000000000000006D"
+      detailRepeat "8.0000"
+      _HALF_LAMBERT_DIFFUSE "false"
+      _SPECULAR_SOURCE "2"
+      specularColor "1 1 1 1"
+      specularMap "008030FB240C0C0B003501313DB2BD55"
+      specularExponent "16.0000"
+    }
+    tc (1.000 1.000) (0.000 0.000)
+    colorMask 
+    depthFunc LE
+    color (1 1 1 1)
+  }
+}

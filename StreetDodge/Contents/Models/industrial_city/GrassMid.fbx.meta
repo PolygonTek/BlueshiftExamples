@@ -1,0 +1,13 @@
+{
+   "classname" : "FbxAsset",
+   "guid" : "075A2CD00D0A0D080034038E1F2F4FE5",
+   "importer" : {
+      "classname" : "FbxFileImporter",
+      "createAnimationFolder" : true,
+      "importAnimation" : false,
+      "importMesh" : true,
+      "importSkeleton" : false,
+      "targetSkeleton" : "00000000000000000000000000000000"
+   },
+   "timeStamp" : "636115855330000000"
+}

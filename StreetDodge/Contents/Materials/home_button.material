@@ -1,0 +1,10 @@
+material "home_button" {
+  noShadow
+  cull back
+  pass {
+    blendFunc blend
+    map "038821933A0C1712002300818C57556F"
+    tc (1.000 1.000) (0.000 0.000)
+    color (1 1 1 1)
+  }
+}

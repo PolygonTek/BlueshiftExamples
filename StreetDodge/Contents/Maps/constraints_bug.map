@@ -1,0 +1,312 @@
+[
+   {
+      "classname" : "Entity",
+      "components" : [
+         {
+            "angles" : "40 -0 0",
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "01E22F280809091D001C00D12EF07E0C",
+            "origin" : "0 0 30",
+            "scale" : "0.1 1 1"
+         },
+         {
+            "alpha" : 1,
+            "billboard" : false,
+            "castShadows" : true,
+            "classname" : "ComStaticMeshRenderer",
+            "color" : "1 1 1",
+            "enabled" : true,
+            "guid" : "01E34B860809091D001C00D12EF07E78",
+            "materials" : [ "00000000000000000000000000000000" ],
+            "maxVisDist" : 16384,
+            "mesh" : "00000000000000000000000000000193",
+            "occluder" : false,
+            "receiveShadows" : true,
+            "timeOffset" : 0,
+            "timeScale" : 1,
+            "useLightProbe" : true
+         },
+         {
+            "angularDamping" : 0.0099999997764825821,
+            "ccd" : false,
+            "classname" : "ComRigidBody",
+            "enabled" : true,
+            "friction" : 1,
+            "guid" : "01E46FB70809091D001C00D12EF081A4",
+            "kinematic" : false,
+            "linearDamping" : 0.05000000074505806,
+            "mass" : 1,
+            "restitution" : 0,
+            "rollingFriction" : 1
+         },
+         {
+            "center" : "0 0 0",
+            "classname" : "ComBoxCollider",
+            "enabled" : true,
+            "extents" : "50 50 50",
+            "guid" : "01E508750809091D001C00D12EF0818F",
+            "material" : ""
+         },
+         {
+            "anchor" : "0 0 50",
+            "angles" : "0 0 90",
+            "breakImpulse" : 1.0000000150474662e+30,
+            "classname" : "ComHingeJoint",
+            "collisionEnabled" : false,
+            "connectedBody" : "00000000000000000000000000000000",
+            "enabled" : true,
+            "guid" : "01E7491A0809091D001C00D22EF0810E",
+            "maxMotorImpulse" : 0,
+            "motorSpeed" : 0
+         }
+      ],
+      "frozen" : false,
+      "guid" : "01E113C30809091D001C00D12EF07ECF",
+      "isPrefabParent" : false,
+      "layer" : 0,
+      "name" : "Box",
+      "parent" : "00000000000000000000000000000000",
+      "prefabParent" : "00000000000000000000000000000000",
+      "tag" : "Untagged"
+   },
+   {
+      "classname" : "Entity",
+      "components" : [
+         {
+            "angles" : "-2.44 61.19 13.32",
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "0297635D0E090B19002E01C772F7903D",
+            "origin" : "862.8247 -88.8218 3067.4246",
+            "scale" : "1 1 1"
+         },
+         {
+            "castShadows" : true,
+            "classname" : "ComLight",
+            "color" : "1 1 1",
+            "enabled" : true,
+            "fallOffExponent" : 1.25,
+            "guid" : "02986BB30E090B19002E01C772F79239",
+            "intensity" : 1,
+            "lightSize" : "10000 10000 10000",
+            "lightType" : 2,
+            "lightZNear" : 10,
+            "mainLight" : true,
+            "material" : "00000000000000000000000000000130",
+            "maxVisDist" : 16384,
+            "shadowOffsetFactor" : 3,
+            "shadowOffsetUnits" : 200,
+            "timeOffset" : 0,
+            "timeScale" : 1,
+            "turnOn" : true
+         }
+      ],
+      "frozen" : false,
+      "guid" : "02965ADF0E090B19002E01C672F78C66",
+      "isPrefabParent" : false,
+      "layer" : 0,
+      "name" : "Directional Light",
+      "parent" : "00000000000000000000000000000000",
+      "prefabParent" : "00000000000000000000000000000000",
+      "tag" : "Untagged"
+   },
+   {
+      "classname" : "Entity",
+      "components" : [
+         {
+            "angles" : "0 0 0",
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "01E6196D3009091C000D015DBB56E7E2",
+            "origin" : "0 -0.0001 -100",
+            "scale" : "10 10 10"
+         },
+         {
+            "alpha" : 1,
+            "billboard" : false,
+            "castShadows" : false,
+            "classname" : "ComStaticMeshRenderer",
+            "color" : "1 1 1",
+            "enabled" : true,
+            "guid" : "01E72B683009091C000D015DBB56E998",
+            "materials" : [ "000A514736071507003503907FFFFFFF" ],
+            "maxVisDist" : 16384,
+            "mesh" : "00000000000000000000000000000192",
+            "occluder" : false,
+            "receiveShadows" : true,
+            "timeOffset" : 0,
+            "timeScale" : 1,
+            "useLightProbe" : true
+         },
+         {
+            "center" : "0 0 -0.2",
+            "classname" : "ComBoxCollider",
+            "enabled" : true,
+            "extents" : "500 500 0.2",
+            "guid" : "01E839193009091C000D015DBB56ECB4",
+            "material" : ""
+         },
+         {
+            "angularDamping" : 0.0099999997764825821,
+            "ccd" : false,
+            "classname" : "ComRigidBody",
+            "enabled" : true,
+            "friction" : 1,
+            "guid" : "01E9620E0B09091C000E0382BF0834E2",
+            "kinematic" : false,
+            "linearDamping" : 0.05000000074505806,
+            "mass" : 0,
+            "restitution" : 0,
+            "rollingFriction" : 1
+         }
+      ],
+      "frozen" : false,
+      "guid" : "01E55E863009091C000D015CBB56E37E",
+      "isPrefabParent" : false,
+      "layer" : 0,
+      "name" : "Plane",
+      "parent" : "00000000000000000000000000000000",
+      "prefabParent" : "00000000000000000000000000000000",
+      "tag" : "Untagged"
+   },
+   {
+      "classname" : "Entity",
+      "components" : [
+         {
+            "angles" : "0 -0 0",
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "01EC06523009091C000F02AFCE358889",
+            "origin" : "-347.0738 0 -100",
+            "scale" : "1 1 1"
+         },
+         {
+            "alpha" : 1,
+            "anim" : "00000000000000000000000000000000",
+            "animController" : "01EA47C22A0A171E001800B7B2938D13",
+            "animationType" : 0,
+            "billboard" : false,
+            "castShadows" : true,
+            "classname" : "ComSkinnedMeshRenderer",
+            "color" : "1 1 1",
+            "enabled" : true,
+            "guid" : "01ED5E433009091C000F02AFCE3588F6",
+            "materials" : [
+               "08C076652B0A0E0D002D0222F204A100",
+               "08C860962B0A0E0D002D026BF2078DB4"
+            ],
+            "maxVisDist" : 16384,
+            "mesh" : "01F9573A090A171E00190109B6D2A612",
+            "receiveShadows" : true,
+            "skeleton" : "00000000000000000000000000000000",
+            "timeOffset" : 0,
+            "timeScale" : 1,
+            "useLightProbe" : true
+         },
+         {
+            "capsuleHeight" : 0.90000003576278687,
+            "capsuleRadius" : 0.5,
+            "classname" : "ComCharacterController",
+            "enabled" : true,
+            "guid" : "01EE61431D09091C00110381DE144B2A",
+            "mass" : 10,
+            "slopeLimit" : 60,
+            "stepOffset" : 0.5
+         },
+         {
+            "acceleration" : 8,
+            "attack_button" : "00000000000000000000000000000000",
+            "classname" : "ComScript",
+            "enabled" : true,
+            "footstep1_sound" : "00000000000000000000000000000000",
+            "footstep2_sound" : "00000000000000000000000000000000",
+            "footstep3_sound" : "00000000000000000000000000000000",
+            "footstep4_sound" : "00000000000000000000000000000000",
+            "friction" : 6,
+            "gravity" : 9.8000001907348633,
+            "guid" : "01EF1F3A2209091C00110224DECEFE51",
+            "home_button" : "00000000000000000000000000000000",
+            "hp" : 10,
+            "joypad_l" : "00000000000000000000000000000000",
+            "joypad_r" : "00000000000000000000000000000000",
+            "max_speed" : 4,
+            "projectile" : "00000000000000000000000000000000",
+            "restart_button" : "00000000000000000000000000000000",
+            "script" : "05B753941D0C100E000C0315F0F0818A",
+            "shoot_place" : "00000000000000000000000000000000",
+            "slide_sound" : "00000000000000000000000000000000",
+            "stop_speed" : 2
+         }
+      ],
+      "frozen" : false,
+      "guid" : "01EB1CD13009091C000F02AFCE35894A",
+      "isPrefabParent" : false,
+      "layer" : 0,
+      "name" : "Player",
+      "parent" : "00000000000000000000000000000000",
+      "prefabParent" : "00E83D4F15090F0A002C00977FFFFFFF",
+      "tag" : "Player"
+   },
+   {
+      "classname" : "Entity",
+      "components" : [
+         {
+            "angles" : "0 -0 0",
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "01DE4B6F1709111D00300042916A2389",
+            "origin" : "90 0 129.9706",
+            "scale" : "1 1 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "01DD385B1709111D00300041916A1F2D",
+      "isPrefabParent" : false,
+      "layer" : 0,
+      "name" : "ShootPlace",
+      "parent" : "01EB1CD13009091C000F02AFCE35894A",
+      "prefabParent" : "00000000000000000000000000000000",
+      "tag" : "Untagged"
+   },
+   {
+      "classname" : "Entity",
+      "components" : [
+         {
+            "angles" : "0 30 0",
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "02153BD3290917190021039372E79CAC",
+            "origin" : "-342.9025 0 339.9917",
+            "scale" : "1 1 1"
+         },
+         {
+            "classname" : "ComCamera",
+            "clear" : 2,
+            "clearAlpha" : 0,
+            "clearColor" : "0 0 0",
+            "enabled" : true,
+            "far" : 8192,
+            "fov" : 60,
+            "guid" : "02160690290917190021039372E79EA5",
+            "h" : 1,
+            "layerMask" : 3,
+            "near" : 10,
+            "order" : 0,
+            "projection" : 0,
+            "size" : 1000,
+            "w" : 1,
+            "x" : 0,
+            "y" : 0
+         }
+      ],
+      "frozen" : false,
+      "guid" : "02147906290917190021039372E79868",
+      "isPrefabParent" : false,
+      "layer" : 0,
+      "name" : "Camera",
+      "parent" : "01EB1CD13009091C000F02AFCE35894A",
+      "prefabParent" : "00000000000000000000000000000000",
+      "tag" : "MainCamera"
+   }
+]

@@ -1,0 +1,24 @@
+material "Factory_Diffuse" {
+  sort opaque
+  lightSort 2
+  cull back
+  pass {
+    shader "000000000000000000000000000000C8" {
+      _DIFFUSE_SOURCE "1"
+      diffuseColor "1 1 1 1"
+      diffuseMap "001A0E65370A0F0F002803C91C9F7E2A"
+      _NORMAL_SOURCE "1"
+      normalMap "001C068B390A0F0F002800871CCE4C07"
+      detailNormalMap "0000000000000000000000000000006D"
+      detailRepeat "8.0000"
+      _HALF_LAMBERT_DIFFUSE "false"
+      _SPECULAR_SOURCE "2"
+      specularColor "1 1 1 1"
+      specularMap "028C74011A0A1607002303A56DD7D877"
+      specularExponent "32.0000"
+    }
+    tc (1.000 1.000) (0.000 0.000)
+    depthFunc LE
+    color (1 1 1 1)
+  }
+}

@@ -1,0 +1,10 @@
+material "joypad_knob" {
+  noShadow
+  cull back
+  pass {
+    blendFunc blend
+    map "000E71243A030D03002202D518462764"
+    tc (1.000 1.000) (0.000 0.000)
+    color (1 1 1 1)
+  }
+}

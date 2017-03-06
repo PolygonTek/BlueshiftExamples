@@ -1,0 +1,24 @@
+material "floor" {
+  sort opaque
+  lightSort 2
+  cull twoSided
+  pass {
+    shader "000000000000000000000000000000C8" {
+      _DIFFUSE_SOURCE "1"
+      diffuseColor "1 1 1 1"
+      diffuseMap "001123C619071507003102387FFFFFFF"
+      _NORMAL_SOURCE "1"
+      normalMap "0013008719071507003102D97FFFFFFF"
+      detailNormalMap "0000000000000000000000000000006D"
+      detailRepeat "8.0000"
+      _HALF_LAMBERT_DIFFUSE "false"
+      _SPECULAR_SOURCE "0"
+      specularColor "1 1 1 1"
+      specularMap "00000000000000000000000000000068"
+      specularExponent "16.0000"
+    }
+    tc (10.000 10.000) (0.000 0.000)
+    depthFunc LE
+    color (1 1 1 1)
+  }
+}

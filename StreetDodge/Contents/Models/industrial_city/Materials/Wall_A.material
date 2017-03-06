@@ -1,0 +1,25 @@
+material "Wall_A" {
+  sort opaque
+  lightSort 2
+  cull back
+  pass {
+    shader "000000000000000000000000000000C8" {
+      _DIFFUSE_SOURCE "1"
+      diffuseColor "1 1 1 1"
+      diffuseMap "02850BEA2F0C0C0B003801D55BAC6844"
+      _NORMAL_SOURCE "1"
+      normalMap "029365B6350C0C0B003800BF5C921F9A"
+      detailNormalMap "0000000000000000000000000000006D"
+      detailRepeat "8.0000"
+      _HALF_LAMBERT_DIFFUSE "false"
+      _SPECULAR_SOURCE "2"
+      specularColor "1 1 1 1"
+      specularMap "02950651360C0C0B003803105CD2137A"
+      specularExponent "16.0000"
+    }
+    tc (1.000 1.000) (0.000 0.000)
+    colorMask 
+    depthFunc LE
+    color (1 1 1 1)
+  }
+}

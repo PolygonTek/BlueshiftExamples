@@ -1,0 +1,26 @@
+material "Grass_A_A" {
+  sort opaque
+  lightSort 2
+  cull twoSided
+  pass {
+    shader "000000000000000000000000000000C8" {
+      _DIFFUSE_SOURCE "1"
+      diffuseColor "1 1 1 1"
+      diffuseMap "04980131070A0D08003302D114CE5B7B"
+      _NORMAL_SOURCE "1"
+      normalMap "049C5143080A0D080033002514DB0C7B"
+      detailNormalMap "0000000000000000000000000000006D"
+      detailRepeat "8.0000"
+      _HALF_LAMBERT_DIFFUSE "false"
+      _SPECULAR_SOURCE "2"
+      specularColor "1 1 1 1"
+      specularMap "049E2A8B080A0D080033015714E75770"
+      specularExponent "16.0000"
+    }
+    tc (1.000 1.000) (0.000 0.000)
+    colorMask 
+    alphaFunc GT 0
+    depthFunc LE
+    color (1 1 1 1)
+  }
+}

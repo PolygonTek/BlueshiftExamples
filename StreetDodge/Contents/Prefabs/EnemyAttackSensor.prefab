@@ -1,0 +1,42 @@
+[
+   {
+      "classname" : "Entity",
+      "components" : [
+         {
+            "angles" : "0 0 0",
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "06831D76300A150B00170298DF7F86CA",
+            "origin" : "-1204.7852 242.2351 129.9999",
+            "scale" : "0.7 1.1 0.7"
+         },
+         {
+            "center" : "0 0 0",
+            "classname" : "ComBoxCollider",
+            "enabled" : true,
+            "extents" : "50 50 50",
+            "guid" : "06845FD7300A150B00170298DF7F86D2",
+            "material" : ""
+         },
+         {
+            "classname" : "ComSensor",
+            "enabled" : true,
+            "guid" : "06850CB8300A150B00170298DF7F86D9"
+         },
+         {
+            "classname" : "ComScript",
+            "enabled" : true,
+            "guid" : "06863CB8300A150B00170298DF7F8621",
+            "script" : "10E63240260A150B0011037FA58454C2"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "06823551300A150B00170298DF7F86E4",
+      "isPrefabParent" : true,
+      "layer" : 0,
+      "name" : "EnemyAttackSensor",
+      "parent" : "00000000000000000000000000000000",
+      "prefabParent" : "00000000000000000000000000000000",
+      "tag" : "Untagged"
+   }
+]

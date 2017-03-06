@@ -1,0 +1,25 @@
+material "Curbs_A" {
+  sort opaque
+  lightSort 2
+  cull back
+  pass {
+    shader "000000000000000000000000000000C8" {
+      _DIFFUSE_SOURCE "1"
+      diffuseColor "1 1 1 1"
+      diffuseMap "03CA2206310A0D080032008A11E465A4"
+      _NORMAL_SOURCE "1"
+      normalMap "03D0643B310A0D080032023A11F5C35F"
+      detailNormalMap "0000000000000000000000000000006D"
+      detailRepeat "8.0000"
+      _HALF_LAMBERT_DIFFUSE "false"
+      _SPECULAR_SOURCE "2"
+      specularColor "1 1 1 1"
+      specularMap "03D22462310A0D08003203481200929B"
+      specularExponent "16.0000"
+    }
+    tc (1.000 1.000) (0.000 0.000)
+    colorMask 
+    depthFunc LE
+    color (1 1 1 1)
+  }
+}

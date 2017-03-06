@@ -1,0 +1,10 @@
+material "start_button" {
+  noShadow
+  cull back
+  pass {
+    blendFunc blend
+    map "047A2F5C170C0C12001302C5A2AFCD56"
+    tc (1.000 1.000) (0.000 0.000)
+    color (1 1 1 1)
+  }
+}

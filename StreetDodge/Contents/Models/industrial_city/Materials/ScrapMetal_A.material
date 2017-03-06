@@ -1,0 +1,25 @@
+material "ScrapMetal_A" {
+  sort opaque
+  lightSort 2
+  cull back
+  pass {
+    shader "000000000000000000000000000000C8" {
+      _DIFFUSE_SOURCE "1"
+      diffuseColor "1 1 1 1"
+      diffuseMap "056033811B0A0D080033016017E267E2"
+      _NORMAL_SOURCE "1"
+      normalMap "05663FE81C0A0D080033008018018C71"
+      detailNormalMap "0000000000000000000000000000006D"
+      detailRepeat "8.0000"
+      _HALF_LAMBERT_DIFFUSE "false"
+      _SPECULAR_SOURCE "2"
+      specularColor "1 1 1 1"
+      specularMap "056864981C0A0D08003301C9180EBD38"
+      specularExponent "16.0000"
+    }
+    tc (1.000 1.000) (0.000 0.000)
+    colorMask 
+    depthFunc LE
+    color (1 1 1 1)
+  }
+}
