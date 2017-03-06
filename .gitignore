@@ -1,2 +1,5 @@
-Cache/*
-Log/*
+Thumbs.db
+.DS_Store
+*/Cache/*
+*/Log/*
+*/ProjectSettings/EditorSettings.ini
