@@ -1,5 +1,0 @@
-{
-   "classname" : "TagLayerSettings",
-   "layer" : [ "Default", "UI", "Editor" ],
-   "tag" : [ "Untagged", "MainCamera", "Player", "Enemy" ]
-}
