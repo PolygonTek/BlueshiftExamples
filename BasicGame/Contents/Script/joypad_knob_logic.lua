@@ -28,7 +28,7 @@ function update()
 
     local knob_center = owner.transform:origin()
     local knob_screen_center = camera:world_to_screen(knob_center)
-    local knob_screen_radius = (properties.knob_radius.value / 640) * Screen.renderWidth()
+    local knob_screen_radius = (properties.knob_radius.value / 640) * Screen.render_width()
 
     for i = 0, Input.touch_count() do
         local touch = Input.touch(i)
