@@ -1,25 +1,25 @@
-material "floor" {
-  sort opaque
-  lightSort 2
-  cull none
-  pass {
-    shader "000000000000000000000000000000C8" {
-      _DIFFUSE_SOURCE "1"
-      diffuseColor "1 1 1 1"
-      diffuseMap "000C6D4B0C030D03000503DF00433D62"
-      _NORMAL_SOURCE "1"
-      normalMap "000D7FEC36030D030005005A06B50194"
-      detailNormalMap "0000000000000000000000000000006D"
-      detailRepeat "8.0000"
-      _HALF_LAMBERT_DIFFUSE "false"
-      _SPECULAR_SOURCE "0"
-      specularColor "1 1 1 1"
-      specularMap "00000000000000000000000000000068"
-      specularExponent "16.0000"
-    }
-    tc (15.000 15.000) (0.000 0.000)
-    colorMask RGB
-    depthFunc LE
-    color (1 1 1 1)
+material 1
+sort opaque
+lightSort 2
+cull none
+unsmoothTangents
+pass {
+  shader "000000000000000000000000000000C8" {
+    _DIFFUSE_SOURCE "1"
+    diffuseColor "1 1 1 1"
+    diffuseMap "000C6D4B0C030D03000503DF00433D62"
+    _NORMAL_SOURCE "1"
+    normalMap "000D7FEC36030D030005005A06B50194"
+    detailNormalMap "0000000000000000000000000000006D"
+    detailRepeat "8.0000"
+    _HALF_LAMBERT_DIFFUSE "false"
+    _SPECULAR_SOURCE "0"
+    specularColor "1 1 1 1"
+    specularMap "00000000000000000000000000000068"
+    specularExponent "16.0000"
   }
+  tc (15.000 15.000) (0.000 0.000)
+  colorMask RGB
+  depthFunc LE
+  color (1 1 1 1)
 }
