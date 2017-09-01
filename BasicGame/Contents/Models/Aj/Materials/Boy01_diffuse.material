@@ -1,24 +1,34 @@
 material 1
-sort opaque
-lightSort 2
-cull back
 pass {
+  renderingMode opaque
+  cull back
   shader "000000000000000000000000000000C8" {
-    _DIFFUSE_SOURCE "1"
-    diffuseColor "1 1 1 1"
-    diffuseMap "08DE4841300A0E0D002D01AFF2C8B922"
+    _ALBEDO_SOURCE "1"
+    albedoColor "1 1 1"
+    albedoAlpha "1.0000"
+    albedoMap "08DE4841300A0E0D002D01AFF2C8B922"
+    _SPECULAR_SOURCE "1"
+    specularColor "1 1 1"
+    specularMap "08E40827320A0E0D002D0192F317DDCD"
+    _GLOSS_SOURCE "0"
+    glossMap "00000000000000000000000000000068"
+    glossScale "0.2000"
     _NORMAL_SOURCE "1"
     normalMap "08E24CCF320A0E0D002D001AF308C477"
     detailNormalMap "0000000000000000000000000000006D"
     detailRepeat "8.0000"
-    _HALF_LAMBERT_DIFFUSE "false"
-    _SPECULAR_SOURCE "2"
-    specularColor "1 1 1 1"
-    specularMap "08E40827320A0E0D002D0192F317DDCD"
-    specularExponent "16.0000"
+    _PARALLAX_SOURCE "0"
+    heightMap "00000000000000000000000000000068"
+    heightScale "0.0080"
+    _OCCLUSION_SOURCE "0"
+    occlusionMap "00000000000000000000000000000068"
+    occlusionStrength "1.0000"
+    _EMISSION_SOURCE "0"
+    emissionColor "1 1 1"
+    emissionMap "00000000000000000000000000000069"
+    emissionScale "1.0000"
   }
   tc (1.000 1.000) (0.000 0.000)
   colorMask RGB
-  depthFunc LE
   color (1 1 1 1)
 }

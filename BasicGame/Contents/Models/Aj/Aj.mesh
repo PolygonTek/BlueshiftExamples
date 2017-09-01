@@ -78,10 +78,10 @@ joints {
 }
 numMaterials 4
 materials {
-	"Boy01_Body_MAT" "C:\Users\juhl\CloudStation\Blueshift Projects\BasicGame\Contents\Models\Aj\Aj.fbm/Boy01_diffuse.jpg" "C:\Users\juhl\CloudStation\Blueshift Projects\BasicGame\Contents\Models\Aj\Aj.fbm/Boy01_normal.jpg" "C:\Users\juhl\CloudStation\Blueshift Projects\BasicGame\Contents\Models\Aj\Aj.fbm/Boy01_spec.jpg"
-	"Boy01_Mouth_MAT1" "C:\Users\juhl\CloudStation\Blueshift Projects\BasicGame\Contents\Models\Aj\Aj.fbm/Boy01_FacialAnimMap.png" "" ""
-	"Boy01_Eyes_MAT1" "C:\Users\juhl\CloudStation\Blueshift Projects\BasicGame\Contents\Models\Aj\Aj.fbm/Boy01_FacialAnimMap.png" "" ""
-	"Boy01_Brows_MAT1" "C:\Users\juhl\CloudStation\Blueshift Projects\BasicGame\Contents\Models\Aj\Aj.fbm/Boy01_FacialAnimMap.png" "" ""
+	"Boy01_Body_MAT" "C:\Users\juhl\Documents\play\BlueshiftExamples\BasicGame\Contents\Models\Aj\Aj.fbm/Boy01_diffuse.jpg" "C:\Users\juhl\Documents\play\BlueshiftExamples\BasicGame\Contents\Models\Aj\Aj.fbm/Boy01_normal.jpg" "C:\Users\juhl\Documents\play\BlueshiftExamples\BasicGame\Contents\Models\Aj\Aj.fbm/Boy01_spec.jpg"
+	"Boy01_Mouth_MAT1" "C:\Users\juhl\Documents\play\BlueshiftExamples\BasicGame\Contents\Models\Aj\Aj.fbm/Boy01_FacialAnimMap.png" "" ""
+	"Boy01_Eyes_MAT1" "C:\Users\juhl\Documents\play\BlueshiftExamples\BasicGame\Contents\Models\Aj\Aj.fbm/Boy01_FacialAnimMap.png" "" ""
+	"Boy01_Brows_MAT1" "C:\Users\juhl\Documents\play\BlueshiftExamples\BasicGame\Contents\Models\Aj\Aj.fbm/Boy01_FacialAnimMap.png" "" ""
 }
 numSubMeshes 4
 subMeshes {
