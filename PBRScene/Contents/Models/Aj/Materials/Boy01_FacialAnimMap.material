@@ -1,0 +1,35 @@
+material 1
+pass {
+  renderingMode alphaBlend
+  cull back
+  shader "000000000000000000000000000000C8" {
+    _ALBEDO_SOURCE "1"
+    albedoColor "1 1 1"
+    albedoAlpha "1.0000"
+    albedoMap "08E059AE300A0E0D002D030DF2D6CB58"
+    _SPECULAR_SOURCE "0"
+    specularColor "0 0 0"
+    specularMap "00000000000000000000000000000068"
+    _GLOSS_SOURCE "0"
+    glossMap "00000000000000000000000000000068"
+    glossScale "0.2000"
+    _NORMAL_SOURCE "0"
+    normalMap "0000000000000000000000000000006D"
+    detailNormalMap "0000000000000000000000000000006D"
+    detailRepeat "8.0000"
+    _PARALLAX_SOURCE "0"
+    heightMap "00000000000000000000000000000068"
+    heightScale "0.0080"
+    _OCCLUSION_SOURCE "0"
+    occlusionMap "00000000000000000000000000000068"
+    occlusionStrength "1.0000"
+    _EMISSION_SOURCE "0"
+    emissionColor "1 1 1"
+    emissionMap "00000000000000000000000000000069"
+    emissionScale "1.0000"
+  }
+  tc (1.000 1.000) (0.000 0.000)
+  colorMask RGB
+  blendFunc SRC_ALPHA ONE_MINUS_SRC_ALPHA
+  color (1 1 1 1)
+}

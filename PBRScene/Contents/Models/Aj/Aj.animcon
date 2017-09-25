@@ -1,0 +1,147 @@
+animController {
+  skeleton "08DB00DE2C0A0E0D002D0142F223C6A5"
+  parameter "turn" 0
+  parameter "speed" 0
+  parameter "x" 0
+  parameter "y" 0
+  parameter "jump" 0
+  parameter "sliding" 0
+  baseLayer {
+    state "locomotion" {
+      position 60 -165
+      default
+      blendTree "Blend Tree" blend1D {
+        parameter "speed"
+        blendTree ( 2 ) "run" blend2DDirectional {
+          parameter "x" "y"
+          animClip ( 0 1 ) "09654335010A0E0D002F028AFE43E101" /* Run */
+          animClip ( 0 -1 ) "098C06CA020A0E0D002F01BDFE63C7FD"
+          animClip ( 1 0 ) "09C02914030A0E0D002F01D1FE8CB791"
+          animClip ( -1 0 ) "09B323D8030A0E0D002F00F4FE83D905"
+          animClip ( 0 0 ) "094B22B13B0A0E0D002E00F9FDE37E19"
+        }
+        blendTree ( 1 ) "walk" blend2DDirectional {
+          parameter "x" "y"
+          animClip ( 0 1 ) "09725B5C010A0E0D002F0399FE4EC497"
+          animClip ( 0 -1 ) "0999122C020A0E0D002F02DCFE6F4E9C"
+          animClip ( 1 0 ) "09F432AD070A0E0D002F0337FF3BB544"
+          animClip ( -1 0 ) "0A0119F6080A0E0D002F009EFF4916A8"
+          animClip ( 0 0 ) "094B22B13B0A0E0D002E00F9FDE37E19"
+        }
+        animClip ( 0 ) "094B22B13B0A0E0D002E00F9FDE37E19"
+      }
+      events {
+        "on_footstep_left" 0.290000
+        "on_footstep_right" 0.815000
+      }
+    }
+    state "idle" {
+      position 60 -255
+      blendTree "Blend Tree" blend1D {
+        parameter "turn"
+        animClip ( 0 ) "094B22B13B0A0E0D002E00F9FDE37E19"
+        animClip ( 1 ) "097F3AD0020A0E0D002F00C5FE59D7CE"
+        animClip ( -1 ) "09A63ECE030A0E0D002F000CFE7A924A"
+      }
+    }
+    state "throw" {
+      position 300 -165
+      animClip "09E71930070A0E0D002F01F0FF2E97F8"
+    }
+    state "death" {
+      position 60 -75
+      animClip "09CD6022040A0E0D002F004BFEA53525"
+    }
+    state "jump" {
+      position -180 -165
+      animClip "09584F34010A0E0D002F016AFE38594D"
+      events {
+        "on_jump" 0.100000
+        "on_footstep_right" 0.640000
+        "on_footstep_left" 0.825000
+        "on_land" 0.900000
+      }
+    }
+    state "sliding" {
+      position -180 -75
+      animClip "01ED0233100B080C002503BB7D930CEA"
+      events {
+        "on_slide" 0.2000
+        "on_footstep_right" 0.93000
+        "on_slide_end" 0.93
+      }
+    }
+    transition "idle" "locomotion" {
+      condition "speed" GT 0.100000
+      fixedDuration
+      exitTime 0.000000
+      startTime 0.000000
+      duration 0.100000
+    }
+    transition "locomotion" "idle" {
+      condition "speed" LT 0.100000
+      fixedDuration
+      exitTime 0.500000
+      startTime 0.000000
+      duration 0.100000
+    }
+    transition "locomotion" "jump" {
+      condition "jump" EQ 1.000000     
+      condition "speed" GT 1.000000
+      atomic
+      fixedDuration
+      exitTime 0.530000
+      startTime 0.000000
+      duration 0.100000
+    }
+    transition "jump" "locomotion" {
+      condition "jump" EQ 0.000000
+      condition "speed" GT 0.100000
+      atomic
+      hasExitTime
+      fixedDuration
+      exitTime 0.870000
+      startTime 0.410000
+      duration 0.130000
+    }
+    transition "jump" "idle" {
+      condition "jump" EQ 0.000000
+      condition "speed" LT 0.100000
+      atomic
+      hasExitTime
+      fixedDuration
+      exitTime 0.870000
+      startTime 0.000000
+      duration 0.130000
+    }
+    transition "locomotion" "sliding" {
+      condition "sliding" EQ 1.000000
+      condition "speed" GT 1.000000
+      atomic
+      fixedDuration
+      exitTime 0.530000
+      startTime 0.000000
+      duration 0.100000
+    }
+    transition "sliding" "locomotion" {
+      condition "sliding" EQ 0.000000
+      condition "speed" GT 0.100000
+      atomic
+      hasExitTime
+      fixedDuration
+      exitTime 0.950000
+      startTime 0.930000
+      duration 0.10000
+    }
+    transition "sliding" "idle" {
+      condition "sliding" EQ 0.000000
+      condition "speed" LT 0.100000
+      atomic
+      hasExitTime
+      fixedDuration
+      exitTime 0.95000
+      startTime 0.000000
+      duration 0.3000
+    }
+  }
+}

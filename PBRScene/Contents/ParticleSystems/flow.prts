@@ -1,0 +1,194 @@
+particleSystem 1
+numStages 1
+stage {
+  name "stage 0"
+  module "Standard" {
+    count 64
+    spawnBunching 1.000
+    lifeTime 2.000
+    deadTime 0.000
+    looping true
+    prewarm false
+    maxCycles 1
+    simulationSpace "Global"
+    simulationSpeed 1.000
+    material "00734F091F070C19000C018816E96F81"
+    animation false
+    animFrames 1 1
+    animFps 8
+    orientation "Aimed"
+    startDelay "Constant" {
+      scalar 1.000
+      wrapMode "Clamp" "Clamp"
+      minCurve {
+        numKeys 1
+        keys {
+          0.000 0.000 0.000 0.000 0
+        }
+      }
+      maxCurve {
+        numKeys 1
+        keys {
+          0.000 0.000 0.000 0.000 0
+        }
+      }
+    }
+    startColor ( 0.8 0.5569 1 1 )
+    startSpeed "RandomBetweenTwoConstants" {
+      scalar 4.000
+      wrapMode "Clamp" "Clamp"
+      minCurve {
+        numKeys 1
+        keys {
+          0.000 0.250 0.000 0.000 0
+        }
+      }
+      maxCurve {
+        numKeys 1
+        keys {
+          0.000 1.000 0.000 0.000 0
+        }
+      }
+    }
+    startSize "RandomBetweenTwoConstants" {
+      scalar 15.000
+      wrapMode "Clamp" "Clamp"
+      minCurve {
+        numKeys 1
+        keys {
+          0.000 0.333 0.000 0.000 0
+        }
+      }
+      maxCurve {
+        numKeys 1
+        keys {
+          0.000 1.000 0.000 0.000 0
+        }
+      }
+    }
+    startAspectRatio "Constant" {
+      scalar 1.000
+      wrapMode "Clamp" "Clamp"
+      minCurve {
+        numKeys 1
+        keys {
+          0.000 1.000 0.000 0.000 0
+        }
+      }
+      maxCurve {
+        numKeys 1
+        keys {
+          0.000 1.000 0.000 0.000 0
+        }
+      }
+    }
+    startRotation "Constant" {
+      scalar 180.000
+      wrapMode "Clamp" "Clamp"
+      minCurve {
+        numKeys 1
+        keys {
+          0.000 0.000 0.000 0.000 0
+        }
+      }
+      maxCurve {
+        numKeys 1
+        keys {
+          0.000 0.000 0.000 0.000 0
+        }
+      }
+    }
+    randomizeRotation 1.000
+    gravity 0.000
+  }
+  module "Shape" {
+    shape "Cone"
+    extents ( 0 0 0 )
+    radius 0.500
+    thickness 1.000
+    angle 30.000
+    randomizeDir 1.000
+  }
+  module "LTColor" {
+    targetColor ( 0.3137 0.7843 1 1 )
+    fadeLocation 0.330
+  }
+  module "LTSpeed" {
+    speed "Curve" {
+      scalar 5.000
+      wrapMode "PingPong" "PingPong"
+      minCurve {
+        numKeys 1
+        keys {
+          0.000 0.000 0.000 0.000 0
+        }
+      }
+      maxCurve {
+        numKeys 5
+        keys {
+          0.000 -0.027 0.000 0.000 0
+          0.087 1.000 0.000 0.000 0
+          0.204 -1.000 0.000 0.000 0
+          0.329 1.000 0.000 0.000 0
+          0.495 -0.822 0.000 0.000 0
+        }
+      }
+    }
+  }
+  module "LTForce" {
+    forceX "Constant" {
+      scalar 20.000
+      wrapMode "Clamp" "Clamp"
+      minCurve {
+        numKeys 1
+        keys {
+          0.000 1.000 0.000 0.000 0
+        }
+      }
+      maxCurve {
+        numKeys 1
+        keys {
+          0.000 0.000 0.000 0.000 0
+        }
+      }
+    }
+    forceY "Constant" {
+      scalar 1.000
+      wrapMode "Clamp" "Clamp"
+      minCurve {
+        numKeys 1
+        keys {
+          0.000 0.000 0.000 0.000 0
+        }
+      }
+      maxCurve {
+        numKeys 1
+        keys {
+          0.000 0.000 0.000 0.000 0
+        }
+      }
+    }
+    forceZ "Constant" {
+      scalar 20.000
+      wrapMode "Clamp" "Clamp"
+      minCurve {
+        numKeys 1
+        keys {
+          0.000 0.000 0.000 0.000 0
+        }
+      }
+      maxCurve {
+        numKeys 1
+        keys {
+          0.000 1.000 0.000 0.000 0
+        }
+      }
+    }
+  }
+  module "Trails" {
+    count 7
+    length 0.200
+    trailScale 0.180
+    trailCut true
+  }
+}

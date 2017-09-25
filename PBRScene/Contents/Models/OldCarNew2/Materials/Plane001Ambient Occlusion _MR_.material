@@ -1,0 +1,12 @@
+material 1
+pass {
+  renderingMode alphaBlend
+  cull back
+  shader "000000000000000000000000000000CC" {
+    albedoMap "00E0641E370811020013029F330A5D2D"
+  }
+  tc (1.000 1.000) (0.000 0.000)
+  colorMask RGB
+  blendFunc SRC_ALPHA ONE_MINUS_SRC_ALPHA
+  color (1 1 1 1)
+}

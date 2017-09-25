@@ -1,0 +1,34 @@
+material 1
+pass {
+  renderingMode opaque
+  cull back
+  shader "000000000000000000000000000000CB" {
+    _ALBEDO_SOURCE "1"
+    albedoColor "1 1 1"
+    albedoAlpha "1.0000"
+    albedoMap "00FC53BF2A070B1A00240286B7EB9013"
+    _METALLIC_SOURCE "1"
+    metallicMap "010013422B070B1A00240261B8123BF0"
+    metallicScale "1.0000"
+    _ROUGHNESS_SOURCE "2"
+    roughnessMap "01025B3A2B070B1A00240381B81DC790"
+    roughnessScale "1.0000"
+    _NORMAL_SOURCE "1"
+    normalMap "00FE20162B070B1A0024007FB7FED91E"
+    detailNormalMap "0000000000000000000000000000006D"
+    detailRepeat "8.0000"
+    _PARALLAX_SOURCE "0"
+    heightMap "00000000000000000000000000000068"
+    heightScale "0.0080"
+    _OCCLUSION_SOURCE "0"
+    occlusionMap "00000000000000000000000000000068"
+    occlusionStrength "1.0000"
+    _EMISSION_SOURCE "0"
+    emissionColor "1 1 1"
+    emissionMap "00000000000000000000000000000069"
+    emissionScale "1.0000"
+  }
+  tc (1.000 1.000) (0.000 0.000)
+  colorMask RGB
+  color (1 1 1 1)
+}
