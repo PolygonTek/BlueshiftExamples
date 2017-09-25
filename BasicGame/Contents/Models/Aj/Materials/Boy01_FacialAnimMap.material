@@ -1,6 +1,6 @@
 material 1
 pass {
-  renderingMode alphaCutoff
+  renderingMode alphaBlend
   cull back
   shader "000000000000000000000000000000C8" {
     _ALBEDO_SOURCE "1"
@@ -30,6 +30,6 @@ pass {
   }
   tc (1.000 1.000) (0.000 0.000)
   colorMask RGB
-  cutoffAlpha 0.504
+  blendFunc SRC_ALPHA ONE_MINUS_SRC_ALPHA
   color (1 1 1 1)
 }
