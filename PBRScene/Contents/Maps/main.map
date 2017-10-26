@@ -34,8 +34,7 @@
                "classname" : "ComBoxCollider",
                "enabled" : true,
                "extents" : "55 55 100",
-               "guid" : "012A33DE0C081100000400BAC3EE91BA",
-               "material" : ""
+               "guid" : "012A33DE0C081100000400BAC3EE91BA"
             },
             {
                "angularDamping" : 0.0099999997764825821,
@@ -53,11 +52,11 @@
          ],
          "frozen" : false,
          "guid" : "013704B929070B1A002502EDC13004DB",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Fontain",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "01134E902E070B1A002402B9B88E2917",
+         "prefab" : false,
+         "prefabSource" : "01134E902E070B1A002402B9B88E2917",
          "tag" : "Untagged"
       },
       {
@@ -94,8 +93,7 @@
                "classname" : "ComBoxCollider",
                "enabled" : true,
                "extents" : "2.893 3.5708 2.7",
-               "guid" : "012C6FE60D081100000502FACD9659F5",
-               "material" : ""
+               "guid" : "012C6FE60D081100000502FACD9659F5"
             },
             {
                "angularDamping" : 0.0099999997764825821,
@@ -113,11 +111,11 @@
          ],
          "frozen" : false,
          "guid" : "00C96FC736070B1A001F01578AB688F0",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Old_TV",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "00A73A6D00070B1A001F02AD824C939F",
+         "prefab" : false,
+         "prefabSource" : "00A73A6D00070B1A001F02AD824C939F",
          "tag" : "Untagged"
       },
       {
@@ -154,7 +152,6 @@
                "classname" : "ComSphereCollider",
                "enabled" : true,
                "guid" : "013F58F324071519003301EB6319AADB",
-               "material" : "",
                "radius" : 50
             },
             {
@@ -173,11 +170,11 @@
          ],
          "frozen" : false,
          "guid" : "013C718924071519003301EB6319AAFA",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Sphere 32",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
          "tag" : "Untagged"
       },
       {
@@ -214,7 +211,6 @@
                "classname" : "ComSphereCollider",
                "enabled" : true,
                "guid" : "013A7A0A24071519003301EA6319A099",
-               "material" : "",
                "radius" : 50
             },
             {
@@ -233,11 +229,11 @@
          ],
          "frozen" : false,
          "guid" : "01376E1024071519003301EA6319A081",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Sphere 31",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
          "tag" : "Untagged"
       },
       {
@@ -274,7 +270,6 @@
                "classname" : "ComSphereCollider",
                "enabled" : true,
                "guid" : "01354FDF24071519003301E96319968D",
-               "material" : "",
                "radius" : 50
             },
             {
@@ -293,11 +288,11 @@
          ],
          "frozen" : false,
          "guid" : "0132403024071519003301E9631996B2",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Sphere 30",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
          "tag" : "Untagged"
       },
       {
@@ -334,7 +329,6 @@
                "classname" : "ComSphereCollider",
                "enabled" : true,
                "guid" : "0130494824071519003301E863198D73",
-               "material" : "",
                "radius" : 50
             },
             {
@@ -353,11 +347,11 @@
          ],
          "frozen" : false,
          "guid" : "012D718624071519003301E863198D1B",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Sphere 29",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
          "tag" : "Untagged"
       },
       {
@@ -394,7 +388,6 @@
                "classname" : "ComSphereCollider",
                "enabled" : true,
                "guid" : "012B7A5824071519003301E763198308",
-               "material" : "",
                "radius" : 50
             },
             {
@@ -413,11 +406,11 @@
          ],
          "frozen" : false,
          "guid" : "01284A4624071519003301E763198333",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Sphere 28",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
          "tag" : "Untagged"
       },
       {
@@ -454,7 +447,6 @@
                "classname" : "ComSphereCollider",
                "enabled" : true,
                "guid" : "01263B1824071519003301E66319792A",
-               "material" : "",
                "radius" : 50
             },
             {
@@ -473,11 +465,11 @@
          ],
          "frozen" : false,
          "guid" : "0123441924071519003301E6631979D5",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Sphere 27",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
          "tag" : "Untagged"
       },
       {
@@ -514,7 +506,6 @@
                "classname" : "ComSphereCollider",
                "enabled" : true,
                "guid" : "012167A324071519003301E563196F02",
-               "material" : "",
                "radius" : 50
             },
             {
@@ -533,11 +524,11 @@
          ],
          "frozen" : false,
          "guid" : "011E3AF324071519003301E563196F2D",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Sphere 26",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
          "tag" : "Untagged"
       },
       {
@@ -574,7 +565,6 @@
                "classname" : "ComSphereCollider",
                "enabled" : true,
                "guid" : "011C0B2024071519003301E463196513",
-               "material" : "",
                "radius" : 50
             },
             {
@@ -593,11 +583,11 @@
          ],
          "frozen" : false,
          "guid" : "01192BA324071519003301E463196538",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Sphere 25",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
          "tag" : "Untagged"
       },
       {
@@ -634,7 +624,6 @@
                "classname" : "ComSphereCollider",
                "enabled" : true,
                "guid" : "0117044F24071519003301E363195854",
-               "material" : "",
                "radius" : 50
             },
             {
@@ -653,11 +642,11 @@
          ],
          "frozen" : false,
          "guid" : "0114293E24071519003301E36319586C",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Sphere 24",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
          "tag" : "Untagged"
       },
       {
@@ -694,7 +683,6 @@
                "classname" : "ComSphereCollider",
                "enabled" : true,
                "guid" : "0100105C2F071219002D01968D26743D",
-               "material" : "",
                "radius" : 50
             },
             {
@@ -713,11 +701,11 @@
          ],
          "frozen" : false,
          "guid" : "00FD1BE72F071219002D01968D267424",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Sphere 23",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
          "tag" : "Untagged"
       },
       {
@@ -754,7 +742,6 @@
                "classname" : "ComSphereCollider",
                "enabled" : true,
                "guid" : "00FB287D2F071219002D01958D266D28",
-               "material" : "",
                "radius" : 50
             },
             {
@@ -773,11 +760,11 @@
          ],
          "frozen" : false,
          "guid" : "00F869902F071219002D01958D266DD0",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Sphere 22",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
          "tag" : "Untagged"
       },
       {
@@ -814,7 +801,6 @@
                "classname" : "ComSphereCollider",
                "enabled" : true,
                "guid" : "00F66FF72F071219002D01948D266354",
-               "material" : "",
                "radius" : 50
             },
             {
@@ -833,11 +819,11 @@
          ],
          "frozen" : false,
          "guid" : "00F365A92F071219002D01948D26637D",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Sphere 21",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
          "tag" : "Untagged"
       },
       {
@@ -874,7 +860,6 @@
                "classname" : "ComSphereCollider",
                "enabled" : true,
                "guid" : "00F1516F2F071219002D01938D26590C",
-               "material" : "",
                "radius" : 50
             },
             {
@@ -893,11 +878,11 @@
          ],
          "frozen" : false,
          "guid" : "00EE29B12F071219002D01938D265922",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Sphere 20",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
          "tag" : "Untagged"
       },
       {
@@ -934,7 +919,6 @@
                "classname" : "ComSphereCollider",
                "enabled" : true,
                "guid" : "00A146972A0711190039020DC8C9C43B",
-               "material" : "",
                "radius" : 50
             },
             {
@@ -953,11 +937,11 @@
          ],
          "frozen" : false,
          "guid" : "009E23D52A0711190039020DC8C9C4CA",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Sphere 14",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
          "tag" : "Untagged"
       },
       {
@@ -994,11 +978,11 @@
          ],
          "frozen" : false,
          "guid" : "0174637D320712190000035FE651FA4E",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Point Light",
          "parent" : "009E23D52A0711190039020DC8C9C4CA",
-         "prefabParent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
          "tag" : "Untagged"
       },
       {
@@ -1035,7 +1019,6 @@
                "classname" : "ComSphereCollider",
                "enabled" : true,
                "guid" : "00C1792924071119002F003A69B10020",
-               "material" : "",
                "radius" : 50
             },
             {
@@ -1054,11 +1037,11 @@
          ],
          "frozen" : false,
          "guid" : "00BE4F4C24071119002F003A69B100C1",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Sphere 13",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
          "tag" : "Untagged"
       },
       {
@@ -1095,7 +1078,6 @@
                "classname" : "ComSphereCollider",
                "enabled" : true,
                "guid" : "00BC4B9C24071119002F001069AF55E5",
-               "material" : "",
                "radius" : 50
             },
             {
@@ -1114,11 +1096,11 @@
          ],
          "frozen" : false,
          "guid" : "00B9652524071119002F001069AF5585",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Sphere 12",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
          "tag" : "Untagged"
       },
       {
@@ -1155,7 +1137,6 @@
                "classname" : "ComSphereCollider",
                "enabled" : true,
                "guid" : "00B74EB523071119002F03CF69ADAA1D",
-               "material" : "",
                "radius" : 50
             },
             {
@@ -1174,11 +1155,11 @@
          ],
          "frozen" : false,
          "guid" : "00B43EB923071119002F03CF69ADAA3B",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Sphere 11",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
          "tag" : "Untagged"
       },
       {
@@ -1215,7 +1196,6 @@
                "classname" : "ComSphereCollider",
                "enabled" : true,
                "guid" : "00A85F9518071119002E003B5E66D58D",
-               "material" : "",
                "radius" : 50
             },
             {
@@ -1234,11 +1214,11 @@
          ],
          "frozen" : false,
          "guid" : "00A549FA18071119002E003B5E66D5AA",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Sphere 10",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
          "tag" : "Untagged"
       },
       {
@@ -1275,7 +1255,6 @@
                "classname" : "ComSphereCollider",
                "enabled" : true,
                "guid" : "00A342D218071119002E00115E6527C4",
-               "material" : "",
                "radius" : 50
             },
             {
@@ -1294,11 +1273,11 @@
          ],
          "frozen" : false,
          "guid" : "00A07F9E18071119002E00115E6527E4",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Sphere 9",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
          "tag" : "Untagged"
       },
       {
@@ -1335,7 +1314,6 @@
                "classname" : "ComSphereCollider",
                "enabled" : true,
                "guid" : "009E1C7417071119002E03CC5E635BC2",
-               "material" : "",
                "radius" : 50
             },
             {
@@ -1354,11 +1332,11 @@
          ],
          "frozen" : false,
          "guid" : "009B6FB017071119002E03CC5E635BE5",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Sphere 8",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
          "tag" : "Untagged"
       },
       {
@@ -1395,7 +1373,6 @@
                "classname" : "ComSphereCollider",
                "enabled" : true,
                "guid" : "00D3532C07070C190009023FF6F3D12D",
-               "material" : "",
                "radius" : 50
             },
             {
@@ -1414,11 +1391,11 @@
          ],
          "frozen" : false,
          "guid" : "00D0591107070C190009023FF6F3D1CD",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Sphere 7",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
          "tag" : "Untagged"
       },
       {
@@ -1455,7 +1432,6 @@
                "classname" : "ComSphereCollider",
                "enabled" : true,
                "guid" : "00CE757507070C1900090215F6F21FE9",
-               "material" : "",
                "radius" : 50
             },
             {
@@ -1474,11 +1450,11 @@
          ],
          "frozen" : false,
          "guid" : "00CB500A07070C1900090215F6F21F89",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Sphere 6",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
          "tag" : "Untagged"
       },
       {
@@ -1515,7 +1491,6 @@
                "classname" : "ComSphereCollider",
                "enabled" : true,
                "guid" : "00C9652C07070C19000901EAF6F069FA",
-               "material" : "",
                "radius" : 50
             },
             {
@@ -1534,11 +1509,11 @@
          ],
          "frozen" : false,
          "guid" : "00C60A7907070C19000901EAF6F0699A",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Sphere 5",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
          "tag" : "Untagged"
       },
       {
@@ -1575,7 +1550,6 @@
                "classname" : "ComSphereCollider",
                "enabled" : true,
                "guid" : "00C44A8707070C19000901C0F6EEB9C5",
-               "material" : "",
                "radius" : 50
             },
             {
@@ -1594,11 +1568,11 @@
          ],
          "frozen" : false,
          "guid" : "00C1518E07070C19000901C0F6EEB9E7",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Sphere 4",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
          "tag" : "Untagged"
       },
       {
@@ -1635,7 +1609,6 @@
                "classname" : "ComSphereCollider",
                "enabled" : true,
                "guid" : "00BF77BE07070C1900090196F6ED0BAE",
-               "material" : "",
                "radius" : 50
             },
             {
@@ -1654,11 +1627,11 @@
          ],
          "frozen" : false,
          "guid" : "00BC482407070C1900090196F6ED0855",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Sphere 3",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
          "tag" : "Untagged"
       },
       {
@@ -1695,7 +1668,6 @@
                "classname" : "ComSphereCollider",
                "enabled" : true,
                "guid" : "00BA68EA07070C190009016CF6EB5EFE",
-               "material" : "",
                "radius" : 50
             },
             {
@@ -1714,11 +1686,11 @@
          ],
          "frozen" : false,
          "guid" : "00B7104E07070C190009016CF6EB5EE3",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Sphere 2",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
          "tag" : "Untagged"
       },
       {
@@ -1755,7 +1727,6 @@
                "classname" : "ComSphereCollider",
                "enabled" : true,
                "guid" : "00B54FE907070C1900090142F6E9AE9F",
-               "material" : "",
                "radius" : 50
             },
             {
@@ -1774,11 +1745,11 @@
          ],
          "frozen" : false,
          "guid" : "00B2131207070C1900090142F6E9AE81",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Sphere 1",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
          "tag" : "Untagged"
       },
       {
@@ -1815,7 +1786,6 @@
                "classname" : "ComSphereCollider",
                "enabled" : true,
                "guid" : "004548CB0F070B10000203B53D507E05",
-               "material" : "",
                "radius" : 50
             },
             {
@@ -1834,11 +1804,11 @@
          ],
          "frozen" : false,
          "guid" : "00421FE20F070B10000203B43D50757C",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Sphere",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
          "tag" : "Untagged"
       },
       {
@@ -1870,11 +1840,11 @@
          ],
          "frozen" : false,
          "guid" : "00420A060D07100300230047883C769E",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Reflection Probe",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
          "tag" : "Untagged"
       },
       {
@@ -1890,12 +1860,10 @@
             },
             {
                "alpha" : 1,
-               "anim" : "00000000000000000000000000000000",
                "animController" : "01EA47C22A0A171E001800B7B2938D13",
-               "animationType" : 0,
                "billboard" : false,
                "castShadows" : true,
-               "classname" : "ComSkinnedMeshRenderer",
+               "classname" : "ComAnimator",
                "color" : "1 1 1",
                "enabled" : true,
                "guid" : "01ED5E433009091C000F02AFCE3588F6",
@@ -1906,7 +1874,6 @@
                "maxVisDist" : 16384,
                "mesh" : "01F9573A090A171E00190109B6D2A612",
                "receiveShadows" : true,
-               "skeleton" : "00000000000000000000000000000000",
                "timeOffset" : 0,
                "timeScale" : 1,
                "useLightProbe" : true,
@@ -1944,11 +1911,11 @@
          ],
          "frozen" : false,
          "guid" : "01EB1CD13009091C000F02AFCE35894A",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Player",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "00E83D4F15090F0A002C00977FFFFFFF",
+         "prefab" : false,
+         "prefabSource" : "00E83D4F15090F0A002C00977FFFFFFF",
          "tag" : "Player"
       },
       {
@@ -1984,11 +1951,11 @@
          ],
          "frozen" : false,
          "guid" : "02147906290917190021039372E79868",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Camera",
          "parent" : "01EB1CD13009091C000F02AFCE35894A",
-         "prefabParent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
          "tag" : "MainCamera"
       },
       {
@@ -2010,11 +1977,11 @@
          ],
          "frozen" : false,
          "guid" : "01DD385B1709111D00300041916A1F2D",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Listener",
          "parent" : "01EB1CD13009091C000F02AFCE35894A",
-         "prefabParent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
          "tag" : "Untagged"
       },
       {
@@ -2051,8 +2018,7 @@
                "classname" : "ComBoxCollider",
                "enabled" : true,
                "extents" : "500 500 0.2",
-               "guid" : "01E839193009091C000D015DBB56ECB4",
-               "material" : ""
+               "guid" : "01E839193009091C000D015DBB56ECB4"
             },
             {
                "angularDamping" : 0.0099999997764825821,
@@ -2070,11 +2036,11 @@
          ],
          "frozen" : false,
          "guid" : "01E55E863009091C000D015CBB56E37E",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Plane",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
          "tag" : "Untagged"
       },
       {
@@ -2111,11 +2077,11 @@
          ],
          "frozen" : false,
          "guid" : "02965ADF0E090B19002E01C672F78C66",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Directional Light",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
          "tag" : "Untagged"
       },
       {
@@ -2151,11 +2117,11 @@
          ],
          "frozen" : false,
          "guid" : "0050604E250C1214002003AA18801ECE",
-         "isPrefabParent" : false,
          "layer" : 1,
          "name" : "UICamera",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "003B43C81B0C12140020025216E0E4D3",
+         "prefab" : false,
+         "prefabSource" : "003B43C81B0C12140020025216E0E4D3",
          "tag" : "Untagged"
       },
       {
@@ -2192,8 +2158,7 @@
                "classname" : "ComBoxCollider",
                "enabled" : true,
                "extents" : "0.25 50 50",
-               "guid" : "00560784250C1214002003AA1880237D",
-               "material" : ""
+               "guid" : "00560784250C1214002003AA1880237D"
             },
             {
                "classname" : "ComScript",
@@ -2205,11 +2170,11 @@
          ],
          "frozen" : false,
          "guid" : "00535A9D250C1214002003AA18802368",
-         "isPrefabParent" : false,
          "layer" : 1,
          "name" : "JoypadR",
          "parent" : "0050604E250C1214002003AA18801ECE",
-         "prefabParent" : "00463E951B0C12140020025316E0F43A",
+         "prefab" : false,
+         "prefabSource" : "00463E951B0C12140020025316E0F43A",
          "tag" : "Untagged"
       },
       {
@@ -2244,11 +2209,11 @@
          ],
          "frozen" : false,
          "guid" : "005820B0250C1214002003AB18802A01",
-         "isPrefabParent" : false,
          "layer" : 1,
          "name" : "knob",
          "parent" : "00535A9D250C1214002003AA18802368",
-         "prefabParent" : "004B23B71B0C12140020025416E0FD28",
+         "prefab" : false,
+         "prefabSource" : "004B23B71B0C12140020025416E0FD28",
          "tag" : "Untagged"
       },
       {
@@ -2285,8 +2250,7 @@
                "classname" : "ComBoxCollider",
                "enabled" : true,
                "extents" : "0.25 50 50",
-               "guid" : "005E768A250C1214002003AB18802E98",
-               "material" : ""
+               "guid" : "005E768A250C1214002003AB18802E98"
             },
             {
                "classname" : "ComScript",
@@ -2298,11 +2262,11 @@
          ],
          "frozen" : false,
          "guid" : "005B3290250C1214002003AB18802E83",
-         "isPrefabParent" : false,
          "layer" : 1,
          "name" : "JoypadL",
          "parent" : "0050604E250C1214002003AA18801ECE",
-         "prefabParent" : "003E0D541B0C12140020025316E0E8BD",
+         "prefab" : false,
+         "prefabSource" : "003E0D541B0C12140020025316E0E8BD",
          "tag" : "Untagged"
       },
       {
@@ -2337,11 +2301,11 @@
          ],
          "frozen" : false,
          "guid" : "006070A4250C1214002003AC18803451",
-         "isPrefabParent" : false,
          "layer" : 1,
          "name" : "knob",
          "parent" : "005B3290250C1214002003AB18802E83",
-         "prefabParent" : "004360B31B0C12140020025316E0F04C",
+         "prefab" : false,
+         "prefabSource" : "004360B31B0C12140020025316E0F04C",
          "tag" : "Untagged"
       },
       {
@@ -2375,11 +2339,11 @@
          ],
          "frozen" : false,
          "guid" : "003B3A621903101A00110106A5D0EAAF",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "3D Text",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
          "tag" : "Untagged"
       },
       {
@@ -2416,7 +2380,6 @@
                "classname" : "ComSphereCollider",
                "enabled" : true,
                "guid" : "01360E10380712190025025743534F54",
-               "material" : "",
                "radius" : 50
             },
             {
@@ -2435,11 +2398,11 @@
          ],
          "frozen" : false,
          "guid" : "01332E04380712190025025743534F67",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Sphere 15",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
          "tag" : "Untagged"
       },
       {
@@ -2476,7 +2439,6 @@
                "classname" : "ComSphereCollider",
                "enabled" : true,
                "guid" : "01400F3E1C071219002600F448499EE0",
-               "material" : "",
                "radius" : 50
             },
             {
@@ -2495,11 +2457,11 @@
          ],
          "frozen" : false,
          "guid" : "013D642D1C071219002600F448499E81",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Sphere 16",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
          "tag" : "Untagged"
       },
       {
@@ -2536,7 +2498,6 @@
                "classname" : "ComSphereCollider",
                "enabled" : true,
                "guid" : "0145265D1C0712190026011E484B575A",
-               "material" : "",
                "radius" : 50
             },
             {
@@ -2555,11 +2516,11 @@
          ],
          "frozen" : false,
          "guid" : "014260AE1C0712190026011E484B577B",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Sphere 17",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
          "tag" : "Untagged"
       },
       {
@@ -2596,7 +2557,6 @@
                "classname" : "ComSphereCollider",
                "enabled" : true,
                "guid" : "014A5A6E1C0712190026014B484D1FF1",
-               "material" : "",
                "radius" : 50
             },
             {
@@ -2615,11 +2575,11 @@
          ],
          "frozen" : false,
          "guid" : "01470A001C0712190026014B484D1F8C",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Sphere 18",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
          "tag" : "Untagged"
       },
       {
@@ -2656,7 +2616,6 @@
                "classname" : "ComSphereCollider",
                "enabled" : true,
                "guid" : "014F64451C07121900260175484ED58C",
-               "material" : "",
                "radius" : 50
             },
             {
@@ -2675,11 +2634,11 @@
          ],
          "frozen" : false,
          "guid" : "014C103B1C07121900260175484ED5AA",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Sphere 19",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
          "tag" : "Untagged"
       },
       {
@@ -2723,11 +2682,11 @@
          ],
          "frozen" : false,
          "guid" : "00BD003933070B1A003B03139254C561",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Cerberus_LP",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "00B21D1B28070B1A003A0132871F5FCC",
+         "prefab" : false,
+         "prefabSource" : "00B21D1B28070B1A003A0132871F5FCC",
          "tag" : "Untagged"
       },
       {
@@ -2765,7 +2724,6 @@
                "enabled" : true,
                "guid" : "00C67A4233080E0100170345CCACBC91",
                "height" : 172.75833129882813,
-               "material" : "",
                "radius" : 73.724105834960938
             },
             {
@@ -2784,11 +2742,11 @@
          ],
          "frozen" : false,
          "guid" : "00C66A3F30080E010010006A8A3B4FD3",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "MaterialBall",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "00B222202C080E01001000228997DBDE",
+         "prefab" : false,
+         "prefabSource" : "00B222202C080E01001000228997DBDE",
          "tag" : "Untagged"
       },
       {
@@ -2823,11 +2781,11 @@
          ],
          "frozen" : false,
          "guid" : "01054A76340914000024018E666ECFDD",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "mech",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "00F111DF29091400002401B164B6A991",
+         "prefab" : false,
+         "prefabSource" : "00F111DF29091400002401B164B6A991",
          "tag" : "Untagged"
       },
       {
@@ -2864,16 +2822,17 @@
          ],
          "frozen" : false,
          "guid" : "011E1E0E1D0914000027018C7F0D0CBE",
-         "isPrefabParent" : false,
          "layer" : 0,
          "name" : "Point Light",
          "parent" : "00000000000000000000000000000000",
-         "prefabParent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
          "tag" : "Untagged"
       }
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
+      "guid" : "",
       "skyboxMaterial" : "00AC7EDD040717180029037C76420EBD"
    },
    "version" : 1

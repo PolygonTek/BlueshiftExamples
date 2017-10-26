@@ -7,10 +7,11 @@
       "compression" : 1,
       "filterMode" : 2,
       "generateMipmaps" : true,
+      "guid" : "00000000000000000000000000000000",
       "normalMap" : false,
       "sRGB" : true,
       "textureType" : 0,
       "wrapMode" : 0
    },
-   "timeStamp" : "636382194280000000"
+   "timeStamp" : "636431372780000000"
 }

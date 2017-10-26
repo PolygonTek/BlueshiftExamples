@@ -4,6 +4,7 @@
    "importer" : {
       "classname" : "FbxFileImporter",
       "createAnimationFolder" : true,
+      "guid" : "00000000000000000000000000000000",
       "importAnimation" : true,
       "importMesh" : false,
       "importSkeleton" : false,

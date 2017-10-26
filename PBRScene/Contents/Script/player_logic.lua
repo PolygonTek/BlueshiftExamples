@@ -295,7 +295,7 @@ function update()
     end
 
     local character_controller = owner.entity:character_controller()
-    local skinned_mesh_renderer = owner.entity:skinned_mesh_renderer()
+    local animator = owner.entity:animator()
 
     if m.alive then        
         --[[if m.throwing then
@@ -383,8 +383,8 @@ function update()
 
             apply_friction(m.friction)
 
-            if skinned_mesh_renderer and m.anim_speed > 0.001 then
-                local translation_delta = skinned_mesh_renderer:translation_delta(owner.game_world:prev_time(), owner.game_world:time())
+            if animator and m.anim_speed > 0.001 then
+                local translation_delta = animator:translation_delta(owner.game_world:prev_time(), owner.game_world:time())
                 local move_delta = angles:to_mat3():mul_vec(translation_delta):mul_comp(owner.transform:scale())
                 if m.throwing then
                     move_delta:set_z(move_delta:z() * 1.0)
@@ -397,9 +397,9 @@ function update()
  --]]
         end        
 
-        if skinned_mesh_renderer then
+        if animator then
             if true then
-                local current_anim_state = skinned_mesh_renderer:current_anim_state(0)
+                local current_anim_state = animator:current_anim_state(0)
 
                 local delta_pos = m.user_cmd.wish_direction - m.anim_current_pos;
                 if delta_pos:length_squared() > 0.001 then
@@ -409,8 +409,8 @@ function update()
                     m.anim_current_pos:set_y(m.user_cmd.wish_direction:y())
                 end
 
-                skinned_mesh_renderer:set_anim_parameter("x", m.anim_current_pos:x())
-                skinned_mesh_renderer:set_anim_parameter("y", m.anim_current_pos:y())
+                animator:set_anim_parameter("x", m.anim_current_pos:x())
+                animator:set_anim_parameter("y", m.anim_current_pos:y())
 
                 local delta_turn = m.wish_turn - m.anim_turn
                 if Math.fabs(delta_turn) > 0.001 then
@@ -419,7 +419,7 @@ function update()
                     m.anim_turn = m.wish_turn
                 end
 
-                skinned_mesh_renderer:set_anim_parameter("turn", m.anim_turn)
+                animator:set_anim_parameter("turn", m.anim_turn)
 
                 local delta_speed = m.user_cmd.wish_speed - m.anim_speed
                 if Math.fabs(delta_speed) > 0.001 then
@@ -428,7 +428,7 @@ function update()
                     m.anim_speed = m.user_cmd.wish_speed
                 end
                 
-                skinned_mesh_renderer:set_anim_parameter("speed", m.anim_speed)
+                animator:set_anim_parameter("speed", m.anim_speed)
 
 				--[[if properties.attack_button.value then
 	                local attack_button = properties.attack_button.value:cast_script()
@@ -442,18 +442,18 @@ function update()
 	            end]]
 
                 if Input.is_key_down(Input.KeyCode.Space) or attack_button_pressed then
-                    skinned_mesh_renderer:set_anim_parameter("jump", 1)
+                    animator:set_anim_parameter("jump", 1)
                 else
-                    skinned_mesh_renderer:set_anim_parameter("jump", 0)
+                    animator:set_anim_parameter("jump", 0)
                 end
 
                 if Input.is_key_down(Input.KeyCode.C) then
-                    skinned_mesh_renderer:set_anim_parameter("sliding", 1)
+                    animator:set_anim_parameter("sliding", 1)
                 else
-                    skinned_mesh_renderer:set_anim_parameter("sliding", 0)
+                    animator:set_anim_parameter("sliding", 0)
                 end
 
-                skinned_mesh_renderer:set_anim_parameter("locomotion", m.anim_speed)
+                animator:set_anim_parameter("locomotion", m.anim_speed)
             end
         end
     end

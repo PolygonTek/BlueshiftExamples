@@ -1,5 +1,6 @@
 {
    "classname" : "PhysicsSettings",
    "filterMasks" : [],
-   "gravity" : "0 0 -9.8"
+   "gravity" : "0 0 -9.8",
+   "guid" : "00000000000000000000000000000000"
 }

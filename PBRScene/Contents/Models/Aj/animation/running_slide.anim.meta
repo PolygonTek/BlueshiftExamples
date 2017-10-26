@@ -4,6 +4,7 @@
    "importer" : {
       "classname" : "AnimImporter",
       "endFrame" : 1000000,
+      "guid" : "",
       "loop" : false,
       "optimize" : true,
       "rootRotation" : true,
