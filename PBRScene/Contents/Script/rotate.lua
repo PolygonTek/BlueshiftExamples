@@ -2,6 +2,7 @@ local blueshift = require "blueshift"
 local Common = blueshift.Common
 local Math = blueshift.Math
 local Vec3 = blueshift.Vec3
+local ComTransform = blueshift.ComTransform
 
 properties = {
     rotation_speed = { label = "Rotation Speed", type = "float", value = 180 },
@@ -31,6 +32,6 @@ function update()
 	local t = (owner.game_world:time() * 0.001) * Math.pi
 	local d = Math.sin(t * m.bounce_speed) * m.bounce_delta;
 
-	owner.transform:rotate(Vec3.unit_z, Math.to_degree((owner.game_world:delta_time() * 0.001) * m.rotation_speed))
+	owner.transform:rotate(Vec3.unit_z, Math.to_degree((owner.game_world:delta_time() * 0.001) * m.rotation_speed), ComTransform.TransformSpace.LocalSpace)
 	owner.transform:set_origin(m.origin + m.axis:at(2):mul(d))
 end

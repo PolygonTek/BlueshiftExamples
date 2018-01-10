@@ -9,7 +9,7 @@ local Input = blueshift.Input
 local Physics = blueshift.Physics
 
 properties = {
-    hp = { label = "HP", type = "int", value = 10 },
+    hp = { label = "HP", type = "int", value = 3 },
     gravity = { label = "Gravity", type = "float", value = 9.8 },
     max_speed = { label = "Max Speed", type = "float", value = 4.0 },
     stop_speed = { label = "Stop Speed", type = "float", value = 2.0 },

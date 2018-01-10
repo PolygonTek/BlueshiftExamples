@@ -2,8 +2,8 @@ MESH 1
 numJoints 0
 numMaterials 3
 materials {
-	"Material #182" "C:\Users\juhl\Documents\play\BlueshiftExamples\BasicGame\Contents\Models\OldCarNew2\oldcar_ao.png" "" ""
-	"Material #180" "C:\Users\juhl\Documents\play\BlueshiftExamples\BasicGame\Contents\Models\OldCarNew2\Plane001Ambient Occlusion _MR_.tga" "" ""
+	"Material #182" "C:\Users\juhl\Documents\play\BlueshiftExamples\PBRScene\Contents\Models\OldCarNew2\oldcar_ao.png" "" ""
+	"Material #180" "C:\Users\juhl\Documents\play\BlueshiftExamples\PBRScene\Contents\Models\OldCarNew2\Plane001Ambient Occlusion _MR_.tga" "" ""
 	"Material #181" "C:\Users\Rena\Desktop\max stuff\oldcar_new\oldcar_d.png" "" ""
 }
 numSubMeshes 3

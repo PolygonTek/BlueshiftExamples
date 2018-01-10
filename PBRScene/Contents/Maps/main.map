@@ -26,15 +26,22 @@
                "receiveShadows" : true,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : true,
-               "useReflectionProbe" : true
+               "useLightProve" : true
             },
             {
-               "center" : "0 0 100",
+               "center" : "0 0 120",
                "classname" : "ComBoxCollider",
                "enabled" : true,
-               "extents" : "55 55 100",
+               "extents" : "55 55 120",
                "guid" : "012A33DE0C081100000400BAC3EE91BA"
+            },
+            {
+               "center" : "0 0 255",
+               "classname" : "ComCylinderCollider",
+               "enabled" : true,
+               "guid" : "00DD4677220B090E000101AF1BB70559",
+               "height" : 22,
+               "radius" : 104.19662475585938
             },
             {
                "angularDamping" : 0.0099999997764825821,
@@ -85,8 +92,7 @@
                "receiveShadows" : true,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : true,
-               "useReflectionProbe" : true
+               "useLightProve" : true
             },
             {
                "center" : "0 0 2.7",
@@ -144,8 +150,7 @@
                "receiveShadows" : true,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : true,
-               "useReflectionProbe" : true
+               "useLightProve" : true
             },
             {
                "center" : "0 0 0",
@@ -203,8 +208,7 @@
                "receiveShadows" : true,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : true,
-               "useReflectionProbe" : true
+               "useLightProve" : true
             },
             {
                "center" : "0 0 0",
@@ -262,8 +266,7 @@
                "receiveShadows" : true,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : true,
-               "useReflectionProbe" : true
+               "useLightProve" : true
             },
             {
                "center" : "0 0 0",
@@ -321,8 +324,7 @@
                "receiveShadows" : true,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : true,
-               "useReflectionProbe" : true
+               "useLightProve" : true
             },
             {
                "center" : "0 0 0",
@@ -380,8 +382,7 @@
                "receiveShadows" : true,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : true,
-               "useReflectionProbe" : true
+               "useLightProve" : true
             },
             {
                "center" : "0 0 0",
@@ -439,8 +440,7 @@
                "receiveShadows" : true,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : true,
-               "useReflectionProbe" : true
+               "useLightProve" : true
             },
             {
                "center" : "0 0 0",
@@ -498,8 +498,7 @@
                "receiveShadows" : true,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : true,
-               "useReflectionProbe" : true
+               "useLightProve" : true
             },
             {
                "center" : "0 0 0",
@@ -557,8 +556,7 @@
                "receiveShadows" : true,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : true,
-               "useReflectionProbe" : true
+               "useLightProve" : true
             },
             {
                "center" : "0 0 0",
@@ -616,8 +614,7 @@
                "receiveShadows" : true,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : true,
-               "useReflectionProbe" : true
+               "useLightProve" : true
             },
             {
                "center" : "0 0 0",
@@ -675,8 +672,7 @@
                "receiveShadows" : true,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : true,
-               "useReflectionProbe" : true
+               "useLightProve" : true
             },
             {
                "center" : "0 0 0",
@@ -734,8 +730,7 @@
                "receiveShadows" : true,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : true,
-               "useReflectionProbe" : true
+               "useLightProve" : true
             },
             {
                "center" : "0 0 0",
@@ -793,8 +788,7 @@
                "receiveShadows" : true,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : true,
-               "useReflectionProbe" : true
+               "useLightProve" : true
             },
             {
                "center" : "0 0 0",
@@ -852,8 +846,7 @@
                "receiveShadows" : true,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : true,
-               "useReflectionProbe" : true
+               "useLightProve" : true
             },
             {
                "center" : "0 0 0",
@@ -911,8 +904,7 @@
                "receiveShadows" : true,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : true,
-               "useReflectionProbe" : true
+               "useLightProve" : true
             },
             {
                "center" : "0 0 0",
@@ -971,8 +963,8 @@
                "primaryLight" : false,
                "shadowOffsetFactor" : 3,
                "shadowOffsetUnits" : 200,
-               "timeOffset" : 0,
                "timeScale" : 1,
+               "timerOffset" : 0,
                "turnOn" : true
             }
          ],
@@ -1011,8 +1003,7 @@
                "receiveShadows" : true,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : true,
-               "useReflectionProbe" : true
+               "useLightProve" : true
             },
             {
                "center" : "0 0 0",
@@ -1070,8 +1061,7 @@
                "receiveShadows" : true,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : true,
-               "useReflectionProbe" : true
+               "useLightProve" : true
             },
             {
                "center" : "0 0 0",
@@ -1129,8 +1119,7 @@
                "receiveShadows" : true,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : true,
-               "useReflectionProbe" : true
+               "useLightProve" : true
             },
             {
                "center" : "0 0 0",
@@ -1188,8 +1177,7 @@
                "receiveShadows" : true,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : true,
-               "useReflectionProbe" : true
+               "useLightProve" : true
             },
             {
                "center" : "0 0 0",
@@ -1247,8 +1235,7 @@
                "receiveShadows" : true,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : true,
-               "useReflectionProbe" : true
+               "useLightProve" : true
             },
             {
                "center" : "0 0 0",
@@ -1306,8 +1293,7 @@
                "receiveShadows" : true,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : true,
-               "useReflectionProbe" : true
+               "useLightProve" : true
             },
             {
                "center" : "0 0 0",
@@ -1365,8 +1351,7 @@
                "receiveShadows" : true,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : true,
-               "useReflectionProbe" : true
+               "useLightProve" : true
             },
             {
                "center" : "0 0 0",
@@ -1424,8 +1409,7 @@
                "receiveShadows" : true,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : true,
-               "useReflectionProbe" : true
+               "useLightProve" : true
             },
             {
                "center" : "0 0 0",
@@ -1483,8 +1467,7 @@
                "receiveShadows" : true,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : true,
-               "useReflectionProbe" : true
+               "useLightProve" : true
             },
             {
                "center" : "0 0 0",
@@ -1542,8 +1525,7 @@
                "receiveShadows" : true,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : true,
-               "useReflectionProbe" : true
+               "useLightProve" : true
             },
             {
                "center" : "0 0 0",
@@ -1601,8 +1583,7 @@
                "receiveShadows" : true,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : true,
-               "useReflectionProbe" : true
+               "useLightProve" : true
             },
             {
                "center" : "0 0 0",
@@ -1660,8 +1641,7 @@
                "receiveShadows" : true,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : true,
-               "useReflectionProbe" : true
+               "useLightProve" : true
             },
             {
                "center" : "0 0 0",
@@ -1719,8 +1699,7 @@
                "receiveShadows" : true,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : true,
-               "useReflectionProbe" : true
+               "useLightProve" : true
             },
             {
                "center" : "0 0 0",
@@ -1778,8 +1757,7 @@
                "receiveShadows" : true,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : true,
-               "useReflectionProbe" : true
+               "useLightProve" : true
             },
             {
                "center" : "0 0 0",
@@ -1823,19 +1801,9 @@
                "scale" : "1 1 1"
             },
             {
-               "boxOffset" : "0 0 0",
-               "boxSize" : "10 10 10",
                "classname" : "ComReflectionProbe",
-               "clear" : 1,
-               "clearAlpha" : 0,
-               "clearColor" : "0 0 0",
                "enabled" : true,
-               "far" : 1000,
-               "guid" : "00426A0201071003003001B500B8316A",
-               "hdr" : true,
-               "importance" : 1,
-               "near" : 0.30000001192092896,
-               "resolution" : 3
+               "guid" : "00426A0201071003003001B500B8316A"
             }
          ],
          "frozen" : false,
@@ -1876,12 +1844,11 @@
                "receiveShadows" : true,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : true,
-               "useReflectionProbe" : true
+               "useLightProve" : true
             },
             {
                "capsuleHeight" : 1.2099999189376831,
-               "capsuleRadius" : 0.3399999737739563,
+               "capsuleRadius" : 0.33999994397163391,
                "classname" : "ComCharacterController",
                "enabled" : true,
                "guid" : "01EE61431D09091C00110381DE144B2A",
@@ -2010,8 +1977,7 @@
                "receiveShadows" : true,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : true,
-               "useReflectionProbe" : true
+               "useLightProve" : true
             },
             {
                "center" : "0 0 -0.2",
@@ -2070,8 +2036,8 @@
                "primaryLight" : true,
                "shadowOffsetFactor" : 3,
                "shadowOffsetUnits" : 200,
-               "timeOffset" : 0,
                "timeScale" : 1,
+               "timerOffset" : 0,
                "turnOn" : true
             }
          ],
@@ -2150,8 +2116,7 @@
                "receiveShadows" : false,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : false,
-               "useReflectionProbe" : true
+               "useLightProve" : true
             },
             {
                "center" : "0 0 0",
@@ -2203,8 +2168,7 @@
                "receiveShadows" : false,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : false,
-               "useReflectionProbe" : true
+               "useLightProve" : true
             }
          ],
          "frozen" : false,
@@ -2220,7 +2184,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "180 0 0",
+               "angles" : "180 -0 0",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "005C7136250C1214002003AB18802E8B",
@@ -2242,8 +2206,7 @@
                "receiveShadows" : false,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : false,
-               "useReflectionProbe" : true
+               "useLightProve" : true
             },
             {
                "center" : "0 0 0",
@@ -2295,8 +2258,7 @@
                "receiveShadows" : false,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : false,
-               "useReflectionProbe" : true
+               "useLightProve" : true
             }
          ],
          "frozen" : false,
@@ -2312,7 +2274,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "180 -90 0",
+               "angles" : "-180 -90 0",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "003C50BD1903101A00110106A5D0EDA8",
@@ -2372,8 +2334,7 @@
                "receiveShadows" : true,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : true,
-               "useReflectionProbe" : true
+               "useLightProve" : true
             },
             {
                "center" : "0 0 0",
@@ -2431,8 +2392,7 @@
                "receiveShadows" : true,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : true,
-               "useReflectionProbe" : true
+               "useLightProve" : true
             },
             {
                "center" : "0 0 0",
@@ -2490,8 +2450,7 @@
                "receiveShadows" : true,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : true,
-               "useReflectionProbe" : true
+               "useLightProve" : true
             },
             {
                "center" : "0 0 0",
@@ -2549,8 +2508,7 @@
                "receiveShadows" : true,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : true,
-               "useReflectionProbe" : true
+               "useLightProve" : true
             },
             {
                "center" : "0 0 0",
@@ -2608,8 +2566,7 @@
                "receiveShadows" : true,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : true,
-               "useReflectionProbe" : true
+               "useLightProve" : true
             },
             {
                "center" : "0 0 0",
@@ -2667,8 +2624,7 @@
                "receiveShadows" : true,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : true,
-               "useReflectionProbe" : true
+               "useLightProve" : true
             },
             {
                "bounce_delta" : 0.20000000298023224,
@@ -2693,7 +2649,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "180 0 0",
+               "angles" : "180 -0 0",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "00C74AB030080E010010006A8A3B4E88",
@@ -2715,16 +2671,15 @@
                "receiveShadows" : true,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : true,
-               "useReflectionProbe" : true
+               "useLightProve" : true
             },
             {
-               "center" : "-2.108 -0.0001 86.3792",
+               "center" : "-2.108 -0.0001 20",
                "classname" : "ComCylinderCollider",
                "enabled" : true,
                "guid" : "00C67A4233080E0100170345CCACBC91",
-               "height" : 172.75833129882813,
-               "radius" : 73.724105834960938
+               "height" : 40,
+               "radius" : 75.224082946777344
             },
             {
                "angularDamping" : 0.0099999997764825821,
@@ -2738,6 +2693,13 @@
                "mass" : 0,
                "restitution" : 0,
                "rollingFriction" : 1
+            },
+            {
+               "center" : "-2.1082 -0.0001 97.7793",
+               "classname" : "ComSphereCollider",
+               "enabled" : true,
+               "guid" : "00DE408D100B090E000402A03DB6485B",
+               "radius" : 76.374427795410156
             }
          ],
          "frozen" : false,
@@ -2753,11 +2715,11 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "180 0 0",
+               "angles" : "180 -0 0",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "01066C29340914000024018E666ECF2A",
-               "origin" : "-203.9636 -727.4617 100",
+               "origin" : "696.0364 -507.4617 100",
                "scale" : "1 1 1"
             },
             {
@@ -2775,8 +2737,27 @@
                "receiveShadows" : true,
                "timeOffset" : 0,
                "timeScale" : 1,
-               "useLightProbe" : true,
-               "useReflectionProbe" : true
+               "useLightProve" : true
+            },
+            {
+               "classname" : "ComMeshCollider",
+               "convex" : true,
+               "enabled" : true,
+               "guid" : "00DD04E32B0C0007001E02A47C3E2BE8",
+               "mesh" : "00E55AC5290914000024007C64AA4FC2"
+            },
+            {
+               "angularDamping" : 0.0099999997764825821,
+               "ccd" : false,
+               "classname" : "ComRigidBody",
+               "enabled" : true,
+               "friction" : 1,
+               "guid" : "00DE42372E0C0007001E02E07CE25227",
+               "kinematic" : false,
+               "linearDamping" : 0.05000000074505806,
+               "mass" : 0,
+               "restitution" : 0,
+               "rollingFriction" : 1
             }
          ],
          "frozen" : false,
@@ -2792,21 +2773,21 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "0 90 0",
+               "angles" : "-0 90 0",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "011F7CE71D0914000027018C7F0D0C7D",
-               "origin" : "-105.4299 -603.5826 244.6765",
+               "origin" : "584.5701 -13.5826 294.6765",
                "scale" : "1 1 1"
             },
             {
                "castShadows" : true,
                "classname" : "ComLight",
-               "color" : "0.6667 0.3333 0",
+               "color" : "1 0.5882 0.1176",
                "enabled" : true,
                "fallOffExponent" : 1.25,
                "guid" : "012011C41D0914000027018C7F0D0FF9",
-               "intensity" : 2,
+               "intensity" : 3.3519999980926514,
                "lightSize" : "500 500 500",
                "lightType" : 0,
                "lightZNear" : 10,
@@ -2815,8 +2796,8 @@
                "primaryLight" : false,
                "shadowOffsetFactor" : 3,
                "shadowOffsetUnits" : 200,
-               "timeOffset" : 0,
                "timeScale" : 1,
+               "timerOffset" : 0,
                "turnOn" : true
             }
          ],
@@ -2832,7 +2813,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "",
+      "guid" : "0000222D020C120A000D028EBAAAEB85",
       "skyboxMaterial" : "00AC7EDD040717180029037C76420EBD"
    },
    "version" : 1

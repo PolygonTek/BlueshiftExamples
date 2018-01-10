@@ -3,7 +3,7 @@
    "guid" : "01F9573A090A171E00190109B6D2A612",
    "importer" : {
       "classname" : "MeshImporter",
-      "guid" : "",
+      "guid" : "04C62F8E290B081D000D02F590B7C4B2",
       "importMaterials" : true,
       "materialNaming" : 0,
       "materialSearch" : 1,
@@ -11,8 +11,8 @@
       "merge" : true,
       "normals" : 0,
       "optimize" : true,
-      "prefabEntityGuid" : "00BC6D170F0A1118002100B97A479AE6",
+      "prefabEntityGuid" : "00BC7CE6390B150700390142976C092E",
       "tangents" : 1
    },
-   "timeStamp" : "636256566130000000"
+   "timeStamp" : "636475939170000000"
 }

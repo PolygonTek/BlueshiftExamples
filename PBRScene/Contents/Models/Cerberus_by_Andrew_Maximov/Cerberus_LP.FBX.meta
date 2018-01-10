@@ -4,10 +4,11 @@
    "importer" : {
       "classname" : "FbxFileImporter",
       "createAnimationFolder" : true,
+      "guid" : "04552B430E0B081D000D00868AEDF36D",
       "importAnimation" : false,
       "importMesh" : true,
       "importSkeleton" : false,
       "targetSkeleton" : "00000000000000000000000000000000"
    },
-   "timeStamp" : "636367211140000000"
+   "timeStamp" : "636419322480000000"
 }

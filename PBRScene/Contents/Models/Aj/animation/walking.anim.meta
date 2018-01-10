@@ -3,8 +3,8 @@
    "guid" : "09F432AD070A0E0D002F0337FF3BB544",
    "importer" : {
       "classname" : "AnimImporter",
-      "endFrame" : 1000000,
-      "guid" : "",
+      "endFrame" : 31,
+      "guid" : "05FE36171B0B081D000E02539A52B99A",
       "loop" : true,
       "optimize" : true,
       "rootRotation" : true,
@@ -12,5 +12,5 @@
       "rootTranslationZ" : true,
       "startFrame" : 0
    },
-   "timeStamp" : "636256566240000000"
+   "timeStamp" : "636475939910000000"
 }

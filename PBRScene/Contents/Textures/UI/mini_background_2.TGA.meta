@@ -6,12 +6,12 @@
       "classname" : "TextureImporter",
       "compression" : 1,
       "filterMode" : 2,
-      "generateMipmaps" : false,
-      "guid" : "",
+      "generateMipmaps" : true,
+      "guid" : "01732A232F0B081D000B024F78CB68E1",
       "normalMap" : false,
       "sRGB" : true,
-      "textureType" : 1,
+      "textureType" : 0,
       "wrapMode" : 0
    },
-   "timeStamp" : "636256565250000000"
+   "timeStamp" : "636419322510000000"
 }

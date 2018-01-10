@@ -1,6 +1,8 @@
 {
    "entities" : [
       {
+         "active" : true,
+         "activeInHierarchy" : true,
          "classname" : "Entity",
          "components" : [
             {
@@ -41,6 +43,8 @@
          "tag" : "Untagged"
       },
       {
+         "active" : true,
+         "activeInHierarchy" : true,
          "classname" : "Entity",
          "components" : [
             {
@@ -93,6 +97,8 @@
          "tag" : "Untagged"
       },
       {
+         "active" : true,
+         "activeInHierarchy" : true,
          "classname" : "Entity",
          "components" : [
             {
@@ -131,6 +137,8 @@
          "tag" : "Untagged"
       },
       {
+         "active" : true,
+         "activeInHierarchy" : true,
          "classname" : "Entity",
          "components" : [
             {
@@ -183,6 +191,8 @@
          "tag" : "Untagged"
       },
       {
+         "active" : true,
+         "activeInHierarchy" : true,
          "classname" : "Entity",
          "components" : [
             {
@@ -221,6 +231,8 @@
          "tag" : "Untagged"
       },
       {
+         "active" : true,
+         "activeInHierarchy" : true,
          "classname" : "Entity",
          "components" : [
             {
@@ -262,6 +274,8 @@
          "tag" : "Untagged"
       },
       {
+         "active" : true,
+         "activeInHierarchy" : true,
          "classname" : "Entity",
          "components" : [
             {
@@ -320,6 +334,8 @@
          "tag" : "Untagged"
       },
       {
+         "active" : true,
+         "activeInHierarchy" : true,
          "classname" : "Entity",
          "components" : [
             {
@@ -390,6 +406,8 @@
          "tag" : "Player"
       },
       {
+         "active" : true,
+         "activeInHierarchy" : true,
          "classname" : "Entity",
          "components" : [
             {
@@ -416,6 +434,8 @@
          "tag" : "Untagged"
       },
       {
+         "active" : true,
+         "activeInHierarchy" : true,
          "classname" : "Entity",
          "components" : [
             {
@@ -458,7 +478,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "00000000000000000000000000000000",
+      "guid" : "0005615803010A09003301FA582BC969",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1
