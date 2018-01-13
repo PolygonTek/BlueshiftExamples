@@ -1,6 +1,6 @@
 {
    "classname" : "TagLayerSettings",
-   "guid" : "00020FEE03010A09003301FA582BC928",
+   "guid" : "0002647611010A0B0014001F907DD9B4",
    "layer" : [ "Default", "UI", "Editor" ],
    "tag" : [ "Untagged", "MainCamera", "Player" ]
 }

@@ -12,7 +12,7 @@ stage {
     maxCycles 1
     simulationSpace "Global"
     simulationSpeed 1.000
-    material "00734F091F070C19000C018816E96F81"
+    material "005604FF0B01090B000101855D17A73F"
     animation false
     animFrames 1 1
     animFps 8
