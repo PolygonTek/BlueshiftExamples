@@ -300,7 +300,7 @@ function update()
     if m.alive then        
         --[[if m.throwing then
             local elapsed_time = owner.game_world:time() - m.throw_time
-            --[[if elapsed_time > 820 and not m.projectile then
+            if elapsed_time > 820 and not m.projectile then
                 local entity = properties.projectile.value:cast_prefab_asset():prefab():root_entity()
                 m.projectile = owner.game_world:clone_entity(entity)
                 if m.projectile then
@@ -310,7 +310,8 @@ function update()
                     m.projectile:rigid_body():set_linear_velocity(projectile_transform:axis():at(0):mul(blueshift.meter_to_unit(18)))
                 end
             end
-        end--]]
+        end
+        ]]
 
         if Input.is_key_pressed(Input.KeyCode.Mouse2) then
             local axis_delta = Input.axis_delta()
@@ -366,7 +367,7 @@ function update()
                     m.velocity:set_from_scalar(0)
                 end
             end
---[[]]
+]]
 
             if character_controller:is_on_ground() then
                 m.friction = m.ground_friction
@@ -439,7 +440,8 @@ function update()
 	                        attack_button_pressed = true
 	                    end
 	                end
-	            end]]
+	            end
+                ]]
 
                 if Input.is_key_down(Input.KeyCode.Space) or attack_button_pressed then
                     animator:set_anim_parameter("jump", 1)
