@@ -1,9 +1,5 @@
 {
    "classname" : "ScriptAsset",
    "guid" : "00FA366B08010B13002003B46489D75F",
-   "importer" : {
-      "classname" : "ScriptImporter",
-      "guid" : "000957C800010A16001D03A59697992D"
-   },
-   "timeStamp" : "636518423560000000"
+   "timeStamp" : "636558924190000000"
 }

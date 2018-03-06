@@ -300,7 +300,7 @@ function update()
     if m.alive then        
         --[[if m.throwing then
             local elapsed_time = owner.game_world:time() - m.throw_time
-            --[[if elapsed_time > 820 and not m.projectile then
+            if elapsed_time > 820 and not m.projectile then
                 local entity = properties.projectile.value:cast_prefab_asset():prefab():root_entity()
                 m.projectile = owner.game_world:clone_entity(entity)
                 if m.projectile then
@@ -366,7 +366,7 @@ function update()
                     m.velocity:set_from_scalar(0)
                 end
             end
---[[]]
+]]
 
             if character_controller:is_on_ground() then
                 m.friction = m.ground_friction
@@ -394,7 +394,6 @@ function update()
 
                 character_controller:move(move_delta)
             end
- --]]
         end        
 
         if animator then
