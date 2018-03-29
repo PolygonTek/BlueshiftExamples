@@ -7,6 +7,7 @@ local Vec3 = blueshift.Vec3
 local Angles = blueshift.Angles
 local Input = blueshift.Input
 local Physics = blueshift.Physics
+local Entity = blueshift.Entity
 
 properties = {
     hp = { label = "HP", type = "int", value = 10 },
@@ -83,6 +84,15 @@ m = {
 }
 
 function start()
+    m.camera_entity = owner.game_world:find_entity_by_tag("MainCamera")
+
+    m.dragger_entity = owner.game_world:create_empty_entity("Mouse Dragger")
+    local rigid_body = m.dragger_entity:new_component(blueshift.ComRigidBody.meta_object)
+    rigid_body:cast_rigid_body():set_mass(0)
+    --rigid_body:cast_rigid_body():set_kinematic(true)
+    local socket_joint = m.dragger_entity:new_component(blueshift.ComSocketJoint.meta_object)
+    socket_joint:cast_socket_joint():set_impulse_clamp(30)
+
     m.gravity = blueshift.meter_to_unit(properties.gravity.value)
     m.max_speed = blueshift.meter_to_unit(properties.max_speed.value)
     m.stop_speed = blueshift.meter_to_unit(properties.stop_speed.value)
@@ -242,6 +252,61 @@ function gen_user_cmd(dx, dy)
     end
 end
 
+function handle_mouse_shoot()
+    if Input.is_key_down(Input.KeyCode.Mouse1) then
+        local camera = m.camera_entity:camera()
+        local mouse_pos = Input.mouse_pos()
+        local ray = camera:screen_to_ray(mouse_pos)
+        local min_scale = blueshift.meter_to_unit(100000)        
+        local cast_result = Physics.CastResult()
+
+        if Physics.ray_cast(ray:origin(), ray:distance_point(min_scale), Physics.FilterGroup.DefaultGroup, Physics.FilterGroup.DefaultGroup, cast_result) then
+            local hit_rigid_body = cast_result:rigid_body()
+
+            if hit_rigid_body then
+                local forward = m.camera_entity:transform():axis():at(0)
+                hit_rigid_body:apply_impulse(forward:mul(400), cast_result:point())
+            end
+        end
+    end
+end
+
+function handle_mouse_joint()
+    for i = 0, Input.touch_count() do
+        local touch = Input.touch(i)
+        if touch:phase() == Input.Touch.Started then            
+            local camera = m.camera_entity:camera()
+            local ray = camera:screen_to_ray(touch:position())
+            local max_dist = blueshift.meter_to_unit(30)
+            local cast_result = Physics.CastResult()
+
+            if Physics.ray_cast(ray:origin(), ray:distance_point(max_dist), Physics.FilterGroup.DefaultGroup, Physics.FilterGroup.DefaultGroup, cast_result) then
+                local hit_rigid_body = cast_result:rigid_body()
+
+                if hit_rigid_body then
+                    m.dragger_entity:socket_joint():set_local_anchor(cast_result:point())
+                    m.dragger_entity:socket_joint():set_connected_body(hit_rigid_body)
+
+                    m.old_picking_dist = max_dist * cast_result:fraction()
+
+                    m.clicked_id = touch:id()
+                end
+            end
+        elseif touch:phase() == Input.Touch.Ended or touch:phase() == Input.Touch.Canceled then
+            if touch:id() == m.clicked_id then
+                m.dragger_entity:socket_joint():set_connected_body(blueshift.ComRigidBody())
+            end
+        elseif touch:phase() == Input.Touch.Moved then
+            if touch:id() == m.clicked_id then
+                local camera = m.camera_entity:camera()
+                local ray = camera:screen_to_ray(touch:position())
+
+                m.dragger_entity:socket_joint():set_local_anchor(ray:distance_point(m.old_picking_dist))
+            end
+        end
+    end
+end
+
 function update()
     local dx = 0.0
     local dy = 0.0
@@ -264,26 +329,7 @@ function update()
     end
 
     -- handle mouse1 clicks on rigid body  
-    if Input.is_key_down(Input.KeyCode.Mouse1) then
-        local camera_entity = owner.game_world:find_entity_by_tag("MainCamera")
-        local camera = camera_entity:camera()
-
-        local mouse_pos = Input.mouse_pos()
-        local ray = camera:screen_to_ray(mouse_pos)
-
-        local min_scale = blueshift.meter_to_unit(100000)
-        
-        local cast_result = Physics.CastResult()
-        if Physics.ray_cast(ray:origin(), ray:distance_point(min_scale), 
-            Physics.FilterGroup.DefaultGroup, Physics.FilterGroup.AllGroup, cast_result) then
-            local hit_rigid_body = cast_result:rigid_body()
-
-            if hit_rigid_body then
-                local forward = camera_entity:transform():axis():at(0)
-                hit_rigid_body:apply_central_impulse(forward:mul(500))
-            end
-        end
-    end
+    handle_mouse_joint()
 
     -- handle mouse2 clicks to hide cursor in rotation
     if Input.is_key_down(Input.KeyCode.Mouse2) then

@@ -14,7 +14,7 @@
                "scale" : "1 1 1"
             },
             {
-               "alpha" : 1,
+               "alpha" : 1.0,
                "animController" : "01EA47C22A0A171E001800B7B2938D13",
                "billboard" : false,
                "castShadows" : true,
@@ -26,41 +26,41 @@
                   "08C076652B0A0E0D002D0222F204A100",
                   "08C860962B0A0E0D002D026BF2078DB4"
                ],
-               "maxVisDist" : 16384,
+               "maxVisDist" : 16384.0,
                "mesh" : "01F9573A090A171E00190109B6D2A612",
                "receiveShadows" : true,
-               "timeOffset" : 0,
-               "timeScale" : 1,
+               "timeOffset" : 0.0,
+               "timeScale" : 1.0,
                "useLightProve" : true
             },
             {
-               "capsuleHeight" : 1.2099999189376831,
-               "capsuleRadius" : 0.33999994397163391,
+               "capsuleHeight" : 120.0,
+               "capsuleRadius" : 35.0,
                "classname" : "ComCharacterController",
                "enabled" : true,
                "guid" : "01EE61431D09091C00110381DE144B2A",
-               "mass" : 10,
-               "slopeLimit" : 60,
-               "stepOffset" : 0.5
+               "mass" : 10.0,
+               "slopeLimit" : 60.0,
+               "stepOffset" : 40.0
             },
             {
-               "acceleration" : 8,
+               "acceleration" : 8.0,
                "classname" : "ComScript",
                "enabled" : true,
                "footstep1_sound" : "02267A42180B120C001801608F92E6E8",
                "footstep2_sound" : "0228796B180B120C0018017C8F9409A2",
                "footstep3_sound" : "022A7CCC180B120C001801A08F9574F9",
                "footstep4_sound" : "022C5C20180B120C001801BC8F9697E1",
-               "friction" : 6,
+               "friction" : 6.0,
                "gravity" : 9.8000001907348633,
                "guid" : "01EF1F3A2209091C00110224DECEFE51",
                "hp" : 10,
                "joypad_l" : "005F0D4C250C1214002003AB18802E9E",
                "joypad_r" : "00577313250C1214002003AA18802343",
-               "max_speed" : 4,
+               "max_speed" : 4.0,
                "script" : "00FA366B08010B13002003B46489D75F",
                "slide_sound" : "02372BE3200B120C001C0351B68A1631",
-               "stop_speed" : 2
+               "stop_speed" : 2.0
             }
          ],
          "frozen" : false,
@@ -88,21 +88,21 @@
             {
                "classname" : "ComCamera",
                "clear" : 3,
-               "clearAlpha" : 0,
+               "clearAlpha" : 0.0,
                "clearColor" : "0 0 0",
                "enabled" : true,
-               "far" : 8192,
-               "fov" : 60,
+               "far" : 8192.0,
+               "fov" : 60.0,
                "guid" : "02160690290917190021039372E79EA5",
-               "h" : 1,
+               "h" : 1.0,
                "layerMask" : 1,
-               "near" : 10,
+               "near" : 10.0,
                "order" : 0,
                "projection" : 0,
-               "size" : 1000,
-               "w" : 1,
-               "x" : 0,
-               "y" : 0
+               "size" : 1000.0,
+               "w" : 1.0,
+               "x" : 0.0,
+               "y" : 0.0
             }
          ],
          "frozen" : false,
@@ -156,7 +156,7 @@
                "scale" : "5 5 1"
             },
             {
-               "alpha" : 1,
+               "alpha" : 1.0,
                "billboard" : false,
                "castShadows" : false,
                "classname" : "ComStaticMeshRenderer",
@@ -164,12 +164,12 @@
                "enabled" : true,
                "guid" : "01E72B683009091C000D015DBB56E998",
                "materials" : [ "000A514736071507003503907FFFFFFF" ],
-               "maxVisDist" : 16384,
+               "maxVisDist" : 16384.0,
                "mesh" : "00000000000000000000000000000192",
                "occluder" : false,
                "receiveShadows" : true,
-               "timeOffset" : 0,
-               "timeScale" : 1,
+               "timeOffset" : 0.0,
+               "timeScale" : 1.0,
                "useLightProve" : true
             },
             {
@@ -184,13 +184,14 @@
                "ccd" : false,
                "classname" : "ComRigidBody",
                "enabled" : true,
-               "friction" : 1,
+               "friction" : 1.0,
                "guid" : "01E9620E0B09091C000E0382BF0834E2",
                "kinematic" : false,
                "linearDamping" : 0.05000000074505806,
-               "mass" : 0,
+               "mass" : 0.0,
                "restitution" : 0.51999998092651367,
-               "rollingFriction" : 1
+               "rollingFriction" : 1.0,
+               "spinningFriction" : 1.0
             }
          ],
          "frozen" : false,
@@ -225,14 +226,14 @@
                "intensity" : 1.7990000247955322,
                "lightSize" : "10000 10000 10000",
                "lightType" : 2,
-               "lightZNear" : 10,
+               "lightZNear" : 10.0,
                "material" : "00000000000000000000000000000130",
-               "maxVisDist" : 16384,
+               "maxVisDist" : 16384.0,
                "primaryLight" : true,
-               "shadowOffsetFactor" : 3,
-               "shadowOffsetUnits" : 200,
-               "timeScale" : 1,
-               "timerOffset" : 0,
+               "shadowOffsetFactor" : 3.0,
+               "shadowOffsetUnits" : 200.0,
+               "timeScale" : 1.0,
+               "timerOffset" : 0.0,
                "turnOn" : true
             }
          ],
@@ -261,21 +262,21 @@
             {
                "classname" : "ComCamera",
                "clear" : 0,
-               "clearAlpha" : 0,
+               "clearAlpha" : 0.0,
                "clearColor" : "0 0 0",
                "enabled" : true,
-               "far" : 400,
-               "fov" : 45,
+               "far" : 400.0,
+               "fov" : 45.0,
                "guid" : "005219D4250C1214002003AA18801E28",
-               "h" : 1,
+               "h" : 1.0,
                "layerMask" : 2,
-               "near" : 10,
+               "near" : 10.0,
                "order" : 1,
                "projection" : 1,
-               "size" : 736,
-               "w" : 1,
-               "x" : 0,
-               "y" : 0
+               "size" : 736.0,
+               "w" : 1.0,
+               "x" : 0.0,
+               "y" : 0.0
             }
          ],
          "frozen" : false,
@@ -301,7 +302,7 @@
                "scale" : "2.5 2.5 2.5"
             },
             {
-               "alpha" : 1,
+               "alpha" : 1.0,
                "billboard" : false,
                "castShadows" : false,
                "classname" : "ComStaticMeshRenderer",
@@ -309,12 +310,12 @@
                "enabled" : true,
                "guid" : "005548DA250C1214002003AA18802376",
                "materials" : [ "008530171F070C19000C023E16F0C062" ],
-               "maxVisDist" : 16384,
+               "maxVisDist" : 16384.0,
                "mesh" : "00000000000000000000000000000191",
                "occluder" : false,
                "receiveShadows" : false,
-               "timeOffset" : 0,
-               "timeScale" : 1,
+               "timeOffset" : 0.0,
+               "timeScale" : 1.0,
                "useLightProve" : true
             },
             {
@@ -328,7 +329,7 @@
                "classname" : "ComScript",
                "enabled" : true,
                "guid" : "00577313250C1214002003AA18802343",
-               "knob_radius" : 40,
+               "knob_radius" : 40.0,
                "script" : "00F93EC108010B13002003AD64899094"
             }
          ],
@@ -355,7 +356,7 @@
                "scale" : "0.5 0.5 0.5"
             },
             {
-               "alpha" : 1,
+               "alpha" : 1.0,
                "billboard" : false,
                "castShadows" : false,
                "classname" : "ComStaticMeshRenderer",
@@ -363,12 +364,12 @@
                "enabled" : true,
                "guid" : "005A2D29250C1214002003AB18802A10",
                "materials" : [ "008E77031F070C19000C028316F387E3" ],
-               "maxVisDist" : 16384,
+               "maxVisDist" : 16384.0,
                "mesh" : "00000000000000000000000000000191",
                "occluder" : false,
                "receiveShadows" : false,
-               "timeOffset" : 0,
-               "timeScale" : 1,
+               "timeOffset" : 0.0,
+               "timeScale" : 1.0,
                "useLightProve" : true
             }
          ],
@@ -395,7 +396,7 @@
                "scale" : "2.5 2.5 2.5"
             },
             {
-               "alpha" : 1,
+               "alpha" : 1.0,
                "billboard" : false,
                "castShadows" : false,
                "classname" : "ComStaticMeshRenderer",
@@ -403,12 +404,12 @@
                "enabled" : true,
                "guid" : "005D52DE250C1214002003AB18802E91",
                "materials" : [ "008530171F070C19000C023E16F0C062" ],
-               "maxVisDist" : 16384,
+               "maxVisDist" : 16384.0,
                "mesh" : "00000000000000000000000000000191",
                "occluder" : false,
                "receiveShadows" : false,
-               "timeOffset" : 0,
-               "timeScale" : 1,
+               "timeOffset" : 0.0,
+               "timeScale" : 1.0,
                "useLightProve" : true
             },
             {
@@ -422,7 +423,7 @@
                "classname" : "ComScript",
                "enabled" : true,
                "guid" : "005F0D4C250C1214002003AB18802E9E",
-               "knob_radius" : 40,
+               "knob_radius" : 40.0,
                "script" : "00F93EC108010B13002003AD64899094"
             }
          ],
@@ -449,7 +450,7 @@
                "scale" : "0.5 0.5 0.5"
             },
             {
-               "alpha" : 1,
+               "alpha" : 1.0,
                "billboard" : false,
                "castShadows" : false,
                "classname" : "ComStaticMeshRenderer",
@@ -457,12 +458,12 @@
                "enabled" : true,
                "guid" : "00620D65250C1214002003AC1880345F",
                "materials" : [ "008E77031F070C19000C028316F387E3" ],
-               "maxVisDist" : 16384,
+               "maxVisDist" : 16384.0,
                "mesh" : "00000000000000000000000000000191",
                "occluder" : false,
                "receiveShadows" : false,
-               "timeOffset" : 0,
-               "timeScale" : 1,
+               "timeOffset" : 0.0,
+               "timeScale" : 1.0,
                "useLightProve" : true
             }
          ],
@@ -478,7 +479,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "000539BA3A01150A002900765909D367",
+      "guid" : "00027B6226030A1C003B03BE29A0DBB2",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1

@@ -1,8 +1,10 @@
 {
    "classname" : "PhysicsSettings",
    "filterMasks" : [ -1, -1, -1 ],
-   "frameRate" : 50,
+   "frameRate" : 60,
    "gravity" : "0 0 -9.8",
    "guid" : "0003763A11010A0B0014001F907DD9B5",
-   "maximumAllowedTimeStep" : 0.20000000298023224
+   "maximumAllowedTimeStep" : 0.20000000298023224,
+   "solver" : 2,
+   "solverIterations" : 10
 }
