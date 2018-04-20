@@ -9,10 +9,11 @@
       "materialSearch" : 1,
       "maxSkinningWeights" : 4,
       "merge" : true,
+      "normalGenerationThreshold" : 90.0,
       "normals" : 0,
       "optimize" : true,
       "prefabEntityGuid" : "0026728C2D0A1415001C02B2C302A890",
-      "tangents" : 1
+      "tangents" : 2
    },
-   "timeStamp" : "636515014880000000"
+   "timeStamp" : "636587169170000000"
 }

@@ -9,6 +9,7 @@
       "materialSearch" : 1,
       "maxSkinningWeights" : 4,
       "merge" : true,
+      "normalGenerationThreshold" : 60.0,
       "normals" : 0,
       "optimize" : true,
       "prefabEntityGuid" : "00E607F2020B1507003A0065986C72C7",

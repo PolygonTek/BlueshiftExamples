@@ -10,7 +10,7 @@
       "importRotation" : "0 0 0",
       "importSkeleton" : true,
       "importTranslation" : "0 0 0",
-      "importUniformScale" : 1,
+      "importUniformScale" : 1.0,
       "targetSkeleton" : "00000000000000000000000000000000"
    },
    "timeStamp" : "636416953190000000"

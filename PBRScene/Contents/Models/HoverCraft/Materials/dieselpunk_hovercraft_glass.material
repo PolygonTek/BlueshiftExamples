@@ -10,7 +10,7 @@ pass {
     _METALLIC "1"
     metallicMap "00B8057F09081701000F01DC547A669E"
     metallicScale "1.0000"
-    _ROUGHNESS "2"
+    _ROUGHNESS "1"
     roughnessMap "00C411520A081701000F03A554B4E828"
     roughnessScale "1.0000"
     _NORMAL "1"

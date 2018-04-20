@@ -7,7 +7,7 @@ local Input = blueshift.Input
 local Screen = blueshift.Screen
 
 properties = {
-	knob_radius = { type = "float", minimum = 1, maximum = 100, value = 40 },
+	knob_radius = { label = "Knob Radius", type = "float", minimum = 1, maximum = 100, value = 40 },
 }
 
 property_names = {
@@ -20,11 +20,12 @@ m = {
 }
 
 function start()
+    m.camera_entity = owner.game_world:find_entity("UICamera")
+    m.knob_entity = owner.entity:find_child("knob")
 end
 
 function update()
-    local camera_entity = owner.game_world:find_entity("UICamera")
-    local camera = camera_entity:camera()
+    local camera = m.camera_entity:camera()
 
     local knob_center = owner.transform:origin()
     local knob_screen_center = camera:world_to_screen(knob_center)
@@ -41,12 +42,11 @@ function update()
                 m.clicked_id = -1
 
                 --move knob to center
-                local knob_entity = owner.entity:find_child("knob")
-                local knob_local_pos = knob_entity:transform():local_origin()
+                local knob_local_pos = m.knob_entity:transform():local_origin()
                 knob_local_pos:set_y(0)
                 knob_local_pos:set_z(0)
                
-                knob_entity:transform():set_local_origin(knob_local_pos)
+                m.knob_entity:transform():set_local_origin(knob_local_pos)
                 m.knob_delta:set(0, 0)
             end
         elseif touch:phase() == Input.Touch.Moved then
@@ -60,13 +60,12 @@ function update()
                 end
 
                 local ray = camera:screen_to_ray(knob_screen_center + Point(m.knob_delta:x(), m.knob_delta:y()))
-                local knob_entity = owner.entity:find_child("knob")
 
-                local knob_plane = Plane(-camera_entity:transform():axis():at(0), 0)
+                local knob_plane = Plane(-m.camera_entity:transform():axis():at(0), 0)
                 knob_plane:fit_through_point(knob_center)
 
                 local s = knob_plane:ray_intersection(ray:origin(), ray:direction())
-                knob_entity:transform():set_origin(ray:origin() + ray:direction():mul(s))
+                m.knob_entity:transform():set_origin(ray:origin() + ray:direction():mul(s))
 
                 --normalize
                 m.knob_delta = m.knob_delta:div(knob_screen_radius)

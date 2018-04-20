@@ -10,12 +10,7 @@ local Physics = blueshift.Physics
 local Entity = blueshift.Entity
 
 properties = {
-    hp = { label = "HP", type = "int", value = 10 },
     gravity = { label = "Gravity", type = "float", value = 9.8 },
-    max_speed = { label = "Max Speed", type = "float", value = 4.0 },
-    stop_speed = { label = "Stop Speed", type = "float", value = 2.0 },
-    acceleration = { label = "Acceleration", type = "float", value = 8.0 },
-    friction = { label = "Friction", type = "float", value = 6.0 },
     joypad_l = { label = "Left Joypad", type = "object", classname = "ComScript", value = nil },
     joypad_r = { label = "Right Joypad", type = "object", classname = "ComScript", value = nil },
     footstep1_sound = { label = "Footstep1 sound", type = "object", classname = "SoundAsset", value = nil },
@@ -26,12 +21,7 @@ properties = {
 }
 
 property_names = {
-    "hp",
     "gravity", 
-    "max_speed",
-    "stop_speed",
-    "acceleration",
-    "friction",
     "joypad_l",
     "joypad_r",
     "footstep1_sound",
@@ -42,12 +32,7 @@ property_names = {
 }
 
 m = {
-    alive = true,
     gravity = 0,
-    max_speed = 0,
-    stop_speed = 0,
-    acceleration = 0,
-    friction = 0,
 
     footsteps = {},
 
@@ -68,10 +53,6 @@ m = {
     
     anim_angle = 0.0,
     anim_speed = 0.0,
-    ground_accel = 8.0,
-    ground_friction = 6.0,
-    air_accel = 1.0,
-    air_friction = 0.0,
     velocity = Vec3(0, 0, 0),
     
     user_cmd = {
@@ -91,13 +72,9 @@ function start()
     rigid_body:cast_rigid_body():set_mass(0)
     --rigid_body:cast_rigid_body():set_kinematic(true)
     local socket_joint = m.dragger_entity:new_component(blueshift.ComSocketJoint.meta_object)
-    socket_joint:cast_socket_joint():set_impulse_clamp(30)
+    socket_joint:cast_socket_joint():set_impulse_clamp(50)
 
     m.gravity = blueshift.meter_to_unit(properties.gravity.value)
-    m.max_speed = blueshift.meter_to_unit(properties.max_speed.value)
-    m.stop_speed = blueshift.meter_to_unit(properties.stop_speed.value)
-    m.acceleration = properties.acceleration.value
-    m.friction = properties.friction.value
 
     m.velocity:set_from_scalar(0)
 
@@ -105,42 +82,6 @@ function start()
     m.footsteps[2] = properties.footstep2_sound.value:cast_sound_asset()
     m.footsteps[3] = properties.footstep3_sound.value:cast_sound_asset()
     m.footsteps[4] = properties.footstep4_sound.value:cast_sound_asset()
-end
-
-function apply_accel(wish_velocity, accel)
-    local wish_dir = wish_velocity
-    local wish_speed = wish_dir:normalize()
-
-    local cur_speed = m.velocity:dot(wish_dir)
-    local add_speed = wish_speed - cur_speed
-    if add_speed <= 0 then
-        return
-    end
-
-    local accel_speed = accel * (owner.game_world:delta_time() / 1000) * wish_speed
-    if accel_speed > add_speed then
-        accel_speed = add_speed
-    end
-
-    m.velocity = m.velocity + wish_dir:mul(accel_speed)
-end
-
-function apply_friction(friction)
-    local speed = m.velocity:length()
-    if speed < 0.01 then
-        m.velocity:set_from_scalar(0)
-        return
-    end
-
-    local drop_speed = math.max(speed, m.stop_speed) * friction * (owner.game_world:delta_time() / 1000)
-    local new_speed = speed - drop_speed
-    if new_speed < 0 then
-    	new_speed = 0
-    end
-
-    new_speed = new_speed / speed
-
-    m.velocity = m.velocity:mul(new_speed)
 end
 
 function gen_user_cmd(dx, dy)
@@ -257,7 +198,7 @@ function handle_mouse_shoot()
         local camera = m.camera_entity:camera()
         local mouse_pos = Input.mouse_pos()
         local ray = camera:screen_to_ray(mouse_pos)
-        local min_scale = blueshift.meter_to_unit(100000)        
+        local min_scale = blueshift.meter_to_unit(100)
         local cast_result = Physics.CastResult()
 
         if Physics.ray_cast(ray:origin(), ray:distance_point(min_scale), Physics.FilterGroup.DefaultGroup, Physics.FilterGroup.DefaultGroup, cast_result) then
@@ -265,7 +206,7 @@ function handle_mouse_shoot()
 
             if hit_rigid_body then
                 local forward = m.camera_entity:transform():axis():at(0)
-                hit_rigid_body:apply_impulse(forward:mul(400), cast_result:point())
+                hit_rigid_body:apply_impulse(forward:mul(blueshift.meter_to_unit(4)), cast_result:point())
             end
         end
     end
@@ -311,23 +252,6 @@ function update()
     local dx = 0.0
     local dy = 0.0
 
-    if not m.alive and owner.game_world:time() - m.dead_time > 5000 then
-        local restart_button = properties.restart_button.value:cast_script()
-        if restart_button then
-            if not restart_button:entity():is_active_self() then
-                restart_button:entity():set_active(true)
-            end
-
-            local restart_button_pressed = false
-            local restart_button_state = _G[restart_button:sandbox_name()]
-            if restart_button_state.m.pressed then
-                restart_button:entity():set_active(false)
-
-                owner.game_world:restart_game()
-            end
-        end
-    end
-
     -- handle mouse1 clicks on rigid body  
     handle_mouse_joint()
 
@@ -340,186 +264,107 @@ function update()
         Input.lock_cursor(false)
     end
 
+    if Input.is_key_pressed(Input.KeyCode.Mouse2) then
+        local axis_delta = Input.axis_delta()
+        local move_delta = Vec2(axis_delta:x(), axis_delta:y())
+
+        local sensi_scale = 1.0
+        local move_rate = Math.sqrt(move_delta:x() * move_delta:x() + move_delta:y() * move_delta:y())
+        local sensi = (move_rate * m.input_move_accel + m.sensitivity) * sensi_scale
+
+        dx = move_delta:x() * sensi * m.input_scale_x
+        dy = move_delta:y() * sensi * m.input_scale_y
+    end
+
+    gen_user_cmd(dx, dy)
+
+    local angles = owner.transform:angles()
+    angles:set_yaw(Math.angle_normalize_360(angles:yaw() + m.user_cmd.wish_delta_angles:yaw()))
+    angles:set_pitch(0)
+    angles:set_roll(0)
+    owner.transform:set_angles(angles)
+
     local character_controller = owner.entity:character_controller()
     local animator = owner.entity:animator()
 
-    if m.alive then        
-        --[[if m.throwing then
-            local elapsed_time = owner.game_world:time() - m.throw_time
-            if elapsed_time > 820 and not m.projectile then
-                local entity = properties.projectile.value:cast_prefab_asset():prefab():root_entity()
-                m.projectile = owner.game_world:clone_entity(entity)
-                if m.projectile then
-                    local projectile_transform = properties.shoot_place.value:cast_transform()
-                    m.projectile:transform():set_origin(projectile_transform:origin())
-                    m.projectile:transform():set_axis(projectile_transform:axis())
-                    m.projectile:rigid_body():set_linear_velocity(projectile_transform:axis():at(0):mul(blueshift.meter_to_unit(18)))
-                end
-            end
-        end
-        ]]
-
-        if Input.is_key_pressed(Input.KeyCode.Mouse2) then
-            local axis_delta = Input.axis_delta()
-            local move_delta = Vec2(axis_delta:x(), axis_delta:y())
-
-            local sensi_scale = 1.0
-            local move_rate = Math.sqrt(move_delta:x() * move_delta:x() + move_delta:y() * move_delta:y())
-            local sensi = (move_rate * m.input_move_accel + m.sensitivity) * sensi_scale
-
-            dx = move_delta:x() * sensi * m.input_scale_x
-            dy = move_delta:y() * sensi * m.input_scale_y
-        end
-
-        gen_user_cmd(dx, dy)
-
-        local angles = owner.transform:angles()
-        angles:set_yaw(Math.angle_normalize_360(angles:yaw() + m.user_cmd.wish_delta_angles:yaw()))
-        angles:set_pitch(0)
-        angles:set_roll(0)
-        owner.transform:set_angles(angles)
-
-        if character_controller then
---[[
-            local wish_vel = angles:to_mat3():mul_vec(Vec3(m.user_cmd.wish_direction:x(), m.user_cmd.wish_direction:y(), 0):mul(m.user_cmd.wish_speed))
-            --wish_vel:set_z(wish_vel:z() + m.user_cmd.up_move
-
-            if m.user_cmd.wish_speed > m.max_speed then
-                wish_vel = wish_vel:mul(m.max_speed / m.user_cmd.wish_speed)
-            end
-
-            if character_controller:is_on_ground() then
-                m.acceleration = m.ground_accel
-                m.friction = m.ground_friction
-
-                if (m.user_cmd.up_move) then
-                    m.velocity:set_z(blueshift.meter_to_unit(4.0))
-                else
-                    m.velocity:set_z(0)
-                end
-            else 
-                m.acceleration = m.air_accel
-                m.friction = m.air_friction
-
-                m.velocity:set_z(m.velocity:z() - m.gravity * (owner.game_world:delta_time() / 1000))
-            end
-
-            apply_friction(m.friction)
-
-            apply_accel(wish_vel, m.acceleration)
-
-            if m.velocity:length_squared() > 0.001 then
-                if character_controller:move(m.velocity:mul((owner.game_world:delta_time() / 1000))) then
-                    m.velocity:set_from_scalar(0)
-                end
-            end
-]]
-
-            if character_controller:is_on_ground() then
-                m.friction = m.ground_friction
-
-                if (m.user_cmd.up_move > 0) then
-                    --m.velocity:set_z(blueshift.meter_to_unit(4.0));
-                else
-                    --m.velocity:set_z(0) 
-                end
+    if character_controller then
+        if character_controller:is_on_ground() then
+            if (m.user_cmd.up_move > 0) then
+                --m.velocity:set_z(blueshift.meter_to_unit(4.0));
             else
-                m.friction = m.air_friction
-                m.velocity:set_z(m.velocity:z() - m.gravity * owner.game_world:delta_time() / 1000)
+                --m.velocity:set_z(0) 
             end
-
-            apply_friction(m.friction)
-
-            if animator and m.anim_speed > 0.001 then
-                local translation_delta = animator:translation_delta(owner.game_world:prev_time(), owner.game_world:time())
-                local move_delta = angles:to_mat3():mul_vec(translation_delta):mul_comp(owner.transform:scale())
-                if m.throwing then
-                    move_delta:set_z(move_delta:z() * 1.0)
-                else
-                    move_delta:set_z(m.velocity:z() * owner.game_world:delta_time() / 1000)
-                end
-
-                character_controller:move(move_delta)
-            end
- --]]
-        end        
-
-        if animator then
-            if true then
-                local current_anim_state = animator:current_anim_state(0)
-
-                local delta_pos = m.user_cmd.wish_direction - m.anim_current_pos;
-                if delta_pos:length_squared() > 0.001 then
-                    m.anim_current_pos = m.anim_current_pos + delta_pos:mul((owner.game_world:delta_time() / 1000) * 5.0)
-                else 
-                    m.anim_current_pos:set_x(m.user_cmd.wish_direction:x())
-                    m.anim_current_pos:set_y(m.user_cmd.wish_direction:y())
-                end
-
-                animator:set_anim_parameter("x", m.anim_current_pos:x())
-                animator:set_anim_parameter("y", m.anim_current_pos:y())
-
-                local delta_turn = m.wish_turn - m.anim_turn
-                if Math.fabs(delta_turn) > 0.001 then
-                    m.anim_turn = m.anim_turn + delta_turn * (owner.game_world:delta_time() / 1000) * 10.0
-                else
-                    m.anim_turn = m.wish_turn
-                end
-
-                animator:set_anim_parameter("turn", m.anim_turn)
-
-                local delta_speed = m.user_cmd.wish_speed - m.anim_speed
-                if Math.fabs(delta_speed) > 0.001 then
-                    m.anim_speed = m.anim_speed + delta_speed * (owner.game_world:delta_time() / 1000) * 10.0
-                else
-                    m.anim_speed = m.user_cmd.wish_speed
-                end
-                
-                animator:set_anim_parameter("speed", m.anim_speed)
-
-				--[[if properties.attack_button.value then
-	                local attack_button = properties.attack_button.value:cast_script()
-	                local attack_button_pressed = false
-	                if attack_button then
-	                    local attack_button_state = _G[attack_button:sandbox_name()]
-	                    if attack_button_state.m.pressed then
-	                        attack_button_pressed = true
-	                    end
-	                end
-	            end
-                ]]
-
-                if Input.is_key_down(Input.KeyCode.Space) or attack_button_pressed then
-                    animator:set_anim_parameter("jump", 1)
-                else
-                    animator:set_anim_parameter("jump", 0)
-                end
-
-                if Input.is_key_down(Input.KeyCode.C) then
-                    animator:set_anim_parameter("sliding", 1)
-                else
-                    animator:set_anim_parameter("sliding", 0)
-                end
-
-                animator:set_anim_parameter("locomotion", m.anim_speed)
-            end
+        else
+            m.velocity:set_z(m.velocity:z() - m.gravity * owner.game_world:delta_time() / 1000)
         end
+
+        if animator and m.anim_speed > 0.001 then
+            local translation_delta = animator:translation_delta(owner.game_world:prev_time(), owner.game_world:time())
+            local move_delta = angles:to_mat3():mul_vec(translation_delta):mul_comp(owner.transform:scale())
+            if m.jumping then
+                move_delta:set_z(move_delta:z() * 1.0)
+            else
+                move_delta:set_z(m.velocity:z() * owner.game_world:delta_time() / 1000)
+            end
+
+            character_controller:move(move_delta)
+        end
+    end        
+
+    if animator then
+        local current_anim_state = animator:current_anim_state(0)
+
+        local delta_pos = m.user_cmd.wish_direction - m.anim_current_pos;
+        if delta_pos:length_squared() > 0.001 then
+            m.anim_current_pos = m.anim_current_pos + delta_pos:mul((owner.game_world:delta_time() / 1000) * 5.0)
+        else 
+            m.anim_current_pos:set_x(m.user_cmd.wish_direction:x())
+            m.anim_current_pos:set_y(m.user_cmd.wish_direction:y())
+        end
+
+        animator:set_anim_parameter("x", m.anim_current_pos:x())
+        animator:set_anim_parameter("y", m.anim_current_pos:y())
+
+        local delta_turn = m.wish_turn - m.anim_turn
+        if Math.fabs(delta_turn) > 0.001 then
+            m.anim_turn = m.anim_turn + delta_turn * (owner.game_world:delta_time() / 1000) * 10.0
+        else
+            m.anim_turn = m.wish_turn
+        end
+
+        animator:set_anim_parameter("turn", m.anim_turn)
+
+        local delta_speed = m.user_cmd.wish_speed - m.anim_speed
+        if Math.fabs(delta_speed) > 0.001 then
+            m.anim_speed = m.anim_speed + delta_speed * (owner.game_world:delta_time() / 1000) * 10.0
+        else
+            m.anim_speed = m.user_cmd.wish_speed
+        end
+        
+        animator:set_anim_parameter("speed", m.anim_speed)
+
+        if Input.is_key_down(Input.KeyCode.Space) or attack_button_pressed then
+            animator:set_anim_parameter("jump", 1)
+        else
+            animator:set_anim_parameter("jump", 0)
+        end
+
+        if Input.is_key_down(Input.KeyCode.C) then
+            animator:set_anim_parameter("sliding", 1)
+        else
+            animator:set_anim_parameter("sliding", 0)
+        end
+
+        animator:set_anim_parameter("locomotion", m.anim_speed)
     end
 end
 
-function on_dead()
-    m.alive = false
-    m.dead_time = owner.game_world:time()
-
-    owner.entity:character_controller():enable(false)
-end
-
 function on_jump()
-    m.throwing = true
+    m.jumping = true
 end
 
 function on_land()
-    m.throwing = false
+    m.jumping = false
 end
 
 function on_slide()
