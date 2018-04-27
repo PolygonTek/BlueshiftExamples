@@ -13,11 +13,11 @@ properties = {
     gravity = { label = "Gravity", type = "float", value = 9.8 },
     joypad_l = { label = "Left Joypad", type = "object", classname = "ComScript", value = nil },
     joypad_r = { label = "Right Joypad", type = "object", classname = "ComScript", value = nil },
-    footstep1_sound = { label = "Footstep1 sound", type = "object", classname = "SoundAsset", value = nil },
-    footstep2_sound = { label = "Footstep2 sound", type = "object", classname = "SoundAsset", value = nil },
-    footstep3_sound = { label = "Footstep3 sound", type = "object", classname = "SoundAsset", value = nil },
-    footstep4_sound = { label = "Footstep4 sound", type = "object", classname = "SoundAsset", value = nil },
-    slide_sound = { label = "Slide sound", type = "object", classname = "SoundAsset", value = nil }
+    footstep1_sound = { label = "Sounds/Footstep1", type = "object", classname = "SoundAsset", value = nil },
+    footstep2_sound = { label = "Sounds/Footstep2", type = "object", classname = "SoundAsset", value = nil },
+    footstep3_sound = { label = "Sounds/Footstep3", type = "object", classname = "SoundAsset", value = nil },
+    footstep4_sound = { label = "Sounds/Footstep4", type = "object", classname = "SoundAsset", value = nil },
+    slide_sound = { label = "Sounds/Slide", type = "object", classname = "SoundAsset", value = nil }
 }
 
 property_names = {
@@ -32,6 +32,7 @@ property_names = {
 }
 
 m = {
+    last_touch_position = Point(0, 0),
     gravity = 0,
 
     footsteps = {},
@@ -72,7 +73,7 @@ function start()
     rigid_body:cast_rigid_body():set_mass(0)
     --rigid_body:cast_rigid_body():set_kinematic(true)
     local socket_joint = m.dragger_entity:new_component(blueshift.ComSocketJoint.meta_object)
-    socket_joint:cast_socket_joint():set_impulse_clamp(50)
+    socket_joint:cast_socket_joint():set_impulse_clamp(30)
 
     m.gravity = blueshift.meter_to_unit(properties.gravity.value)
 
@@ -116,22 +117,22 @@ function gen_user_cmd(dx, dy)
     end
 
     if properties.joypad_r.value then
-	    local joypad_r = properties.joypad_r.value:cast_script()
-	    if joypad_r then
-	        local joypad_r_state = _G[joypad_r:sandbox_name()]
-	        local knob_delta = joypad_r_state.m.knob_delta
-	        m.user_cmd.wish_delta_angles:set_pitch(m.user_cmd.wish_delta_angles:pitch() - knob_delta:y())
-	        m.user_cmd.wish_delta_angles:set_yaw(m.user_cmd.wish_delta_angles:yaw() - knob_delta:x())
-	    end
-   	end    
+        local joypad_r = properties.joypad_r.value:cast_script()
+        if joypad_r then
+            local joypad_r_state = _G[joypad_r:sandbox_name()]
+            local knob_delta = joypad_r_state.m.knob_delta
+            m.user_cmd.wish_delta_angles:set_pitch(m.user_cmd.wish_delta_angles:pitch() - knob_delta:y())
+            m.user_cmd.wish_delta_angles:set_yaw(m.user_cmd.wish_delta_angles:yaw() - knob_delta:x())
+        end
+    end    
 
     if m.user_cmd.wish_delta_angles:yaw() > 0.01 then
-		m.wish_turn = 1
-	elseif m.user_cmd.wish_delta_angles:yaw() < -0.01 then
-		m.wish_turn = -1
-	else
-		m.wish_turn = 0
-	end
+        m.wish_turn = 1
+    elseif m.user_cmd.wish_delta_angles:yaw() < -0.01 then
+        m.wish_turn = -1
+    else
+        m.wish_turn = 0
+    end
 
     local key_move = false
     if Input.is_key_pressed(Input.KeyCode.W) then
@@ -163,22 +164,22 @@ function gen_user_cmd(dx, dy)
     end
 
     if properties.joypad_l.value then
-	    local joypad_l = properties.joypad_l.value:cast_script()
-	    if joypad_l then
-	        local joypad_l_state = _G[joypad_l:sandbox_name()]
-	        local knob_delta = joypad_l_state.m.knob_delta
-	        if knob_delta:length() >= 0.1 then
-	            m.user_cmd.wish_direction:set_x(m.user_cmd.wish_direction:x() - knob_delta:y())
-	            m.user_cmd.wish_direction:set_y(m.user_cmd.wish_direction:y() - knob_delta:x())
+        local joypad_l = properties.joypad_l.value:cast_script()
+        if joypad_l then
+            local joypad_l_state = _G[joypad_l:sandbox_name()]
+            local knob_delta = joypad_l_state.m.knob_delta
+            if knob_delta:length() >= 0.1 then
+                m.user_cmd.wish_direction:set_x(m.user_cmd.wish_direction:x() - knob_delta:y())
+                m.user_cmd.wish_direction:set_y(m.user_cmd.wish_direction:y() - knob_delta:x())
 
-	            local t = m.user_cmd.wish_direction:normalize()
-	            if t >= 0.1 then
-	                t = (t - 0.1) / 0.9
-	                m.user_cmd.wish_speed = 2.0 * t + 1.0 * (1.0 - t)
-	            end
-	        end
-	    end
-	end
+                local t = m.user_cmd.wish_direction:normalize()
+                if t >= 0.1 then
+                    t = (t - 0.1) / 0.9
+                    m.user_cmd.wish_speed = 2.0 * t + 1.0 * (1.0 - t)
+                end
+            end
+        end
+    end
 
     if key_move then
         if m.user_cmd.wish_direction:length_squared() > 0 then
@@ -198,7 +199,7 @@ function handle_mouse_shoot()
         local camera = m.camera_entity:camera()
         local mouse_pos = Input.mouse_pos()
         local ray = camera:screen_to_ray(mouse_pos)
-        local min_scale = blueshift.meter_to_unit(100)
+        local min_scale = blueshift.meter_to_unit(100)        
         local cast_result = Physics.CastResult()
 
         if Physics.ray_cast(ray:origin(), ray:distance_point(min_scale), Physics.FilterGroup.DefaultGroup, Physics.FilterGroup.DefaultGroup, cast_result) then
@@ -231,6 +232,8 @@ function handle_mouse_joint()
                     m.old_picking_dist = max_dist * cast_result:fraction()
 
                     m.clicked_id = touch:id()
+
+                    m.last_touch_position:assign(touch:position())
                 end
             end
         elseif touch:phase() == Input.Touch.Ended or touch:phase() == Input.Touch.Canceled then
@@ -241,6 +244,15 @@ function handle_mouse_joint()
             if touch:id() == m.clicked_id then
                 local camera = m.camera_entity:camera()
                 local ray = camera:screen_to_ray(touch:position())
+
+                m.dragger_entity:socket_joint():set_local_anchor(ray:distance_point(m.old_picking_dist))
+
+                m.last_touch_position:assign(touch:position())
+            end
+        else
+            if m.dragger_entity:socket_joint():connected_body() then
+                local camera = m.camera_entity:camera()
+                local ray = camera:screen_to_ray(m.last_touch_position)
 
                 m.dragger_entity:socket_joint():set_local_anchor(ray:distance_point(m.old_picking_dist))
             end
@@ -254,6 +266,7 @@ function update()
 
     -- handle mouse1 clicks on rigid body  
     handle_mouse_joint()
+    --handle_mouse_shoot()
 
     -- handle mouse2 clicks to hide cursor in rotation
     if Input.is_key_down(Input.KeyCode.Mouse2) then

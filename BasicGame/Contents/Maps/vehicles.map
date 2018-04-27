@@ -54,6 +54,7 @@
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "static" : false,
          "tag" : "MainCamera"
       },
       {
@@ -115,6 +116,7 @@
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "static" : true,
          "tag" : "Untagged"
       },
       {
@@ -177,6 +179,7 @@
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "static" : true,
          "tag" : "Untagged"
       },
       {
@@ -239,6 +242,7 @@
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "static" : true,
          "tag" : "Untagged"
       },
       {
@@ -301,6 +305,7 @@
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "static" : true,
          "tag" : "Untagged"
       },
       {
@@ -363,6 +368,7 @@
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "static" : true,
          "tag" : "Untagged"
       },
       {
@@ -425,6 +431,7 @@
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "static" : true,
          "tag" : "Untagged"
       },
       {
@@ -487,6 +494,7 @@
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "static" : true,
          "tag" : "Untagged"
       },
       {
@@ -548,6 +556,7 @@
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "static" : true,
          "tag" : "Untagged"
       },
       {
@@ -595,6 +604,7 @@
          "parent" : "01E55E863009091C000D015CBB56E37E",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "static" : true,
          "tag" : "Untagged"
       },
       {
@@ -642,6 +652,7 @@
          "parent" : "01E55E863009091C000D015CBB56E37E",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "static" : true,
          "tag" : "Untagged"
       },
       {
@@ -689,6 +700,7 @@
          "parent" : "01E55E863009091C000D015CBB56E37E",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "static" : true,
          "tag" : "Untagged"
       },
       {
@@ -736,6 +748,7 @@
          "parent" : "01E55E863009091C000D015CBB56E37E",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "static" : true,
          "tag" : "Untagged"
       },
       {
@@ -778,6 +791,7 @@
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "003B43C81B0C12140020025216E0E4D3",
+         "static" : false,
          "tag" : "Untagged"
       },
       {
@@ -832,6 +846,7 @@
          "parent" : "0050604E250C1214002003AA18801ECE",
          "prefab" : false,
          "prefabSource" : "00463E951B0C12140020025316E0F43A",
+         "static" : false,
          "tag" : "Untagged"
       },
       {
@@ -872,6 +887,7 @@
          "parent" : "00535A9D250C1214002003AA18802368",
          "prefab" : false,
          "prefabSource" : "004B23B71B0C12140020025416E0FD28",
+         "static" : false,
          "tag" : "Untagged"
       },
       {
@@ -926,6 +942,7 @@
          "parent" : "0050604E250C1214002003AA18801ECE",
          "prefab" : false,
          "prefabSource" : "003E0D541B0C12140020025316E0E8BD",
+         "static" : false,
          "tag" : "Untagged"
       },
       {
@@ -966,6 +983,7 @@
          "parent" : "005B3290250C1214002003AB18802E83",
          "prefab" : false,
          "prefabSource" : "004360B31B0C12140020025316E0F04C",
+         "static" : false,
          "tag" : "Untagged"
       },
       {
@@ -989,6 +1007,7 @@
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "static" : false,
          "tag" : "Untagged"
       },
       {
@@ -1050,6 +1069,7 @@
          "parent" : "0028376B04030D17003000FDA80B5DBC",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "static" : false,
          "tag" : "Untagged"
       },
       {
@@ -1132,6 +1152,7 @@
          "parent" : "0028376B04030D17003000FDA80B5DBC",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "static" : false,
          "tag" : "Untagged"
       },
       {
@@ -1214,6 +1235,7 @@
          "parent" : "0028376B04030D17003000FDA80B5DBC",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "static" : false,
          "tag" : "Untagged"
       },
       {
@@ -1296,6 +1318,7 @@
          "parent" : "0028376B04030D17003000FDA80B5DBC",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "static" : false,
          "tag" : "Untagged"
       },
       {
@@ -1378,6 +1401,7 @@
          "parent" : "0028376B04030D17003000FDA80B5DBC",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "static" : false,
          "tag" : "Untagged"
       },
       {
@@ -1421,6 +1445,7 @@
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "static" : true,
          "tag" : "Untagged"
       },
       {
@@ -1471,6 +1496,7 @@
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "003F39C12C041101002D02C2FEF1EA21",
+         "static" : false,
          "tag" : "Untagged"
       },
       {
@@ -1494,6 +1520,7 @@
          "parent" : "00595BCF38041101002D01DB01693BD9",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "static" : false,
          "tag" : "Untagged"
       },
       {
@@ -1517,6 +1544,7 @@
          "parent" : "00595BCF38041101002D01DB01693BD9",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "static" : false,
          "tag" : "Untagged"
       },
       {
@@ -1564,6 +1592,7 @@
          "parent" : "00595BCF38041101002D01DB01693BD9",
          "prefab" : false,
          "prefabSource" : "005326D62C041101002D02C2FEF1F3B9",
+         "static" : false,
          "tag" : "Untagged"
       },
       {
@@ -1620,6 +1649,7 @@
          "parent" : "00595BCF38041101002D01DB01693BD9",
          "prefab" : false,
          "prefabSource" : "004F39952C041101002D02C2FEF1F0A7",
+         "static" : false,
          "tag" : "Untagged"
       },
       {
@@ -1676,6 +1706,7 @@
          "parent" : "00595BCF38041101002D01DB01693BD9",
          "prefab" : false,
          "prefabSource" : "004B23392C041101002D02C2FEF1EE11",
+         "static" : false,
          "tag" : "Untagged"
       },
       {
@@ -1732,6 +1763,7 @@
          "parent" : "00595BCF38041101002D01DB01693BD9",
          "prefab" : false,
          "prefabSource" : "00475B942C041101002D02C2FEF1EFCB",
+         "static" : false,
          "tag" : "Untagged"
       },
       {
@@ -1788,6 +1820,7 @@
          "parent" : "00595BCF38041101002D01DB01693BD9",
          "prefab" : false,
          "prefabSource" : "00432B6F2C041101002D02C2FEF1ED76",
+         "static" : false,
          "tag" : "Untagged"
       },
       {
@@ -1810,7 +1843,7 @@
                "enabled" : true,
                "fallOffExponent" : 2.0,
                "guid" : "000C7EA90E040E11002700A33B44E84A",
-               "intensity" : 8.0,
+               "intensity" : 12.0,
                "lightSize" : "2000 1200 1200",
                "lightType" : 1,
                "lightZNear" : 30.0,
@@ -1831,6 +1864,7 @@
          "parent" : "00595BCF38041101002D01DB01693BD9",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "static" : false,
          "tag" : "Untagged"
       },
       {
@@ -1873,6 +1907,7 @@
          "parent" : "00595BCF38041101002D01DB01693BD9",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "static" : false,
          "tag" : "Untagged"
       },
       {
@@ -1935,6 +1970,7 @@
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "static" : true,
          "tag" : "Untagged"
       },
       {
@@ -1997,6 +2033,7 @@
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "static" : true,
          "tag" : "Untagged"
       },
       {
@@ -2059,6 +2096,7 @@
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "static" : true,
          "tag" : "Untagged"
       },
       {
@@ -2121,6 +2159,7 @@
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "static" : true,
          "tag" : "Untagged"
       },
       {
@@ -2183,6 +2222,7 @@
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "static" : true,
          "tag" : "Untagged"
       },
       {
@@ -2245,12 +2285,13 @@
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "static" : true,
          "tag" : "Untagged"
       }
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "000244B537040F1100190128863D3891",
+      "guid" : "000259E215041116002701A9B177D2B7",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1
