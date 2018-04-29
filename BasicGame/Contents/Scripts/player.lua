@@ -66,6 +66,20 @@ m = {
 }
 
 function start()
+	--[[
+	if Common.platform_id() ~= Common.PlatformId.IOS and Common.platform_id() ~= Common.PlatformId.Android then
+		if properties.joypad_l.value then
+			local joypad_l = properties.joypad_l.value:cast_script()
+			joypad_l:entity():set_active(false)
+		end
+
+		if properties.joypad_r.value then
+			local joypad_r = properties.joypad_r.value:cast_script()
+			joypad_r:entity():set_active(false)
+		end
+	end
+	--]]
+
     m.camera_entity = owner.game_world:find_entity_by_tag("MainCamera")
 
     m.dragger_entity = owner.game_world:create_empty_entity("Mouse Dragger")
