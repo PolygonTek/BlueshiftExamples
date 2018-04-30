@@ -1434,8 +1434,7 @@
                "shadowOffsetFactor" : 3.0,
                "shadowOffsetUnits" : 200.0,
                "timeScale" : 1.0,
-               "timerOffset" : 0.0,
-               "turnOn" : true
+               "timerOffset" : 0.0
             }
          ],
          "frozen" : false,
@@ -1853,8 +1852,7 @@
                "shadowOffsetFactor" : 3.0,
                "shadowOffsetUnits" : 200.0,
                "timeScale" : 1.0,
-               "timerOffset" : 0.0,
-               "turnOn" : true
+               "timerOffset" : 0.0
             }
          ],
          "frozen" : false,
@@ -1890,7 +1888,7 @@
                "fov" : 60.0,
                "guid" : "0030114A2D040F11001F0309CFAE80A9",
                "h" : 0.25,
-               "layerMask" : 3,
+               "layerMask" : 1,
                "near" : 10.0,
                "order" : 2,
                "projection" : 0,
@@ -2291,7 +2289,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "000259E215041116002701A9B177D2B7",
+      "guid" : "0002603F2F04141D002700679DE15C10",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1
