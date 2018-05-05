@@ -255,7 +255,7 @@
                "enabled" : true,
                "fallOffExponent" : 1.25,
                "guid" : "02986BB30E090B19002E01C772F79239",
-               "intensity" : 1.7990000247955322,
+               "intensity" : 1.7999999523162842,
                "lightSize" : "10000 10000 10000",
                "lightType" : 2,
                "lightZNear" : 10.0,
@@ -265,8 +265,7 @@
                "shadowOffsetFactor" : 3.0,
                "shadowOffsetUnits" : 200.0,
                "timeScale" : 1.0,
-               "timerOffset" : 0.0,
-               "turnOn" : true
+               "timerOffset" : 0.0
             }
          ],
          "frozen" : false,
@@ -484,7 +483,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "00025F633004081A003401B0B9EEE9DF",
+      "guid" : "000241DE32051100001702ABB7CE3B8A",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1

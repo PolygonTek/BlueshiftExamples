@@ -5,7 +5,7 @@ local Mat3 = blueshift.Mat3
 properties = {
 	position_target = { label = "Position Target", type = "object", classname = "ComTransform", value = nil },
 	look_at_target = { label = "Look At Target", type = "object", classname = "ComTransform", value = nil },
-	vehicle = { label = "vehicle body", type = "object", classname = "Entity", value = nil }
+	vehicle = { label = "Vehicle Body", type = "object", classname = "Entity", value = nil }
 }
 
 property_names = {

@@ -1842,7 +1842,7 @@
                "enabled" : true,
                "fallOffExponent" : 2.0,
                "guid" : "000C7EA90E040E11002700A33B44E84A",
-               "intensity" : 12.0,
+               "intensity" : 8.0,
                "lightSize" : "2000 1200 1200",
                "lightType" : 1,
                "lightZNear" : 30.0,
@@ -2289,7 +2289,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "0002603F2F04141D002700679DE15C10",
+      "guid" : "00024B2E24051700001C0017A1D20202",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1

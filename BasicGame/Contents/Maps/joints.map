@@ -1348,8 +1348,7 @@
                "shadowOffsetFactor" : 3.0,
                "shadowOffsetUnits" : 200.0,
                "timeScale" : 1.0,
-               "timerOffset" : 0.0,
-               "turnOn" : true
+               "timerOffset" : 0.0
             }
          ],
          "frozen" : false,
@@ -2403,7 +2402,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "0002489D0A040B160006038662230788",
+      "guid" : "0002554A19050A02000402D294E0FD54",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1

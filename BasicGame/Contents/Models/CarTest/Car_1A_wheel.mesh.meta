@@ -1,9 +1,9 @@
 {
    "classname" : "MeshAsset",
-   "guid" : "004A684A1C04111A0027023197A7F85C",
+   "guid" : "002520B319050F040007021DE94CE47C",
    "importer" : {
       "classname" : "MeshImporter",
-      "guid" : "004B4B591C04111A0027023197A7FB90",
+      "guid" : "002647C419050F040007021DE94CE7ED",
       "importMaterials" : true,
       "materialNaming" : 0,
       "materialSearch" : 1,
@@ -12,8 +12,8 @@
       "normalGenerationThreshold" : 60.0,
       "normals" : 0,
       "optimize" : true,
-      "prefabEntityGuid" : "004C75BA1C04111A0027023197A7FAEE",
+      "prefabEntityGuid" : "0027665019050F040007021DE94CE65B",
       "tangents" : 2
    },
-   "timeStamp" : "636608596830000000"
+   "timeStamp" : "636610972450000000"
 }

@@ -1,0 +1,9 @@
+{
+   "classname" : "SoundAsset",
+   "guid" : "001915EB24040D030037008E232B09E7",
+   "importer" : {
+      "classname" : "SoundImporter",
+      "guid" : "001A6E8D24040D030037008E232B09CE"
+   },
+   "timeStamp" : "632097505460000000"
+}
