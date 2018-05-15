@@ -19,7 +19,7 @@ pass {
     detailRepeat "8.0000"
     _PARALLAX "1"
     heightMap "00A236FF0D070B18002A01410718FC69"
-    heightScale "0.3000"
+    heightScale "0.1000"
     _OCCLUSION "1"
     occlusionMap "009C5CBD0D070B18002A0021070D73DE"
     occlusionStrength "1.0000"

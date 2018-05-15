@@ -11,6 +11,7 @@
       "importSkeleton" : true,
       "importTranslation" : "0 0 0",
       "importUniformScale" : 1.0,
+      "mergeMeshes" : true,
       "targetSkeleton" : "00000000000000000000000000000000"
    },
    "timeStamp" : "636419322480000000"

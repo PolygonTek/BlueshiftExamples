@@ -10,7 +10,7 @@
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "005159E4250C1214002003AA18801E21",
-               "origin" : "5100 0 490",
+               "origin" : "30 0 5",
                "scale" : "1 1 1"
             },
             {
@@ -19,15 +19,15 @@
                "clearAlpha" : 0.0,
                "clearColor" : "0 0 0",
                "enabled" : true,
-               "far" : 400.0,
+               "far" : 4.0,
                "fov" : 45.0,
                "guid" : "005219D4250C1214002003AA18801E28",
                "h" : 1.0,
                "layerMask" : 2,
-               "near" : 10.0,
+               "near" : 0.10000000149011612,
                "order" : 1,
                "projection" : 1,
-               "size" : 736.0,
+               "size" : 7.3600001335144043,
                "w" : 1.0,
                "x" : 0.0,
                "y" : 0.0
@@ -53,7 +53,7 @@
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "005C7136250C1214002003AB18802E8B",
-               "origin" : "200 550 -230",
+               "origin" : "2 5.5 -2.3",
                "scale" : "2.5 2.5 2.5"
             },
             {
@@ -77,7 +77,7 @@
                "center" : "0 0 0",
                "classname" : "ComBoxCollider",
                "enabled" : true,
-               "extents" : "0.25 50 50",
+               "extents" : "0.002 0.5 0.5",
                "guid" : "005E768A250C1214002003AB18802E98"
             },
             {
@@ -108,7 +108,7 @@
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "006108F5250C1214002003AC18803459",
-               "origin" : "2 0 0",
+               "origin" : "0.02 0 0",
                "scale" : "0.5 0.5 0.5"
             },
             {
@@ -149,7 +149,7 @@
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "00544264250C1214002003AA18802370",
-               "origin" : "200 -550 -230",
+               "origin" : "2 -5.5 -2.3",
                "scale" : "2.5 2.5 2.5"
             },
             {
@@ -173,7 +173,7 @@
                "center" : "0 0 0",
                "classname" : "ComBoxCollider",
                "enabled" : true,
-               "extents" : "0.25 50 50",
+               "extents" : "0.002 0.5 0.5",
                "guid" : "00560784250C1214002003AA1880237D"
             },
             {
@@ -204,7 +204,7 @@
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "0059522D250C1214002003AB18802A09",
-               "origin" : "2 0 0",
+               "origin" : "0.02 0 0",
                "scale" : "0.5 0.5 0.5"
             },
             {
@@ -245,7 +245,7 @@
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "0297635D0E090B19002E01C772F7903D",
-               "origin" : "-5317.1753 -88.8218 2887.4246",
+               "origin" : "-25.575 -23.2 57.625",
                "scale" : "1 1 1"
             },
             {
@@ -256,7 +256,7 @@
                "fallOffExponent" : 1.25,
                "guid" : "02986BB30E090B19002E01C772F79239",
                "intensity" : 1.7999999523162842,
-               "lightSize" : "10000 10000 10000",
+               "lightSize" : "100 100 100",
                "lightType" : 2,
                "lightZNear" : 10.0,
                "material" : "00000000000000000000000000000130",
@@ -300,7 +300,7 @@
                "enabled" : true,
                "guid" : "01E72B683009091C000D015DBB56E998",
                "materials" : [ "000A514736071507003503907FFFFFFF" ],
-               "maxVisDist" : 16384.0,
+               "maxVisDist" : 1000.0,
                "mesh" : "00000000000000000000000000000192",
                "occluder" : false,
                "receiveShadows" : true,
@@ -309,10 +309,10 @@
                "useLightProve" : true
             },
             {
-               "center" : "0 0 -0.2",
+               "center" : "0 0 -0.001",
                "classname" : "ComBoxCollider",
                "enabled" : true,
-               "extents" : "500 500 0.2",
+               "extents" : "5 5 0.001",
                "guid" : "01E839193009091C000D015DBB56ECB4"
             },
             {
@@ -350,7 +350,7 @@
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "01EC06523009091C000F02AFCE358889",
-               "origin" : "-660.8843 -0.8841 0.4301",
+               "origin" : "-8 0 0.0043",
                "scale" : "1 1 1"
             },
             {
@@ -366,7 +366,7 @@
                   "08C076652B0A0E0D002D0222F204A100",
                   "08C860962B0A0E0D002D026BF2078DB4"
                ],
-               "maxVisDist" : 16384.0,
+               "maxVisDist" : 1000.0,
                "mesh" : "01F9573A090A171E00190109B6D2A612",
                "receiveShadows" : true,
                "timeOffset" : 0.0,
@@ -374,14 +374,14 @@
                "useLightProve" : true
             },
             {
-               "capsuleHeight" : 120.0,
-               "capsuleRadius" : 35.0,
+               "capsuleHeight" : 1.2000000476837158,
+               "capsuleRadius" : 0.34999999403953552,
                "classname" : "ComCharacterController",
                "enabled" : true,
-               "guid" : "01EE61431D09091C00110381DE144B2A",
+               "guid" : "000B71CA1105100D002F031CAA47FFEE",
                "mass" : 10.0,
                "slopeLimit" : 60.0,
-               "stepOffset" : 40.0
+               "stepOffset" : 0.40000000596046448
             },
             {
                "classname" : "ComScript",
@@ -418,7 +418,7 @@
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "01DE4B6F1709111D00300042916A2389",
-               "origin" : "0 0 159.9706",
+               "origin" : "0 0 1.6",
                "scale" : "1 1 1"
             },
             {
@@ -447,7 +447,7 @@
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "02153BD3290917190021039372E79CAC",
-               "origin" : "-342.9025 0 339.9917",
+               "origin" : "-3.4 0 3.4",
                "scale" : "1 1 1"
             },
             {
@@ -456,12 +456,12 @@
                "clearAlpha" : 0.0,
                "clearColor" : "0 0 0",
                "enabled" : true,
-               "far" : 8192.0,
+               "far" : 500.0,
                "fov" : 60.0,
                "guid" : "02160690290917190021039372E79EA5",
                "h" : 1.0,
                "layerMask" : 1,
-               "near" : 10.0,
+               "near" : 0.10000000149011612,
                "order" : 0,
                "projection" : 0,
                "size" : 1000.0,
@@ -483,7 +483,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "000241DE32051100001702ABB7CE3B8A",
+      "guid" : "000221912D05120D0009013EB705B54A",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1

@@ -7,7 +7,11 @@
       "guid" : "04470F760D0B081D000D02A38AD55727",
       "importAnimation" : false,
       "importMesh" : true,
+      "importRotation" : "0 0 0",
       "importSkeleton" : false,
+      "importTranslation" : "0 0 0",
+      "importUniformScale" : 1.0,
+      "mergeMeshes" : true,
       "targetSkeleton" : "00000000000000000000000000000000"
    },
    "timeStamp" : "636419322480000000"

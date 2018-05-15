@@ -87,7 +87,7 @@ function start()
     rigid_body:cast_rigid_body():set_mass(0)
     --rigid_body:cast_rigid_body():set_kinematic(true)
     local socket_joint = m.dragger_entity:new_component(blueshift.ComSocketJoint.meta_object)
-    socket_joint:cast_socket_joint():set_impulse_clamp(30)
+    socket_joint:cast_socket_joint():set_impulse_clamp(0.3)
 
     m.gravity = blueshift.meter_to_unit(properties.gravity.value)
 
