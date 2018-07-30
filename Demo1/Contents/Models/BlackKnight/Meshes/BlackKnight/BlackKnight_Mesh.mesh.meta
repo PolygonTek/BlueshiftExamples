@@ -1,0 +1,16 @@
+{
+   "classname" : "MeshAsset",
+   "guid" : "0008551933060B16002D0348AC3A2F7F",
+   "importer" : {
+      "classname" : "MeshImporter",
+      "guid" : "0009515D33060B16002D0348AC3A2E12",
+      "maxSkinningWeights" : 4,
+      "merge" : true,
+      "normalGenerationThreshold" : 60.0,
+      "normals" : 0,
+      "optimize" : true,
+      "prefabEntityGuid" : "000A7D0E33060B16002D0348AC3A3307",
+      "tangents" : 2
+   },
+   "timeStamp" : "636664416070000000"
+}

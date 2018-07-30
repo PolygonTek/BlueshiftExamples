@@ -1,0 +1,725 @@
+[
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "angles" : "0 -0 0",
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "00E064220E070B050028016917F8C3D9",
+            "origin" : "0 0 0",
+            "scale" : "1 1 1"
+         },
+         {
+            "animIndex" : 0,
+            "anims" : [ "04B4521B03070A010023037DB4591C16" ],
+            "classname" : "ComAnimation",
+            "enabled" : true,
+            "guid" : "00E10AB40E070B050028016917F8C351",
+            "skeleton" : "00174FAD35060B16002D0013AC797750",
+            "timeOffset" : 0.0,
+            "timeScale" : 1.0
+         }
+      ],
+      "frozen" : false,
+      "guid" : "001D52BD37060B15001300E3AD206974",
+      "layer" : 0,
+      "name" : "BlackKnight",
+      "parent" : "00000000000000000000000000000000",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "static" : false,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "angles" : "0 -0 0",
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "00FD5B400E070B050028016B17F8DF57",
+            "origin" : "0 0 0",
+            "scale" : "0.0394 0.0394 0.0394"
+         },
+         {
+            "alpha" : 1.0,
+            "billboard" : false,
+            "castShadows" : true,
+            "classname" : "ComSkinnedMeshRenderer",
+            "color" : "1 1 1",
+            "enabled" : true,
+            "guid" : "00FE0A3F0E070B050028016B17F8DEF3",
+            "materials" : [ "000F165822051400001C00BECA53381A" ],
+            "maxVisDist" : 1000.0,
+            "mesh" : "0008551933060B16002D0348AC3A2F7F",
+            "receiveShadows" : true,
+            "root" : "001D52BD37060B15001300E3AD206974",
+            "timeOffset" : 0.0,
+            "timeScale" : 1.0,
+            "useLightProve" : true
+         }
+      ],
+      "frozen" : false,
+      "guid" : "0039082537060B15001300E6AD2091B5",
+      "layer" : 0,
+      "name" : "BlackKnight_Mesh",
+      "parent" : "001D52BD37060B15001300E3AD206974",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "static" : false,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "angles" : "0 -0 0",
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "00E2491A0E070B050028016917F8C583",
+            "origin" : "0 0 0",
+            "scale" : "0.0394 0.0394 0.0394"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "001E340E37060B15001300E3AD206BCB",
+      "layer" : 0,
+      "name" : "b_MF_Root",
+      "parent" : "001D52BD37060B15001300E3AD206974",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "static" : false,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "angles" : "180 -0 90",
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "00E323C10E070B050028016917F8C4B0",
+            "origin" : "-13.5182 -1.4059 802.8672",
+            "scale" : "25.4 25.4 25.4"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "001F6BC137060B15001300E3AD206A40",
+      "layer" : 0,
+      "name" : "b_MF_Pelvis",
+      "parent" : "001E340E37060B15001300E3AD206BCB",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "static" : false,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "angles" : "-2.06 -0 0",
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "00EB7C890E070B050028016A17F8CCB0",
+            "origin" : "-0.4642 3.9405 0",
+            "scale" : "1 1 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "00270F4837060B15001300E4AD20762E",
+      "layer" : 0,
+      "name" : "b_MF_Spine_01",
+      "parent" : "001F6BC137060B15001300E3AD206A40",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "static" : false,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "angles" : "-6.43 -0 -0",
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "00EC5C8E0E070B050028016A17F8CC5E",
+            "origin" : "0.0027 3.3654 0",
+            "scale" : "1 1 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "0028069337060B15001300E4AD207946",
+      "layer" : 0,
+      "name" : "b_MF_Spine_02",
+      "parent" : "00270F4837060B15001300E4AD20762E",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "static" : false,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "angles" : "13.47 -0 0",
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "00ED06310E070B050028016A17F8CF48",
+            "origin" : "0.004 5.0651 -0",
+            "scale" : "1 1 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "0029036137060B15001300E5AD207B9D",
+      "layer" : 0,
+      "name" : "b_MF_Spine_03",
+      "parent" : "0028069337060B15001300E4AD207946",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "static" : false,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "angles" : "175.76 11.91 -87.19",
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "00F61BEA0E070B050028016B17F8D930",
+            "origin" : "0.2247 2.7523 -1.6608",
+            "scale" : "1 1 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "00320D3637060B15001300E5AD2087E5",
+      "layer" : 0,
+      "name" : "b_MF_Clavicle_R",
+      "parent" : "0029036137060B15001300E5AD207B9D",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "static" : false,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "angles" : "-5.03 -3.97 36.96",
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "00F756940E070B050028016B17F8D8DE",
+            "origin" : "-0 5.5144 0",
+            "scale" : "1 1 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "003379F337060B15001300E6AD208657",
+      "layer" : 0,
+      "name" : "b_MF_UpperArm_R",
+      "parent" : "00320D3637060B15001300E5AD2087E5",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "static" : false,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "angles" : "-18.63 -0.47 -4.31",
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "00F91AB00E070B050028016B17F8DAEC",
+            "origin" : "0 8.4077 -0",
+            "scale" : "1 1 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "003541B137060B15001300E6AD208B6F",
+      "layer" : 0,
+      "name" : "b_MF_Forearm_R",
+      "parent" : "003379F337060B15001300E6AD208657",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "static" : false,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "angles" : "87.92 74.21 84.99",
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "00FA6B9B0E070B050028016B17F8DD9A",
+            "origin" : "-0 9.5536 -0",
+            "scale" : "1 1 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "0036509337060B15001300E6AD208DBC",
+      "layer" : 0,
+      "name" : "b_MF_Hand_R",
+      "parent" : "003541B137060B15001300E6AD208B6F",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "static" : false,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "angles" : "0 -0 0",
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "00FC34BA0E070B050028016B17F8DFA9",
+            "origin" : "-0 0 0",
+            "scale" : "1 1 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "0038733837060B15001300E6AD208F64",
+      "layer" : 0,
+      "name" : "b_MF_Weapon_R",
+      "parent" : "0036509337060B15001300E6AD208DBC",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "static" : false,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "angles" : "62.68 0.24 -0.83",
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "00FB246A0E070B050028016B17F8DC81",
+            "origin" : "0.1143 4.0585 0.2601",
+            "scale" : "1 1 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "0037798B37060B15001300E6AD208CD2",
+      "layer" : 0,
+      "name" : "b_MF_Finger_04_R",
+      "parent" : "0036509337060B15001300E6AD208DBC",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "static" : false,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "angles" : "0 1.43 0",
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "00F822B30E070B050028016B17F8DBC5",
+            "origin" : "-0 -0 0",
+            "scale" : "1 1 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "00347CD037060B15001300E6AD2088DF",
+      "layer" : 0,
+      "name" : "b_MF_Armroll_R",
+      "parent" : "003379F337060B15001300E6AD208657",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "static" : false,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "angles" : "175.76 -11.9 87.19",
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "00F00F000E070B050028016A17F8D00F",
+            "origin" : "0.2219 2.7304 1.6577",
+            "scale" : "1 1 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "002C582237060B15001300E5AD207FE2",
+      "layer" : 0,
+      "name" : "b_MF_Clavicle_L",
+      "parent" : "0029036137060B15001300E5AD207B9D",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "static" : false,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "angles" : "-5.01 3.98 -36.97",
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "00F17C120E070B050028016A17F8D33A",
+            "origin" : "-0 5.5081 0",
+            "scale" : "1 1 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "002D277337060B15001300E5AD207E34",
+      "layer" : 0,
+      "name" : "b_MF_UpperArm_L",
+      "parent" : "002C582237060B15001300E5AD207FE2",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "static" : false,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "angles" : "-18.67 0.47 4.32",
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "00F3325C0E070B050028016B17F8D4AF",
+            "origin" : "0 8.3775 0",
+            "scale" : "1 1 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "002F28B537060B15001300E5AD2083E0",
+      "layer" : 0,
+      "name" : "b_MF_Forearm_L",
+      "parent" : "002D277337060B15001300E5AD207E34",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "static" : false,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "angles" : "87.95 -74.2 -84.98",
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "00F42FEB0E070B050028016B17F8D71D",
+            "origin" : "0 9.5269 0",
+            "scale" : "1 1 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "003033EF37060B15001300E5AD20820A",
+      "layer" : 0,
+      "name" : "b_MF_Hand_L",
+      "parent" : "002F28B537060B15001300E5AD2083E0",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "static" : false,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "angles" : "0 -0 0",
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "00F54C1A0E070B050028016B17F8D60E",
+            "origin" : "0 -0 -0",
+            "scale" : "1 1 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "00316CDC37060B15001300E5AD20855A",
+      "layer" : 0,
+      "name" : "b_MF_Weapon_L",
+      "parent" : "003033EF37060B15001300E5AD20820A",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "static" : false,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "angles" : "0 -1.43 0",
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "00F2481F0E070B050028016A17F8D222",
+            "origin" : "0 0 0",
+            "scale" : "1 1 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "002E6BAA37060B15001300E5AD208148",
+      "layer" : 0,
+      "name" : "b_MF_Armroll_L",
+      "parent" : "002D277337060B15001300E5AD207E34",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "static" : false,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "angles" : "14.86 -0 0",
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "00EE09230E070B050028016A17F8CE77",
+            "origin" : "0.3237 6.0567 -0",
+            "scale" : "1 1 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "002A39D637060B15001300E5AD207A31",
+      "layer" : 0,
+      "name" : "b_MF_Neck",
+      "parent" : "0029036137060B15001300E5AD207B9D",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "static" : false,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "angles" : "-19.84 1.19 0",
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "00EF29F30E070B050028016A17F8D162",
+            "origin" : "0 3.0359 0",
+            "scale" : "1 1 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "002B510A37060B15001300E5AD207D4B",
+      "layer" : 0,
+      "name" : "b_MF_Head",
+      "parent" : "002A39D637060B15001300E5AD207A31",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "static" : false,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "angles" : "-1.91 -0.03 177.58",
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "00E804B00E070B050028016A17F8CBF0",
+            "origin" : "0.0343 -0.155 4.2711",
+            "scale" : "1 1 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "00241D8B37060B15001300E4AD207231",
+      "layer" : 0,
+      "name" : "b_MF_Thigh_L",
+      "parent" : "001F6BC137060B15001300E3AD206A40",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "static" : false,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "angles" : "-8.75 -0.05 2.55",
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "00E9549A0E070B050028016A17F8CA9D",
+            "origin" : "-0 13.9274 0",
+            "scale" : "1 1 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "00254C4237060B15001300E4AD207541",
+      "layer" : 0,
+      "name" : "b_MF_Calf_L",
+      "parent" : "00241D8B37060B15001300E4AD207231",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "static" : false,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "angles" : "28.37 0.41 0.05",
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "00EA55360E070B050028016A17F8CD85",
+            "origin" : "0 14.1703 0",
+            "scale" : "1 1 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "0026219A37060B15001300E4AD207796",
+      "layer" : 0,
+      "name" : "b_MF_Foot_L",
+      "parent" : "00254C4237060B15001300E4AD207541",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "static" : false,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "angles" : "-1.91 0.03 -177.58",
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "00E56FCF0E070B050028016A17F8C62E",
+            "origin" : "0.0343 -0.155 -4.2475",
+            "scale" : "1 1 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "00213D2D37060B15001300E4AD206E37",
+      "layer" : 0,
+      "name" : "b_MF_Thigh_R",
+      "parent" : "001F6BC137060B15001300E3AD206A40",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "static" : false,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "angles" : "-8.75 0.05 -2.55",
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "00E600890E070B050028016A17F8C9DB",
+            "origin" : "0 13.9274 0",
+            "scale" : "1 1 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "0022376337060B15001300E4AD207149",
+      "layer" : 0,
+      "name" : "b_MF_Calf_R",
+      "parent" : "00213D2D37060B15001300E4AD206E37",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "static" : false,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "angles" : "32.79 -0.41 -0.08",
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "00E7247C0E070B050028016A17F8C8C4",
+            "origin" : "0 14.1704 0",
+            "scale" : "1 1 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "0023151137060B15001300E4AD2073E3",
+      "layer" : 0,
+      "name" : "b_MF_Foot_R",
+      "parent" : "0022376337060B15001300E4AD207149",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "static" : false,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "angles" : "-180 -0 90",
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "00E40DB60E070B050028016917F8C7A5",
+            "origin" : "-5.6953 -0.8283 0.0007",
+            "scale" : "1 1 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "0020252637060B15001300E4AD206F9E",
+      "layer" : 0,
+      "name" : "b_MF_LoinCloth_Front",
+      "parent" : "001F6BC137060B15001300E3AD206A40",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "static" : false,
+      "tag" : "Untagged"
+   }
+]

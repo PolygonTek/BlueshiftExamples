@@ -1,0 +1,43 @@
+[
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "angles" : "0 -89.98 0",
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "003765911C070B050032017298A2BB8B",
+            "origin" : "0 0 0",
+            "scale" : "1 1 1"
+         },
+         {
+            "alpha" : 1.0,
+            "billboard" : false,
+            "castShadows" : true,
+            "classname" : "ComStaticMeshRenderer",
+            "color" : "1 1 1",
+            "enabled" : true,
+            "guid" : "003877A41C070B050032017298A2BAE5",
+            "materials" : [ "00A900B227070B1A003A017486F9E6E0" ],
+            "maxVisDist" : 1000.0,
+            "mesh" : "00D42B612E071204002702C2AE4656F4",
+            "occluder" : false,
+            "receiveShadows" : true,
+            "timeOffset" : 0.0,
+            "timeScale" : 1.0,
+            "useLightProve" : true
+         }
+      ],
+      "frozen" : false,
+      "guid" : "004B5BDE35061116000301AB4ABA96E1",
+      "layer" : 0,
+      "name" : "Cerberus_LP",
+      "parent" : "00000000000000000000000000000000",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "static" : false,
+      "tag" : "Untagged"
+   }
+]
