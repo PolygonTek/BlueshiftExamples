@@ -2224,8 +2224,8 @@
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "00544264250C1214002003AA18802370",
-               "origin" : "2 -5.5 -2.3",
-               "scale" : "2.5 2.5 2.5"
+               "origin" : "2 -5.224 -2.745",
+               "scale" : "1 2.5 2.5"
             },
             {
                "alpha" : 1.0,
@@ -2255,8 +2255,19 @@
                "classname" : "ComScript",
                "enabled" : true,
                "guid" : "00577313250C1214002003AA18802343",
-               "knob_radius" : 40.0,
+               "knob_radius" : 0.079999998211860657,
                "script" : "00F93EC108010B13002003AD64899094"
+            },
+            {
+               "anchor_max" : "0.95 0.95",
+               "anchor_min" : "0.95 0.95",
+               "anchored_position" : "-1.4 -1.4",
+               "classname" : "ComScript",
+               "enabled" : true,
+               "guid" : "0183272821091007002903B22D1E0CF5",
+               "pivot" : "0.5 0.5",
+               "script" : "01552CAD2F091007001B01927FEAC248",
+               "size_delta" : "2.5 2.5"
             }
          ],
          "frozen" : false,
@@ -2320,8 +2331,8 @@
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "005C7136250C1214002003AB18802E8B",
-               "origin" : "2 5.5 -2.3",
-               "scale" : "2.5 2.5 2.5"
+               "origin" : "2 5.224 -2.745",
+               "scale" : "1 2.5 2.5"
             },
             {
                "alpha" : 1.0,
@@ -2348,10 +2359,21 @@
                "guid" : "005E768A250C1214002003AB18802E98"
             },
             {
+               "anchor_max" : "0.05 0.95",
+               "anchor_min" : "0.05 0.95",
+               "anchored_position" : "1.4 -1.4",
+               "classname" : "ComScript",
+               "enabled" : true,
+               "guid" : "0156546137091007001C03578E42D478",
+               "pivot" : "0.5 0.5",
+               "script" : "01552CAD2F091007001B01927FEAC248",
+               "size_delta" : "2.5 2.5"
+            },
+            {
                "classname" : "ComScript",
                "enabled" : true,
                "guid" : "005F0D4C250C1214002003AB18802E9E",
-               "knob_radius" : 40.0,
+               "knob_radius" : 0.079999998211860657,
                "script" : "00F93EC108010B13002003AD64899094"
             }
          ],
@@ -2409,7 +2431,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "00023BFB11080E13001702703045D16E",
+      "guid" : "00023D1208090F0700320289A699E0A3",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1
