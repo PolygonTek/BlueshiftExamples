@@ -8,7 +8,7 @@
             "angles" : "0 -0 0",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01C849CA3A08121300080277B75817F0",
+            "guid" : "01C07AC0030A0C05001D023A6F1CED24",
             "origin" : "0 0 0",
             "scale" : "1 1 1"
          },
@@ -17,7 +17,7 @@
             "anims" : [ "00000000000000000000000000000000" ],
             "classname" : "ComAnimation",
             "enabled" : true,
-            "guid" : "01C97C5D3A08121300080278B75819E7",
+            "guid" : "01C11A42030A0C05001D023A6F1CECBA",
             "skeleton" : "08DB00DE2C0A0E0D002D0142F223C6A5",
             "timeOffset" : 0.0,
             "timeScale" : 1.0
@@ -42,7 +42,7 @@
             "angles" : "0 -0 0",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "021A00873A0812130008027DB758F070",
+            "guid" : "02122578030A0C05001D023E6F1D2B3D",
             "origin" : "0 0 0",
             "scale" : "1 1 1"
          },
@@ -53,7 +53,7 @@
             "classname" : "ComSkinnedMeshRenderer",
             "color" : "1 1 1",
             "enabled" : true,
-            "guid" : "021B65AF3A0812130008027DB758F23F",
+            "guid" : "02134E71030A0C05001D023E6F1D2B44",
             "materials" : [ "08C860962B0A0E0D002D026BF2078DB4" ],
             "maxVisDist" : 1000.0,
             "mesh" : "003428E40005091200320379C95E7602",
@@ -83,7 +83,7 @@
             "angles" : "0 -0 0",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "021865C93A0812130008027DB758EA2A",
+            "guid" : "02106615030A0C05001D023E6F1D28C1",
             "origin" : "0 0 0",
             "scale" : "1 1 1"
          },
@@ -94,7 +94,7 @@
             "classname" : "ComSkinnedMeshRenderer",
             "color" : "1 1 1",
             "enabled" : true,
-            "guid" : "02192F653A0812130008027DB758ED04",
+            "guid" : "02116863030A0C05001D023E6F1D2808",
             "materials" : [ "08C860962B0A0E0D002D026BF2078DB4" ],
             "maxVisDist" : 1000.0,
             "mesh" : "00251B1E0005091200320332C95AAE22",
@@ -124,7 +124,7 @@
             "angles" : "0 -0 0",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "0216544A3A0812130008027DB758E442",
+            "guid" : "020E53C8030A0C05001D023E6F1D2981",
             "origin" : "0 0 0",
             "scale" : "1 1 1"
          },
@@ -135,7 +135,7 @@
             "classname" : "ComSkinnedMeshRenderer",
             "color" : "1 1 1",
             "enabled" : true,
-            "guid" : "021771BE3A0812130008027DB758E6CF",
+            "guid" : "020F55F8030A0C05001D023E6F1D29CE",
             "materials" : [ "08C860962B0A0E0D002D026BF2078DB4" ],
             "maxVisDist" : 1000.0,
             "mesh" : "00161D9C00050912003202C4C954BE61",
@@ -165,7 +165,7 @@
             "angles" : "0 -0 0",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "021448553A0812130008027DB758E1F0",
+            "guid" : "020C3B08030A0C05001D023E6F1D2760",
             "origin" : "0 0 0",
             "scale" : "1 1 1"
          },
@@ -176,7 +176,7 @@
             "classname" : "ComSkinnedMeshRenderer",
             "color" : "1 1 1",
             "enabled" : true,
-            "guid" : "021556683A0812130008027DB758E0CC",
+            "guid" : "020D6289030A0C05001D023E6F1D26A9",
             "materials" : [ "08C076652B0A0E0D002D0222F204A100" ],
             "maxVisDist" : 1000.0,
             "mesh" : "000702B43A05091200310341C8F02FA3",
@@ -206,8 +206,8 @@
             "angles" : "0 -0 0",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01CA45B13A08121300080278B7581AD3",
-            "origin" : "0.0255 0 0.8321",
+            "guid" : "01C23336030A0C05001D023A6F1CF234",
+            "origin" : "0.0255092 0 0.8320807",
             "scale" : "1 1 1"
          }
       ],
@@ -230,8 +230,8 @@
             "angles" : "0 -0 0",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "021325043A0812130008027DB758DC08",
-            "origin" : "-0.0155 0.01 -0.8221",
+            "guid" : "020B272E030A0C05001D023E6F1D27BD",
+            "origin" : "-0.0155092 0.01 -0.8220807",
             "scale" : "1 1 1"
          }
       ],
@@ -251,12 +251,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "-0.13 1.12 0",
+            "angles" : "-0.1282058 1.1244276 -0.0025159",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01D877023A08121300080279B75840E1",
-            "origin" : "0.0117 -0 0.0772",
-            "scale" : "1 1 1"
+            "guid" : "01D06618030A0C05001D023B6F1CFE37",
+            "origin" : "0.0116621 -0 0.0772201",
+            "scale" : "1.0000005 1.0000005 1"
          }
       ],
       "frozen" : false,
@@ -275,12 +275,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "0 -3.88 0",
+            "angles" : "0.0000001 -3.8810034 0",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01D93D963A08121300080279B7584275",
-            "origin" : "0.0001 -0.0003 0.1203",
-            "scale" : "1 1 1"
+            "guid" : "01D10DA2030A0C05001D023B6F1D0195",
+            "origin" : "0.0001276 -0.000269 0.1202666",
+            "scale" : "0.9999994 1 1.0000004"
          }
       ],
       "frozen" : false,
@@ -299,12 +299,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "0.13 2.76 0",
+            "angles" : "0.128181 2.7565722 0",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "02121FE83A0812130008027CB758DB1A",
-            "origin" : "-0.0698 -0.1521 -0.0743",
-            "scale" : "1 1 1"
+            "guid" : "020A7E2C030A0C05001D023E6F1D24DD",
+            "origin" : "-0.0697615 -0.1520568 -0.0742695",
+            "scale" : "1.0000001 0.9999995 0.9999997"
          }
       ],
       "frozen" : false,
@@ -323,12 +323,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "0.13 2.76 0",
+            "angles" : "0.128181 2.7565722 0",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "021120B73A0812130008027CB758D995",
-            "origin" : "-0.0697 0.1524 -0.0736",
-            "scale" : "1 1 1"
+            "guid" : "02090239030A0C05001D023E6F1D2543",
+            "origin" : "-0.0697288 0.152404 -0.0735891",
+            "scale" : "1.0000001 0.9999995 0.9999997"
          }
       ],
       "frozen" : false,
@@ -347,12 +347,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "0 -6.93 0",
+            "angles" : "0.0000001 -6.9316888 0",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01DA3C643A08121300080279B75847D2",
-            "origin" : "0.0006 -0.0003 0.1151",
-            "scale" : "1 1 1"
+            "guid" : "01D221E6030A0C05001D023B6F1D017B",
+            "origin" : "0.0006258 -0.0002573 0.1151334",
+            "scale" : "1.0000001 1 1"
          }
       ],
       "frozen" : false,
@@ -371,12 +371,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "-69.48 -0.54 -93.95",
+            "angles" : "-69.477623 -0.5449154 -93.9549026",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "020E08143A0812130008027CB758D19C",
-            "origin" : "0.058 -0.0529 0.1563",
-            "scale" : "1 1 1"
+            "guid" : "02064113030A0C05001D023E6F1D22A4",
+            "origin" : "0.0580339 -0.0528713 0.1563222",
+            "scale" : "0.9999996 0.9999998 1.0000002"
          }
       ],
       "frozen" : false,
@@ -395,12 +395,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "-14.73 -3.45 2.01",
+            "angles" : "-14.7310543 -3.4479938 2.0093179",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "020F73993A0812130008027CB758D36F",
-            "origin" : "-0 0.0736 0",
-            "scale" : "1 1 1"
+            "guid" : "020717BA030A0C05001D023E6F1D2207",
+            "origin" : "-0 0.0736347 0.0000001",
+            "scale" : "1 1.0000001 1.0000001"
          }
       ],
       "frozen" : false,
@@ -419,12 +419,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "-9.85 5.68 1.97",
+            "angles" : "-9.8515434 5.6839514 1.9666749",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "02102A073A0812130008027CB758D415",
-            "origin" : "-0 0.1001 -0",
-            "scale" : "1 1 1"
+            "guid" : "02082B64030A0C05001D023E6F1D25E1",
+            "origin" : "-0 0.1000912 -0.0000004",
+            "scale" : "1.0000001 0.9999992 0.9999998"
          }
       ],
       "frozen" : false,
@@ -443,12 +443,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "-69.46 0.8 -86.09",
+            "angles" : "-69.4602814 0.7970148 -86.0880585",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "020B74F13A0812130008027CB758C9CC",
-            "origin" : "0.0581 0.0521 0.1566",
-            "scale" : "1 1 1"
+            "guid" : "02037F09030A0C05001D023E6F1D2084",
+            "origin" : "0.0580734 0.0521376 0.1565539",
+            "scale" : "0.9999996 0.9999999 1.0000002"
          }
       ],
       "frozen" : false,
@@ -467,12 +467,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "-14.73 3.45 -2.01",
+            "angles" : "-14.7310543 3.4479985 -2.0093212",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "020C5AF93A0812130008027CB758CABC",
-            "origin" : "0 0.0736 0",
-            "scale" : "1 1 1"
+            "guid" : "0204610E030A0C05001D023E6F1D2064",
+            "origin" : "0 0.0736347 0.0000001",
+            "scale" : "1 1.0000001 1.0000001"
          }
       ],
       "frozen" : false,
@@ -491,12 +491,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "-9.94 -9.41 -1.31",
+            "angles" : "-9.9376793 -9.4100037 -1.3111777",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "020D1ABB3A0812130008027CB758CC0C",
-            "origin" : "0 0.1001 -0",
-            "scale" : "1 1 1"
+            "guid" : "02057933030A0C05001D023E6F1D23C7",
+            "origin" : "0.0000001 0.1000912 -0.0000005",
+            "scale" : "1.0000002 0.9999992 0.9999999"
          }
       ],
       "frozen" : false,
@@ -515,12 +515,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "-23.41 -0.13 89.98",
+            "angles" : "-23.4149799 -0.1263603 89.9784317",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "02091BAF3A0812130008027CB758C37F",
-            "origin" : "-0.0713 -0.0004 0.2024",
-            "scale" : "1 1 1"
+            "guid" : "0201784E030A0C05001D023E6F1D1E45",
+            "origin" : "-0.071262 -0.0004196 0.2024189",
+            "scale" : "0.9999995 0.9999995 0.9999992"
          }
       ],
       "frozen" : false,
@@ -539,12 +539,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "-22.07 -0 -0",
+            "angles" : "-22.072422 -0 -0",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "020A260E3A0812130008027CB758C4D3",
-            "origin" : "-0 0.0918 0",
-            "scale" : "1 1 1"
+            "guid" : "020264A8030A0C05001D023E6F1D2125",
+            "origin" : "-0 0.0917514 0.0000005",
+            "scale" : "1 1.0000005 1.0000005"
          }
       ],
       "frozen" : false,
@@ -563,12 +563,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "0.13 9.69 0",
+            "angles" : "0.1281809 9.688261 -0.0000001",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "02084FFB3A0812130008027CB758C1E9",
-            "origin" : "0.3574 0.0001 -0.0861",
-            "scale" : "1 1 1"
+            "guid" : "02003A8F030A0C05001D023D6F1D1F70",
+            "origin" : "0.3573842 0.0000553 -0.0860863",
+            "scale" : "1 0.9999995 0.9999996"
          }
       ],
       "frozen" : false,
@@ -587,12 +587,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "-57.94 75.06 -159.23",
+            "angles" : "-57.9426498 75.0601883 -159.2290039",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01F468793A0812130008027AB7588B47",
-            "origin" : "-0.0171 -0.0623 0.1414",
-            "scale" : "1 1 1"
+            "guid" : "01EC0F78030A0C05001D023D6F1D13FF",
+            "origin" : "-0.0170945 -0.0622834 0.1414057",
+            "scale" : "0.9999992 1.0000002 0.9999993"
          }
       ],
       "frozen" : false,
@@ -611,12 +611,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "-6.5 6.14 3.14",
+            "angles" : "-6.4983878 6.1394615 3.1359413",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01F51E123A0812130008027BB7588C7C",
-            "origin" : "0.0104 -0.0006 0.079",
-            "scale" : "1 1 1"
+            "guid" : "01ED7BA6030A0C05001D023D6F1D135D",
+            "origin" : "0.0104229 -0.0005761 0.0789727",
+            "scale" : "1.0000004 1 1.0000002"
          }
       ],
       "frozen" : false,
@@ -635,12 +635,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "-3.17 -0 -0",
+            "angles" : "-3.1748557 -0 -0",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01F63B0D3A0812130008027BB75891DD",
-            "origin" : "0 -0.0009 0.2205",
-            "scale" : "1 1 1"
+            "guid" : "01EE532F030A0C05001D023D6F1D123F",
+            "origin" : "0 -0.0009233 0.2204918",
+            "scale" : "1 1.0000001 1.0000001"
          }
       ],
       "frozen" : false,
@@ -659,12 +659,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "87.76 -1.9 -90",
+            "angles" : "87.7642365 -1.8966491 -90.0000076",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "020758943A0812130008027CB758BC15",
-            "origin" : "0.0034 -0.0104 0.0667",
-            "scale" : "1 1 1"
+            "guid" : "01FF2DFE030A0C05001D023D6F1D1F90",
+            "origin" : "0.0034491 -0.0104342 0.0667137",
+            "scale" : "0.9999999 0.9999996 0.9999997"
          }
       ],
       "frozen" : false,
@@ -686,8 +686,8 @@
             "angles" : "0 -0 0",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01F762353A0812130008027BB75892AF",
-            "origin" : "0 -0.0011 0.2301",
+            "guid" : "01EF4D88030A0C05001D023D6F1D1598",
+            "origin" : "0 -0.0010943 0.2300913",
             "scale" : "1 1 1"
          }
       ],
@@ -707,12 +707,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "176.12 -16.64 172.58",
+            "angles" : "176.1161652 -16.6374187 172.5774994",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "020410A53A0812130008027CB758B452",
-            "origin" : "0.0137 -0.0527 0.1071",
-            "scale" : "1 1 1"
+            "guid" : "01FC614F030A0C05001D023D6F1D1DF5",
+            "origin" : "0.0137305 -0.0527398 0.1070993",
+            "scale" : "1.0000004 1.0000001 0.9999996"
          }
       ],
       "frozen" : false,
@@ -731,12 +731,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "0.01 -0.09 -0.73",
+            "angles" : "0.0126097 -0.0866048 -0.7330976",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "02052B7B3A0812130008027CB758B933",
-            "origin" : "-0.0016 0.0008 -0.0286",
-            "scale" : "1 1 1"
+            "guid" : "01FD5CC4030A0C05001D023D6F1D1D56",
+            "origin" : "-0.001629 0.0007667 -0.0285596",
+            "scale" : "0.9999996 0.9999998 1"
          }
       ],
       "frozen" : false,
@@ -755,12 +755,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "0.04 -0.33 2.26",
+            "angles" : "0.0356454 -0.3348367 2.2610898",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "0206460B3A0812130008027CB758BA83",
-            "origin" : "-0.0005 0.0014 -0.0286",
-            "scale" : "1 1 1"
+            "guid" : "01FE04EF030A0C05001D023D6F1D1C31",
+            "origin" : "-0.0004565 0.0014084 -0.0285952",
+            "scale" : "1.0000005 0.9999993 1.0000004"
          }
       ],
       "frozen" : false,
@@ -779,12 +779,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "175.09 -15.69 174.57",
+            "angles" : "175.093399 -15.689497 174.5692139",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "02010FD13A0812130008027BB758AC3D",
-            "origin" : "0.0001 -0.0269 0.1159",
-            "scale" : "1 1 1"
+            "guid" : "01F921BB030A0C05001D023D6F1D1BDA",
+            "origin" : "0.0000893 -0.0268785 0.1159241",
+            "scale" : "1 0.9999995 0.9999998"
          }
       ],
       "frozen" : false,
@@ -803,12 +803,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "0.42 -2.94 1.18",
+            "angles" : "0.4241445 -2.9445317 1.1772103",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "02022FE83A0812130008027BB758B194",
-            "origin" : "-0.0018 0.0026 -0.0304",
-            "scale" : "1 1 1"
+            "guid" : "01FA6D22030A0C05001D023D6F1D1ABA",
+            "origin" : "-0.0017954 0.0026363 -0.0303659",
+            "scale" : "0.9999998 1.0000001 1.0000005"
          }
       ],
       "frozen" : false,
@@ -827,12 +827,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "-0.25 1.31 -2.71",
+            "angles" : "-0.2520078 1.3080132 -2.7141953",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "02033C223A0812130008027BB758B352",
-            "origin" : "-0.0059 0.002 -0.0324",
-            "scale" : "1 1 1"
+            "guid" : "01FB4CDC030A0C05001D023D6F1D1A1A",
+            "origin" : "-0.0058793 0.0019579 -0.0323708",
+            "scale" : "1.000001 1 0.9999999"
          }
       ],
       "frozen" : false,
@@ -851,12 +851,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "178.73 -12.7 168.38",
+            "angles" : "178.7288361 -12.7022972 168.378067",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01FE06113A0812130008027BB758A47C",
-            "origin" : "-0.0043 0.0028 0.1132",
-            "scale" : "1 1 1"
+            "guid" : "01F6624C030A0C05001D023D6F1D193A",
+            "origin" : "-0.0042666 0.0027681 0.1132437",
+            "scale" : "0.9999998 1.0000002 0.9999995"
          }
       ],
       "frozen" : false,
@@ -875,12 +875,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "-0.25 2.74 -1.23",
+            "angles" : "-0.2533667 2.7400925 -1.2267324",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01FF3E853A0812130008027BB758A9D1",
-            "origin" : "-0.0013 0.0018 -0.034",
-            "scale" : "1 1 1"
+            "guid" : "01F76B72030A0C05001D023D6F1D189B",
+            "origin" : "-0.0012714 0.0017555 -0.0340358",
+            "scale" : "1.0000007 0.9999992 1.0000001"
          }
       ],
       "frozen" : false,
@@ -899,12 +899,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "-0.26 7.96 3.37",
+            "angles" : "-0.2645979 7.9591627 3.3680611",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "02006DA13A0812130008027BB758AAA0",
-            "origin" : "-0.003 0.0015 -0.033",
-            "scale" : "1 1 1"
+            "guid" : "01F8490F030A0C05001D023D6F1D1875",
+            "origin" : "-0.002952 0.0014779 -0.0329576",
+            "scale" : "0.9999999 1.0000005 1.0000006"
          }
       ],
       "frozen" : false,
@@ -923,12 +923,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "178.44 -9.13 169.62",
+            "angles" : "178.4365387 -9.1276226 169.6174622",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01FB6C773A0812130008027BB7589CC9",
-            "origin" : "-0.0007 0.0407 0.1124",
-            "scale" : "1 1 1"
+            "guid" : "01F34F88030A0C05001D023D6F1D171A",
+            "origin" : "-0.0006505 0.0407355 0.1124392",
+            "scale" : "1.0000004 0.9999995 0.9999999"
          }
       ],
       "frozen" : false,
@@ -947,12 +947,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "-0.34 9.46 3.22",
+            "angles" : "-0.3399654 9.4637585 3.2153618",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01FC2B393A0812130008027BB758A1A0",
-            "origin" : "-0.0005 0.0016 -0.0328",
-            "scale" : "1 1 1"
+            "guid" : "01F474AA030A0C05001D023D6F1D16FB",
+            "origin" : "-0.0005219 0.0015712 -0.0327883",
+            "scale" : "0.9999995 1.000001 0.9999997"
          }
       ],
       "frozen" : false,
@@ -971,12 +971,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "0 0.03 -0.6",
+            "angles" : "-0.0012838 0.026981 -0.5978267",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01FD7C873A0812130008027BB758A2E1",
-            "origin" : "-0.0009 0.0017 -0.0332",
-            "scale" : "1 1 1"
+            "guid" : "01F50215030A0C05001D023D6F1D165A",
+            "origin" : "-0.0008758 0.0017435 -0.0331806",
+            "scale" : "0.9999999 0.999999 1.0000004"
          }
       ],
       "frozen" : false,
@@ -995,12 +995,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "-139.72 -2.79 145.56",
+            "angles" : "-139.7230377 -2.7947142 145.5586243",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01F80C1D3A0812130008027BB7589437",
-            "origin" : "0.0146 0.0348 0.0348",
-            "scale" : "1 1 1"
+            "guid" : "01F01C0E030A0C05001D023D6F1D157A",
+            "origin" : "0.0146034 0.0348272 0.034807",
+            "scale" : "1.0000001 1 1.0000001"
          }
       ],
       "frozen" : false,
@@ -1019,12 +1019,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "-6.26 11.73 -8.11",
+            "angles" : "-6.2632155 11.7295713 -8.1094561",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01F923363A0812130008027BB7589988",
-            "origin" : "0.0011 0.0017 -0.04",
-            "scale" : "1 1 1"
+            "guid" : "01F1767B030A0C05001D023D6F1D14DA",
+            "origin" : "0.0010967 0.0016668 -0.0399872",
+            "scale" : "0.9999998 0.9999998 0.9999992"
          }
       ],
       "frozen" : false,
@@ -1043,12 +1043,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "-9.41 5.23 -7.25",
+            "angles" : "-9.408987 5.2268376 -7.2525396",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01FA06AD3A0812130008027BB7589B6F",
-            "origin" : "0.001 0.0024 -0.0394",
-            "scale" : "1 1 1"
+            "guid" : "01F25925030A0C05001D023D6F1D17B8",
+            "origin" : "0.0009557 0.0023649 -0.0394051",
+            "scale" : "0.9999998 1 1.0000002"
          }
       ],
       "frozen" : false,
@@ -1067,12 +1067,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "26.96 83.11 128.69",
+            "angles" : "26.9565926 83.1087494 128.6947174",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01E03A873A08121300080279B75857C3",
-            "origin" : "-0.017 0.0617 0.1417",
-            "scale" : "1 1 1"
+            "guid" : "01D850D1030A0C05001D023C6F1D0496",
+            "origin" : "-0.0170477 0.0616723 0.1416798",
+            "scale" : "0.9999998 1.0000001 0.9999998"
          }
       ],
       "frozen" : false,
@@ -1091,12 +1091,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "7.41 4 6.35",
+            "angles" : "7.4111834 3.9959235 6.3508248",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01E12E1C3A08121300080279B7585954",
-            "origin" : "0.0074 0.0008 0.0793",
-            "scale" : "1 1 1"
+            "guid" : "01D91168030A0C05001D023C6F1D07A3",
+            "origin" : "0.0073746 0.0007835 0.0793133",
+            "scale" : "0.9999998 1 0.9999999"
          }
       ],
       "frozen" : false,
@@ -1115,12 +1115,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "3 -0 0",
+            "angles" : "3.0009637 -0 0",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01E21C0E3A08121300080279B7585A2B",
-            "origin" : "0 0.0012 0.2205",
-            "scale" : "1 1 1"
+            "guid" : "01DA3740030A0C05001D023C6F1D0701",
+            "origin" : "0 0.0011614 0.2204905",
+            "scale" : "1 0.9999995 0.9999995"
          }
       ],
       "frozen" : false,
@@ -1139,12 +1139,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "87.76 2.01 -90",
+            "angles" : "87.7642288 2.0086527 -90",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01F33E843A0812130008027AB75889F1",
-            "origin" : "0.0034 0.0103 0.0667",
-            "scale" : "1 1 1"
+            "guid" : "01EB376F030A0C05001D023D6F1D102E",
+            "origin" : "0.0034491 0.0103038 0.0667343",
+            "scale" : "1.0000006 1.0000004 0.9999997"
          }
       ],
       "frozen" : false,
@@ -1166,9 +1166,9 @@
             "angles" : "0 -0 0",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01E320993A08121300080279B7585FB1",
-            "origin" : "0 0.0006 0.2301",
-            "scale" : "1 1 1"
+            "guid" : "01DB1910030A0C05001D023C6F1D06E1",
+            "origin" : "0 0.0006445 0.2300931",
+            "scale" : "1 1.0000001 1.0000001"
          }
       ],
       "frozen" : false,
@@ -1187,12 +1187,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "-176.24 -17.09 177.78",
+            "angles" : "-176.243042 -17.0896759 177.7809143",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01F03D363A0812130008027AB7588139",
-            "origin" : "0.0137 0.0525 0.1072",
-            "scale" : "1 1 1"
+            "guid" : "01E873EE030A0C05001D023C6F1D0ED0",
+            "origin" : "0.0137305 0.0525311 0.1072026",
+            "scale" : "1.0000002 1.0000005 1.0000002"
          }
       ],
       "frozen" : false,
@@ -1211,12 +1211,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "-0.01 -0.09 0.73",
+            "angles" : "-0.0126235 -0.0862829 0.7330433",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01F1720A3A0812130008027AB758828E",
-            "origin" : "-0.0011 0.0009 -0.0286",
-            "scale" : "1 1 1"
+            "guid" : "01E94CEF030A0C05001D023C6F1D11B6",
+            "origin" : "-0.0010859 0.0008598 -0.0285833",
+            "scale" : "0.9999994 0.9999998 1.0000002"
          }
       ],
       "frozen" : false,
@@ -1235,12 +1235,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "-0.04 -0.34 -2.26",
+            "angles" : "-0.0356384 -0.3350476 -2.2610483",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01F261563A0812130008027AB7588466",
-            "origin" : "-0 0 -0.0286",
-            "scale" : "1 1 1"
+            "guid" : "01EA5F11030A0C05001D023C6F1D1111",
+            "origin" : "-0.0000148 0.0000254 -0.0286331",
+            "scale" : "1 1.0000005 0.9999998"
          }
       ],
       "frozen" : false,
@@ -1259,12 +1259,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "-175.2 -16.15 175.78",
+            "angles" : "-175.2032013 -16.1456757 175.7825165",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01ED24233A0812130008027AB75879CC",
-            "origin" : "0.0001 0.0267 0.116",
-            "scale" : "1 1 1"
+            "guid" : "01E57F18030A0C05001D023C6F1D0C31",
+            "origin" : "0.0000885 0.0266523 0.1159773",
+            "scale" : "1.0000006 1.0000007 1.0000007"
          }
       ],
       "frozen" : false,
@@ -1283,12 +1283,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "-0.42 -2.94 -1.18",
+            "angles" : "-0.4241696 -2.9443974 -1.1772268",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01EE1C6C3A0812130008027AB7587AC4",
-            "origin" : "-0.0014 -0.001 -0.0305",
-            "scale" : "1 1 1"
+            "guid" : "01E67832030A0C05001D023C6F1D0F90",
+            "origin" : "-0.0014254 -0.0009667 -0.0304843",
+            "scale" : "0.9999998 0.9999996 0.9999999"
          }
       ],
       "frozen" : false,
@@ -1307,12 +1307,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "0.25 1.31 2.71",
+            "angles" : "0.251985 1.3080719 2.7142062",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01EF42E33A0812130008027AB7587FA4",
-            "origin" : "-0.0054 0.0002 -0.0325",
-            "scale" : "1 1 1"
+            "guid" : "01E72DF4030A0C05001D023C6F1D0F70",
+            "origin" : "-0.0053897 0.0002116 -0.0325142",
+            "scale" : "0.9999996 1.0000001 0.9999999"
          }
       ],
       "frozen" : false,
@@ -1331,12 +1331,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "-178.89 -13.14 -178.02",
+            "angles" : "-178.8870697 -13.1444445 -178.0210419",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01EA36213A0812130008027AB7587114",
-            "origin" : "-0.0043 -0.003 0.1132",
-            "scale" : "1 1 1"
+            "guid" : "01E24198030A0C05001D023C6F1D0A0E",
+            "origin" : "-0.0042666 -0.0029891 0.1132383",
+            "scale" : "0.9999999 1.0000004 1.0000008"
          }
       ],
       "frozen" : false,
@@ -1355,12 +1355,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "0.25 2.74 1.23",
+            "angles" : "0.2533488 2.7402093 1.2267244",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01EB3D103A0812130008027AB75872E5",
-            "origin" : "-0.001 -0.0003 -0.0341",
-            "scale" : "1 1 1"
+            "guid" : "01E35FF8030A0C05001D023C6F1D0DF2",
+            "origin" : "-0.0010498 -0.0002502 -0.0340883",
+            "scale" : "1.0000002 1.0000005 0.9999994"
          }
       ],
       "frozen" : false,
@@ -1379,12 +1379,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "0.26 7.96 -3.37",
+            "angles" : "0.2646262 7.9591274 -3.368073",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01EC5F8E3A0812130008027AB758747A",
-            "origin" : "-0.0026 0.0005 -0.033",
-            "scale" : "1 1 1"
+            "guid" : "01E43501030A0C05001D023C6F1D0D50",
+            "origin" : "-0.0026056 0.0004971 -0.0330161",
+            "scale" : "0.9999999 0.9999999 0.9999998"
          }
       ],
       "frozen" : false,
@@ -1403,12 +1403,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "-178.58 -9.57 -179.27",
+            "angles" : "-178.5830536 -9.5730915 -179.2720184",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01E715C03A0812130008027AB758694C",
-            "origin" : "-0.0006 -0.041 0.1124",
-            "scale" : "1 1 1"
+            "guid" : "01DF0430030A0C05001D023C6F1D0866",
+            "origin" : "-0.0006493 -0.0409549 0.1123587",
+            "scale" : "0.9999996 1.0000011 1.000001"
          }
       ],
       "frozen" : false,
@@ -1427,12 +1427,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "0.34 9.46 -3.22",
+            "angles" : "0.3399732 9.4638433 -3.2154069",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01E840D43A0812130008027AB7586A25",
-            "origin" : "-0.0003 -0.0006 -0.0328",
-            "scale" : "1 1 1"
+            "guid" : "01E047C2030A0C05001D023C6F1D0BC7",
+            "origin" : "-0.0002961 -0.0005826 -0.0328245",
+            "scale" : "1.0000007 0.9999996 0.9999996"
          }
       ],
       "frozen" : false,
@@ -1451,12 +1451,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "0 0.03 0.6",
+            "angles" : "0.0012485 0.026976 0.5978571",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01E91E103A0812130008027AB7586FBA",
-            "origin" : "-0.0006 0.0002 -0.0332",
-            "scale" : "1 1 1"
+            "guid" : "01E1275B030A0C05001D023C6F1D0AAB",
+            "origin" : "-0.0006095 0.0002268 -0.0332315",
+            "scale" : "0.9999997 0.9999997 1.0000005"
          }
       ],
       "frozen" : false,
@@ -1475,12 +1475,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "139.41 -3.14 -155.22",
+            "angles" : "139.4090576 -3.142566 -155.2207184",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01E46E833A08121300080279B7586139",
-            "origin" : "0.0146 -0.0349 0.0347",
-            "scale" : "1 1 1"
+            "guid" : "01DC1B03030A0C05001D023C6F1D0646",
+            "origin" : "0.0146039 -0.0348946 0.0347372",
+            "scale" : "0.9999999 1.0000005 1.0000006"
          }
       ],
       "frozen" : false,
@@ -1499,12 +1499,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "6.26 11.73 8.11",
+            "angles" : "6.2631631 11.7296467 8.1094217",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01E55E153A08121300080279B7586290",
-            "origin" : "-0.0032 -0.001 -0.0399",
-            "scale" : "1 1 1"
+            "guid" : "01DD7AB2030A0C05001D023C6F1D0926",
+            "origin" : "-0.0032426 -0.0010232 -0.0398946",
+            "scale" : "1.0000004 1.0000002 1.0000001"
          }
       ],
       "frozen" : false,
@@ -1523,12 +1523,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "9.41 5.23 7.25",
+            "angles" : "9.4089966 5.2267528 7.2525735",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01E67F9D3A0812130008027AB75867BB",
-            "origin" : "-0.0026 -0.0001 -0.0394",
-            "scale" : "1 1 1"
+            "guid" : "01DE5800030A0C05001D023C6F1D0886",
+            "origin" : "-0.0026469 -0.0001374 -0.0393976",
+            "scale" : "1.0000002 0.9999995 0.9999994"
          }
       ],
       "frozen" : false,
@@ -1547,12 +1547,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "0.13 9.69 0",
+            "angles" : "0.1281809 9.688261 -0.0000001",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01DB7ACD3A08121300080279B75848A7",
-            "origin" : "0.0002 -0.0004 0.1869",
-            "scale" : "1 1 1"
+            "guid" : "01D300A6030A0C05001D023B6F1D00DB",
+            "origin" : "0.0002308 -0.0004123 0.1869329",
+            "scale" : "1 0.9999995 0.9999996"
          }
       ],
       "frozen" : false,
@@ -1574,8 +1574,8 @@
             "angles" : "0 -0 0",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01DC37CB3A08121300080279B7584A38",
-            "origin" : "0.0103 -0 0.0905",
+            "guid" : "01D41D30030A0C05001D023B6F1D03EC",
+            "origin" : "0.0103402 -0 0.0905107",
             "scale" : "1 1 1"
          }
       ],
@@ -1595,12 +1595,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "-30.43 -10.52 49.28",
+            "angles" : "-30.4262276 -10.5196705 49.2812996",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01DF09723A08121300080279B7585267",
-            "origin" : "-0.1544 0.1673 0.1505",
-            "scale" : "1 1 1"
+            "guid" : "01D736FA030A0C05001D023C6F1D052B",
+            "origin" : "-0.1543969 0.1672873 0.1504828",
+            "scale" : "0.9999992 1.0000001 1.0000001"
          }
       ],
       "frozen" : false,
@@ -1619,12 +1619,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "-90.34 60.86 -99.34",
+            "angles" : "-90.3442612 60.8567848 -99.3377533",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01DE41923A08121300080279B7585167",
-            "origin" : "0.232 -0.0708 0.2443",
-            "scale" : "1 1 1"
+            "guid" : "01D66EDC030A0C05001D023C6F1D020B",
+            "origin" : "0.2319663 -0.0708103 0.2442837",
+            "scale" : "1.0000001 1.0000001 0.9999997"
          }
       ],
       "frozen" : false,
@@ -1643,12 +1643,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "-118.74 61.23 -101.2",
+            "angles" : "-118.7378616 61.2342949 -101.204216",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01DD5E163A08121300080279B7584F8B",
-            "origin" : "0.2482 0.0021 0.2479",
-            "scale" : "1 1 1"
+            "guid" : "01D53ADF030A0C05001D023B6F1D0351",
+            "origin" : "0.2482233 0.0020838 0.247861",
+            "scale" : "1 0.9999999 1.0000004"
          }
       ],
       "frozen" : false,
@@ -1670,7 +1670,7 @@
             "angles" : "0 -0 0",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01CB4CFA3A08121300080278B7581F97",
+            "guid" : "01C3621C030A0C05001D023A6F1CF5F2",
             "origin" : "0 0 0",
             "scale" : "1 1 1"
          }
@@ -1691,12 +1691,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "179.4 0.08 0.18",
+            "angles" : "179.4013977 0.0759743 0.1765694",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01D2542B3A08121300080278B758309D",
-            "origin" : "-0.0038 -0.0848 -0.048",
-            "scale" : "1 1 1"
+            "guid" : "01CA1637030A0C05001D023B6F1CFA2B",
+            "origin" : "-0.0037905 -0.0847969 -0.0479555",
+            "scale" : "1.0000004 0.9999996 0.9999996"
          }
       ],
       "frozen" : false,
@@ -1715,12 +1715,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "-0.28 -5.04 1.39",
+            "angles" : "-0.2771558 -5.0429296 1.3876438",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01D332103A08121300080278B7583271",
-            "origin" : "0.0015 0.0014 0.3255",
-            "scale" : "1 1 1"
+            "guid" : "01CB6C2D030A0C05001D023B6F1CFDCF",
+            "origin" : "0.0015457 0.0014436 0.3255456",
+            "scale" : "1 1.0000002 1.0000007"
          }
       ],
       "frozen" : false,
@@ -1739,12 +1739,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "84.88 0.77 -91.26",
+            "angles" : "84.8777695 0.767142 -91.2590714",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01D759923A08121300080278B7583FB9",
-            "origin" : "-0.0078 0.0095 0.1667",
-            "scale" : "1 1 1"
+            "guid" : "01CF7DD2030A0C05001D023B6F1CFF57",
+            "origin" : "-0.0078016 0.0094775 0.1667129",
+            "scale" : "1 0.9999998 0.9999996"
          }
       ],
       "frozen" : false,
@@ -1763,12 +1763,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "-1.56 46.7 -0.11",
+            "angles" : "-1.5554054 46.6985626 -0.1061717",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01D42FB83A08121300080278B75837C6",
-            "origin" : "-0.0009 0 0.3278",
-            "scale" : "1 1 1"
+            "guid" : "01CC00AF030A0C05001D023B6F1CFCB3",
+            "origin" : "-0.000869 0.0000205 0.3277724",
+            "scale" : "1 1 0.9999998"
          }
       ],
       "frozen" : false,
@@ -1787,12 +1787,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "-21.76 2.72 -90.01",
+            "angles" : "-21.764349 2.7217038 -90.0082245",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01D640443A08121300080278B7583A28",
-            "origin" : "0.0429 0.0086 0.0527",
-            "scale" : "1 1 1"
+            "guid" : "01CE0E19030A0C05001D023B6F1CFFF6",
+            "origin" : "0.0428636 0.008576 0.0526724",
+            "scale" : "1.0000002 0.9999999 1"
          }
       ],
       "frozen" : false,
@@ -1811,12 +1811,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "0.84 49.42 4.62",
+            "angles" : "0.8438542 49.4241638 4.6162038",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01D550AA3A08121300080278B7583958",
-            "origin" : "0.001 0.0006 0.1779",
-            "scale" : "1 1 1"
+            "guid" : "01CD1FAC030A0C05001D023B6F1CFC11",
+            "origin" : "0.0009939 0.0006328 0.1779317",
+            "scale" : "0.9999996 1.0000005 0.9999994"
          }
       ],
       "frozen" : false,
@@ -1835,12 +1835,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "-179.4 0.08 -0.23",
+            "angles" : "-179.3995361 0.0768554 -0.2305075",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01CC3A033A08121300080278B758216A",
-            "origin" : "-0.0038 0.0848 -0.048",
-            "scale" : "1 1 1"
+            "guid" : "01C40798030A0C05001D023A6F1CF550",
+            "origin" : "-0.0037905 0.0847969 -0.047955",
+            "scale" : "1 0.9999999 1.0000001"
          }
       ],
       "frozen" : false,
@@ -1859,12 +1859,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "0.27 -5.04 -1.36",
+            "angles" : "0.2657594 -5.0430331 -1.3554242",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01CD24283A08121300080278B75822D0",
-            "origin" : "0.0015 -0.0014 0.3255",
-            "scale" : "1 1 1"
+            "guid" : "01C5624D030A0C05001D023A6F1CF438",
+            "origin" : "0.0015457 -0.0014436 0.3255461",
+            "scale" : "1.0000002 1.0000002 0.9999996"
          }
       ],
       "frozen" : false,
@@ -1883,12 +1883,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "84.88 -0.77 -88.83",
+            "angles" : "84.8778687 -0.7652462 -88.8265762",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01D17BFB3A08121300080278B7582F05",
-            "origin" : "-0.0078 -0.0095 0.1667",
-            "scale" : "1 1 1"
+            "guid" : "01C912F9030A0C05001D023B6F1CFB0B",
+            "origin" : "-0.0078157 -0.0094618 0.1667123",
+            "scale" : "0.9999999 1.0000001 0.9999998"
          }
       ],
       "frozen" : false,
@@ -1907,12 +1907,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "1.56 46.7 0.02",
+            "angles" : "1.558163 46.6985283 0.0225161",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01CE642E3A08121300080278B75827AE",
-            "origin" : "-0.0009 -0 0.3278",
-            "scale" : "1 1 1"
+            "guid" : "01C60BA1030A0C05001D023B6F1CF767",
+            "origin" : "-0.000869 -0.0000205 0.3277723",
+            "scale" : "1.0000002 0.9999998 1"
          }
       ],
       "frozen" : false,
@@ -1931,12 +1931,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "-21.79 -3.06 -89.61",
+            "angles" : "-21.7877064 -3.0629554 -89.6065979",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01D0419A3A08121300080278B7582A4D",
-            "origin" : "0.0429 -0.0086 0.0527",
-            "scale" : "1 1 1"
+            "guid" : "01C827C6030A0C05001D023B6F1CF8CF",
+            "origin" : "0.0428637 -0.0085777 0.0526725",
+            "scale" : "1 0.9999999 0.9999996"
          }
       ],
       "frozen" : false,
@@ -1955,12 +1955,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "-0.84 49.42 -4.62",
+            "angles" : "-0.843848 49.4241638 -4.6162024",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "01CF32303A08121300080278B758290E",
-            "origin" : "0.001 -0.0006 0.1779",
-            "scale" : "1 1 1"
+            "guid" : "01C7527F030A0C05001D023B6F1CF99B",
+            "origin" : "0.0009939 -0.0006328 0.1779317",
+            "scale" : "0.9999996 1.0000005 0.9999994"
          }
       ],
       "frozen" : false,

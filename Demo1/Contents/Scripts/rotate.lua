@@ -32,6 +32,6 @@ function update()
 	local t = (owner.game_world:time() * 0.001) * Math.pi
 	local d = Math.sin(t * m.bounce_speed) * m.bounce_delta;
 
-	owner.transform:rotate(Vec3.unit_z, Math.to_degree((owner.game_world:delta_time() * 0.001) * m.rotation_speed), ComTransform.TransformSpace.LocalSpace)
+	owner.transform:rotate(Vec3.unit_x, Math.to_degree((owner.game_world:delta_time() * 0.001) * m.rotation_speed), ComTransform.TransformSpace.LocalSpace)
 	owner.transform:set_origin(m.origin + Vec3.unit_z:mul(d))
 end

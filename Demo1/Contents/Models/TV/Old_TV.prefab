@@ -5,12 +5,12 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "0 -89.98 0",
+            "angles" : "0 -90 0",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "101046B81708121300090237C634F69D",
-            "origin" : "0 0 -0",
-            "scale" : "0.2947 0.2947 0.2947"
+            "guid" : "1008394E1A0A0C05001D031873FAAB1F",
+            "origin" : "0 0 -0.0000049",
+            "scale" : "0.294704 0.294704 0.294704"
          },
          {
             "alpha" : 1.0,
@@ -19,7 +19,7 @@
             "classname" : "ComStaticMeshRenderer",
             "color" : "1 1 1",
             "enabled" : true,
-            "guid" : "101157BE1708121300090237C634F95F",
+            "guid" : "100979F31A0A0C05001D031873FAAA8A",
             "materials" : [ "009E677900070B1A001F0241824839EE" ],
             "maxVisDist" : 1000.0,
             "mesh" : "009B313100070B1A001F022582471630",
