@@ -236,7 +236,7 @@ function handle_mouse_joint()
             local max_dist = blueshift.meter_to_unit(30)
             local cast_result = Physics.CastResult()
 
-            if Physics.ray_cast(ray:origin(), ray:distance_point(max_dist), Physics.FilterGroup.DefaultGroup, Physics.FilterGroup.DefaultGroup, cast_result) then
+            if Physics.ray_cast(ray:origin(), ray:distance_point(max_dist), 1, cast_result) then
                 local hit_rigid_body = cast_result:rigid_body()
 
                 if hit_rigid_body then
