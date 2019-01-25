@@ -6,7 +6,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "0 -0 179.9999695",
+               "angles" : "0 -0 179.9998932",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "0009680D1407121D0033001A9FA327A5",
@@ -30,11 +30,11 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "0 -89.9800034 -179.9999695",
+               "angles" : "0 -89.9800034 -179.9998932",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "001E71D419070A05000B03AEBB6A3B86",
-               "origin" : "12.0009003 3.0000999 0",
+               "origin" : "12.6009026 3.0001013 0.0002094",
                "scale" : "1 1 1"
             },
             {
@@ -53,6 +53,27 @@
                "timeOffset" : 0.0,
                "timeScale" : 1.0,
                "useLightProve" : true
+            },
+            {
+               "center" : "0.92 0 0",
+               "classname" : "ComBoxCollider",
+               "enabled" : true,
+               "extents" : "0.92 1.2117 0.9816",
+               "guid" : "001353442F0116170033005AB6401209"
+            },
+            {
+               "angularDamping" : 0.0099999997764825821,
+               "ccd" : false,
+               "classname" : "ComRigidBody",
+               "enabled" : true,
+               "friction" : 1.0,
+               "guid" : "001400052E011617003500AECF34302E",
+               "kinematic" : false,
+               "linearDamping" : 0.05000000074505806,
+               "mass" : 0.0,
+               "restitution" : 0.0,
+               "rollingFriction" : 1.0,
+               "spinningFriction" : 1.0
             }
          ],
          "frozen" : false,
@@ -71,11 +92,11 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "0 -89.9800034 -179.9999695",
+               "angles" : "0 -89.9800034 -179.9998932",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "003766E715070A05000201124947FF37",
-               "origin" : "12 0 0.0007",
+               "origin" : "12.6000023 0.0000011 0.0009094",
                "scale" : "1 1 1"
             },
             {
@@ -103,6 +124,27 @@
                "guid" : "00374AB635070A050008012E9B6DF4A6",
                "rotation_speed" : 20.0,
                "script" : "00A152BF1D07141B003401C419C50CD6"
+            },
+            {
+               "center" : "0.9638 -0 0.0211",
+               "classname" : "ComSphereCollider",
+               "enabled" : true,
+               "guid" : "00157667040116170036024DD31006A2",
+               "radius" : 0.75999999046325684
+            },
+            {
+               "angularDamping" : 0.0099999997764825821,
+               "ccd" : false,
+               "classname" : "ComRigidBody",
+               "enabled" : true,
+               "friction" : 1.0,
+               "guid" : "001714EE00011617003703A5DEDE8E2B",
+               "kinematic" : false,
+               "linearDamping" : 0.05000000074505806,
+               "mass" : 0.0,
+               "restitution" : 0.0,
+               "rollingFriction" : 1.0,
+               "spinningFriction" : 1.0
             }
          ],
          "frozen" : false,
@@ -157,14 +199,14 @@
                "ccd" : false,
                "classname" : "ComRigidBody",
                "enabled" : true,
-               "friction" : 1.0,
+               "friction" : 0.80000001192092896,
                "guid" : "009252F51107090500330066BE1B0DFA",
                "kinematic" : false,
                "linearDamping" : 0.05000000074505806,
                "mass" : 0.5,
-               "restitution" : 0.80000001192092896,
-               "rollingFriction" : 1.0,
-               "spinningFriction" : 1.0
+               "restitution" : 0.9100000262260437,
+               "rollingFriction" : 0.69999998807907104,
+               "spinningFriction" : 0.69999998807907104
             }
          ],
          "frozen" : false,
@@ -227,7 +269,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "0 -0 -179.9999695",
+               "angles" : "0 -0 -179.9998932",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "005C7136250C1214002003AB18802E8B",
@@ -323,7 +365,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "0 -0 -179.9999695",
+               "angles" : "0 -0 -179.9998932",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "00544264250C1214002003AA18802370",
@@ -419,7 +461,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "19.9999924 59.9999924 39.9999962",
+               "angles" : "19.9999676 60 39.9999809",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "0297635D0E090B19002E01C772F7903D",
@@ -433,7 +475,7 @@
                "enabled" : true,
                "fallOffExponent" : 1.25,
                "guid" : "02986BB30E090B19002E01C772F79239",
-               "intensity" : 1.7999999523162842,
+               "intensity" : 2.2000000476837158,
                "lightSize" : "100 100 100",
                "lightType" : 2,
                "lightZNear" : 10.0,
@@ -651,7 +693,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "89.9999847 0.0000017 89.9999847",
+               "angles" : "89.9999466 -0 89.9999466",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "08CE08CB01060B15002401B47797E2EA",
@@ -699,7 +741,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-0.07 0.23 -179.3999634",
+               "angles" : "-0.07 0.23 -179.3999023",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "08D2393E01060B15002401B47797E503",
@@ -771,7 +813,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "49.4700089 -3.98 -0.5500001",
+               "angles" : "49.4700279 -3.980001 -0.550001",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "08D850DE01060B15002401B47797E7F6",
@@ -819,7 +861,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-88.8199997 -5.1100068 89.1299896",
+               "angles" : "-88.8199997 -5.1099758 89.1299896",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "08DC070A01060B15002401B47797E6D7",
@@ -843,7 +885,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-0.07 -0.18 179.3999634",
+               "angles" : "-0.07 -0.18 179.3999023",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "08DE520201060B15002401B47797E9A6",
@@ -867,7 +909,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-5.0499992 1.36 -0.28",
+               "angles" : "-5.0499601 1.3599985 -0.28",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "08E048E901060B15002401B47797E930",
@@ -915,7 +957,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "49.4700089 3.98 0.5500001",
+               "angles" : "49.4700279 3.980001 0.550001",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "08E44F8B01060B15002401B47797E81A",
@@ -939,7 +981,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "90.0199966 -68.2399826 -87.3000031",
+               "angles" : "90.0199585 -68.2399673 -87.2999725",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "08E61F8401060B15002401B47797EBE8",
@@ -963,7 +1005,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-91.2599792 -5.1000037 90.879982",
+               "angles" : "-91.2599792 -5.100019 90.879982",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "08E8350001060B15002401B47797EB7F",
@@ -1035,7 +1077,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-6.9299979 0 0",
+               "angles" : "-6.9299927 0 0",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "08EE17F301060B15002401B47797ED36",
@@ -1107,7 +1149,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "95.6699753 18.7999897 -26.4699879",
+               "angles" : "95.6699524 18.7999725 -26.4699593",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "08F4674D01060B15002401B47797EFF0",
@@ -1131,7 +1173,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "94.5700226 -7.7999997 -29.4400082",
+               "angles" : "94.5700378 -7.7999902 -29.4400063",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "08F61F2C01060B15002401B47797EF46",
@@ -1179,7 +1221,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-110.6099701 77.6999817 165.2100067",
+               "angles" : "-110.6094666 77.6999512 165.2097321",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "08FA7C3B01060B15002401B47797F1A2",
@@ -1203,7 +1245,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "4.7800007 5.7799988 7.4300013",
+               "angles" : "4.7800007 5.7799826 7.4300132",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "08FC339D01060B15002401B57797F138",
@@ -1275,7 +1317,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-161.0899963 16.6100006 42.689991",
+               "angles" : "-161.0899963 16.6100006 42.6899834",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "0902387E01060B15002401B57797F3F7",
@@ -1299,7 +1341,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "12.5299969 6.7899981 6.1799994",
+               "angles" : "12.529994 6.7899899 6.179997",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "0904250B01060B15002401B57797F348",
@@ -1323,7 +1365,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "6.3399987 6.2999997 9.4299965",
+               "angles" : "6.3399906 6.3000059 9.4300051",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "09063B5901060B15002401B57797F220",
@@ -1347,7 +1389,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-170.4499664 0.9599999 -1.3999997",
+               "angles" : "-170.4499359 0.959999 -1.3999867",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "090844A301060B15002401B57797F5B2",
@@ -1371,7 +1413,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "9.4399967 -3.27 0.34",
+               "angles" : "9.4399471 -3.2699888 0.3399988",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "090A318D01060B15002401B57797F501",
@@ -1419,7 +1461,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-166.8999634 2.2299995 -1.08",
+               "angles" : "-166.8999329 2.2299993 -1.0800003",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "090E117A01060B15002401B57797F46C",
@@ -1443,7 +1485,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "2.7499993 1.2099997 0.25",
+               "angles" : "2.7499793 1.2099905 0.25",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "091030D801060B15002401B57797F7C3",
@@ -1467,7 +1509,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "7.9399972 -3.3999999 0.26",
+               "angles" : "7.9399948 -3.3999999 0.26",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "091206D001060B15002401B57797F759",
@@ -1491,7 +1533,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-163.5700073 -2.8699994 -4.6100011",
+               "angles" : "-163.5700073 -2.8699987 -4.6100011",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "09146E4C01060B15002401B57797F632",
@@ -1515,7 +1557,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-2.9399993 -1.1999996 -0.4199998",
+               "angles" : "-2.9399793 -1.1999888 -0.4199993",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "09160DBB01060B15002401B57797F9C2",
@@ -1563,7 +1605,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-162.809967 -1.1099994 -3.589999",
+               "angles" : "-162.809906 -1.1099868 -3.5899801",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "091A4E5701060B15002401B57797F829",
@@ -1611,7 +1653,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-0.3299998 -2.2599995 -0.04",
+               "angles" : "-0.3299989 -2.2599988 -0.04",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "091E4C6A01060B15002401B57797FB09",
@@ -1635,7 +1677,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-90.0000076 -2.2399981 92.0100098",
+               "angles" : "-90.0000076 -2.2400017 92.0100021",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "09206C1601060B15002401B57797FA9B",
@@ -1659,7 +1701,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-143.4099426 -72.5299835 -133.3000031",
+               "angles" : "-143.4099426 -72.5299835 -133.3000336",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "09223F5201060B15002401B57797FA64",
@@ -1683,7 +1725,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "5.75 3.8099992 -6.4799995",
+               "angles" : "5.75 3.8099985 -6.4799995",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "09247CD301060B15002401B57797FDF7",
@@ -1707,7 +1749,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "0 -0 -3.1699996",
+               "angles" : "0 -0 -3.1699994",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "0926263C01060B15002401B57797FD47",
@@ -1755,7 +1797,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-154.3099823 -23.9200001 -44.9399872",
+               "angles" : "-154.3099823 -23.920002 -44.9399834",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "092A6C9701060B15002401B57797FFA4",
@@ -1779,7 +1821,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "12.5299969 -6.7899981 -6.1799994",
+               "angles" : "12.529994 -6.7899899 -6.179997",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "092C0B5901060B15002401B67797FEEE",
@@ -1803,7 +1845,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "6.3399987 -6.2999997 -9.4299965",
+               "angles" : "6.3399906 -6.3000059 -9.4300051",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "092E32C901060B15002401B67797FE43",
@@ -1827,7 +1869,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-171.1599884 -10.6299973 1.5700001",
+               "angles" : "-171.1599884 -10.6299009 1.5700021",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "09301DD801060B15002401B6779801CD",
@@ -1851,7 +1893,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "9.4399967 3.27 -0.34",
+               "angles" : "9.4399471 3.2699888 -0.3399988",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "09320F2001060B15002401B67798015D",
@@ -1899,7 +1941,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-167.559967 -11.9000034 1.2699999",
+               "angles" : "-167.559906 -11.900013 1.2700002",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "09365B0B01060B15002401B6779803BF",
@@ -1923,7 +1965,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "2.7499993 -1.2099997 -0.25",
+               "angles" : "2.7499793 -1.2099905 -0.25",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "093830C201060B15002401B67798030C",
@@ -1947,7 +1989,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "7.9399972 3.3999999 -0.26",
+               "angles" : "7.9399948 3.3999999 -0.26",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "093A608A01060B15002401B67798029F",
@@ -1971,7 +2013,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-164.809967 -6.7399988 4.7600002",
+               "angles" : "-164.8099213 -6.7399673 4.7599998",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "093C764901060B15002401B67798026E",
@@ -1995,7 +2037,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-2.9399993 1.1999996 0.4199998",
+               "angles" : "-2.9399793 1.1999888 0.4199993",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "093E7BE301060B15002401B6779805FB",
@@ -2043,7 +2085,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-163.8800049 -8.5199976 3.7599998",
+               "angles" : "-163.8800049 -8.5199242 3.7599988",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "0942059701060B15002401B6779804D5",
@@ -2091,7 +2133,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-0.3299998 2.2599995 0.04",
+               "angles" : "-0.3299989 2.2599988 0.04",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "0946189401060B15002401B67798073A",
@@ -2115,7 +2157,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-90 -2.239995 88.1000061",
+               "angles" : "-90 -2.2399933 88.1000061",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "0948217301060B15002401B677980684",
@@ -2163,7 +2205,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-89.9499893 66.5799942 -89.8199844",
+               "angles" : "-89.9499741 66.5799866 -89.8199615",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "094C748401060B15002401B6779809E6",
@@ -2187,7 +2229,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "0 -0 -22.0699959",
+               "angles" : "0 -0 -22.0699883",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "094E1D4601060B15002401B677980974",
@@ -2211,7 +2253,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "85.8299942 -20.4399948 -87.739975",
+               "angles" : "85.8299942 -20.4399948 -87.7399597",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "09507C0101060B15002401B6779808C5",
@@ -2235,7 +2277,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "3.8399997 -1.0699998 -14.7099962",
+               "angles" : "3.8399997 -1.0699916 -14.7099962",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "0952645301060B15002401B67798085A",
@@ -2259,7 +2301,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-9.0499992 -2.9099998 -9.8199997",
+               "angles" : "-9.0499964 -2.9100068 -9.8200054",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "0954098701060B15002401B677980B28",
@@ -2283,7 +2325,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "94.2200012 -20.4299908 -92.0199966",
+               "angles" : "94.219986 -20.4299603 -92.0199738",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "0956318401060B15002401B677980ABB",
@@ -2307,7 +2349,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-3.8399997 1.0699998 -14.7099962",
+               "angles" : "-3.8399997 1.0699916 -14.7099962",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "09582C6601060B15002401B677980A0D",
@@ -2403,7 +2445,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "0 -89.969986 -90.0065155",
+               "angles" : "0.0227442 -89.9698868 -90",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "09607C9001060B15002401B777980C59",
@@ -2627,14 +2669,14 @@
                "ccd" : false,
                "classname" : "ComRigidBody",
                "enabled" : true,
-               "friction" : 1.0,
+               "friction" : 0.80000001192092896,
                "guid" : "00A01F123407090500330081C5720242",
                "kinematic" : false,
                "linearDamping" : 0.05000000074505806,
                "mass" : 0.5,
-               "restitution" : 0.80000001192092896,
-               "rollingFriction" : 1.0,
-               "spinningFriction" : 1.0
+               "restitution" : 0.9100000262260437,
+               "rollingFriction" : 0.69999998807907104,
+               "spinningFriction" : 0.69999998807907104
             }
          ],
          "frozen" : false,
@@ -2689,14 +2731,14 @@
                "ccd" : false,
                "classname" : "ComRigidBody",
                "enabled" : true,
-               "friction" : 1.0,
+               "friction" : 0.80000001192092896,
                "guid" : "00A57ED73407090500330091C572EEF0",
                "kinematic" : false,
                "linearDamping" : 0.05000000074505806,
                "mass" : 0.5,
-               "restitution" : 0.80000001192092896,
-               "rollingFriction" : 1.0,
-               "spinningFriction" : 1.0
+               "restitution" : 0.9100000262260437,
+               "rollingFriction" : 0.69999998807907104,
+               "spinningFriction" : 0.69999998807907104
             }
          ],
          "frozen" : false,
@@ -2751,14 +2793,14 @@
                "ccd" : false,
                "classname" : "ComRigidBody",
                "enabled" : true,
-               "friction" : 1.0,
+               "friction" : 0.80000001192092896,
                "guid" : "00AA3BDC34070905003300A2C573D8DF",
                "kinematic" : false,
                "linearDamping" : 0.05000000074505806,
                "mass" : 0.5,
-               "restitution" : 0.80000001192092896,
-               "rollingFriction" : 1.0,
-               "spinningFriction" : 1.0
+               "restitution" : 0.9100000262260437,
+               "rollingFriction" : 0.69999998807907104,
+               "spinningFriction" : 0.69999998807907104
             }
          ],
          "frozen" : false,
@@ -2813,14 +2855,14 @@
                "ccd" : false,
                "classname" : "ComRigidBody",
                "enabled" : true,
-               "friction" : 1.0,
+               "friction" : 0.80000001192092896,
                "guid" : "00AF218A34070905003300B4C574C7FB",
                "kinematic" : false,
                "linearDamping" : 0.05000000074505806,
                "mass" : 0.5,
-               "restitution" : 0.80000001192092896,
-               "rollingFriction" : 1.0,
-               "spinningFriction" : 1.0
+               "restitution" : 0.9100000262260437,
+               "rollingFriction" : 0.69999998807907104,
+               "spinningFriction" : 0.69999998807907104
             }
          ],
          "frozen" : false,
@@ -2875,14 +2917,14 @@
                "ccd" : false,
                "classname" : "ComRigidBody",
                "enabled" : true,
-               "friction" : 1.0,
+               "friction" : 0.80000001192092896,
                "guid" : "00B42ED134070905003300C5C575B7FC",
                "kinematic" : false,
                "linearDamping" : 0.05000000074505806,
                "mass" : 0.5,
-               "restitution" : 0.80000001192092896,
-               "rollingFriction" : 1.0,
-               "spinningFriction" : 1.0
+               "restitution" : 0.9100000262260437,
+               "rollingFriction" : 0.69999998807907104,
+               "spinningFriction" : 0.69999998807907104
             }
          ],
          "frozen" : false,
@@ -2937,14 +2979,14 @@
                "ccd" : false,
                "classname" : "ComRigidBody",
                "enabled" : true,
-               "friction" : 1.0,
+               "friction" : 0.80000001192092896,
                "guid" : "00B959BC34070905003300D7C576ACDC",
                "kinematic" : false,
                "linearDamping" : 0.05000000074505806,
                "mass" : 0.5,
-               "restitution" : 0.80000001192092896,
-               "rollingFriction" : 1.0,
-               "spinningFriction" : 1.0
+               "restitution" : 0.9100000262260437,
+               "rollingFriction" : 0.69999998807907104,
+               "spinningFriction" : 0.69999998807907104
             }
          ],
          "frozen" : false,
@@ -2999,14 +3041,14 @@
                "ccd" : false,
                "classname" : "ComRigidBody",
                "enabled" : true,
-               "friction" : 1.0,
+               "friction" : 0.80000001192092896,
                "guid" : "00BE3A7134070905003300E9C577A15E",
                "kinematic" : false,
                "linearDamping" : 0.05000000074505806,
                "mass" : 0.5,
-               "restitution" : 0.80000001192092896,
-               "rollingFriction" : 1.0,
-               "spinningFriction" : 1.0
+               "restitution" : 0.9100000262260437,
+               "rollingFriction" : 0.69999998807907104,
+               "spinningFriction" : 0.69999998807907104
             }
          ],
          "frozen" : false,
@@ -3061,14 +3103,14 @@
                "ccd" : false,
                "classname" : "ComRigidBody",
                "enabled" : true,
-               "friction" : 1.0,
+               "friction" : 0.80000001192092896,
                "guid" : "00C32C1B34070905003300FBC578987A",
                "kinematic" : false,
                "linearDamping" : 0.05000000074505806,
                "mass" : 0.5,
-               "restitution" : 0.80000001192092896,
-               "rollingFriction" : 1.0,
-               "spinningFriction" : 1.0
+               "restitution" : 0.9100000262260437,
+               "rollingFriction" : 0.69999998807907104,
+               "spinningFriction" : 0.69999998807907104
             }
          ],
          "frozen" : false,
@@ -3123,14 +3165,14 @@
                "ccd" : false,
                "classname" : "ComRigidBody",
                "enabled" : true,
-               "friction" : 1.0,
+               "friction" : 0.80000001192092896,
                "guid" : "00FA23E90B0709050035009AD601459E",
                "kinematic" : false,
                "linearDamping" : 0.05000000074505806,
                "mass" : 0.5,
-               "restitution" : 0.80000001192092896,
-               "rollingFriction" : 1.0,
-               "spinningFriction" : 1.0
+               "restitution" : 0.9100000262260437,
+               "rollingFriction" : 0.69999998807907104,
+               "spinningFriction" : 0.69999998807907104
             }
          ],
          "frozen" : false,
@@ -3185,14 +3227,14 @@
                "ccd" : false,
                "classname" : "ComRigidBody",
                "enabled" : true,
-               "friction" : 1.0,
+               "friction" : 0.80000001192092896,
                "guid" : "00FF30250B0709050035009AD6014B5D",
                "kinematic" : false,
                "linearDamping" : 0.05000000074505806,
                "mass" : 0.5,
-               "restitution" : 0.80000001192092896,
-               "rollingFriction" : 1.0,
-               "spinningFriction" : 1.0
+               "restitution" : 0.9100000262260437,
+               "rollingFriction" : 0.69999998807907104,
+               "spinningFriction" : 0.69999998807907104
             }
          ],
          "frozen" : false,
@@ -3247,14 +3289,14 @@
                "ccd" : false,
                "classname" : "ComRigidBody",
                "enabled" : true,
-               "friction" : 1.0,
+               "friction" : 0.80000001192092896,
                "guid" : "010459D20B0709050035009BD60153E7",
                "kinematic" : false,
                "linearDamping" : 0.05000000074505806,
                "mass" : 0.5,
-               "restitution" : 0.80000001192092896,
-               "rollingFriction" : 1.0,
-               "spinningFriction" : 1.0
+               "restitution" : 0.9100000262260437,
+               "rollingFriction" : 0.69999998807907104,
+               "spinningFriction" : 0.69999998807907104
             }
          ],
          "frozen" : false,
@@ -3309,14 +3351,14 @@
                "ccd" : false,
                "classname" : "ComRigidBody",
                "enabled" : true,
-               "friction" : 1.0,
+               "friction" : 0.80000001192092896,
                "guid" : "0109614A0B0709050035009BD60159FC",
                "kinematic" : false,
                "linearDamping" : 0.05000000074505806,
                "mass" : 0.5,
-               "restitution" : 0.80000001192092896,
-               "rollingFriction" : 1.0,
-               "spinningFriction" : 1.0
+               "restitution" : 0.9100000262260437,
+               "rollingFriction" : 0.69999998807907104,
+               "spinningFriction" : 0.69999998807907104
             }
          ],
          "frozen" : false,
@@ -3371,14 +3413,14 @@
                "ccd" : false,
                "classname" : "ComRigidBody",
                "enabled" : true,
-               "friction" : 1.0,
+               "friction" : 0.80000001192092896,
                "guid" : "010E3B820B0709050035009CD6015F20",
                "kinematic" : false,
                "linearDamping" : 0.05000000074505806,
                "mass" : 0.5,
-               "restitution" : 0.80000001192092896,
-               "rollingFriction" : 1.0,
-               "spinningFriction" : 1.0
+               "restitution" : 0.9100000262260437,
+               "rollingFriction" : 0.69999998807907104,
+               "spinningFriction" : 0.69999998807907104
             }
          ],
          "frozen" : false,
@@ -3433,14 +3475,14 @@
                "ccd" : false,
                "classname" : "ComRigidBody",
                "enabled" : true,
-               "friction" : 1.0,
+               "friction" : 0.80000001192092896,
                "guid" : "01135EE70B0709050035009CD6016539",
                "kinematic" : false,
                "linearDamping" : 0.05000000074505806,
                "mass" : 0.5,
-               "restitution" : 0.80000001192092896,
-               "rollingFriction" : 1.0,
-               "spinningFriction" : 1.0
+               "restitution" : 0.9100000262260437,
+               "rollingFriction" : 0.69999998807907104,
+               "spinningFriction" : 0.69999998807907104
             }
          ],
          "frozen" : false,
@@ -3495,14 +3537,14 @@
                "ccd" : false,
                "classname" : "ComRigidBody",
                "enabled" : true,
-               "friction" : 1.0,
+               "friction" : 0.80000001192092896,
                "guid" : "01183B7A0B0709050035009DD6016A84",
                "kinematic" : false,
                "linearDamping" : 0.05000000074505806,
                "mass" : 0.5,
-               "restitution" : 0.80000001192092896,
-               "rollingFriction" : 1.0,
-               "spinningFriction" : 1.0
+               "restitution" : 0.9100000262260437,
+               "rollingFriction" : 0.69999998807907104,
+               "spinningFriction" : 0.69999998807907104
             }
          ],
          "frozen" : false,
@@ -3557,14 +3599,14 @@
                "ccd" : false,
                "classname" : "ComRigidBody",
                "enabled" : true,
-               "friction" : 1.0,
+               "friction" : 0.80000001192092896,
                "guid" : "011D28F70B0709050035009DD60170F3",
                "kinematic" : false,
                "linearDamping" : 0.05000000074505806,
                "mass" : 0.5,
-               "restitution" : 0.80000001192092896,
-               "rollingFriction" : 1.0,
-               "spinningFriction" : 1.0
+               "restitution" : 0.9100000262260437,
+               "rollingFriction" : 0.69999998807907104,
+               "spinningFriction" : 0.69999998807907104
             }
          ],
          "frozen" : false,
@@ -3619,14 +3661,14 @@
                "ccd" : false,
                "classname" : "ComRigidBody",
                "enabled" : true,
-               "friction" : 1.0,
+               "friction" : 0.80000001192092896,
                "guid" : "0122565A0B0709050035009ED60176DC",
                "kinematic" : false,
                "linearDamping" : 0.05000000074505806,
                "mass" : 0.5,
-               "restitution" : 0.80000001192092896,
-               "rollingFriction" : 1.0,
-               "spinningFriction" : 1.0
+               "restitution" : 0.9100000262260437,
+               "rollingFriction" : 0.69999998807907104,
+               "spinningFriction" : 0.69999998807907104
             }
          ],
          "frozen" : false,
@@ -3681,14 +3723,14 @@
                "ccd" : false,
                "classname" : "ComRigidBody",
                "enabled" : true,
-               "friction" : 1.0,
+               "friction" : 0.80000001192092896,
                "guid" : "015C0FA90A070905003800D6FB86C7B6",
                "kinematic" : false,
                "linearDamping" : 0.05000000074505806,
                "mass" : 0.5,
-               "restitution" : 0.80000001192092896,
-               "rollingFriction" : 1.0,
-               "spinningFriction" : 1.0
+               "restitution" : 0.9100000262260437,
+               "rollingFriction" : 0.69999998807907104,
+               "spinningFriction" : 0.69999998807907104
             }
          ],
          "frozen" : false,
@@ -3743,14 +3785,14 @@
                "ccd" : false,
                "classname" : "ComRigidBody",
                "enabled" : true,
-               "friction" : 1.0,
+               "friction" : 0.80000001192092896,
                "guid" : "016158180A070905003800D6FB86CD4C",
                "kinematic" : false,
                "linearDamping" : 0.05000000074505806,
                "mass" : 0.5,
-               "restitution" : 0.80000001192092896,
-               "rollingFriction" : 1.0,
-               "spinningFriction" : 1.0
+               "restitution" : 0.9100000262260437,
+               "rollingFriction" : 0.69999998807907104,
+               "spinningFriction" : 0.69999998807907104
             }
          ],
          "frozen" : false,
@@ -3805,14 +3847,14 @@
                "ccd" : false,
                "classname" : "ComRigidBody",
                "enabled" : true,
-               "friction" : 1.0,
+               "friction" : 0.80000001192092896,
                "guid" : "016637400A070905003800D7FB86D2BE",
                "kinematic" : false,
                "linearDamping" : 0.05000000074505806,
                "mass" : 0.5,
-               "restitution" : 0.80000001192092896,
-               "rollingFriction" : 1.0,
-               "spinningFriction" : 1.0
+               "restitution" : 0.9100000262260437,
+               "rollingFriction" : 0.69999998807907104,
+               "spinningFriction" : 0.69999998807907104
             }
          ],
          "frozen" : false,
@@ -3867,14 +3909,14 @@
                "ccd" : false,
                "classname" : "ComRigidBody",
                "enabled" : true,
-               "friction" : 1.0,
+               "friction" : 0.80000001192092896,
                "guid" : "01702CBC0A070905003800D7FB86DE9E",
                "kinematic" : false,
                "linearDamping" : 0.05000000074505806,
                "mass" : 0.5,
-               "restitution" : 0.80000001192092896,
-               "rollingFriction" : 1.0,
-               "spinningFriction" : 1.0
+               "restitution" : 0.9100000262260437,
+               "rollingFriction" : 0.69999998807907104,
+               "spinningFriction" : 0.69999998807907104
             }
          ],
          "frozen" : false,
@@ -3929,14 +3971,14 @@
                "ccd" : false,
                "classname" : "ComRigidBody",
                "enabled" : true,
-               "friction" : 1.0,
+               "friction" : 0.80000001192092896,
                "guid" : "017533CA0A070905003800D8FB86E4FF",
                "kinematic" : false,
                "linearDamping" : 0.05000000074505806,
                "mass" : 0.5,
-               "restitution" : 0.80000001192092896,
-               "rollingFriction" : 1.0,
-               "spinningFriction" : 1.0
+               "restitution" : 0.9100000262260437,
+               "rollingFriction" : 0.69999998807907104,
+               "spinningFriction" : 0.69999998807907104
             }
          ],
          "frozen" : false,
@@ -3991,14 +4033,14 @@
                "ccd" : false,
                "classname" : "ComRigidBody",
                "enabled" : true,
-               "friction" : 1.0,
+               "friction" : 0.80000001192092896,
                "guid" : "017A329C0A070905003800D8FB86EA21",
                "kinematic" : false,
                "linearDamping" : 0.05000000074505806,
                "mass" : 0.5,
-               "restitution" : 0.80000001192092896,
-               "rollingFriction" : 1.0,
-               "spinningFriction" : 1.0
+               "restitution" : 0.9100000262260437,
+               "rollingFriction" : 0.69999998807907104,
+               "spinningFriction" : 0.69999998807907104
             }
          ],
          "frozen" : false,
@@ -4053,14 +4095,14 @@
                "ccd" : false,
                "classname" : "ComRigidBody",
                "enabled" : true,
-               "friction" : 1.0,
+               "friction" : 0.80000001192092896,
                "guid" : "017F16360A070905003800D9FB86F002",
                "kinematic" : false,
                "linearDamping" : 0.05000000074505806,
                "mass" : 0.5,
-               "restitution" : 0.80000001192092896,
-               "rollingFriction" : 1.0,
-               "spinningFriction" : 1.0
+               "restitution" : 0.9100000262260437,
+               "rollingFriction" : 0.69999998807907104,
+               "spinningFriction" : 0.69999998807907104
             }
          ],
          "frozen" : false,
@@ -4115,14 +4157,14 @@
                "ccd" : false,
                "classname" : "ComRigidBody",
                "enabled" : true,
-               "friction" : 1.0,
+               "friction" : 0.80000001192092896,
                "guid" : "018460400A070905003800D9FB86F60B",
                "kinematic" : false,
                "linearDamping" : 0.05000000074505806,
                "mass" : 0.5,
-               "restitution" : 0.80000001192092896,
-               "rollingFriction" : 1.0,
-               "spinningFriction" : 1.0
+               "restitution" : 0.9100000262260437,
+               "rollingFriction" : 0.69999998807907104,
+               "spinningFriction" : 0.69999998807907104
             }
          ],
          "frozen" : false,
@@ -4177,14 +4219,14 @@
                "ccd" : false,
                "classname" : "ComRigidBody",
                "enabled" : true,
-               "friction" : 1.0,
+               "friction" : 0.80000001192092896,
                "guid" : "018959DE0A070905003800EAFB87DE5E",
                "kinematic" : false,
                "linearDamping" : 0.05000000074505806,
                "mass" : 0.5,
-               "restitution" : 0.80000001192092896,
-               "rollingFriction" : 1.0,
-               "spinningFriction" : 1.0
+               "restitution" : 0.9100000262260437,
+               "rollingFriction" : 0.69999998807907104,
+               "spinningFriction" : 0.69999998807907104
             }
          ],
          "frozen" : false,
@@ -4239,14 +4281,14 @@
                "ccd" : false,
                "classname" : "ComRigidBody",
                "enabled" : true,
-               "friction" : 1.0,
+               "friction" : 0.80000001192092896,
                "guid" : "018E4C5D0A070905003800EBFB87E9F3",
                "kinematic" : false,
                "linearDamping" : 0.05000000074505806,
                "mass" : 0.5,
-               "restitution" : 0.80000001192092896,
-               "rollingFriction" : 1.0,
-               "spinningFriction" : 1.0
+               "restitution" : 0.9100000262260437,
+               "rollingFriction" : 0.69999998807907104,
+               "spinningFriction" : 0.69999998807907104
             }
          ],
          "frozen" : false,
@@ -4301,14 +4343,14 @@
                "ccd" : false,
                "classname" : "ComRigidBody",
                "enabled" : true,
-               "friction" : 1.0,
+               "friction" : 0.80000001192092896,
                "guid" : "0193525C0A070905003800EBFB87EE9F",
                "kinematic" : false,
                "linearDamping" : 0.05000000074505806,
                "mass" : 0.5,
-               "restitution" : 0.80000001192092896,
-               "rollingFriction" : 1.0,
-               "spinningFriction" : 1.0
+               "restitution" : 0.9100000262260437,
+               "rollingFriction" : 0.69999998807907104,
+               "spinningFriction" : 0.69999998807907104
             }
          ],
          "frozen" : false,
@@ -4363,14 +4405,14 @@
                "ccd" : false,
                "classname" : "ComRigidBody",
                "enabled" : true,
-               "friction" : 1.0,
+               "friction" : 0.80000001192092896,
                "guid" : "019839700A070905003800ECFB87F78B",
                "kinematic" : false,
                "linearDamping" : 0.05000000074505806,
                "mass" : 0.5,
-               "restitution" : 0.80000001192092896,
-               "rollingFriction" : 1.0,
-               "spinningFriction" : 1.0
+               "restitution" : 0.9100000262260437,
+               "rollingFriction" : 0.69999998807907104,
+               "spinningFriction" : 0.69999998807907104
             }
          ],
          "frozen" : false,
@@ -4425,14 +4467,14 @@
                "ccd" : false,
                "classname" : "ComRigidBody",
                "enabled" : true,
-               "friction" : 1.0,
+               "friction" : 0.80000001192092896,
                "guid" : "019D56850A070905003800ECFB87FCE6",
                "kinematic" : false,
                "linearDamping" : 0.05000000074505806,
                "mass" : 0.5,
-               "restitution" : 0.80000001192092896,
-               "rollingFriction" : 1.0,
-               "spinningFriction" : 1.0
+               "restitution" : 0.9100000262260437,
+               "rollingFriction" : 0.69999998807907104,
+               "spinningFriction" : 0.69999998807907104
             }
          ],
          "frozen" : false,
@@ -4487,14 +4529,14 @@
                "ccd" : false,
                "classname" : "ComRigidBody",
                "enabled" : true,
-               "friction" : 1.0,
+               "friction" : 0.80000001192092896,
                "guid" : "01A2281E0A070905003800EDFB8804A6",
                "kinematic" : false,
                "linearDamping" : 0.05000000074505806,
                "mass" : 0.5,
-               "restitution" : 0.80000001192092896,
-               "rollingFriction" : 1.0,
-               "spinningFriction" : 1.0
+               "restitution" : 0.9100000262260437,
+               "rollingFriction" : 0.69999998807907104,
+               "spinningFriction" : 0.69999998807907104
             }
          ],
          "frozen" : false,
@@ -4517,7 +4559,7 @@
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "002C304810070A050007030087337E6D",
-               "origin" : "12 -3 1",
+               "origin" : "12.6000023 -2.9999986 1.0002096",
                "scale" : "1.5 1.5 1.5"
             },
             {
@@ -4556,11 +4598,388 @@
          "prefabSource" : "004B5BDE35061116000301AB4ABA96E1",
          "static" : false,
          "tag" : "Untagged"
+      },
+      {
+         "active" : true,
+         "activeInHierarchy" : true,
+         "classname" : "Entity",
+         "components" : [
+            {
+               "angles" : "0 -0 0",
+               "classname" : "ComTransform",
+               "enabled" : true,
+               "guid" : "001561631001100700120029F374E3A0",
+               "origin" : "0.1999998 1.5000001 0.5",
+               "scale" : "1 1 1"
+            },
+            {
+               "alpha" : 1.0,
+               "billboard" : false,
+               "castShadows" : true,
+               "classname" : "ComStaticMeshRenderer",
+               "color" : "1 1 1",
+               "enabled" : true,
+               "guid" : "00161EAB1001100700120029F374E3A9",
+               "materials" : [ "005542880C011007000F01FCCCFF787D" ],
+               "maxVisDist" : 1000.0,
+               "mesh" : "00000000000000000000000000000194",
+               "occluder" : false,
+               "receiveShadows" : true,
+               "timeOffset" : 0.0,
+               "timeScale" : 1.0,
+               "useLightProve" : true
+            },
+            {
+               "center" : "0 0 0",
+               "classname" : "ComSphereCollider",
+               "enabled" : true,
+               "guid" : "0017572D1001100700120029F374E3B3",
+               "radius" : 0.5
+            },
+            {
+               "angularDamping" : 0.0099999997764825821,
+               "ccd" : false,
+               "classname" : "ComRigidBody",
+               "enabled" : true,
+               "friction" : 0.80000001192092896,
+               "guid" : "001854491001100700120029F374E3B5",
+               "kinematic" : false,
+               "linearDamping" : 0.05000000074505806,
+               "mass" : 0.5,
+               "restitution" : 0.9100000262260437,
+               "rollingFriction" : 0.69999998807907104,
+               "spinningFriction" : 0.69999998807907104
+            }
+         ],
+         "frozen" : false,
+         "guid" : "0014045C1001100700120029F374E051",
+         "layer" : 0,
+         "name" : "Sphere 33",
+         "parent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
+         "static" : false,
+         "tag" : "Untagged"
+      },
+      {
+         "active" : true,
+         "activeInHierarchy" : true,
+         "classname" : "Entity",
+         "components" : [
+            {
+               "angles" : "0 -0 0",
+               "classname" : "ComTransform",
+               "enabled" : true,
+               "guid" : "000D296501010B1000090371256E5D8C",
+               "origin" : "10.1000023 0.0000002 0.5",
+               "scale" : "1 1 1"
+            },
+            {
+               "alpha" : 1.0,
+               "billboard" : false,
+               "castShadows" : true,
+               "classname" : "ComStaticMeshRenderer",
+               "color" : "1 1 1",
+               "enabled" : true,
+               "guid" : "000E69F001010B1000090371256E5D95",
+               "materials" : [ "001572AC19011710003B01AAFB99CF3C" ],
+               "maxVisDist" : 1000.0,
+               "mesh" : "00000000000000000000000000000194",
+               "occluder" : false,
+               "receiveShadows" : true,
+               "timeOffset" : 0.0,
+               "timeScale" : 1.0,
+               "useLightProve" : true
+            },
+            {
+               "center" : "0 0 0",
+               "classname" : "ComSphereCollider",
+               "enabled" : true,
+               "guid" : "000F30ED01010B1000090371256E5D9F",
+               "radius" : 0.5
+            },
+            {
+               "angularDamping" : 0.0099999997764825821,
+               "ccd" : false,
+               "classname" : "ComRigidBody",
+               "enabled" : true,
+               "friction" : 0.80000001192092896,
+               "guid" : "0010640801010B1000090371256E5DE1",
+               "kinematic" : false,
+               "linearDamping" : 0.05000000074505806,
+               "mass" : 0.5,
+               "restitution" : 0.9100000262260437,
+               "rollingFriction" : 0.69999998807907104,
+               "spinningFriction" : 0.69999998807907104
+            }
+         ],
+         "frozen" : false,
+         "guid" : "000C483C01010B1000090371256E5D81",
+         "layer" : 0,
+         "name" : "Sphere 34",
+         "parent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
+         "static" : false,
+         "tag" : "Untagged"
+      },
+      {
+         "active" : true,
+         "activeInHierarchy" : true,
+         "classname" : "Entity",
+         "components" : [
+            {
+               "angles" : "0 90 -0",
+               "classname" : "ComTransform",
+               "enabled" : true,
+               "guid" : "000C4E9B1C010B10002502E78B19AA08",
+               "origin" : "0 0 0",
+               "scale" : "1 1 1"
+            },
+            {
+               "castShadows" : false,
+               "classname" : "ComLight",
+               "color" : "1 1 0.2156863",
+               "enabled" : true,
+               "fallOffExponent" : 1.25,
+               "guid" : "000D52A81C010B10002502E78B19ADB4",
+               "intensity" : 6.0,
+               "lightSize" : "4 4 4",
+               "lightType" : 0,
+               "lightZNear" : 0.10000000149011612,
+               "material" : "00000000000000000000000000000130",
+               "maxVisDist" : 16384.0,
+               "primaryLight" : false,
+               "shadowOffsetFactor" : 3.0,
+               "shadowOffsetUnits" : 200.0,
+               "timeScale" : 1.0,
+               "timerOffset" : 0.0
+            }
+         ],
+         "frozen" : false,
+         "guid" : "000B48851C010B10002502E78B19AAA8",
+         "layer" : 0,
+         "name" : "Point Light",
+         "parent" : "000C483C01010B1000090371256E5D81",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
+         "static" : false,
+         "tag" : "Untagged"
+      },
+      {
+         "active" : true,
+         "activeInHierarchy" : true,
+         "classname" : "Entity",
+         "components" : [
+            {
+               "angles" : "0 -0 0",
+               "classname" : "ComTransform",
+               "enabled" : true,
+               "guid" : "007D4520080100110001034B11457E52",
+               "origin" : "10.1000023 1.5 0.5",
+               "scale" : "1 1 1"
+            },
+            {
+               "alpha" : 1.0,
+               "billboard" : false,
+               "castShadows" : true,
+               "classname" : "ComStaticMeshRenderer",
+               "color" : "1 1 1",
+               "enabled" : true,
+               "guid" : "007E733E080100110001034B11457E54",
+               "materials" : [ "009B01C92F011710003A01F9F3A791AB" ],
+               "maxVisDist" : 1000.0,
+               "mesh" : "00000000000000000000000000000194",
+               "occluder" : false,
+               "receiveShadows" : true,
+               "timeOffset" : 0.0,
+               "timeScale" : 1.0,
+               "useLightProve" : true
+            },
+            {
+               "center" : "0 0 0",
+               "classname" : "ComSphereCollider",
+               "enabled" : true,
+               "guid" : "007F77B4080100110001034B11457E5D",
+               "radius" : 0.5
+            },
+            {
+               "angularDamping" : 0.0099999997764825821,
+               "ccd" : false,
+               "classname" : "ComRigidBody",
+               "enabled" : true,
+               "friction" : 0.80000001192092896,
+               "guid" : "00803F15080100110001034B114581A7",
+               "kinematic" : false,
+               "linearDamping" : 0.05000000074505806,
+               "mass" : 0.5,
+               "restitution" : 0.9100000262260437,
+               "rollingFriction" : 0.69999998807907104,
+               "spinningFriction" : 0.69999998807907104
+            }
+         ],
+         "frozen" : false,
+         "guid" : "007C375F080100110001034B11457E40",
+         "layer" : 0,
+         "name" : "Sphere 36",
+         "parent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
+         "static" : false,
+         "tag" : "Untagged"
+      },
+      {
+         "active" : true,
+         "activeInHierarchy" : true,
+         "classname" : "Entity",
+         "components" : [
+            {
+               "angles" : "0 90 -0",
+               "classname" : "ComTransform",
+               "enabled" : true,
+               "guid" : "00823F5F080100110001034B11458184",
+               "origin" : "0 0 0",
+               "scale" : "1 1 1"
+            },
+            {
+               "castShadows" : false,
+               "classname" : "ComLight",
+               "color" : "1 0.2156863 0.2156863",
+               "enabled" : true,
+               "fallOffExponent" : 1.25,
+               "guid" : "00832597080100110001034B1145818E",
+               "intensity" : 6.0,
+               "lightSize" : "4 4 4",
+               "lightType" : 0,
+               "lightZNear" : 0.10000000149011612,
+               "material" : "00000000000000000000000000000130",
+               "maxVisDist" : 16384.0,
+               "primaryLight" : false,
+               "shadowOffsetFactor" : 3.0,
+               "shadowOffsetUnits" : 200.0,
+               "timeScale" : 1.0,
+               "timerOffset" : 0.0
+            }
+         ],
+         "frozen" : false,
+         "guid" : "00812714080100110001034B11458183",
+         "layer" : 0,
+         "name" : "Point Light",
+         "parent" : "007C375F080100110001034B11457E40",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
+         "static" : false,
+         "tag" : "Untagged"
+      },
+      {
+         "active" : true,
+         "activeInHierarchy" : true,
+         "classname" : "Entity",
+         "components" : [
+            {
+               "angles" : "0 -0 0",
+               "classname" : "ComTransform",
+               "enabled" : true,
+               "guid" : "008D5B900C0100110001004911F2C029",
+               "origin" : "10.1000023 -1.4999996 0.5",
+               "scale" : "1 1 1"
+            },
+            {
+               "alpha" : 1.0,
+               "billboard" : false,
+               "castShadows" : true,
+               "classname" : "ComStaticMeshRenderer",
+               "color" : "1 1 1",
+               "enabled" : true,
+               "guid" : "008E37A10C0100110001004911F2C032",
+               "materials" : [ "00C3722823071119003A03B6D12A5F89" ],
+               "maxVisDist" : 1000.0,
+               "mesh" : "00000000000000000000000000000194",
+               "occluder" : false,
+               "receiveShadows" : true,
+               "timeOffset" : 0.0,
+               "timeScale" : 1.0,
+               "useLightProve" : true
+            },
+            {
+               "center" : "0 0 0",
+               "classname" : "ComSphereCollider",
+               "enabled" : true,
+               "guid" : "008F2C740C0100110001004911F2C034",
+               "radius" : 0.5
+            },
+            {
+               "angularDamping" : 0.0099999997764825821,
+               "ccd" : false,
+               "classname" : "ComRigidBody",
+               "enabled" : true,
+               "friction" : 0.80000001192092896,
+               "guid" : "009050180C0100110001004911F2C03E",
+               "kinematic" : false,
+               "linearDamping" : 0.05000000074505806,
+               "mass" : 0.5,
+               "restitution" : 0.9100000262260437,
+               "rollingFriction" : 0.69999998807907104,
+               "spinningFriction" : 0.69999998807907104
+            }
+         ],
+         "frozen" : false,
+         "guid" : "008C295F0C0100110001004911F2C0D8",
+         "layer" : 0,
+         "name" : "Sphere 37",
+         "parent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
+         "static" : false,
+         "tag" : "Untagged"
+      },
+      {
+         "active" : true,
+         "activeInHierarchy" : true,
+         "classname" : "Entity",
+         "components" : [
+            {
+               "angles" : "0 90 -0",
+               "classname" : "ComTransform",
+               "enabled" : true,
+               "guid" : "009242440C0100110001004911F2C019",
+               "origin" : "0 0 0",
+               "scale" : "1 1 1"
+            },
+            {
+               "castShadows" : false,
+               "classname" : "ComLight",
+               "color" : "0.2156863 1 1",
+               "enabled" : true,
+               "fallOffExponent" : 1.25,
+               "guid" : "00935BB60C0100110001004911F2C063",
+               "intensity" : 6.0,
+               "lightSize" : "4 4 4",
+               "lightType" : 0,
+               "lightZNear" : 0.10000000149011612,
+               "material" : "00000000000000000000000000000130",
+               "maxVisDist" : 16384.0,
+               "primaryLight" : false,
+               "shadowOffsetFactor" : 3.0,
+               "shadowOffsetUnits" : 200.0,
+               "timeScale" : 1.0,
+               "timerOffset" : 0.0
+            }
+         ],
+         "frozen" : false,
+         "guid" : "0091473F0C0100110001004911F2C010",
+         "layer" : 0,
+         "name" : "Point Light",
+         "parent" : "008C295F0C0100110001004911F2C0D8",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
+         "static" : false,
+         "tag" : "Untagged"
       }
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "00026558350A171C003802402920033D",
+      "guid" : "00024EF1130116170032033BA3F6DB43",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1
