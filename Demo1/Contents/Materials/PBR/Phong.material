@@ -4,7 +4,7 @@ pass {
   cull back
   shader "000000000000000000000000000000CD" {
     _ALBEDO "0"
-    albedoColor "0.5333 0 0"
+    albedoColor "0.502 0.502 0.502"
     albedoAlpha "1.0000"
     albedoMap "0022098E06070B18002A013D05FFD769"
     _SPECULAR "0"
@@ -20,7 +20,7 @@ pass {
     _PARALLAX "0"
     heightMap "00000000000000000000000000000069"
     heightScale "1.0000"
-    _OCCLUSION "0"
+    _OCC "0"
     occlusionMap "00000000000000000000000000000068"
     occlusionStrength "1.0000"
     _EMISSION "0"
