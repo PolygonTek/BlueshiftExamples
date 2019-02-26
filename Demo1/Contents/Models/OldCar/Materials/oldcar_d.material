@@ -1,0 +1,44 @@
+material 1
+pass {
+  renderingMode alphaBlend
+  cull none
+  transparency twoPassesTwoSides
+  shader "000000000000000000000000000000CB" {
+    _ALBEDO "1"
+    albedoColor "1 1 1"
+    albedoAlpha "1.0000"
+    albedoMap "00093E1A15020A0A002D012C09054CBF"
+    _METALLIC "1"
+    metallicMap "000B6DB015020A0A002D0312091F5515"
+    metallicScale "1.0000"
+    _ROUGHNESS "1"
+    roughnessMap "000F4BC416020A0A002D01CB094376D6"
+    roughnessScale "1.0000"
+    _NORMAL "1"
+    normalMap "000D3B5C16020A0A002D0077093136BF"
+    detailNormalMap "00000000000000000000000000000000"
+    detailRepeat "8.0000"
+    _CLEARCOAT "0"
+    clearCoatMap "00000000000000000000000000000000"
+    clearCoatScale "1.0000"
+    _CC_ROUGHNESS "0"
+    clearCoatRoughnessMap "00000000000000000000000000000000"
+    clearCoatRoughnessScale "0.0000"
+    _CC_NORMAL "0"
+    clearCoatNormalMap "00000000000000000000000000000000"
+    _PARALLAX "0"
+    heightMap "00000000000000000000000000000000"
+    heightScale "0.0080"
+    _OCC "1"
+    occlusionMap "00070E8215020A0A002D00CC0900263A"
+    occlusionStrength "1.0000"
+    _EMISSION "0"
+    emissionColor "1 1 1"
+    emissionMap "00000000000000000000000000000000"
+    emissionScale "1.0000"
+  }
+  tc (1.000 1.000) (0.000 0.000)
+  colorMask RGB
+  blendFunc SRC_ALPHA ONE_MINUS_SRC_ALPHA
+  color (1 1 1 1)
+}

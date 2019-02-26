@@ -1,0 +1,35 @@
+MESH 2
+numJoints 0
+numMaterials 1
+materials {
+	"Plane001Ambient Occlusion _MR_"
+}
+mesh "Plane001" {
+	material 0 /* Material #180 */
+	hasNormals true
+	hasTangents true
+	hasVertexColors false
+	numVerts 4
+	verts {
+		( 0 -3.6667470932 -4.9199390411 ) 0 
+		( 0 3.6667470932 -4.9199390411 ) 0 
+		( 0 -3.6667470932 4.9199390411 ) 0 
+		( 0 3.6667470932 4.9199390411 ) 0 
+	}
+	numTVerts 8
+	tverts {
+		( 0 1 )
+		( 1 1 )
+		( 0 1 )
+		( 1 1 )
+		( 0 1 )
+		( 1 1 )
+		( 0 0 )
+		( 1 0 )
+	}
+	numFaces 2
+	faces {
+		2 0 3 6 4 7 1 -1 ( 1 0 0 ) ( 1 0 0 ) ( 1 0 0 ) ( 0 1 0 ) ( 0 1 0 ) ( 0 1 0 ) ( 0 0 1 ) ( 0 1 0 ) ( 0 1 0 ) 
+		1 3 0 5 7 4 1 -1 ( 1 0 0 ) ( 1 0 0 ) ( 1 0 0 ) ( 0 1 0 ) ( 0 1 0 ) ( 0 1 0 ) ( 0 0 1 ) ( 0 1 0 ) ( 0 1 0 ) 
+	}
+}

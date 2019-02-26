@@ -1,0 +1,16 @@
+{
+   "classname" : "TextureAsset",
+   "guid" : "000F4BC416020A0A002D01CB094376D6",
+   "importer" : {
+      "anisoLevel" : 1,
+      "classname" : "TextureImporter",
+      "compression" : 1,
+      "filterMode" : 2,
+      "generateMipmaps" : true,
+      "guid" : "00102C5E16020A0A002D01CB09437636",
+      "normalMap" : false,
+      "sRGB" : false,
+      "textureType" : 0,
+      "wrapMode" : 0
+   }
+}

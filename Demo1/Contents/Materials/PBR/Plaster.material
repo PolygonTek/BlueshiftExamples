@@ -27,7 +27,7 @@ pass {
     _CC_NORMAL "0"
     _PARALLAX "1"
     heightMap "005C5F7909070B18002A0193067BBBC1"
-    heightScale "0.3400"
+    heightScale "0.0400"
     _OCC "0"
     occlusionMap "0056300B09070B18002A00C10673511F"
     occlusionStrength "1.0000"

@@ -11,6 +11,6 @@
       "normalMap" : true,
       "sRGB" : false,
       "textureType" : 0,
-      "wrapMode" : 0
+      "wrapMode" : 1
    }
 }

@@ -8,10 +8,6 @@ pass {
     albedoColor "1 1 1"
     albedoAlpha "1.0000"
     albedoMap "000E71243A030D03002202D518462764"
-    _EMISSION "0"
-    emissionColor "1 1 1"
-    emissionMap "00000000000000000000000000000000"
-    emissionScale "1.0000"
   }
   tc (1.000 1.000) (0.000 0.000)
   colorMask RGB
