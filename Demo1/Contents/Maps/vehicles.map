@@ -1938,7 +1938,7 @@
                "scale" : "1 1 1"
             },
             {
-               "applyPostProcessing" : true,
+               "applyPostProcessing" : false,
                "classname" : "ComCamera",
                "clear" : 3,
                "clearAlpha" : 0.0,
@@ -2257,7 +2257,7 @@
                "billboard" : false,
                "castShadows" : true,
                "classname" : "ComStaticMeshRenderer",
-               "color" : "0 1 1",
+               "color" : "0.6666667 0 0",
                "enabled" : true,
                "guid" : "005F04FB38041101002D01DB01693DA7",
                "materials" : [ "0000000000000000000000000000012D" ],
@@ -2338,7 +2338,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "0005002504031709000C035FCB5DCE85",
+      "guid" : "000800103803000B0017006F0BD883BD",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1
