@@ -5,7 +5,7 @@ pass {
   transparency default
   shader "000000000000000000000000000000C8" {
     _ALBEDO "0"
-    albedoColor "0.7882 0.1608 0.1686"
+    albedoColor "0.7882 0.1333 0.2745"
     albedoAlpha "1.0000"
     albedoMap "0022098E06070B18002A013D05FFD769"
     _SPECULAR "0"

@@ -65,7 +65,7 @@ function update()
                 local knob_plane = Plane(-m.camera_entity:transform():axis():at(0), 0)
                 knob_plane:fit_through_point(knob_center)
 
-                local s = knob_plane:ray_intersection(ray:origin(), ray:direction())
+                local s = knob_plane:intersect_ray(ray)
                 m.knob_entity:transform():set_origin(ray:origin() + ray:direction():mul(s))
 
                 -- Normalize

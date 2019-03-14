@@ -216,7 +216,7 @@ function handle_mouse_shoot()
         local min_scale = blueshift.meter_to_unit(100)        
         local cast_result = Physics.CastResult()
 
-        if Physics.ray_cast(ray:origin(), ray:distance_point(min_scale), Physics.FilterGroup.DefaultGroup, Physics.FilterGroup.DefaultGroup, cast_result) then
+        if Physics.ray_cast(ray:origin(), ray:get_point(min_scale), Physics.FilterGroup.DefaultGroup, Physics.FilterGroup.DefaultGroup, cast_result) then
             local hit_rigid_body = cast_result:rigid_body()
 
             if hit_rigid_body then
@@ -230,13 +230,13 @@ end
 function handle_mouse_joint()
     for i = 0, Input.touch_count() do
         local touch = Input.touch(i)
-        if touch:phase() == Input.Touch.Started then            
+        if touch:phase() == Input.Touch.Started then
             local camera = m.camera_entity:camera()
             local ray = camera:screen_to_ray(touch:position())
             local max_dist = blueshift.meter_to_unit(30)
             local cast_result = Physics.CastResult()
 
-            if Physics.ray_cast(ray:origin(), ray:distance_point(max_dist), 1, cast_result) then
+            if Physics.ray_cast(ray:origin(), ray:get_point(max_dist), 1, cast_result) then
                 local hit_rigid_body = cast_result:rigid_body()
 
                 if hit_rigid_body then
@@ -259,7 +259,7 @@ function handle_mouse_joint()
                 local camera = m.camera_entity:camera()
                 local ray = camera:screen_to_ray(touch:position())
 
-                m.dragger_entity:socket_joint():set_local_anchor(ray:distance_point(m.old_picking_dist))
+                m.dragger_entity:socket_joint():set_local_anchor(ray:get_point(m.old_picking_dist))
 
                 m.last_touch_position:assign(touch:position())
             end
@@ -268,7 +268,7 @@ function handle_mouse_joint()
                 local camera = m.camera_entity:camera()
                 local ray = camera:screen_to_ray(m.last_touch_position)
 
-                m.dragger_entity:socket_joint():set_local_anchor(ray:distance_point(m.old_picking_dist))
+                m.dragger_entity:socket_joint():set_local_anchor(ray:get_point(m.old_picking_dist))
             end
         end
     end
