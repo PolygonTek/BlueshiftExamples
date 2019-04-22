@@ -2,9 +2,10 @@ material 1
 pass {
   renderingMode opaque
   cull back
+  transparency default
   shader "000000000000000000000000000000CD" {
     _ALBEDO "0"
-    albedoColor "0.502 0.502 0.502"
+    albedoColor "0 0.3098 0.502"
     albedoAlpha "1.0000"
     albedoMap "0022098E06070B18002A013D05FFD769"
     _SPECULAR "0"

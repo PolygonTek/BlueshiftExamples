@@ -8,7 +8,7 @@
             "angles" : "0 -0 0",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "1A661386090C1704000402A9571D1B94",
+            "guid" : "00215CA92304150B000302398287A6F9",
             "origin" : "0 0 0",
             "scale" : "1 1 1"
          },
@@ -17,7 +17,7 @@
             "anims" : [ "04B4521B03070A010023037DB4591C16" ],
             "classname" : "ComAnimation",
             "enabled" : true,
-            "guid" : "1A677B75090C1704000402AA571D1B7C",
+            "guid" : "00221F5D2304150B000302398287A951",
             "skeleton" : "00174FAD35060B16002D0013AC797750",
             "timeOffset" : 0.0,
             "timeScale" : 1.0
@@ -30,7 +30,7 @@
       "parent" : "00000000000000000000000000000000",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
-      "static" : false,
+      "staticMask" : 0,
       "tag" : "Untagged"
    },
    {
@@ -42,7 +42,7 @@
             "angles" : "0 -0 0",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "1A8377A8090C1704000402AB571D3415",
+            "guid" : "003E4A512304150B000302468288579C",
             "origin" : "0 0 0",
             "scale" : "0.0393701 0.0393701 0.0393701"
          },
@@ -53,7 +53,7 @@
             "classname" : "ComSkinnedMeshRenderer",
             "color" : "1 1 1",
             "enabled" : true,
-            "guid" : "1A84730F090C1704000402AC571D37B0",
+            "guid" : "003F6E1D2304150B0003024682885666",
             "materials" : [ "000F165822051400001C00BECA53381A" ],
             "maxVisDist" : 1000.0,
             "mesh" : "0008551933060B16002D0348AC3A2F7F",
@@ -61,7 +61,7 @@
             "root" : "001D52BD37060B15001300E3AD206974",
             "timeOffset" : 0.0,
             "timeScale" : 1.0,
-            "useLightProve" : true
+            "useEnvironmentProveLighting" : true
          }
       ],
       "frozen" : false,
@@ -71,7 +71,7 @@
       "parent" : "001D52BD37060B15001300E3AD206974",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
-      "static" : false,
+      "staticMask" : 0,
       "tag" : "Untagged"
    },
    {
@@ -83,7 +83,7 @@
             "angles" : "0 -0 0",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "1A685145090C1704000402AA571D2502",
+            "guid" : "002308742304150B0003023C8287D1CB",
             "origin" : "0 0 0",
             "scale" : "0.0393701 0.0393701 0.0393701"
          }
@@ -95,7 +95,7 @@
       "parent" : "001D52BD37060B15001300E3AD206974",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
-      "static" : false,
+      "staticMask" : 0,
       "tag" : "Untagged"
    },
    {
@@ -107,7 +107,7 @@
             "angles" : "89.9999847 0 -179.9998169",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "1A69366F090C1704000402AA571D24FC",
+            "guid" : "002445892304150B0003023C8287D4A0",
             "origin" : "-13.5181532 -1.4059243 802.8672485",
             "scale" : "25.4000015 25.4000015 25.4000015"
          }
@@ -119,7 +119,7 @@
       "parent" : "001E340E37060B15001300E3AD206BCB",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
-      "static" : false,
+      "staticMask" : 0,
       "tag" : "Untagged"
    },
    {
@@ -131,7 +131,7 @@
             "angles" : "0.0001148 -0.000153 -2.0578179",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "1A717456090C1704000402AB571D2BDE",
+            "guid" : "002C256F2304150B0003023F8287F86E",
             "origin" : "-0.46425 3.940527 0.0000054",
             "scale" : "0.9999999 0.9999999 1.0000001"
          }
@@ -143,7 +143,7 @@
       "parent" : "001F6BC137060B15001300E3AD206A40",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
-      "static" : false,
+      "staticMask" : 0,
       "tag" : "Untagged"
    },
    {
@@ -155,7 +155,7 @@
             "angles" : "-0.0000335 -0.0000984 -6.4311404",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "1A7220E4090C1704000402AB571D2ABE",
+            "guid" : "002D6B772304150B0003023F8287FF8F",
             "origin" : "0.0026798 3.3653831 0.0000005",
             "scale" : "1.0000002 1.0000001 0.9999999"
          }
@@ -167,7 +167,7 @@
       "parent" : "00270F4837060B15001300E4AD20762E",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
-      "static" : false,
+      "staticMask" : 0,
       "tag" : "Untagged"
    },
    {
@@ -179,7 +179,7 @@
             "angles" : "0.0000103 -0.0000973 13.4672537",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "1A7369EB090C1704000402AB571D2A1F",
+            "guid" : "002E14FA2304150B0003023F8288032B",
             "origin" : "0.0040336 5.0651283 -0.0000002",
             "scale" : "0.9999999 1 1"
          }
@@ -191,7 +191,7 @@
       "parent" : "0028069337060B15001300E4AD207946",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
-      "static" : false,
+      "staticMask" : 0,
       "tag" : "Untagged"
    },
    {
@@ -203,7 +203,7 @@
             "angles" : "-87.1877441 11.9111376 175.7622986",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "1A7C73EC090C1704000402AB571D30FB",
+            "guid" : "003729ED2304150B0003024382883464",
             "origin" : "0.2247415 2.7522507 -1.6607788",
             "scale" : "0.9999999 0.9999999 0.9999996"
          }
@@ -215,7 +215,7 @@
       "parent" : "0029036137060B15001300E5AD207B9D",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
-      "static" : false,
+      "staticMask" : 0,
       "tag" : "Untagged"
    },
    {
@@ -227,7 +227,7 @@
             "angles" : "36.962944 -3.9733253 -5.0259528",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "1A7D1EDD090C1704000402AB571D305B",
+            "guid" : "0038386D2304150B0003024482883B66",
             "origin" : "-0.0000005 5.5143538 0",
             "scale" : "0.9999999 1 1.0000004"
          }
@@ -239,7 +239,7 @@
       "parent" : "00320D3637060B15001300E5AD2087E5",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
-      "static" : false,
+      "staticMask" : 0,
       "tag" : "Untagged"
    },
    {
@@ -251,7 +251,7 @@
             "angles" : "-4.3065534 -0.4669096 -18.6287746",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "1A7F697B090C1704000402AB571D3294",
+            "guid" : "003A1B182304150B0003024482884203",
             "origin" : "0.0000005 8.4077129 -0.0000076",
             "scale" : "1.0000002 1.0000004 1"
          }
@@ -263,7 +263,7 @@
       "parent" : "003379F337060B15001300E6AD208657",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
-      "static" : false,
+      "staticMask" : 0,
       "tag" : "Untagged"
    },
    {
@@ -275,7 +275,7 @@
             "angles" : "84.9891815 74.2086029 87.9206848",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "1A802AA4090C1704000402AB571D3274",
+            "guid" : "003B7BD42304150B0003024582884922",
             "origin" : "-0.0000038 9.5536089 -0.0000038",
             "scale" : "0.9999996 0.9999998 0.9999997"
          }
@@ -287,7 +287,7 @@
       "parent" : "003541B137060B15001300E6AD208B6F",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
-      "static" : false,
+      "staticMask" : 0,
       "tag" : "Untagged"
    },
    {
@@ -299,7 +299,7 @@
             "angles" : "-0.0000089 -0.0000587 0.000029",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "1A8279B8090C1704000402AB571D34B6",
+            "guid" : "003D245F2304150B00030245828850F3",
             "origin" : "-0.0000038 0.0000019 0.0000008",
             "scale" : "1.0000005 1.0000002 1.0000001"
          }
@@ -311,7 +311,7 @@
       "parent" : "0036509337060B15001300E6AD208DBC",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
-      "static" : false,
+      "staticMask" : 0,
       "tag" : "Untagged"
    },
    {
@@ -323,7 +323,7 @@
             "angles" : "-0.8250178 0.2358689 62.6805954",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "1A81417B090C1704000402AB571D35D7",
+            "guid" : "003C6D3C2304150B0003024582884D44",
             "origin" : "0.1143303 4.0584631 0.2601074",
             "scale" : "1.0000002 1.0000005 1.0000002"
          }
@@ -335,7 +335,7 @@
       "parent" : "0036509337060B15001300E6AD208DBC",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
-      "static" : false,
+      "staticMask" : 0,
       "tag" : "Untagged"
    },
    {
@@ -347,7 +347,7 @@
             "angles" : "-0.0000256 1.4312003 -0.0000002",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "1A7E5CA2090C1704000402AB571D3335",
+            "guid" : "003913142304150B0003024482883E91",
             "origin" : "-0.000001 -0.0000019 0.0000038",
             "scale" : "1.0000002 1.0000004 0.9999999"
          }
@@ -359,7 +359,7 @@
       "parent" : "003379F337060B15001300E6AD208657",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
-      "static" : false,
+      "staticMask" : 0,
       "tag" : "Untagged"
    },
    {
@@ -371,7 +371,7 @@
             "angles" : "87.1860657 -11.8968763 175.7618561",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "1A764128090C1704000402AB571D2C3E",
+            "guid" : "003148D32304150B00030240828811B3",
             "origin" : "0.22194 2.7304344 1.6576514",
             "scale" : "1.0000001 0.9999999 0.9999999"
          }
@@ -383,7 +383,7 @@
       "parent" : "0029036137060B15001300E5AD207B9D",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
-      "static" : false,
+      "staticMask" : 0,
       "tag" : "Untagged"
    },
    {
@@ -395,7 +395,7 @@
             "angles" : "-36.9662743 3.9752073 -5.0081878",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "1A770C9A090C1704000402AB571D2F9E",
+            "guid" : "003268232304150B00030241828814C7",
             "origin" : "-0.0000007 5.5081 0",
             "scale" : "0.9999995 0.9999999 0.9999997"
          }
@@ -407,7 +407,7 @@
       "parent" : "002C582237060B15001300E5AD207FE2",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
-      "static" : false,
+      "staticMask" : 0,
       "tag" : "Untagged"
    },
    {
@@ -419,7 +419,7 @@
             "angles" : "4.3193331 0.4695914 -18.669157",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "1A7938AD090C1704000402AB571D2EDF",
+            "guid" : "00343E332304150B0003024282881F91",
             "origin" : "0 8.3774796 0",
             "scale" : "1.0000002 0.9999999 1.0000001"
          }
@@ -431,7 +431,7 @@
       "parent" : "002D277337060B15001300E5AD207E34",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
-      "static" : false,
+      "staticMask" : 0,
       "tag" : "Untagged"
    },
    {
@@ -443,7 +443,7 @@
             "angles" : "-84.9831772 -74.2004929 87.9518051",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "1A7A65B5090C1704000402AB571D31BE",
+            "guid" : "003500572304150B00030242828824A1",
             "origin" : "0.0000043 9.5268736 0.0000038",
             "scale" : "0.9999999 1 0.9999999"
          }
@@ -455,7 +455,7 @@
       "parent" : "002F28B537060B15001300E5AD2083E0",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
-      "static" : false,
+      "staticMask" : 0,
       "tag" : "Untagged"
    },
    {
@@ -467,7 +467,7 @@
             "angles" : "-0.0000142 -0.0000074 0.000012",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "1A7B6A72090C1704000402AB571D311E",
+            "guid" : "003659502304150B0003024382882FF7",
             "origin" : "0.0000076 -0.0000038 -0.0000008",
             "scale" : "1.0000001 1 1.0000002"
          }
@@ -479,7 +479,7 @@
       "parent" : "003033EF37060B15001300E5AD20820A",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
-      "static" : false,
+      "staticMask" : 0,
       "tag" : "Untagged"
    },
    {
@@ -491,7 +491,7 @@
             "angles" : "-0.0000077 -1.4311978 0.0000017",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "1A7814AD090C1704000402AB571D2F7F",
+            "guid" : "0033235A2304150B000302418288186F",
             "origin" : "0.0000005 0.0000019 0",
             "scale" : "1.0000001 1 1.0000002"
          }
@@ -503,7 +503,7 @@
       "parent" : "002D277337060B15001300E5AD207E34",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
-      "static" : false,
+      "staticMask" : 0,
       "tag" : "Untagged"
    },
    {
@@ -515,7 +515,7 @@
             "angles" : "0.0001604 0.0000774 14.8577938",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "1A746FF0090C1704000402AB571D2DFE",
+            "guid" : "002F614F2304150B00030240828806FE",
             "origin" : "0.3237281 6.0567322 -0.0000003",
             "scale" : "0.9999998 0.9999998 1"
          }
@@ -527,7 +527,7 @@
       "parent" : "0029036137060B15001300E5AD207B9D",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
-      "static" : false,
+      "staticMask" : 0,
       "tag" : "Untagged"
    },
    {
@@ -539,7 +539,7 @@
             "angles" : "-0.000205 1.1921985 -19.8360958",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "1A7512FF090C1704000402AB571D2D5E",
+            "guid" : "00302EA52304150B0003024082880A1A",
             "origin" : "0 3.0359154 0.0000003",
             "scale" : "0.9999999 0.9999999 1"
          }
@@ -551,7 +551,7 @@
       "parent" : "002A39D637060B15001300E5AD207A31",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
-      "static" : false,
+      "staticMask" : 0,
       "tag" : "Untagged"
    },
    {
@@ -563,7 +563,7 @@
             "angles" : "177.5843964 -0.0325161 -1.9097534",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "1A6E150E090C1704000402AB571D293B",
+            "guid" : "0029139A2304150B0003023E8287ED8F",
             "origin" : "0.0342686 -0.1550484 4.2711077",
             "scale" : "0.9999999 1 1"
          }
@@ -575,7 +575,7 @@
       "parent" : "001F6BC137060B15001300E3AD206A40",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
-      "static" : false,
+      "staticMask" : 0,
       "tag" : "Untagged"
    },
    {
@@ -587,7 +587,7 @@
             "angles" : "2.548532 -0.0486062 -8.7473831",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "1A6F4AA2090C1704000402AB571D289F",
+            "guid" : "002A28FB2304150B0003023E8287F12D",
             "origin" : "-0.0000013 13.9273834 0.000001",
             "scale" : "1.0000002 1.0000002 1"
          }
@@ -599,7 +599,7 @@
       "parent" : "00241D8B37060B15001300E4AD207231",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
-      "static" : false,
+      "staticMask" : 0,
       "tag" : "Untagged"
    },
    {
@@ -611,7 +611,7 @@
             "angles" : "0.0451854 0.4117346 28.3685913",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "1A7002F0090C1704000402AB571D287F",
+            "guid" : "002B66CC2304150B0003023E8287F54F",
             "origin" : "0.0000007 14.1703491 0.0000005",
             "scale" : "0.9999999 1 0.9999998"
          }
@@ -623,7 +623,7 @@
       "parent" : "00254C4237060B15001300E4AD207541",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
-      "static" : false,
+      "staticMask" : 0,
       "tag" : "Untagged"
    },
    {
@@ -635,7 +635,7 @@
             "angles" : "-177.5840912 0.0325194 -1.9097364",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "1A6B4ADC090C1704000402AA571D270F",
+            "guid" : "00261FC22304150B0003023D8287DF9D",
             "origin" : "0.034279 -0.1550312 -4.2474585",
             "scale" : "0.9999999 0.9999998 1"
          }
@@ -647,7 +647,7 @@
       "parent" : "001F6BC137060B15001300E3AD206A40",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
-      "static" : false,
+      "staticMask" : 0,
       "tag" : "Untagged"
    },
    {
@@ -659,7 +659,7 @@
             "angles" : "-2.5485532 0.0486769 -8.747386",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "1A6C6442090C1704000402AA571D26F2",
+            "guid" : "00270C6D2304150B0003023D8287E338",
             "origin" : "0.0000005 13.9273834 0",
             "scale" : "1.0000002 1.0000002 0.9999998"
          }
@@ -671,7 +671,7 @@
       "parent" : "00213D2D37060B15001300E4AD206E37",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
-      "static" : false,
+      "staticMask" : 0,
       "tag" : "Untagged"
    },
    {
@@ -683,7 +683,7 @@
             "angles" : "-0.0767824 -0.406953 32.7886505",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "1A6D181F090C1704000402AA571D2650",
+            "guid" : "0028766D2304150B0003023D8287E75F",
             "origin" : "0.0000021 14.1703558 0",
             "scale" : "0.9999999 1.0000001 1"
          }
@@ -695,7 +695,7 @@
       "parent" : "0022376337060B15001300E4AD207149",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
-      "static" : false,
+      "staticMask" : 0,
       "tag" : "Untagged"
    },
    {
@@ -707,7 +707,7 @@
             "angles" : "89.9999847 0.0001521 -179.9999847",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "1A6A64D7090C1704000402AA571D27A8",
+            "guid" : "0025416E2304150B0003023C8287D8CF",
             "origin" : "-5.6953449 -0.8282852 0.0006788",
             "scale" : "1 1 1"
          }
@@ -719,7 +719,7 @@
       "parent" : "001F6BC137060B15001300E3AD206A40",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
-      "static" : false,
+      "staticMask" : 0,
       "tag" : "Untagged"
    }
 ]

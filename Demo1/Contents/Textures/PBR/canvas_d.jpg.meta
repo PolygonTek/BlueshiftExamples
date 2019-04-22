@@ -2,7 +2,7 @@
    "classname" : "TextureAsset",
    "guid" : "0022098E06070B18002A013D05FFD769",
    "importer" : {
-      "anisoLevel" : 1,
+      "anisoLevel" : 8,
       "classname" : "TextureImporter",
       "compression" : 1,
       "filterMode" : 2,
