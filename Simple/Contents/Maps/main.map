@@ -1,0 +1,392 @@
+{
+   "entities" : [
+      {
+         "active" : true,
+         "activeInHierarchy" : true,
+         "classname" : "Entity",
+         "components" : [
+            {
+               "angles" : "0 -0 0",
+               "classname" : "ComTransform",
+               "enabled" : true,
+               "guid" : "002153F31F04091B000E0377A1F8C4C6",
+               "origin" : "0 0 10",
+               "scale" : "1 1 1"
+            },
+            {
+               "alpha" : 1.0,
+               "billboard" : false,
+               "castShadows" : true,
+               "classname" : "ComStaticMeshRenderer",
+               "color" : "1 1 1",
+               "enabled" : true,
+               "guid" : "00223B7D1F04091B000E0377A1F8C42A",
+               "materials" : [ "004D0AAF0404081B003B0219DFA5C828" ],
+               "maxVisDist" : 1000.0,
+               "mesh" : "00000000000000000000000000000197",
+               "occluder" : false,
+               "receiveShadows" : true,
+               "timeOffset" : 0.0,
+               "timeScale" : 1.0,
+               "useEnvironmentProveLighting" : true
+            },
+            {
+               "center" : "0 0 0",
+               "classname" : "ComCapsuleCollider",
+               "enabled" : true,
+               "guid" : "00386C340604091B001300E7DB75A65E",
+               "height" : 1.0,
+               "radius" : 0.50010001659393311
+            },
+            {
+               "angularDamping" : 0.0099999997764825821,
+               "ccd" : false,
+               "classname" : "ComRigidBody",
+               "enabled" : true,
+               "friction" : 1.0,
+               "guid" : "00247AD31F04091B000E0377A1F8C46E",
+               "kinematic" : false,
+               "linearDamping" : 0.05000000074505806,
+               "mass" : 1.0,
+               "restitution" : 0.5,
+               "rollingFriction" : 1.0,
+               "spinningFriction" : 1.0
+            }
+         ],
+         "frozen" : false,
+         "guid" : "00202FFB1F04091B000E0377A1F8C482",
+         "layer" : 0,
+         "name" : "Capsule",
+         "parent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
+         "staticMask" : 0,
+         "tag" : "Untagged"
+      },
+      {
+         "active" : true,
+         "activeInHierarchy" : true,
+         "classname" : "Entity",
+         "components" : [
+            {
+               "angles" : "8.4920073 65.4929352 43.1555443",
+               "classname" : "ComTransform",
+               "enabled" : true,
+               "guid" : "00B441651604091B000200C5091115E8",
+               "origin" : "-39.095665 -19.3921738 68.8329468",
+               "scale" : "1 1 1"
+            },
+            {
+               "castShadows" : true,
+               "classname" : "ComLight",
+               "color" : "1 1 1",
+               "enabled" : true,
+               "fallOffExponent" : 1.25,
+               "guid" : "00B55B8F1604091B000200C5091117A0",
+               "intensity" : 2.0,
+               "lightSize" : "1000 100 100",
+               "lightType" : 2,
+               "lightZNear" : 0.10000000149011612,
+               "material" : "00000000000000000000000000000130",
+               "maxVisDist" : 16384.0,
+               "primaryLight" : true,
+               "shadowOffsetFactor" : 3.0,
+               "shadowOffsetUnits" : 200.0,
+               "timeScale" : 1.0,
+               "timerOffset" : 0.0
+            }
+         ],
+         "frozen" : false,
+         "guid" : "00B3453F1604091B000200C40911111D",
+         "layer" : 0,
+         "name" : "Directional Light",
+         "parent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
+         "staticMask" : -1,
+         "tag" : "Untagged"
+      },
+      {
+         "active" : true,
+         "activeInHierarchy" : true,
+         "classname" : "Entity",
+         "components" : [
+            {
+               "angles" : "0 -0 0",
+               "classname" : "ComTransform",
+               "enabled" : true,
+               "guid" : "001228080404081B0035025E94399A7B",
+               "origin" : "0 0 0",
+               "scale" : "4 4 1"
+            },
+            {
+               "alpha" : 1.0,
+               "billboard" : false,
+               "castShadows" : true,
+               "classname" : "ComStaticMeshRenderer",
+               "color" : "1 1 1",
+               "enabled" : true,
+               "guid" : "00131CF10404081B0035025E94399C2D",
+               "materials" : [ "00160F7A2E04081B002A036212C77293" ],
+               "maxVisDist" : 1000.0,
+               "mesh" : "00000000000000000000000000000192",
+               "occluder" : false,
+               "receiveShadows" : true,
+               "timeOffset" : 0.0,
+               "timeScale" : 1.0,
+               "useEnvironmentProveLighting" : true
+            },
+            {
+               "center" : "0 0 -0.001",
+               "classname" : "ComBoxCollider",
+               "enabled" : true,
+               "extents" : "5 5 0.001",
+               "guid" : "001413CF0404081B0035025E9439A3FC"
+            },
+            {
+               "angularDamping" : 0.0099999997764825821,
+               "ccd" : false,
+               "classname" : "ComRigidBody",
+               "enabled" : true,
+               "friction" : 1.0,
+               "guid" : "00152DD91C04081B003500879927C975",
+               "kinematic" : false,
+               "linearDamping" : 0.05000000074505806,
+               "mass" : 0.0,
+               "restitution" : 0.5,
+               "rollingFriction" : 1.0,
+               "spinningFriction" : 1.0
+            }
+         ],
+         "frozen" : false,
+         "guid" : "001134EF0404081B0035025D943999B9",
+         "layer" : 0,
+         "name" : "Plane",
+         "parent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
+         "staticMask" : -1,
+         "tag" : "Untagged"
+      },
+      {
+         "active" : true,
+         "activeInHierarchy" : true,
+         "classname" : "Entity",
+         "components" : [
+            {
+               "angles" : "0 19.9999962 0",
+               "classname" : "ComTransform",
+               "enabled" : true,
+               "guid" : "006A53161C04081B002D01CF34A430C4",
+               "origin" : "-12 0 5",
+               "scale" : "1 1 1"
+            },
+            {
+               "applyPostProcessing" : true,
+               "classname" : "ComCamera",
+               "clear" : 3,
+               "clearAlpha" : 0.0,
+               "clearColor" : "0 0 0",
+               "enabled" : true,
+               "far" : 500.0,
+               "fov" : 60.0,
+               "guid" : "006B751F1C04081B002D01D034A4326A",
+               "h" : 1.0,
+               "layerMask" : 5,
+               "near" : 0.0099999997764825821,
+               "order" : 0,
+               "projection" : 0,
+               "size" : 1000.0,
+               "w" : 1.0,
+               "x" : 0.0,
+               "y" : 0.0
+            }
+         ],
+         "frozen" : false,
+         "guid" : "00695A4F1C04081B002D01CF34A42C6D",
+         "layer" : 0,
+         "name" : "Camera",
+         "parent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
+         "staticMask" : 0,
+         "tag" : "Untagged"
+      },
+      {
+         "active" : true,
+         "activeInHierarchy" : true,
+         "classname" : "Entity",
+         "components" : [
+            {
+               "angles" : "0 -0 0",
+               "classname" : "ComTransform",
+               "enabled" : true,
+               "guid" : "007E4BFA3A04081B0030024A60AC0BC3",
+               "origin" : "-0.1 0 8",
+               "scale" : "1 1 1"
+            },
+            {
+               "alpha" : 1.0,
+               "billboard" : false,
+               "castShadows" : true,
+               "classname" : "ComStaticMeshRenderer",
+               "color" : "1 1 1",
+               "enabled" : true,
+               "guid" : "007F37C13A04081B0030024A60AC0B26",
+               "materials" : [ "004D0AAF0404081B003B0219DFA5C828" ],
+               "maxVisDist" : 1000.0,
+               "mesh" : "00000000000000000000000000000193",
+               "occluder" : false,
+               "receiveShadows" : true,
+               "timeOffset" : 0.0,
+               "timeScale" : 1.0,
+               "useEnvironmentProveLighting" : true
+            },
+            {
+               "center" : "0 0 0",
+               "classname" : "ComBoxCollider",
+               "enabled" : true,
+               "extents" : "0.5 0.5 0.5",
+               "guid" : "008010A83A04081B0030024A60AC0B05"
+            },
+            {
+               "angularDamping" : 0.0099999997764825821,
+               "ccd" : false,
+               "classname" : "ComRigidBody",
+               "enabled" : true,
+               "friction" : 1.0,
+               "guid" : "00812BAE3A04081B0030024A60AC0B6B",
+               "kinematic" : false,
+               "linearDamping" : 0.05000000074505806,
+               "mass" : 1.0,
+               "restitution" : 0.5,
+               "rollingFriction" : 1.0,
+               "spinningFriction" : 1.0
+            }
+         ],
+         "frozen" : false,
+         "guid" : "007D37933A04081B0030024A60AC0BBE",
+         "layer" : 0,
+         "name" : "Cube",
+         "parent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
+         "staticMask" : 0,
+         "tag" : "Untagged"
+      },
+      {
+         "active" : true,
+         "activeInHierarchy" : true,
+         "classname" : "Entity",
+         "components" : [
+            {
+               "angles" : "0 -0 0",
+               "classname" : "ComTransform",
+               "enabled" : true,
+               "guid" : "00BD09190C04091B000500F82CB356E1",
+               "origin" : "0 0 2",
+               "scale" : "1 1 1"
+            },
+            {
+               "bakedDiffuseProbeTexture" : "00C226543304091B0005005734D6E58D",
+               "bakedSpecularProbeTexture" : "00C430F03304091B0005006834D7C64C",
+               "blendDistance" : 1.0,
+               "boxExtent" : "20 20 20",
+               "boxOffset" : "0 0 17.8999996",
+               "boxProjection" : false,
+               "classname" : "ComEnvironmentProbe",
+               "clear" : 1,
+               "clearColor" : "0.18 0.3 0.47",
+               "cullingMask" : -1,
+               "enabled" : true,
+               "far" : 500.0,
+               "guid" : "00BE14C50C04091B000500F82CB35955",
+               "hdr" : true,
+               "importance" : 1,
+               "near" : 0.0099999997764825821,
+               "refreshMode" : 0,
+               "resolution" : 3,
+               "timeSlicing" : 0,
+               "type" : 0
+            }
+         ],
+         "frozen" : false,
+         "guid" : "00BC4FFF0C04091B000500F82CB35587",
+         "layer" : 0,
+         "name" : "Environment Probe",
+         "parent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
+         "staticMask" : 0,
+         "tag" : "Untagged"
+      },
+      {
+         "active" : true,
+         "activeInHierarchy" : true,
+         "classname" : "Entity",
+         "components" : [
+            {
+               "angles" : "0 -0 0",
+               "classname" : "ComTransform",
+               "enabled" : true,
+               "guid" : "00172B5D0E04091B000E03429E65F7B5",
+               "origin" : "0 0 12",
+               "scale" : "1 1 1"
+            },
+            {
+               "alpha" : 1.0,
+               "billboard" : false,
+               "castShadows" : true,
+               "classname" : "ComStaticMeshRenderer",
+               "color" : "1 1 1",
+               "enabled" : true,
+               "guid" : "001800C00E04091B000E03429E65F799",
+               "materials" : [ "004D0AAF0404081B003B0219DFA5C828" ],
+               "maxVisDist" : 1000.0,
+               "mesh" : "00000000000000000000000000000194",
+               "occluder" : false,
+               "receiveShadows" : true,
+               "timeOffset" : 0.0,
+               "timeScale" : 1.0,
+               "useEnvironmentProveLighting" : true
+            },
+            {
+               "center" : "0 0 0",
+               "classname" : "ComSphereCollider",
+               "enabled" : true,
+               "guid" : "003919892004091B0013009DE0E4833B",
+               "radius" : 0.50010001659393311
+            },
+            {
+               "angularDamping" : 0.0099999997764825821,
+               "ccd" : false,
+               "classname" : "ComRigidBody",
+               "enabled" : true,
+               "friction" : 1.0,
+               "guid" : "001A50D10E04091B000E03429E65F7DD",
+               "kinematic" : false,
+               "linearDamping" : 0.05000000074505806,
+               "mass" : 1.0,
+               "restitution" : 0.5,
+               "rollingFriction" : 1.0,
+               "spinningFriction" : 1.0
+            }
+         ],
+         "frozen" : false,
+         "guid" : "001643710E04091B000E03429E65F471",
+         "layer" : 0,
+         "name" : "Sphere",
+         "parent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
+         "staticMask" : 0,
+         "tag" : "Untagged"
+      }
+   ],
+   "renderSettings" : {
+      "classname" : "MapRenderSettings",
+      "guid" : "0009762B2E040B1B000801603E552F9C",
+      "skyboxMaterial" : "00C928E13B04091B000600F7431F4079"
+   },
+   "version" : 1
+}
