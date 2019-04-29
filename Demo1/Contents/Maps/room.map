@@ -1010,7 +1010,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-2.9399669 1.1999807 0.4199993",
+               "angles" : "-2.9399626 1.1999794 0.4199993",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "093E7BE301060B15002401B6779805FB",
@@ -1082,7 +1082,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "2.7499669 -1.2099845 -0.25",
+               "angles" : "2.749964 -1.2099832 -0.25",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "093830C201060B15002401B67798030C",
@@ -1490,7 +1490,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-2.9399669 -1.1999807 -0.4199993",
+               "angles" : "-2.9399626 -1.1999794 -0.4199993",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "09160DBB01060B15002401B57797F9C2",
@@ -1562,7 +1562,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "2.7499669 1.2099845 0.25",
+               "angles" : "2.749964 1.2099832 0.25",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "091030D801060B15002401B57797F7C3",
@@ -1610,7 +1610,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-170.4499359 0.959999 -1.3999799",
+               "angles" : "-170.4499359 0.959999 -1.3999776",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "090844A301060B15002401B57797F5B2",
@@ -1922,7 +1922,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-5.0499234 1.359997 -0.28",
+               "angles" : "-5.0499144 1.359996 -0.28",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "08E048E901060B15002401B47797E930",
@@ -2212,6 +2212,14 @@
                "w" : 1.0,
                "x" : 0.0,
                "y" : 0.0
+            },
+            {
+               "classname" : "ComScript",
+               "enabled" : true,
+               "guid" : "004112F81E040F1C00350021F34395E8",
+               "max_distance" : 4.0,
+               "script" : "00B65C5510040A1C00050378D9219B9A",
+               "z_offset" : 1.8999999761581421
             }
          ],
          "frozen" : false,
@@ -2727,7 +2735,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "00097BC80003091B000401485303FD39",
+      "guid" : "000946D311040F1C00300320B1D617FD",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1
