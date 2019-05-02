@@ -14,8 +14,9 @@
                "scale" : "1 1 1"
             },
             {
+               "applyPostProcessing" : false,
                "classname" : "ComCamera",
-               "clear" : 0,
+               "clear" : 1,
                "clearAlpha" : 0.0,
                "clearColor" : "0 0 0",
                "enabled" : true,
@@ -40,7 +41,7 @@
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "003B43C81B0C12140020025216E0E4D3",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -49,7 +50,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "0 -0 179.9999237",
+               "angles" : "0 -0 179.9998932",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "005C7136250C1214002003AB18802E8B",
@@ -71,7 +72,7 @@
                "receiveShadows" : false,
                "timeOffset" : 0.0,
                "timeScale" : 1.0,
-               "useLightProve" : true
+               "useEnvironmentProveLighting" : true
             },
             {
                "center" : "0 0 0",
@@ -106,7 +107,7 @@
          "parent" : "0050604E250C1214002003AA18801ECE",
          "prefab" : false,
          "prefabSource" : "003E0D541B0C12140020025316E0E8BD",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -137,7 +138,7 @@
                "receiveShadows" : false,
                "timeOffset" : 0.0,
                "timeScale" : 1.0,
-               "useLightProve" : true
+               "useEnvironmentProveLighting" : true
             }
          ],
          "frozen" : false,
@@ -147,7 +148,7 @@
          "parent" : "005B3290250C1214002003AB18802E83",
          "prefab" : false,
          "prefabSource" : "004360B31B0C12140020025316E0F04C",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -156,7 +157,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "0 -0 179.9999237",
+               "angles" : "0 -0 179.9998932",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "00544264250C1214002003AA18802370",
@@ -178,7 +179,7 @@
                "receiveShadows" : false,
                "timeOffset" : 0.0,
                "timeScale" : 1.0,
-               "useLightProve" : true
+               "useEnvironmentProveLighting" : true
             },
             {
                "center" : "0 0 0",
@@ -213,7 +214,7 @@
          "parent" : "0050604E250C1214002003AA18801ECE",
          "prefab" : false,
          "prefabSource" : "00463E951B0C12140020025316E0F43A",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -244,7 +245,7 @@
                "receiveShadows" : false,
                "timeOffset" : 0.0,
                "timeScale" : 1.0,
-               "useLightProve" : true
+               "useEnvironmentProveLighting" : true
             }
          ],
          "frozen" : false,
@@ -254,7 +255,7 @@
          "parent" : "00535A9D250C1214002003AA18802368",
          "prefab" : false,
          "prefabSource" : "004B23B71B0C12140020025416E0FD28",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -263,7 +264,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "19.9999924 60 40.0000038",
+               "angles" : "19.9999847 60 39.9999924",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "0297635D0E090B19002E01C772F7903D",
@@ -297,7 +298,7 @@
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
-         "static" : true,
+         "staticMask" : -1,
          "tag" : "Untagged"
       },
       {
@@ -328,7 +329,7 @@
                "receiveShadows" : true,
                "timeOffset" : 0.0,
                "timeScale" : 1.0,
-               "useLightProve" : true
+               "useEnvironmentProveLighting" : true
             },
             {
                "center" : "0 0 -0.001",
@@ -359,7 +360,7 @@
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
-         "static" : true,
+         "staticMask" : -1,
          "tag" : "Untagged"
       },
       {
@@ -413,7 +414,7 @@
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "0037157905051718000101879CC7F9A3",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Player"
       },
       {
@@ -442,7 +443,7 @@
          "parent" : "08CA1EF501060B15002401B37797E3A5",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -459,6 +460,7 @@
                "scale" : "1 1 1"
             },
             {
+               "applyPostProcessing" : true,
                "classname" : "ComCamera",
                "clear" : 3,
                "clearAlpha" : 0.0,
@@ -485,7 +487,7 @@
          "parent" : "08CA1EF501060B15002401B37797E3A5",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "MainCamera"
       },
       {
@@ -509,7 +511,7 @@
          "parent" : "08CA1EF501060B15002401B37797E3A5",
          "prefab" : false,
          "prefabSource" : "003851C505051718000101879CC7F952",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -533,7 +535,7 @@
          "parent" : "08CD762001060B15002401B47797E349",
          "prefab" : false,
          "prefabSource" : "00393A9905051718000101879CC7F8A3",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -542,7 +544,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-0.07 0.23 -179.3999176",
+               "angles" : "-0.07 0.23 -179.3999023",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "08D2393E01060B15002401B47797E503",
@@ -557,7 +559,7 @@
          "parent" : "08CF72A601060B15002401B47797E240",
          "prefab" : false,
          "prefabSource" : "003A336305051718000101879CC7F8A0",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -581,7 +583,7 @@
          "parent" : "08D1484101060B15002401B47797E5D9",
          "prefab" : false,
          "prefabSource" : "003B49E105051718000101879CC7F8A0",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -605,7 +607,7 @@
          "parent" : "08D3790C01060B15002401B47797E4A9",
          "prefab" : false,
          "prefabSource" : "003C73C505051718000101879CC7F8A1",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -614,7 +616,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "49.4700241 -3.98 -0.5500005",
+               "angles" : "49.4700279 -3.9800005 -0.5500008",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "08D850DE01060B15002401B47797E7F6",
@@ -629,7 +631,7 @@
          "parent" : "08D577ED01060B15002401B47797E439",
          "prefab" : false,
          "prefabSource" : "003D1E3005051718000101879CC7F8A6",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -653,7 +655,7 @@
          "parent" : "08D577ED01060B15002401B47797E439",
          "prefab" : false,
          "prefabSource" : "003E162005051718000101879CC7F8A6",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -662,7 +664,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-88.8200073 -5.1100006 89.1299896",
+               "angles" : "-88.8200073 -5.1099982 89.1299973",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "08DC070A01060B15002401B47797E6D7",
@@ -677,7 +679,7 @@
          "parent" : "08D3790C01060B15002401B47797E4A9",
          "prefab" : false,
          "prefabSource" : "003F3A6D05051718000101879CC7F8A7",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -686,7 +688,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-0.07 -0.18 179.3999176",
+               "angles" : "-0.07 -0.18 179.3999023",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "08DE520201060B15002401B47797E9A6",
@@ -701,7 +703,7 @@
          "parent" : "08CF72A601060B15002401B47797E240",
          "prefab" : false,
          "prefabSource" : "0040141A05051718000101879CC7F8A4",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -710,7 +712,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-5.0499969 1.36 -0.28",
+               "angles" : "-5.0499954 1.36 -0.28",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "08E048E901060B15002401B47797E930",
@@ -725,7 +727,7 @@
          "parent" : "08DD550A01060B15002401B47797E67C",
          "prefab" : false,
          "prefabSource" : "0041328105051718000101879CC7F8A5",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -749,7 +751,7 @@
          "parent" : "08DF0E2001060B15002401B47797E9C9",
          "prefab" : false,
          "prefabSource" : "0042177205051718000101879CC7F8AA",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -758,7 +760,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "49.4700241 3.98 0.5500005",
+               "angles" : "49.4700279 3.9800005 0.5500008",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "08E44F8B01060B15002401B47797E81A",
@@ -773,7 +775,7 @@
          "parent" : "08E1729301060B15002401B47797E95C",
          "prefab" : false,
          "prefabSource" : "004320DC05051718000101879CC7F8AA",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -782,7 +784,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "90.0199585 -68.239975 -87.2999725",
+               "angles" : "90.0199585 -68.2399673 -87.2999725",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "08E61F8401060B15002401B47797EBE8",
@@ -797,7 +799,7 @@
          "parent" : "08E1729301060B15002401B47797E95C",
          "prefab" : false,
          "prefabSource" : "004431D905051718000101879CC7F8AB",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -806,7 +808,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-91.2599792 -5.1000104 90.879982",
+               "angles" : "-91.2599792 -5.1000175 90.879982",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "08E8350001060B15002401B47797EB7F",
@@ -821,7 +823,7 @@
          "parent" : "08DF0E2001060B15002401B47797E9C9",
          "prefab" : false,
          "prefabSource" : "0045356405051718000101879CC7F8A8",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -845,7 +847,7 @@
          "parent" : "08CD762001060B15002401B47797E349",
          "prefab" : false,
          "prefabSource" : "00460CAB05051718000101879CC7F8A8",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -869,7 +871,7 @@
          "parent" : "08E94B4901060B15002401B47797EAEA",
          "prefab" : false,
          "prefabSource" : "004710CE05051718000101879CC7F8A9",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -878,7 +880,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-6.9299955 0 0",
+               "angles" : "-6.9299936 0 0",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "08EE17F301060B15002401B47797ED36",
@@ -893,7 +895,7 @@
          "parent" : "08EB2AE201060B15002401B47797EA7B",
          "prefab" : false,
          "prefabSource" : "0048176E05051718000101879CC7F8AE",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -917,7 +919,7 @@
          "parent" : "08ED697C01060B15002401B47797EDCC",
          "prefab" : false,
          "prefabSource" : "004977A205051718000101879CC7F8AF",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -941,7 +943,7 @@
          "parent" : "08EF1B7901060B15002401B47797ECA2",
          "prefab" : false,
          "prefabSource" : "004A333C05051718000101879CC7F8AF",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -950,7 +952,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "95.6699524 18.7999897 -26.4699821",
+               "angles" : "95.6699524 18.7999878 -26.4699707",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "08F4674D01060B15002401B47797EFF0",
@@ -965,7 +967,7 @@
          "parent" : "08F12EE301060B15002401B47797EC37",
          "prefab" : false,
          "prefabSource" : "004B027C05051718000101879CC7F8AC",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -974,7 +976,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "94.5700378 -7.7999964 -29.440012",
+               "angles" : "94.5700378 -7.7999945 -29.440012",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "08F61F2C01060B15002401B47797EF46",
@@ -989,7 +991,7 @@
          "parent" : "08F12EE301060B15002401B47797EC37",
          "prefab" : false,
          "prefabSource" : "004C0A8305051718000101879CC7F8AD",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -1013,7 +1015,7 @@
          "parent" : "08F12EE301060B15002401B47797EC37",
          "prefab" : false,
          "prefabSource" : "004D5D4C05051718000101879CC7F8B2",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -1022,7 +1024,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-110.6099854 77.6999512 165.2099915",
+               "angles" : "-110.6099319 77.6999512 165.2100067",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "08FA7C3B01060B15002401B47797F1A2",
@@ -1037,7 +1039,7 @@
          "parent" : "08ED697C01060B15002401B47797EDCC",
          "prefab" : false,
          "prefabSource" : "004E7FC005051718000101879CC7F8B2",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -1046,7 +1048,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "4.7800007 5.7799964 7.4300013",
+               "angles" : "4.7800007 5.779995 7.4300022",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "08FC339D01060B15002401B57797F138",
@@ -1061,7 +1063,7 @@
          "parent" : "08F954B701060B15002401B47797EE78",
          "prefab" : false,
          "prefabSource" : "004F75A505051718000101879CC7F8B3",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -1085,7 +1087,7 @@
          "parent" : "08FB3D7701060B15002401B57797F1D0",
          "prefab" : false,
          "prefabSource" : "0050332405051718000101879CC7F8B0",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -1109,7 +1111,7 @@
          "parent" : "08FD400601060B15002401B57797F0A8",
          "prefab" : false,
          "prefabSource" : "0051385205051718000101879CC7F8B1",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -1133,7 +1135,7 @@
          "parent" : "08FF73CA01060B15002401B57797F03E",
          "prefab" : false,
          "prefabSource" : "00525E3D05051718000101879CC7F8B1",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -1142,7 +1144,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "12.529995 6.7899976 6.1799989",
+               "angles" : "12.529995 6.7899957 6.1799984",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "0904250B01060B15002401B57797F348",
@@ -1157,7 +1159,7 @@
          "parent" : "0901471101060B15002401B57797F38D",
          "prefab" : false,
          "prefabSource" : "005340CC05051718000101879CC7F8B6",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -1166,7 +1168,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "6.3399963 6.2999988 9.4299936",
+               "angles" : "6.3399949 6.2999978 9.4299936",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "09063B5901060B15002401B57797F220",
@@ -1181,7 +1183,7 @@
          "parent" : "0903334001060B15002401B57797F366",
          "prefab" : false,
          "prefabSource" : "00547E2005051718000101879CC7F8B7",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -1190,7 +1192,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-170.4499359 0.9599994 -1.3999991",
+               "angles" : "-170.4499359 0.9599993 -1.3999988",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "090844A301060B15002401B57797F5B2",
@@ -1205,7 +1207,7 @@
          "parent" : "08FF73CA01060B15002401B57797F03E",
          "prefab" : false,
          "prefabSource" : "0055315005051718000101879CC7F8B7",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -1214,7 +1216,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "9.4399939 -3.2699997 0.34",
+               "angles" : "9.4399891 -3.2699997 0.34",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "090A318D01060B15002401B57797F501",
@@ -1229,7 +1231,7 @@
          "parent" : "090716E801060B15002401B57797F24B",
          "prefab" : false,
          "prefabSource" : "005647A605051718000101879CC7F8B4",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -1253,7 +1255,7 @@
          "parent" : "09090FAD01060B15002401B57797F5DE",
          "prefab" : false,
          "prefabSource" : "005760A005051718000101879CC7F8B5",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -1262,7 +1264,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-166.8999329 2.2299993 -1.0800002",
+               "angles" : "-166.8999329 2.2299993 -1.0800003",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "090E117A01060B15002401B57797F46C",
@@ -1277,7 +1279,7 @@
          "parent" : "08FF73CA01060B15002401B57797F03E",
          "prefab" : false,
          "prefabSource" : "00587EB205051718000101879CC7F8BA",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -1286,7 +1288,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "2.7499981 1.2099992 0.25",
+               "angles" : "2.7499974 1.2099988 0.25",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "091030D801060B15002401B57797F7C3",
@@ -1301,7 +1303,7 @@
          "parent" : "090D107801060B15002401B57797F40A",
          "prefab" : false,
          "prefabSource" : "005932AB05051718000101879CC7F8BA",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -1325,7 +1327,7 @@
          "parent" : "090F756E01060B15002401B57797F799",
          "prefab" : false,
          "prefabSource" : "005A50A405051718000101879CC7F8BB",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -1349,7 +1351,7 @@
          "parent" : "08FF73CA01060B15002401B57797F03E",
          "prefab" : false,
          "prefabSource" : "005B5BBC05051718000101879CC7F8B8",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -1358,7 +1360,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-2.9399979 -1.1999991 -0.4199995",
+               "angles" : "-2.9399974 -1.1999985 -0.4199995",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "09160DBB01060B15002401B57797F9C2",
@@ -1373,7 +1375,7 @@
          "parent" : "09133FB901060B15002401B57797F6C9",
          "prefab" : false,
          "prefabSource" : "005C136005051718000101879CC7F8B9",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -1397,7 +1399,7 @@
          "parent" : "0915551E01060B15002401B57797F99A",
          "prefab" : false,
          "prefabSource" : "005D09DD05051718000101879CC7F8B9",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -1406,7 +1408,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-162.8099213 -1.1099983 -3.5899975",
+               "angles" : "-162.809906 -1.1099976 -3.5899963",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "091A4E5701060B15002401B57797F829",
@@ -1421,7 +1423,7 @@
          "parent" : "08FF73CA01060B15002401B57797F03E",
          "prefab" : false,
          "prefabSource" : "005E159505051718000101879CC7F8BE",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -1445,7 +1447,7 @@
          "parent" : "091902EA01060B15002401B57797F8C6",
          "prefab" : false,
          "prefabSource" : "005F0E9005051718000101879CC7F8BF",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -1454,7 +1456,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-0.3299995 -2.2599988 -0.04",
+               "angles" : "-0.3299993 -2.2599988 -0.04",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "091E4C6A01060B15002401B57797FB09",
@@ -1469,7 +1471,7 @@
          "parent" : "091B230401060B15002401B57797F855",
          "prefab" : false,
          "prefabSource" : "0060522405051718000101879CC7F8BC",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -1493,7 +1495,7 @@
          "parent" : "08FD400601060B15002401B57797F0A8",
          "prefab" : false,
          "prefabSource" : "0061330D05051718000101879CC7F8BC",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -1517,7 +1519,7 @@
          "parent" : "08ED697C01060B15002401B47797EDCC",
          "prefab" : false,
          "prefabSource" : "006227D605051718000101879CC7F8BD",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -1541,7 +1543,7 @@
          "parent" : "09212ECB01060B15002401B57797FA02",
          "prefab" : false,
          "prefabSource" : "0063739F05051718000101879CC7F882",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -1565,7 +1567,7 @@
          "parent" : "092316B501060B15002401B57797FD92",
          "prefab" : false,
          "prefabSource" : "00647FCA05051718000101879CC7F882",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -1589,7 +1591,7 @@
          "parent" : "0925301201060B15002401B57797FD62",
          "prefab" : false,
          "prefabSource" : "006502E305051718000101879CC7F883",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -1613,7 +1615,7 @@
          "parent" : "092711FA01060B15002401B57797FCF3",
          "prefab" : false,
          "prefabSource" : "0066603D05051718000101879CC7F880",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -1622,7 +1624,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "12.529995 -6.7899976 -6.1799989",
+               "angles" : "12.529995 -6.7899957 -6.1799984",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "092C0B5901060B15002401B67797FEEE",
@@ -1637,7 +1639,7 @@
          "parent" : "09293C7001060B15002401B57797FC43",
          "prefab" : false,
          "prefabSource" : "00673BEC05051718000101879CC7F881",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -1646,7 +1648,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "6.3399963 -6.2999988 -9.4299936",
+               "angles" : "6.3399949 -6.2999978 -9.4299936",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "092E32C901060B15002401B67797FE43",
@@ -1661,7 +1663,7 @@
          "parent" : "092B00CD01060B15002401B67797FF4F",
          "prefab" : false,
          "prefabSource" : "0068169905051718000101879CC7F881",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -1670,7 +1672,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-171.1599884 -10.6299906 1.5700002",
+               "angles" : "-171.1599884 -10.6299858 1.5700003",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "09301DD801060B15002401B6779801CD",
@@ -1685,7 +1687,7 @@
          "parent" : "092711FA01060B15002401B57797FCF3",
          "prefab" : false,
          "prefabSource" : "0069229A05051718000101879CC7F886",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -1694,7 +1696,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "9.4399939 3.2699997 -0.34",
+               "angles" : "9.4399891 3.2699997 -0.34",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "09320F2001060B15002401B67798015D",
@@ -1709,7 +1711,7 @@
          "parent" : "092F684E01060B15002401B6779801EB",
          "prefab" : false,
          "prefabSource" : "006A3AEA05051718000101879CC7F887",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -1733,7 +1735,7 @@
          "parent" : "09313E5A01060B15002401B67798017B",
          "prefab" : false,
          "prefabSource" : "006B4BAE05051718000101879CC7F884",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -1742,7 +1744,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-167.5599213 -11.9000053 1.27",
+               "angles" : "-167.559906 -11.9000092 1.27",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "09365B0B01060B15002401B6779803BF",
@@ -1757,7 +1759,7 @@
          "parent" : "092711FA01060B15002401B57797FCF3",
          "prefab" : false,
          "prefabSource" : "006C203505051718000101879CC7F884",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -1766,7 +1768,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "2.7499981 -1.2099992 -0.25",
+               "angles" : "2.7499974 -1.2099988 -0.25",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "093830C201060B15002401B67798030C",
@@ -1781,7 +1783,7 @@
          "parent" : "093546B201060B15002401B677980055",
          "prefab" : false,
          "prefabSource" : "006D125705051718000101879CC7F885",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -1805,7 +1807,7 @@
          "parent" : "0937128301060B15002401B67798032A",
          "prefab" : false,
          "prefabSource" : "006E204005051718000101879CC7F88A",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -1814,7 +1816,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-164.8099213 -6.7399983 4.7600017",
+               "angles" : "-164.8099213 -6.7399969 4.7600017",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "093C764901060B15002401B67798026E",
@@ -1829,7 +1831,7 @@
          "parent" : "092711FA01060B15002401B57797FCF3",
          "prefab" : false,
          "prefabSource" : "006F6F4B05051718000101879CC7F88B",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -1838,7 +1840,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-2.9399979 1.1999991 0.4199995",
+               "angles" : "-2.9399974 1.1999985 0.4199995",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "093E7BE301060B15002401B6779805FB",
@@ -1853,7 +1855,7 @@
          "parent" : "093B548E01060B15002401B677980204",
          "prefab" : false,
          "prefabSource" : "007066C405051718000101879CC7F88B",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -1877,7 +1879,7 @@
          "parent" : "093D643101060B15002401B677980591",
          "prefab" : false,
          "prefabSource" : "007125B905051718000101879CC7F888",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -1886,7 +1888,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-163.8800049 -8.5199947 3.7599986",
+               "angles" : "-163.8800049 -8.5199928 3.7599986",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "0942059701060B15002401B6779804D5",
@@ -1901,7 +1903,7 @@
          "parent" : "092711FA01060B15002401B57797FCF3",
          "prefab" : false,
          "prefabSource" : "00723F2E05051718000101879CC7F889",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -1925,7 +1927,7 @@
          "parent" : "094149CB01060B15002401B6779804F3",
          "prefab" : false,
          "prefabSource" : "00735C8405051718000101879CC7F88E",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -1934,7 +1936,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-0.3299995 2.2599988 0.04",
+               "angles" : "-0.3299993 2.2599988 0.04",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "0946189401060B15002401B67798073A",
@@ -1949,7 +1951,7 @@
          "parent" : "0943301B01060B15002401B677980443",
          "prefab" : false,
          "prefabSource" : "0074415005051718000101879CC7F88E",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -1973,7 +1975,7 @@
          "parent" : "0925301201060B15002401B57797FD62",
          "prefab" : false,
          "prefabSource" : "00752EB105051718000101879CC7F88F",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -1997,7 +1999,7 @@
          "parent" : "08ED697C01060B15002401B47797EDCC",
          "prefab" : false,
          "prefabSource" : "00765CB305051718000101879CC7F88C",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -2006,7 +2008,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-89.9499741 66.5799866 -89.8199692",
+               "angles" : "-89.9499741 66.5799866 -89.8199615",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "094C748401060B15002401B6779809E6",
@@ -2021,7 +2023,7 @@
          "parent" : "08ED697C01060B15002401B47797EDCC",
          "prefab" : false,
          "prefabSource" : "007753ED05051718000101879CC7F88C",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -2030,7 +2032,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "0 -0 -22.0699902",
+               "angles" : "0 -0 -22.0699883",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "094E1D4601060B15002401B677980974",
@@ -2045,7 +2047,7 @@
          "parent" : "094B36D101060B15002401B6779809BC",
          "prefab" : false,
          "prefabSource" : "00787F6C05051718000101879CC7F88D",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -2069,7 +2071,7 @@
          "parent" : "08ED697C01060B15002401B47797EDCC",
          "prefab" : false,
          "prefabSource" : "00794A9405051718000101879CC7F892",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -2078,7 +2080,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "3.8399997 -1.0699992 -14.7099953",
+               "angles" : "3.8399997 -1.0699989 -14.7099953",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "0952645301060B15002401B67798085A",
@@ -2093,7 +2095,7 @@
          "parent" : "094F2FE001060B15002401B6779808E2",
          "prefab" : false,
          "prefabSource" : "007A3CA105051718000101879CC7F893",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -2102,7 +2104,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-9.0499992 -2.9100006 -9.8200026",
+               "angles" : "-9.0499973 -2.9100013 -9.8200054",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "0954098701060B15002401B677980B28",
@@ -2117,7 +2119,7 @@
          "parent" : "0951274001060B15002401B677980870",
          "prefab" : false,
          "prefabSource" : "007B76A105051718000101879CC7F893",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -2126,7 +2128,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "94.2200089 -20.429985 -92.0199966",
+               "angles" : "94.219986 -20.4299755 -92.0199814",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "0956318401060B15002401B677980ABB",
@@ -2141,7 +2143,7 @@
          "parent" : "08ED697C01060B15002401B47797EDCC",
          "prefab" : false,
          "prefabSource" : "007C381B05051718000101879CC7F890",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -2150,7 +2152,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "-3.8399997 1.0699992 -14.7099953",
+               "angles" : "-3.8399997 1.0699989 -14.7099953",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "09582C6601060B15002401B677980A0D",
@@ -2165,7 +2167,7 @@
          "parent" : "09554EF801060B15002401B677980B51",
          "prefab" : false,
          "prefabSource" : "007D056E05051718000101879CC7F891",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -2189,7 +2191,7 @@
          "parent" : "0957133201060B15002401B677980A2B",
          "prefab" : false,
          "prefabSource" : "007E07A105051718000101879CC7F896",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -2213,7 +2215,7 @@
          "parent" : "08EB2AE201060B15002401B47797EA7B",
          "prefab" : false,
          "prefabSource" : "007F243305051718000101879CC7F896",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -2237,7 +2239,7 @@
          "parent" : "08EB2AE201060B15002401B47797EA7B",
          "prefab" : false,
          "prefabSource" : "00807FED05051718000101879CC7F897",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -2246,7 +2248,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "0 -89.9699631 -90.0065155",
+               "angles" : "0.0065127 -89.9699478 -90",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "09607C9001060B15002401B777980C59",
@@ -2261,7 +2263,7 @@
          "parent" : "08CD762001060B15002401B47797E349",
          "prefab" : false,
          "prefabSource" : "0081479A05051718000101879CC7F894",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -2292,7 +2294,7 @@
                "root" : "08CA1EF501060B15002401B37797E3A5",
                "timeOffset" : 0.0,
                "timeScale" : 1.0,
-               "useLightProve" : true
+               "useEnvironmentProveLighting" : true
             }
          ],
          "frozen" : false,
@@ -2302,7 +2304,7 @@
          "parent" : "08CA1EF501060B15002401B37797E3A5",
          "prefab" : false,
          "prefabSource" : "0082527705051718000101879CC7F895",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -2333,7 +2335,7 @@
                "root" : "08CA1EF501060B15002401B37797E3A5",
                "timeOffset" : 0.0,
                "timeScale" : 1.0,
-               "useLightProve" : true
+               "useEnvironmentProveLighting" : true
             }
          ],
          "frozen" : false,
@@ -2343,7 +2345,7 @@
          "parent" : "08CA1EF501060B15002401B37797E3A5",
          "prefab" : false,
          "prefabSource" : "008374E805051718000101879CC7FAE7",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -2374,7 +2376,7 @@
                "root" : "08CA1EF501060B15002401B37797E3A5",
                "timeOffset" : 0.0,
                "timeScale" : 1.0,
-               "useLightProve" : true
+               "useEnvironmentProveLighting" : true
             }
          ],
          "frozen" : false,
@@ -2384,7 +2386,7 @@
          "parent" : "08CA1EF501060B15002401B37797E3A5",
          "prefab" : false,
          "prefabSource" : "00844A6B05051718000101879CC7FCBB",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       },
       {
@@ -2415,7 +2417,7 @@
                "root" : "08CA1EF501060B15002401B37797E3A5",
                "timeOffset" : 0.0,
                "timeScale" : 1.0,
-               "useLightProve" : true
+               "useEnvironmentProveLighting" : true
             }
          ],
          "frozen" : false,
@@ -2425,13 +2427,13 @@
          "parent" : "08CA1EF501060B15002401B37797E3A5",
          "prefab" : false,
          "prefabSource" : "0085418F05051718000101879CC7FF44",
-         "static" : false,
+         "staticMask" : 0,
          "tag" : "Untagged"
       }
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "00026F092B0A08060032028E6EF9015A",
+      "guid" : "0004228B2C031605001300A454A355B2",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1

@@ -2,6 +2,7 @@ material 1
 pass {
   renderingMode opaque
   cull back
+  transparency default
   shader "000000000000000000000000000000C8" {
     _ALBEDO "1"
     albedoColor "1 1 1"
@@ -17,10 +18,18 @@ pass {
     normalMap "0052793B08070B18002A03A60668EBD2"
     detailNormalMap "0000000000000000000000000000006D"
     detailRepeat "8.0000"
+    _CLEARCOAT "0"
+    clearCoatMap "00000000000000000000000000000000"
+    clearCoatScale "1.0000"
+    _CC_ROUGHNESS "0"
+    clearCoatRoughnessMap "00000000000000000000000000000000"
+    clearCoatRoughnessScale "0.0000"
+    clearCoatNormalMap "00000000000000000000000000000000"
+    _CC_NORMAL "0"
     _PARALLAX "1"
     heightMap "005034D908070B18002A03870667AD8B"
-    heightScale "0.4000"
-    _OCCLUSION "1"
+    heightScale "0.0420"
+    _OCC "0"
     occlusionMap "004A2E6708070B18002A0252065B433B"
     occlusionStrength "1.0000"
     _EMISSION "0"

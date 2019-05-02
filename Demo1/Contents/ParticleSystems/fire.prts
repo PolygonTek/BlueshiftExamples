@@ -3,7 +3,7 @@ numStages 1
 stage {
   name "stage 0"
   module "Standard" {
-    count 30
+    count 36
     spawnBunching 1.000
     lifeTime 1.000
     deadTime 0.000

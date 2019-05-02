@@ -2,17 +2,17 @@ material 1
 pass {
   renderingMode opaque
   cull back
-  shader "000000000000000000000000000000CB" {
+  shader "000000000000000000000000000000C8" {
     _ALBEDO "1"
     albedoColor "1 1 1"
     albedoAlpha "1.0000"
     albedoMap "006D477D02051401001102E8F2531FAE"
-    _METALLIC "0"
-    metallicMap "00000000000000000000000000000068"
-    metallicScale "0.5000"
-    _ROUGHNESS "0"
-    roughnessMap "00000000000000000000000000000068"
-    roughnessScale "0.5000"
+    _SPECULAR "0"
+    specularColor "0.1882 0.1882 0.1882"
+    specularMap "00000000000000000000000000000068"
+    _GLOSS "0"
+    glossMap "00000000000000000000000000000068"
+    glossScale "0.6680"
     _NORMAL "1"
     normalMap "006F0F4B03051401001100B7F26AAC52"
     detailNormalMap "00000000000000000000000000000000"

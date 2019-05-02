@@ -82,6 +82,8 @@ function start()
 
     m.camera_entity = owner.game_world:find_entity_by_tag("MainCamera")
 
+    m.ui_camera_entity = owner.game_world:find_entity("UICamera")
+
     m.dragger_entity = owner.game_world:create_empty_entity("Mouse Dragger")
     local rigid_body = m.dragger_entity:add_new_component(blueshift.ComRigidBody.meta_object)
     rigid_body:cast_rigid_body():set_mass(0)
@@ -213,10 +215,10 @@ function handle_mouse_shoot()
         local camera = m.camera_entity:camera()
         local mouse_pos = Input.mouse_pos()
         local ray = camera:screen_to_ray(mouse_pos)
-        local min_scale = blueshift.meter_to_unit(100)        
+        local min_scale = blueshift.meter_to_unit(100)
         local cast_result = Physics.CastResult()
 
-        if Physics.ray_cast(ray:origin(), ray:distance_point(min_scale), Physics.FilterGroup.DefaultGroup, Physics.FilterGroup.DefaultGroup, cast_result) then
+        if Physics.ray_cast(ray:origin(), ray:get_point(min_scale), Physics.FilterGroup.DefaultGroup, Physics.FilterGroup.DefaultGroup, cast_result) then
             local hit_rigid_body = cast_result:rigid_body()
 
             if hit_rigid_body then
@@ -227,27 +229,35 @@ function handle_mouse_shoot()
     end
 end
 
+function is_point_over_entity(point, layerMask)
+    local ray = m.ui_camera_entity:camera():screen_to_ray(point)
+
+    return owner.game_world:intersect_ray(ray, layerMask)
+end
+
 function handle_mouse_joint()
     for i = 0, Input.touch_count() do
         local touch = Input.touch(i)
-        if touch:phase() == Input.Touch.Started then            
-            local camera = m.camera_entity:camera()
-            local ray = camera:screen_to_ray(touch:position())
-            local max_dist = blueshift.meter_to_unit(30)
-            local cast_result = Physics.CastResult()
+        if touch:phase() == Input.Touch.Started then
+            if not is_point_over_entity(touch:position(), 4) then
+                local camera = m.camera_entity:camera()
+                local ray = camera:screen_to_ray(touch:position())
+                local max_dist = blueshift.meter_to_unit(30)
+                local cast_result = Physics.CastResult()
 
-            if Physics.ray_cast(ray:origin(), ray:distance_point(max_dist), 1, cast_result) then
-                local hit_rigid_body = cast_result:rigid_body()
+                if Physics.ray_cast(ray:origin(), ray:get_point(max_dist), 1, cast_result) then
+                    local hit_rigid_body = cast_result:rigid_body()
 
-                if hit_rigid_body then
-                    m.dragger_entity:socket_joint():set_local_anchor(cast_result:point())
-                    m.dragger_entity:socket_joint():set_connected_body(hit_rigid_body)
+                    if hit_rigid_body then
+                        m.dragger_entity:socket_joint():set_local_anchor(cast_result:point())
+                        m.dragger_entity:socket_joint():set_connected_body(hit_rigid_body)
 
-                    m.old_picking_dist = max_dist * cast_result:fraction()
+                        m.old_picking_dist = max_dist * cast_result:fraction()
 
-                    m.clicked_id = touch:id()
+                        m.clicked_id = touch:id()
 
-                    m.last_touch_position:assign(touch:position())
+                        m.last_touch_position:assign(touch:position())
+                    end
                 end
             end
         elseif touch:phase() == Input.Touch.Ended or touch:phase() == Input.Touch.Canceled then
@@ -259,7 +269,7 @@ function handle_mouse_joint()
                 local camera = m.camera_entity:camera()
                 local ray = camera:screen_to_ray(touch:position())
 
-                m.dragger_entity:socket_joint():set_local_anchor(ray:distance_point(m.old_picking_dist))
+                m.dragger_entity:socket_joint():set_local_anchor(ray:get_point(m.old_picking_dist))
 
                 m.last_touch_position:assign(touch:position())
             end
@@ -268,7 +278,7 @@ function handle_mouse_joint()
                 local camera = m.camera_entity:camera()
                 local ray = camera:screen_to_ray(m.last_touch_position)
 
-                m.dragger_entity:socket_joint():set_local_anchor(ray:distance_point(m.old_picking_dist))
+                m.dragger_entity:socket_joint():set_local_anchor(ray:get_point(m.old_picking_dist))
             end
         end
     end
@@ -278,7 +288,7 @@ function update()
     local dx = 0.0
     local dy = 0.0
 
-    -- handle mouse1 clicks on rigid body  
+    -- handle mouse1 clicks on rigid body
     handle_mouse_joint()
     --handle_mouse_shoot()
 
