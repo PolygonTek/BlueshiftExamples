@@ -8,7 +8,7 @@
             "angles" : "0 -0 0",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "005046961E020A0A0030018130A49157",
+            "guid" : "003364F81A0516050021027EA4FEB54C",
             "origin" : "0 0 0",
             "scale" : "1 1 1"
          }
@@ -20,7 +20,7 @@
       "parent" : "00000000000000000000000000000000",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
-      "static" : false,
+      "staticMask" : 0,
       "tag" : "Untagged"
    },
    {
@@ -32,7 +32,7 @@
             "angles" : "0 -90 0",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "00556ABF1E020A0A0030018130A495E9",
+            "guid" : "003825801A0516050021027FA4FECC36",
             "origin" : "0 0 0.6130056",
             "scale" : "0.0536701 0.0536701 0.0536701"
          },
@@ -43,7 +43,7 @@
             "classname" : "ComStaticMeshRenderer",
             "color" : "1 1 1",
             "enabled" : true,
-            "guid" : "005602601E020A0A0030018130A49534",
+            "guid" : "003976081A0516050021027FA4FECEB2",
             "materials" : [ "001419611C020A0A003003D430593374" ],
             "maxVisDist" : 1000.0,
             "mesh" : "003C5CD41E020A0A00300113309EB05C",
@@ -51,7 +51,7 @@
             "receiveShadows" : true,
             "timeOffset" : 0.0,
             "timeScale" : 1.0,
-            "useLightProve" : true
+            "useEnvironmentProveLighting" : true
          }
       ],
       "frozen" : false,
@@ -61,7 +61,7 @@
       "parent" : "004B259B1E020A0A0030018130A48F7C",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
-      "static" : false,
+      "staticMask" : 0,
       "tag" : "Untagged"
    },
    {
@@ -73,7 +73,7 @@
             "angles" : "0 -90 0",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "0053647E1E020A0A0030018130A492AE",
+            "guid" : "003653C91A0516050021027FA4FEC531",
             "origin" : "0.4472611 0.021189 0",
             "scale" : "1 1 1"
          },
@@ -84,7 +84,7 @@
             "classname" : "ComStaticMeshRenderer",
             "color" : "1 1 1",
             "enabled" : true,
-            "guid" : "005479421E020A0A0030018130A492F5",
+            "guid" : "003710E91A0516050021027FA4FEC7A9",
             "materials" : [ "000B0D001C020A0A003003483051B810" ],
             "maxVisDist" : 1000.0,
             "mesh" : "002D0B3F1E020A0A003000913097BB8F",
@@ -92,7 +92,7 @@
             "receiveShadows" : true,
             "timeOffset" : 0.0,
             "timeScale" : 1.0,
-            "useLightProve" : true
+            "useEnvironmentProveLighting" : true
          }
       ],
       "frozen" : false,
@@ -102,7 +102,7 @@
       "parent" : "004B259B1E020A0A0030018130A48F7C",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
-      "static" : false,
+      "staticMask" : 0,
       "tag" : "Untagged"
    },
    {
@@ -114,7 +114,7 @@
             "angles" : "0 -90 0",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "00517B781E020A0A0030018130A49013",
+            "guid" : "003407BD1A0516050021027EA4FEBB77",
             "origin" : "0 0 0.6130056",
             "scale" : "0.0536701 0.0536701 0.0536701"
          },
@@ -125,7 +125,7 @@
             "classname" : "ComStaticMeshRenderer",
             "color" : "1 1 1",
             "enabled" : true,
-            "guid" : "00522BD01E020A0A0030018130A4905D",
+            "guid" : "003534D41A0516050021027EA4FEBDF4",
             "materials" : [ "000A365D1C020A0A003003363050C3AC" ],
             "maxVisDist" : 1000.0,
             "mesh" : "00276A461D020A0A00300334308647A8",
@@ -133,7 +133,7 @@
             "receiveShadows" : true,
             "timeOffset" : 0.0,
             "timeScale" : 1.0,
-            "useLightProve" : true
+            "useEnvironmentProveLighting" : true
          }
       ],
       "frozen" : false,
@@ -143,7 +143,7 @@
       "parent" : "004B259B1E020A0A0030018130A48F7C",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
-      "static" : false,
+      "staticMask" : 0,
       "tag" : "Untagged"
    }
 ]

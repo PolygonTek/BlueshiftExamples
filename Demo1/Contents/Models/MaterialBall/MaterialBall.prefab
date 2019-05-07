@@ -8,7 +8,7 @@
             "angles" : "0 -90 0",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "050D7C972F04150B00040164919298C5",
+            "guid" : "158230E304051505001B00546275D8E6",
             "origin" : "0 0 0",
             "scale" : "1 1 1"
          },
@@ -19,7 +19,7 @@
             "classname" : "ComStaticMeshRenderer",
             "color" : "1 1 1",
             "enabled" : true,
-            "guid" : "050E45702F04150B0004016491929AA8",
+            "guid" : "1583532304051505001B00546275D80E",
             "materials" : [ "00C248BA38080D01003101828D81B589" ],
             "maxVisDist" : 1000.0,
             "mesh" : "0009437B0707140400040160D2B89E22",

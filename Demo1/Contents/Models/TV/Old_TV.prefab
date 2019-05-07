@@ -8,7 +8,7 @@
             "angles" : "0 -90 0",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "000C7CDA090B141D000100EDBCB11518",
+            "guid" : "1F5C078412051505001B0360658EC1D2",
             "origin" : "0 0 -0.0000049",
             "scale" : "0.294704 0.294704 0.294704"
          },
@@ -19,7 +19,7 @@
             "classname" : "ComStaticMeshRenderer",
             "color" : "1 1 1",
             "enabled" : true,
-            "guid" : "000D4177090B141D000100EDBCB11423",
+            "guid" : "1F5D10F512051505001B0360658EC0AB",
             "materials" : [ "009E677900070B1A001F0241824839EE" ],
             "maxVisDist" : 1000.0,
             "mesh" : "009B313100070B1A001F022582471630",
@@ -27,7 +27,7 @@
             "receiveShadows" : true,
             "timeOffset" : 0.0,
             "timeScale" : 1.0,
-            "useLightProve" : true
+            "useEnvironmentProveLighting" : true
          }
       ],
       "frozen" : false,
@@ -37,7 +37,7 @@
       "parent" : "00000000000000000000000000000000",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
-      "static" : false,
+      "staticMask" : 0,
       "tag" : "Untagged"
    }
 ]

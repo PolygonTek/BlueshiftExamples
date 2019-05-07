@@ -5,6 +5,7 @@
       "classname" : "FbxFileImporter",
       "compensateRootTransform" : false,
       "createAnimationFolder" : true,
+      "generateMeshColliders" : false,
       "guid" : "000920931F051400001C0232C9C6419E",
       "importAnimation" : true,
       "importMaterials" : true,
