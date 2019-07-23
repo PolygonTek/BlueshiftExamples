@@ -14,6 +14,7 @@
       "importSkeleton" : true,
       "importTranslation" : "0 0 0",
       "importUniformScale" : 10.0,
+      "importWithVertexConversion" : true,
       "materialNaming" : 0,
       "materialSearch" : 1,
       "mergeMeshes" : true,

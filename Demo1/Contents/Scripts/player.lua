@@ -331,8 +331,9 @@ function update()
             else
                 --m.velocity:set_z(0) 
             end
+            m.velocity:set_z(0) 
         else
-            m.velocity:set_z(m.velocity:z() - m.gravity * owner.game_world:delta_time() / 1000)
+            m.velocity:set_z(-m.gravity)
         end
 
         if animator and m.anim_speed > 0.001 then
@@ -341,7 +342,7 @@ function update()
             if m.jumping then
                 move_delta:set_z(move_delta:z() * 1.0)
             else
-                move_delta:set_z(m.velocity:z() * owner.game_world:delta_time() / 1000)
+                move_delta:set_z(m.velocity:z() * owner.game_world:delta_time() * 0.001)
             end
 
             character_controller:move(move_delta)
@@ -353,7 +354,7 @@ function update()
 
         local delta_pos = m.user_cmd.wish_direction - m.anim_current_pos;
         if delta_pos:length_squared() > 0.001 then
-            m.anim_current_pos = m.anim_current_pos + delta_pos:mul((owner.game_world:delta_time() / 1000) * 5.0)
+            m.anim_current_pos = m.anim_current_pos + delta_pos:mul((owner.game_world:delta_time() * 0.001) * 5.0)
         else 
             m.anim_current_pos:set_x(m.user_cmd.wish_direction:x())
             m.anim_current_pos:set_y(m.user_cmd.wish_direction:y())
@@ -364,7 +365,7 @@ function update()
 
         local delta_turn = m.wish_turn - m.anim_turn
         if Math.fabs(delta_turn) > 0.001 then
-            m.anim_turn = m.anim_turn + delta_turn * (owner.game_world:delta_time() / 1000) * 10.0
+            m.anim_turn = m.anim_turn + delta_turn * (owner.game_world:delta_time() * 0.001) * 10.0
         else
             m.anim_turn = m.wish_turn
         end
@@ -373,7 +374,7 @@ function update()
 
         local delta_speed = m.user_cmd.wish_speed - m.anim_speed
         if Math.fabs(delta_speed) > 0.001 then
-            m.anim_speed = m.anim_speed + delta_speed * (owner.game_world:delta_time() / 1000) * 10.0
+            m.anim_speed = m.anim_speed + delta_speed * (owner.game_world:delta_time() * 0.001) * 10.0
         else
             m.anim_speed = m.user_cmd.wish_speed
         end
