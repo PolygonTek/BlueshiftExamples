@@ -1,5 +1,5 @@
 {
-   "classname" : "TextureAsset",
+   "classname" : "Asset",
    "guid" : "00136659370410150028035039353DEC",
    "importer" : {
       "anisoLevel" : 1,
@@ -10,7 +10,13 @@
       "guid" : "001468F2370410150028035039353DD6",
       "normalMap" : false,
       "sRGB" : false,
+      "spriteLTBorder" : "0 0",
+      "spriteRBBorder" : "0 0",
       "textureType" : 2,
       "wrapMode" : 1
+   },
+   "resource" : {
+      "classname" : "TextureCubeMapResource",
+      "guid" : "00701A133809070500330063717CF259"
    }
 }

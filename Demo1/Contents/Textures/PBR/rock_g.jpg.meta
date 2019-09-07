@@ -1,5 +1,5 @@
 {
-   "classname" : "TextureAsset",
+   "classname" : "Asset",
    "guid" : "00667CF909070B18002A03C506924C9A",
    "importer" : {
       "anisoLevel" : 1,
@@ -10,7 +10,13 @@
       "guid" : "014D3B761B0B081D000B01F2749591BC",
       "normalMap" : false,
       "sRGB" : false,
+      "spriteLTBorder" : "0 0",
+      "spriteRBBorder" : "0 0",
       "textureType" : 0,
       "wrapMode" : 0
+   },
+   "resource" : {
+      "classname" : "Texture2DResource",
+      "guid" : "01E164190D091504003A018E7D6838D9"
    }
 }

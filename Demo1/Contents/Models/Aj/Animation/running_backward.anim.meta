@@ -1,5 +1,5 @@
 {
-   "classname" : "AnimAsset",
+   "classname" : "Asset",
    "guid" : "09B323D8030A0E0D002F00F4FE83D905",
    "importer" : {
       "classname" : "AnimImporter",
@@ -11,5 +11,9 @@
       "rootTranslationXY" : false,
       "rootTranslationZ" : true,
       "startFrame" : 0
+   },
+   "resource" : {
+      "classname" : "AnimResource",
+      "guid" : "1C1F71A50509160400010074E3C254B1"
    }
 }

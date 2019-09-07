@@ -1,4 +1,8 @@
 {
-   "classname" : "FontAsset",
-   "guid" : "00D876010D071119003501089E911AE4"
+   "classname" : "Asset",
+   "guid" : "00D876010D071119003501089E911AE4",
+   "resource" : {
+      "classname" : "FontResource",
+      "guid" : "012E6A16240916050005004FB56FC6D6"
+   }
 }

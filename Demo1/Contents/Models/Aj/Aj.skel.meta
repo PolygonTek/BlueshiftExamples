@@ -1,8 +1,12 @@
 {
-   "classname" : "SkeletonAsset",
+   "classname" : "Asset",
    "guid" : "08DB00DE2C0A0E0D002D0142F223C6A5",
    "importer" : {
       "classname" : "SkeletonImporter",
       "guid" : "001E089E2F010D0D00240261A8896278"
+   },
+   "resource" : {
+      "classname" : "SkeletonResource",
+      "guid" : "14A709F51B09160400000089CD1F1F3D"
    }
 }

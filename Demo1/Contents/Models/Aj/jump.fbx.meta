@@ -1,5 +1,5 @@
 {
-   "classname" : "FbxAsset",
+   "classname" : "Asset",
    "guid" : "09391E73390A0E0D002E03B7FDAF6303",
    "importer" : {
       "classname" : "FbxFileImporter",
@@ -21,5 +21,9 @@
       "prefabEntityGuids" : [],
       "prefabRootEntityGuid" : "00000000000000000000000000000000",
       "targetSkeleton" : "08DB00DE2C0A0E0D002D0142F223C6A5"
+   },
+   "resource" : {
+      "classname" : "FbxResource",
+      "guid" : "0802755A1B091504003B027CA9A81ED5"
    }
 }

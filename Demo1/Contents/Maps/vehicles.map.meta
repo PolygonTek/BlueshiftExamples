@@ -1,4 +1,8 @@
 {
-   "classname" : "MapAsset",
-   "guid" : "001668801403131A002602FC31591D3D"
+   "classname" : "Asset",
+   "guid" : "001668801403131A002602FC31591D3D",
+   "resource" : {
+      "classname" : "MapResource",
+      "guid" : "018B5FB71D0915040037010F1B945B39"
+   }
 }

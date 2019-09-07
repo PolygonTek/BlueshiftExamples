@@ -13,11 +13,11 @@ properties = {
     gravity = { label = "Gravity", type = "float", value = 9.8 },
     joypad_l = { label = "Left Joypad", type = "object", classname = "ComScript", value = nil },
     joypad_r = { label = "Right Joypad", type = "object", classname = "ComScript", value = nil },
-    footstep1_sound = { label = "Sounds/Footstep1", type = "object", classname = "SoundAsset", value = nil },
-    footstep2_sound = { label = "Sounds/Footstep2", type = "object", classname = "SoundAsset", value = nil },
-    footstep3_sound = { label = "Sounds/Footstep3", type = "object", classname = "SoundAsset", value = nil },
-    footstep4_sound = { label = "Sounds/Footstep4", type = "object", classname = "SoundAsset", value = nil },
-    slide_sound = { label = "Sounds/Slide", type = "object", classname = "SoundAsset", value = nil }
+    footstep1_sound = { label = "Sounds/Footstep1", type = "object", classname = "SoundResource", value = nil },
+    footstep2_sound = { label = "Sounds/Footstep2", type = "object", classname = "SoundResource", value = nil },
+    footstep3_sound = { label = "Sounds/Footstep3", type = "object", classname = "SoundResource", value = nil },
+    footstep4_sound = { label = "Sounds/Footstep4", type = "object", classname = "SoundResource", value = nil },
+    slide_sound = { label = "Sounds/Slide", type = "object", classname = "SoundResource", value = nil }
 }
 
 property_names = {
@@ -95,10 +95,10 @@ function start()
 
     m.velocity:set_from_scalar(0)
 
-    m.footsteps[1] = properties.footstep1_sound.value:cast_sound_asset()
-    m.footsteps[2] = properties.footstep2_sound.value:cast_sound_asset()
-    m.footsteps[3] = properties.footstep3_sound.value:cast_sound_asset()
-    m.footsteps[4] = properties.footstep4_sound.value:cast_sound_asset()
+    m.footsteps[1] = properties.footstep1_sound.value:cast_asset()
+    m.footsteps[2] = properties.footstep2_sound.value:cast_asset()
+    m.footsteps[3] = properties.footstep3_sound.value:cast_asset()
+    m.footsteps[4] = properties.footstep4_sound.value:cast_asset()
 end
 
 function gen_user_cmd(dx, dy)
@@ -406,7 +406,7 @@ function on_land()
 end
 
 function on_slide()
-    local sound_asset = properties.slide_sound.value:cast_sound_asset()
+    local sound_asset = properties.slide_sound.value:cast_asset()
     if sound_asset then
         local s = sound_asset:sound():instantiate()
         s:play2d(0.5, false)--owner.transform:origin(), blueshift.meter_to_unit(4), blueshift.meter_to_unit(15), 1.0, false)

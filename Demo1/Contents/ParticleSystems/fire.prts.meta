@@ -1,4 +1,8 @@
 {
-   "classname" : "ParticleSystemAsset",
-   "guid" : "00236EA305051207000800A1DD4112BB"
+   "classname" : "Asset",
+   "guid" : "00236EA305051207000800A1DD4112BB",
+   "resource" : {
+      "classname" : "ParticleSystemResource",
+      "guid" : "015313281D091504003700671B7AC6C2"
+   }
 }

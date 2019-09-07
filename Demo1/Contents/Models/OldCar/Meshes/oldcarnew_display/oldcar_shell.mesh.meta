@@ -1,5 +1,5 @@
 {
-   "classname" : "MeshAsset",
+   "classname" : "Asset",
    "guid" : "00276A461D020A0A00300334308647A8",
    "importer" : {
       "classname" : "MeshImporter",
@@ -11,5 +11,9 @@
       "optimize" : true,
       "prefabEntityGuid" : "0029236D1D020A0A0030033A30869A62",
       "tangents" : 2
+   },
+   "resource" : {
+      "classname" : "MeshResource",
+      "guid" : "151512A8380916040000032FDECFA69F"
    }
 }

@@ -7,9 +7,9 @@ properties = {
     brakingTorque = { label = "Braking Torque", type = "float", value = 2.5 },
     joypad_l = { label = "Left Joypad", type = "object", classname = "ComScript", value = nil },
     joypad_r = { label = "Right Joypad", type = "object", classname = "ComScript", value = nil },
-    clunk_sound = { label = "Sounds/Clunk", type = "object", classname = "SoundAsset", value = nil },
-    accel_sound = { label = "Sounds/Accel", type = "object", classname = "SoundAsset", value = nil },
-    skid_sound = { label = "Sounds/Skid", type = "object", classname = "SoundAsset", value = nil },
+    clunk_sound = { label = "Sounds/Clunk", type = "object", classname = "SoundResource", value = nil },
+    accel_sound = { label = "Sounds/Accel", type = "object", classname = "SoundResource", value = nil },
+    skid_sound = { label = "Sounds/Skid", type = "object", classname = "SoundResource", value = nil },
 }
 
 property_names = {
@@ -45,8 +45,13 @@ function start()
 		end
 	end
 
-    m.accel_sound = properties.accel_sound.value:cast_sound_asset():sound():instantiate()
-    m.skid_sound = properties.skid_sound.value:cast_sound_asset():sound():instantiate()
+    if properties.accel_sound.value then
+        m.accel_sound = properties.accel_sound.value:cast_asset():sound():instantiate()
+    end
+
+    if properties.skid_sound.value then
+        m.skid_sound = properties.skid_sound.value:cast_asset():sound():instantiate()
+    end
 end
 
 function update()

@@ -1,4 +1,8 @@
 {
-   "classname" : "AnimControllerAsset",
-   "guid" : "01EA47C22A0A171E001800B7B2938D13"
+   "classname" : "Asset",
+   "guid" : "01EA47C22A0A171E001800B7B2938D13",
+   "resource" : {
+      "classname" : "AnimControllerResource",
+      "guid" : "01697C301D091504003700B11B860B9E"
+   }
 }

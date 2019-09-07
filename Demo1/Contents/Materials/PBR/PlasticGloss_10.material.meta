@@ -1,4 +1,8 @@
 {
-   "classname" : "MaterialAsset",
-   "guid" : "000F1E451C010B190030032993F17BE4"
+   "classname" : "Asset",
+   "guid" : "000F1E451C010B190030032993F17BE4",
+   "resource" : {
+      "classname" : "MaterialResource",
+      "guid" : "010A20BF1C091504003703511B53EA75"
+   }
 }

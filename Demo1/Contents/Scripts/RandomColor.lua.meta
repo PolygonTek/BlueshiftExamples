@@ -1,4 +1,8 @@
 {
-   "classname" : "ScriptAsset",
-   "guid" : "00073BF51D040F1A003703437C5902F1"
+   "classname" : "Asset",
+   "guid" : "00073BF51D040F1A003703437C5902F1",
+   "resource" : {
+      "classname" : "ScriptResource",
+      "guid" : "017A5C931D091504003700E31B8DB017"
+   }
 }

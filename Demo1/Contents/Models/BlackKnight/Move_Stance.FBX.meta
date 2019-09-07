@@ -1,5 +1,5 @@
 {
-   "classname" : "FbxAsset",
+   "classname" : "Asset",
    "guid" : "00F82ECE08050A05002202C736475D2D",
    "importer" : {
       "classname" : "FbxFileImporter",
@@ -14,6 +14,7 @@
       "importSkeleton" : false,
       "importTranslation" : "0 0 0",
       "importUniformScale" : 10.0,
+      "importWithVertexConversion" : true,
       "materialNaming" : 0,
       "materialSearch" : 1,
       "mergeMeshes" : true,
@@ -49,5 +50,9 @@
       ],
       "prefabRootEntityGuid" : "83205DD61E071601001303334DC1DD31",
       "targetSkeleton" : "00174FAD35060B16002D0013AC797750"
+   },
+   "resource" : {
+      "classname" : "FbxResource",
+      "guid" : "13D2262F30091504003B01EBB616585C"
    }
 }
