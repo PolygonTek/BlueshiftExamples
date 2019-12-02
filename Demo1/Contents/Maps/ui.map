@@ -51,8 +51,8 @@
          "classname" : "Entity",
          "components" : [
             {
-               "anchorMax" : "0.5 0.5",
-               "anchorMin" : "0.5 0.5",
+               "anchorMaxs" : "0.5 0.5",
+               "anchorMins" : "0.5 0.5",
                "anchoredPosition" : "0 0",
                "angles" : "0 0 0",
                "classname" : "ComRectTransform",
@@ -86,8 +86,8 @@
          "classname" : "Entity",
          "components" : [
             {
-               "anchorMax" : "0.5 0.5",
-               "anchorMin" : "0.5 0.5",
+               "anchorMaxs" : "0.5 0.5",
+               "anchorMins" : "0.5 0.5",
                "anchoredPosition" : "280.9999695 218.3000183",
                "angles" : "0 0 0",
                "classname" : "ComRectTransform",
@@ -129,8 +129,8 @@
          "classname" : "Entity",
          "components" : [
             {
-               "anchorMax" : "0.5 0.5",
-               "anchorMin" : "0.5 0.5",
+               "anchorMaxs" : "0.5 0.5",
+               "anchorMins" : "0.5 0.5",
                "anchoredPosition" : "17.7757263 30.7317505",
                "angles" : "0 0 30.0000019",
                "classname" : "ComRectTransform",
@@ -172,8 +172,8 @@
          "classname" : "Entity",
          "components" : [
             {
-               "anchorMax" : "0.5 0.5",
-               "anchorMin" : "0.5 0.5",
+               "anchorMaxs" : "0.5 0.5",
+               "anchorMins" : "0.5 0.5",
                "anchoredPosition" : "254.5 -173.8000183",
                "angles" : "0 -0 -30",
                "classname" : "ComRectTransform",
