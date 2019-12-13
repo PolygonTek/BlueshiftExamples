@@ -61,7 +61,7 @@ function awake()
 	m.images[1] = owner.entity:image()
 
 	local children = EntityPtrArray()
-	owner.entity:children(children)
+	owner.entity:children_recursive(children)
 
 	for i = 0, children:count() - 1 do
         local child = children:at(i)
