@@ -136,14 +136,16 @@ function update()
         end
     end
 
-    if owner.game_world:time() - m.skid_time < 200 then
-        local volume = math.max(math.min((speed_km - 40) / 100, 1.0), 0.1)
-        if m.skid_sound:is_playing() then
-            m.skid_sound:set_volume(volume)
-        else
-            m.skid_sound:play2d(volume, true)
+    if m.skid_sound then
+        if owner.game_world:time() - m.skid_time < 200 then
+            local volume = math.max(math.min((speed_km - 40) / 100, 1.0), 0.1)
+            if m.skid_sound:is_playing() then
+                m.skid_sound:set_volume(volume)
+            else
+                m.skid_sound:play2d(volume, true)
+            end
+        elseif m.skid_sound:is_playing() then
+            m.skid_sound:stop()
         end
-    elseif m.skid_sound:is_playing() then
-        m.skid_sound:stop()
     end
 end
