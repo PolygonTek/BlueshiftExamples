@@ -1,0 +1,399 @@
+particleSystem 1
+numStages 3
+stage {
+  name "stage 0"
+  module "Standard" {
+    count 3
+    spawnBunching 0.000
+    lifeTime 1.000
+    deadTime 1.000
+    looping true
+    prewarm true
+    maxCycles 1
+    simulationSpace "Local"
+    simulationSpeed 1.000
+    material "00527D9C23011016001500DEE8094B9A"
+    animation true
+    animFrames 16 1
+    animFps 16
+    orientation "View"
+    startDelay "Constant" {
+      scalar 1.000
+      wrapMode "Clamp" "Clamp"
+      minCurve {
+        numKeys 1
+        keys {
+          0.000 0.250 0.000 0.000 0
+        }
+      }
+      maxCurve {
+        numKeys 1
+        keys {
+          0.000 0.100 0.000 0.000 0
+        }
+      }
+    }
+    startColor ( 1 1 1 1 )
+    startSpeed "Constant" {
+      scalar 2.000
+      wrapMode "Clamp" "Clamp"
+      minCurve {
+        numKeys 1
+        keys {
+          0.000 1.000 0.000 0.000 0
+        }
+      }
+      maxCurve {
+        numKeys 1
+        keys {
+          0.000 0.500 0.000 0.000 0
+        }
+      }
+    }
+    startSize "Constant" {
+      scalar 6.000
+      wrapMode "Clamp" "Clamp"
+      minCurve {
+        numKeys 1
+        keys {
+          0.000 1.000 0.000 0.000 0
+        }
+      }
+      maxCurve {
+        numKeys 1
+        keys {
+          0.000 0.500 0.000 0.000 0
+        }
+      }
+    }
+    startAspectRatio "Constant" {
+      scalar 1.000
+      wrapMode "Clamp" "Clamp"
+      minCurve {
+        numKeys 1
+        keys {
+          0.000 1.000 0.000 0.000 0
+        }
+      }
+      maxCurve {
+        numKeys 1
+        keys {
+          0.000 1.000 0.000 0.000 0
+        }
+      }
+    }
+    startRotation "Constant" {
+      scalar 180.000
+      wrapMode "Clamp" "Clamp"
+      minCurve {
+        numKeys 1
+        keys {
+          0.000 0.000 0.000 0.000 0
+        }
+      }
+      maxCurve {
+        numKeys 1
+        keys {
+          0.000 0.000 0.000 0.000 0
+        }
+      }
+    }
+    randomizeRotation 1.000
+    gravity 0.000
+  }
+  module "Shape" {
+    shape "Sphere"
+    extents ( 0 0 0 )
+    radius 0.500
+    thickness 1.000
+    angle 30.000
+    randomizeDir 1.000
+  }
+  module "LTColor" {
+    targetColor ( 1 1 1 0 )
+    fadeLocation 0.200
+  }
+}
+stage {
+  name "stage 1"
+  module "Standard" {
+    count 33
+    spawnBunching 0.046
+    lifeTime 1.000
+    deadTime 1.000
+    looping true
+    prewarm true
+    maxCycles 1
+    simulationSpace "Local"
+    simulationSpeed 1.000
+    material "00C3664238011016001602F518A2A148"
+    animation false
+    animFrames 1 1
+    animFps 8
+    orientation "Aimed"
+    startDelay "Constant" {
+      scalar 1.000
+      wrapMode "Clamp" "Clamp"
+      minCurve {
+        numKeys 1
+        keys {
+          0.000 0.150 0.000 0.000 0
+        }
+      }
+      maxCurve {
+        numKeys 1
+        keys {
+          0.000 0.000 0.000 0.000 0
+        }
+      }
+    }
+    startColor ( 1 1 1 1 )
+    startSpeed "Constant" {
+      scalar 1.000
+      wrapMode "Clamp" "Clamp"
+      minCurve {
+        numKeys 1
+        keys {
+          0.000 1.000 0.000 0.000 0
+        }
+      }
+      maxCurve {
+        numKeys 1
+        keys {
+          0.000 1.000 0.000 0.000 0
+        }
+      }
+    }
+    startSize "Constant" {
+      scalar 1.000
+      wrapMode "Clamp" "Clamp"
+      minCurve {
+        numKeys 1
+        keys {
+          0.000 0.400 0.000 0.000 0
+        }
+      }
+      maxCurve {
+        numKeys 1
+        keys {
+          0.000 0.200 0.000 0.000 0
+        }
+      }
+    }
+    startAspectRatio "Constant" {
+      scalar 1.000
+      wrapMode "Clamp" "Clamp"
+      minCurve {
+        numKeys 1
+        keys {
+          0.000 1.000 0.000 0.000 0
+        }
+      }
+      maxCurve {
+        numKeys 1
+        keys {
+          0.000 1.000 0.000 0.000 0
+        }
+      }
+    }
+    startRotation "Constant" {
+      scalar 180.000
+      wrapMode "Clamp" "Clamp"
+      minCurve {
+        numKeys 1
+        keys {
+          0.000 0.000 0.000 0.000 0
+        }
+      }
+      maxCurve {
+        numKeys 1
+        keys {
+          0.000 0.000 0.000 0.000 0
+        }
+      }
+    }
+    randomizeRotation 1.000
+    gravity 0.000
+  }
+  module "Shape" {
+    shape "Sphere"
+    extents ( 0 0 0 )
+    radius 0.100
+    thickness 1.000
+    angle 30.000
+    randomizeDir 1.000
+  }
+  module "LTColor" {
+    targetColor ( 1 1 1 0 )
+    fadeLocation 0.000
+  }
+  module "LTSpeed" {
+    speed "Curve" {
+      scalar 32.000
+      wrapMode "Clamp" "Clamp"
+      minCurve {
+        numKeys 1
+        keys {
+          0.000 0.000 0.000 0.000 0
+        }
+      }
+      maxCurve {
+        numKeys 2
+        keys {
+          0.000 1.000 -3.226 -3.226 0
+          1.000 0.027 -0.000 -0.000 0
+        }
+      }
+    }
+  }
+  module "LTSize" {
+    size "Curve" {
+      scalar 1.000
+      wrapMode "Clamp" "Clamp"
+      minCurve {
+        numKeys 1
+        keys {
+          0.000 0.000 0.000 0.000 0
+        }
+      }
+      maxCurve {
+        numKeys 2
+        keys {
+          0.000 1.000 -2.421 -2.421 0
+          1.000 0.018 0.000 0.000 0
+        }
+      }
+    }
+  }
+  module "Trails" {
+    count 1
+    length 0.100
+    trailScale 1.000
+    trailCut true
+  }
+}
+stage {
+  name "stage 2"
+  module "Standard" {
+    count 1
+    spawnBunching 1.000
+    lifeTime 0.500
+    deadTime 1.500
+    looping true
+    prewarm true
+    maxCycles 1
+    simulationSpace "Local"
+    simulationSpeed 1.000
+    material "008D4AD51C011016001602F407F21DA5"
+    animation false
+    animFrames 1 1
+    animFps 8
+    orientation "View"
+    startDelay "Constant" {
+      scalar 1.000
+      wrapMode "Clamp" "Clamp"
+      minCurve {
+        numKeys 1
+        keys {
+          0.000 0.000 0.000 0.000 0
+        }
+      }
+      maxCurve {
+        numKeys 1
+        keys {
+          0.000 0.000 0.000 0.000 0
+        }
+      }
+    }
+    startColor ( 0.7294 0.5412 0.2157 1 )
+    startSpeed "Constant" {
+      scalar 1.000
+      wrapMode "Clamp" "Clamp"
+      minCurve {
+        numKeys 1
+        keys {
+          0.000 0.000 0.000 0.000 0
+        }
+      }
+      maxCurve {
+        numKeys 1
+        keys {
+          0.000 0.000 0.000 0.000 0
+        }
+      }
+    }
+    startSize "Constant" {
+      scalar 10.000
+      wrapMode "Clamp" "Clamp"
+      minCurve {
+        numKeys 1
+        keys {
+          0.000 1.000 0.000 0.000 0
+        }
+      }
+      maxCurve {
+        numKeys 1
+        keys {
+          0.000 0.500 0.000 0.000 0
+        }
+      }
+    }
+    startAspectRatio "Constant" {
+      scalar 1.000
+      wrapMode "Clamp" "Clamp"
+      minCurve {
+        numKeys 1
+        keys {
+          0.000 1.000 0.000 0.000 0
+        }
+      }
+      maxCurve {
+        numKeys 1
+        keys {
+          0.000 1.000 0.000 0.000 0
+        }
+      }
+    }
+    startRotation "Constant" {
+      scalar 180.000
+      wrapMode "Clamp" "Clamp"
+      minCurve {
+        numKeys 1
+        keys {
+          0.000 0.000 0.000 0.000 0
+        }
+      }
+      maxCurve {
+        numKeys 1
+        keys {
+          0.000 0.000 0.000 0.000 0
+        }
+      }
+    }
+    randomizeRotation 1.000
+    gravity 0.000
+  }
+  module "LTColor" {
+    targetColor ( 0 0 0 0 )
+    fadeLocation 0.000
+  }
+  module "LTSize" {
+    size "Curve" {
+      scalar 1.000
+      wrapMode "Clamp" "Clamp"
+      minCurve {
+        numKeys 1
+        keys {
+          0.000 0.000 0.000 0.000 0
+        }
+      }
+      maxCurve {
+        numKeys 2
+        keys {
+          0.000 0.241 1.548 1.548 0
+          1.000 1.000 0.000 0.000 0
+        }
+      }
+    }
+  }
+}
