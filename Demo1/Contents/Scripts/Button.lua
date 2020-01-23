@@ -33,7 +33,7 @@ m = {
     enabled = true,
     translation = Vec3(0, 0, 0),
 	target_script_states = {},
-	images = {}
+	renderables = {}
 }
 
 function awake()
@@ -57,16 +57,16 @@ function awake()
     end
 
 	-- List up renderables
-    m.images = {}
-	m.images[1] = owner.entity:image()
+    m.renderables = {}
+	m.renderables[1] = owner.entity:renderable()
 
 	local children = EntityPtrArray()
 	owner.entity:children_recursive(children)
 
 	for i = 0, children:count() - 1 do
         local child = children:at(i)
-		if child:image() and child:image():color() == Color3.white then
-			table.insert(m.images, children:at(i):image())
+		if child:renderable() and child:renderable():color() == Color3.white then
+			table.insert(m.renderables, children:at(i):renderable())
 		end
 	end
     
@@ -78,14 +78,14 @@ function start()
 end
 
 function get_button_color()
-    for i = 1, #m.images do
-		return m.images[i]:color()
+    for i = 1, #m.renderables do
+		return m.renderables[i]:color()
 	end
 end
 
 function set_button_color(color)
-	for i = 1, #m.images do
-		m.images[i]:set_color(color)
+	for i = 1, #m.renderables do
+		m.renderables[i]:set_color(color)
 	end
 end
 
@@ -159,19 +159,20 @@ function on_pointer_enter()
         tween.cancel(m.button_color_tweener)
     end
     
+    local color
 	if m.pressed then
-	    m.button_color_tweener = tween.add(tween.EaseOutQuadratic, 0.1, false, get_button_color(), properties.press_color.value, function(color)
-            set_button_color(color)
-        end)
-
 	    m.translation:set(properties.translation.value, -properties.translation.value, 0.0)
     
         owner.transform:translate(m.translation, ComTransform.TransformSpace.WorldSpace)
+
+        color = properties.press_color.value
     else
-        m.button_color_tweener = tween.add(tween.EaseOutQuadratic, 0.1, false, get_button_color(), properties.hover_color.value, function(color)
-            set_button_color(color)
-        end)
+        color = properties.hover_color.value
     end
+
+    m.button_color_tweener = tween.add(tween.EaseOutQuadratic, 0.15, false, get_button_color(), color, function(color)
+        set_button_color(color)
+    end)
 
 	m.hover = true
 end
@@ -185,7 +186,7 @@ function on_pointer_exit()
         tween.cancel(m.button_color_tweener)
     end
     
-	tween.add(tween.EaseOutQuadratic, 0.1, false, get_button_color(), properties.normal_color.value, function(color)
+	tween.add(tween.EaseOutQuadratic, 0.15, false, get_button_color(), properties.normal_color.value, function(color)
         set_button_color(color)
     end)
 

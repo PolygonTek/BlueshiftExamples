@@ -82,7 +82,7 @@ function start()
 
     m.camera_entity = owner.game_world:find_entity_by_tag("MainCamera")
 
-    m.ui_camera_entity = owner.game_world:find_entity("UICamera")
+    m.canvas_entity = owner.game_world:find_entity("Canvas")
 
     m.dragger_entity = owner.game_world:create_empty_entity("Mouse Dragger")
     local rigid_body = m.dragger_entity:add_new_component(blueshift.ComRigidBody.meta_object)
@@ -229,17 +229,15 @@ function handle_mouse_shoot()
     end
 end
 
-function is_point_over_entity(point, layerMask)
-    local ray = m.ui_camera_entity:camera():screen_to_ray(point)
-
-    return owner.game_world:intersect_ray(ray, layerMask)
+function is_point_over_entity(point)
+    return m.canvas_entity:canvas():is_point_over_child_rect(point)
 end
 
 function handle_mouse_joint()
     for i = 0, Input.touch_count() do
         local touch = Input.touch(i)
         if touch:phase() == Input.Touch.Started then
-            if not is_point_over_entity(touch:position(), 4) then
+            if not is_point_over_entity(touch:position()) then
                 local camera = m.camera_entity:camera()
                 local ray = camera:screen_to_ray(touch:position())
                 local max_dist = blueshift.meter_to_unit(30)
