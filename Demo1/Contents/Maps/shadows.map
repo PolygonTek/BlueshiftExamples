@@ -6,11 +6,238 @@
          "classname" : "Entity",
          "components" : [
             {
+               "anchorMaxs" : "0.5 0.5",
+               "anchorMins" : "0.5 0.5",
+               "anchoredPosition" : "0 0",
+               "angles" : "0 0 0",
+               "classname" : "ComRectTransform",
+               "enabled" : true,
+               "guid" : "014D0A9812010B16000501BBDC538A28",
+               "origin" : "0 0 0",
+               "pivot" : "0.5 0.5",
+               "rayCastTarget" : true,
+               "rotation" : "0 0 0 1",
+               "scale" : "1 1 1",
+               "sizeDelta" : "1434 925"
+            },
+            {
+               "classname" : "ComCanvas",
+               "enabled" : true,
+               "guid" : "014E29AE12010B16000501BBDC538A54"
+            }
+         ],
+         "frozen" : false,
+         "guid" : "014C226312010B16000501BBDC538B65",
+         "layer" : 2,
+         "name" : "Canvas",
+         "parent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00700C1A07010A16003901F8B7B42A4B",
+         "staticMask" : 0,
+         "tag" : "Untagged"
+      },
+      {
+         "active" : true,
+         "activeInHierarchy" : true,
+         "classname" : "Entity",
+         "components" : [
+            {
+               "anchorMaxs" : "0 0",
+               "anchorMins" : "0 0",
+               "anchoredPosition" : "144 144",
+               "angles" : "0 0 0",
+               "classname" : "ComRectTransform",
+               "enabled" : true,
+               "guid" : "01506C3E12010B16000501BBDC538FA1",
+               "origin" : "-573 -318.5 0",
+               "pivot" : "0.5 0.5",
+               "rayCastTarget" : true,
+               "rotation" : "0 0 0 1",
+               "scale" : "1 1 1",
+               "sizeDelta" : "192 192"
+            },
+            {
+               "alpha" : 1.0,
+               "billboard" : false,
+               "classname" : "ComImage",
+               "color" : "1 1 1",
+               "enabled" : true,
+               "guid" : "01510E9512010B16000501BBDC538FCE",
+               "imageMaterial" : "008530171F070C19000C023E16F0C062",
+               "imageType" : 0,
+               "maxVisDist" : 4000.0,
+               "timeOffset" : 0.0,
+               "timeScale" : 1.0
+            },
+            {
+               "classname" : "ComScript",
+               "enabled" : true,
+               "guid" : "0152144D12010B16000501BBDC538F6E",
+               "knob_radius" : 96.0,
+               "script" : "00F93EC108010B13002003AD64899094"
+            }
+         ],
+         "frozen" : false,
+         "guid" : "014F70C012010B16000501BBDC538C3E",
+         "layer" : 2,
+         "name" : "JoyPadL",
+         "parent" : "014C226312010B16000501BBDC538B65",
+         "prefab" : false,
+         "prefabSource" : "00734C7307010A16003901F8B7B42EE4",
+         "staticMask" : 0,
+         "tag" : "Untagged"
+      },
+      {
+         "active" : true,
+         "activeInHierarchy" : true,
+         "classname" : "Entity",
+         "components" : [
+            {
+               "anchorMaxs" : "0.5 0.5",
+               "anchorMins" : "0.5 0.5",
+               "anchoredPosition" : "0 0",
+               "angles" : "0 0 0",
+               "classname" : "ComRectTransform",
+               "enabled" : true,
+               "guid" : "0154622E12010B16000501BBDC539117",
+               "origin" : "0 0 0",
+               "pivot" : "0.5 0.5",
+               "rayCastTarget" : true,
+               "rotation" : "0 0 0 1",
+               "scale" : "1 1 1",
+               "sizeDelta" : "96 96"
+            },
+            {
+               "alpha" : 1.0,
+               "billboard" : false,
+               "classname" : "ComImage",
+               "color" : "1 1 1",
+               "enabled" : true,
+               "guid" : "01550BA412010B16000501BBDC5390B7",
+               "imageMaterial" : "008E77031F070C19000C028316F387E3",
+               "imageType" : 0,
+               "maxVisDist" : 4000.0,
+               "timeOffset" : 0.0,
+               "timeScale" : 1.0
+            }
+         ],
+         "frozen" : false,
+         "guid" : "01537B5E12010B16000501BBDC5391ED",
+         "layer" : 2,
+         "name" : "knob",
+         "parent" : "014F70C012010B16000501BBDC538C3E",
+         "prefab" : false,
+         "prefabSource" : "007737B907010A16003901F8B7B433FE",
+         "staticMask" : 0,
+         "tag" : "Untagged"
+      },
+      {
+         "active" : true,
+         "activeInHierarchy" : true,
+         "classname" : "Entity",
+         "components" : [
+            {
+               "anchorMaxs" : "1 0",
+               "anchorMins" : "1 0",
+               "anchoredPosition" : "-144 144",
+               "angles" : "0 0 0",
+               "classname" : "ComRectTransform",
+               "enabled" : true,
+               "guid" : "0157734D12010B16000501BBDC539296",
+               "origin" : "573 -318.5 0",
+               "pivot" : "0.5 0.5",
+               "rayCastTarget" : true,
+               "rotation" : "0 0 0 1",
+               "scale" : "1 1 1",
+               "sizeDelta" : "192 192"
+            },
+            {
+               "alpha" : 1.0,
+               "billboard" : false,
+               "classname" : "ComImage",
+               "color" : "1 1 1",
+               "enabled" : true,
+               "guid" : "015844A112010B16000501BBDC539237",
+               "imageMaterial" : "008530171F070C19000C023E16F0C062",
+               "imageType" : 0,
+               "maxVisDist" : 4000.0,
+               "timeOffset" : 0.0,
+               "timeScale" : 1.0
+            },
+            {
+               "classname" : "ComScript",
+               "enabled" : true,
+               "guid" : "015939CA12010B16000501BBDC539255",
+               "knob_radius" : 96.0,
+               "script" : "00F93EC108010B13002003AD64899094"
+            }
+         ],
+         "frozen" : false,
+         "guid" : "01561FC412010B16000501BBDC53936D",
+         "layer" : 2,
+         "name" : "JoyPadR",
+         "parent" : "014C226312010B16000501BBDC538B65",
+         "prefab" : false,
+         "prefabSource" : "007A483707010A16003901F8B7B434E7",
+         "staticMask" : 0,
+         "tag" : "Untagged"
+      },
+      {
+         "active" : true,
+         "activeInHierarchy" : true,
+         "classname" : "Entity",
+         "components" : [
+            {
+               "anchorMaxs" : "0.5 0.5",
+               "anchorMins" : "0.5 0.5",
+               "anchoredPosition" : "0 0",
+               "angles" : "0 0 0",
+               "classname" : "ComRectTransform",
+               "enabled" : true,
+               "guid" : "015B186112010B16000501BBDC539442",
+               "origin" : "0 0 0",
+               "pivot" : "0.5 0.5",
+               "rayCastTarget" : true,
+               "rotation" : "0 0 0 1",
+               "scale" : "1 1 1",
+               "sizeDelta" : "96 96"
+            },
+            {
+               "alpha" : 1.0,
+               "billboard" : false,
+               "classname" : "ComImage",
+               "color" : "1 1 1",
+               "enabled" : true,
+               "guid" : "015C48AC12010B16000501BBDC5397E2",
+               "imageMaterial" : "008E77031F070C19000C028316F387E3",
+               "imageType" : 0,
+               "maxVisDist" : 4000.0,
+               "timeOffset" : 0.0,
+               "timeScale" : 1.0
+            }
+         ],
+         "frozen" : false,
+         "guid" : "015A781312010B16000501BBDC5394DB",
+         "layer" : 2,
+         "name" : "knob",
+         "parent" : "01561FC412010B16000501BBDC53936D",
+         "prefab" : false,
+         "prefabSource" : "007E1D7907010A16003901F9B7B438AA",
+         "staticMask" : 0,
+         "tag" : "Untagged"
+      },
+      {
+         "active" : true,
+         "activeInHierarchy" : true,
+         "classname" : "Entity",
+         "components" : [
+            {
                "angles" : "0 -0 0",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "0035571D310410150021014DDFD5248B",
                "origin" : "0 0 2",
+               "rotation" : "0 0 0 1",
                "scale" : "1 1 1"
             },
             {
@@ -55,8 +282,9 @@
                "angles" : "0 -0 0",
                "classname" : "ComTransform",
                "enabled" : true,
-               "guid" : "0031074B2E04101500200043D2934609",
-               "origin" : "6 -3 1.0001",
+               "guid" : "001979293B041015001D0136AFA1BF26",
+               "origin" : "-0.296 -3 1.0001",
+               "rotation" : "0 0 0 1",
                "scale" : "1 1 1"
             },
             {
@@ -66,7 +294,7 @@
                "classname" : "ComStaticMeshRenderer",
                "color" : "1 1 1",
                "enabled" : true,
-               "guid" : "003278372E04101500200043D2934611",
+               "guid" : "001A07593B041015001D0136AFA1BF53",
                "materials" : [ "0000000000000000000000000000012D" ],
                "maxVisDist" : 1000.0,
                "mesh" : "00000000000000000000000000000196",
@@ -80,7 +308,7 @@
                "center" : "0 0 0",
                "classname" : "ComCylinderCollider",
                "enabled" : true,
-               "guid" : "0033446F2E04101500200043D293461B",
+               "guid" : "001B0D4B3B041015001D0136AFA1BE08",
                "height" : 2.0,
                "radius" : 0.5
             },
@@ -88,7 +316,7 @@
                "center" : "0 0 0",
                "classname" : "ComCylinderCollider",
                "enabled" : true,
-               "guid" : "004B7C4630041015002401DB055F147B",
+               "guid" : "004A506B30041015002401DB055F1492",
                "height" : 2.0002000331878662,
                "radius" : 0.50010001659393311
             },
@@ -98,7 +326,7 @@
                "classname" : "ComRigidBody",
                "enabled" : true,
                "friction" : 1.0,
-               "guid" : "00500F5F310410150024033E05A7C777",
+               "guid" : "004F287C310410150024033E05A7C7C2",
                "kinematic" : false,
                "linearDamping" : 0.05000000074505806,
                "mass" : 0.0,
@@ -108,80 +336,9 @@
             }
          ],
          "frozen" : false,
-         "guid" : "00302BF72E04101500200043D293463F",
+         "guid" : "00187E343B041015001D0136AFA1BC54",
          "layer" : 0,
-         "name" : "Cylinder 3",
-         "parent" : "00000000000000000000000000000000",
-         "prefab" : false,
-         "prefabSource" : "00000000000000000000000000000000",
-         "staticMask" : -1,
-         "tag" : "Untagged"
-      },
-      {
-         "active" : true,
-         "activeInHierarchy" : true,
-         "classname" : "Entity",
-         "components" : [
-            {
-               "angles" : "0 -0 0",
-               "classname" : "ComTransform",
-               "enabled" : true,
-               "guid" : "0029311125041015002002E8D0D4CCCE",
-               "origin" : "6 3 1.0001",
-               "scale" : "1 1 1"
-            },
-            {
-               "alpha" : 1.0,
-               "billboard" : false,
-               "castShadows" : true,
-               "classname" : "ComStaticMeshRenderer",
-               "color" : "1 1 1",
-               "enabled" : true,
-               "guid" : "002A172925041015002002E8D0D4CCD6",
-               "materials" : [ "0000000000000000000000000000012D" ],
-               "maxVisDist" : 1000.0,
-               "mesh" : "00000000000000000000000000000196",
-               "occluder" : false,
-               "receiveShadows" : true,
-               "timeOffset" : 0.0,
-               "timeScale" : 1.0,
-               "useEnvironmentProveLighting" : true
-            },
-            {
-               "center" : "0 0 0",
-               "classname" : "ComCylinderCollider",
-               "enabled" : true,
-               "guid" : "002B644525041015002002E8D0D4CCD8",
-               "height" : 2.0,
-               "radius" : 0.5
-            },
-            {
-               "center" : "0 0 0",
-               "classname" : "ComCylinderCollider",
-               "enabled" : true,
-               "guid" : "004C206630041015002401DB055F17F0",
-               "height" : 2.0002000331878662,
-               "radius" : 0.50010001659393311
-            },
-            {
-               "angularDamping" : 0.0099999997764825821,
-               "ccd" : false,
-               "classname" : "ComRigidBody",
-               "enabled" : true,
-               "friction" : 1.0,
-               "guid" : "005113A5310410150024033E05A7C6B8",
-               "kinematic" : false,
-               "linearDamping" : 0.05000000074505806,
-               "mass" : 0.0,
-               "restitution" : 0.0,
-               "rollingFriction" : 1.0,
-               "spinningFriction" : 1.0
-            }
-         ],
-         "frozen" : false,
-         "guid" : "002871F425041015002002E8D0D4CCC3",
-         "layer" : 0,
-         "name" : "Cylinder 2",
+         "name" : "Cylinder",
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
@@ -199,6 +356,7 @@
                "enabled" : true,
                "guid" : "0021350116041015001E00DFB46EE82C",
                "origin" : "0 3 1.0001",
+               "rotation" : "0 0 0 1",
                "scale" : "1 1 1"
             },
             {
@@ -268,8 +426,9 @@
                "angles" : "0 -0 0",
                "classname" : "ComTransform",
                "enabled" : true,
-               "guid" : "001979293B041015001D0136AFA1BF26",
-               "origin" : "-0.296 -3 1.0001",
+               "guid" : "0029311125041015002002E8D0D4CCCE",
+               "origin" : "6 3 1.0001",
+               "rotation" : "0 0 0 1",
                "scale" : "1 1 1"
             },
             {
@@ -279,7 +438,7 @@
                "classname" : "ComStaticMeshRenderer",
                "color" : "1 1 1",
                "enabled" : true,
-               "guid" : "001A07593B041015001D0136AFA1BF53",
+               "guid" : "002A172925041015002002E8D0D4CCD6",
                "materials" : [ "0000000000000000000000000000012D" ],
                "maxVisDist" : 1000.0,
                "mesh" : "00000000000000000000000000000196",
@@ -293,7 +452,7 @@
                "center" : "0 0 0",
                "classname" : "ComCylinderCollider",
                "enabled" : true,
-               "guid" : "001B0D4B3B041015001D0136AFA1BE08",
+               "guid" : "002B644525041015002002E8D0D4CCD8",
                "height" : 2.0,
                "radius" : 0.5
             },
@@ -301,7 +460,7 @@
                "center" : "0 0 0",
                "classname" : "ComCylinderCollider",
                "enabled" : true,
-               "guid" : "004A506B30041015002401DB055F1492",
+               "guid" : "004C206630041015002401DB055F17F0",
                "height" : 2.0002000331878662,
                "radius" : 0.50010001659393311
             },
@@ -311,7 +470,7 @@
                "classname" : "ComRigidBody",
                "enabled" : true,
                "friction" : 1.0,
-               "guid" : "004F287C310410150024033E05A7C7C2",
+               "guid" : "005113A5310410150024033E05A7C6B8",
                "kinematic" : false,
                "linearDamping" : 0.05000000074505806,
                "mass" : 0.0,
@@ -321,9 +480,153 @@
             }
          ],
          "frozen" : false,
-         "guid" : "00187E343B041015001D0136AFA1BC54",
+         "guid" : "002871F425041015002002E8D0D4CCC3",
          "layer" : 0,
-         "name" : "Cylinder",
+         "name" : "Cylinder 2",
+         "parent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
+         "staticMask" : -1,
+         "tag" : "Untagged"
+      },
+      {
+         "active" : true,
+         "activeInHierarchy" : true,
+         "classname" : "Entity",
+         "components" : [
+            {
+               "angles" : "0 -0 0",
+               "classname" : "ComTransform",
+               "enabled" : true,
+               "guid" : "0031074B2E04101500200043D2934609",
+               "origin" : "6 -3 1.0001",
+               "rotation" : "0 0 0 1",
+               "scale" : "1 1 1"
+            },
+            {
+               "alpha" : 1.0,
+               "billboard" : false,
+               "castShadows" : true,
+               "classname" : "ComStaticMeshRenderer",
+               "color" : "1 1 1",
+               "enabled" : true,
+               "guid" : "003278372E04101500200043D2934611",
+               "materials" : [ "0000000000000000000000000000012D" ],
+               "maxVisDist" : 1000.0,
+               "mesh" : "00000000000000000000000000000196",
+               "occluder" : false,
+               "receiveShadows" : true,
+               "timeOffset" : 0.0,
+               "timeScale" : 1.0,
+               "useEnvironmentProveLighting" : true
+            },
+            {
+               "center" : "0 0 0",
+               "classname" : "ComCylinderCollider",
+               "enabled" : true,
+               "guid" : "0033446F2E04101500200043D293461B",
+               "height" : 2.0,
+               "radius" : 0.5
+            },
+            {
+               "center" : "0 0 0",
+               "classname" : "ComCylinderCollider",
+               "enabled" : true,
+               "guid" : "004B7C4630041015002401DB055F147B",
+               "height" : 2.0002000331878662,
+               "radius" : 0.50010001659393311
+            },
+            {
+               "angularDamping" : 0.0099999997764825821,
+               "ccd" : false,
+               "classname" : "ComRigidBody",
+               "enabled" : true,
+               "friction" : 1.0,
+               "guid" : "00500F5F310410150024033E05A7C777",
+               "kinematic" : false,
+               "linearDamping" : 0.05000000074505806,
+               "mass" : 0.0,
+               "restitution" : 0.0,
+               "rollingFriction" : 1.0,
+               "spinningFriction" : 1.0
+            }
+         ],
+         "frozen" : false,
+         "guid" : "00302BF72E04101500200043D293463F",
+         "layer" : 0,
+         "name" : "Cylinder 3",
+         "parent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
+         "staticMask" : -1,
+         "tag" : "Untagged"
+      },
+      {
+         "active" : true,
+         "activeInHierarchy" : true,
+         "classname" : "Entity",
+         "components" : [
+            {
+               "angles" : "0 -0 0",
+               "classname" : "ComTransform",
+               "enabled" : true,
+               "guid" : "004717FE14041015002403CFFF9BDA57",
+               "origin" : "0 -12 1.0001",
+               "rotation" : "0 0 0 1",
+               "scale" : "1 1 1"
+            },
+            {
+               "alpha" : 1.0,
+               "billboard" : false,
+               "castShadows" : true,
+               "classname" : "ComStaticMeshRenderer",
+               "color" : "1 1 1",
+               "enabled" : true,
+               "guid" : "004875B514041015002403CFFF9BDA58",
+               "materials" : [ "0000000000000000000000000000012D" ],
+               "maxVisDist" : 1000.0,
+               "mesh" : "00000000000000000000000000000196",
+               "occluder" : false,
+               "receiveShadows" : true,
+               "timeOffset" : 0.0,
+               "timeScale" : 1.0,
+               "useEnvironmentProveLighting" : true
+            },
+            {
+               "center" : "0 0 0",
+               "classname" : "ComCylinderCollider",
+               "enabled" : true,
+               "guid" : "0049279014041015002403CFFF9BDDA2",
+               "height" : 2.0,
+               "radius" : 0.5
+            },
+            {
+               "center" : "0 0 0",
+               "classname" : "ComCylinderCollider",
+               "enabled" : true,
+               "guid" : "004E131630041015002401DB055F175D",
+               "height" : 2.0002000331878662,
+               "radius" : 0.50010001659393311
+            },
+            {
+               "angularDamping" : 0.0099999997764825821,
+               "ccd" : false,
+               "classname" : "ComRigidBody",
+               "enabled" : true,
+               "friction" : 1.0,
+               "guid" : "005317C5310410150024033E05A7C607",
+               "kinematic" : false,
+               "linearDamping" : 0.05000000074505806,
+               "mass" : 0.0,
+               "restitution" : 0.0,
+               "rollingFriction" : 1.0,
+               "spinningFriction" : 1.0
+            }
+         ],
+         "frozen" : false,
+         "guid" : "0046515214041015002403CFFF9BDA40",
+         "layer" : 0,
+         "name" : "Cylinder 4",
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
@@ -341,6 +644,7 @@
                "enabled" : true,
                "guid" : "00163D0C00041015001B03528A3C6C4F",
                "origin" : "3 0 2",
+               "rotation" : "0 0.7071068 -0 0.7071068",
                "scale" : "1 1 1"
             },
             {
@@ -384,6 +688,7 @@
                "enabled" : true,
                "guid" : "001301340B041015001A00097FCABD48",
                "origin" : "0 -8 1",
+               "rotation" : "0.122788 0.1227877 -0.6963647 0.6963637",
                "scale" : "1 1 1"
             },
             {
@@ -425,266 +730,9 @@
                "angles" : "0 -0 0",
                "classname" : "ComTransform",
                "enabled" : true,
-               "guid" : "005159E4250C1214002003AA18801E21",
-               "origin" : "30 0 5",
-               "scale" : "1 1 1"
-            },
-            {
-               "applyPostProcessing" : false,
-               "classname" : "ComCamera",
-               "clear" : 1,
-               "clearAlpha" : 0.0,
-               "clearColor" : "0 0 0",
-               "enabled" : true,
-               "far" : 4.0,
-               "fov" : 45.0,
-               "guid" : "005219D4250C1214002003AA18801E28",
-               "h" : 1.0,
-               "layerMask" : 4,
-               "near" : 0.10000000149011612,
-               "order" : 1,
-               "projection" : 1,
-               "size" : 7.3600001335144043,
-               "w" : 1.0,
-               "x" : 0.0,
-               "y" : 0.0
-            }
-         ],
-         "frozen" : false,
-         "guid" : "0050604E250C1214002003AA18801ECE",
-         "layer" : 2,
-         "name" : "UICamera",
-         "parent" : "00000000000000000000000000000000",
-         "prefab" : false,
-         "prefabSource" : "003B43C81B0C12140020025216E0E4D3",
-         "staticMask" : 0,
-         "tag" : "Untagged"
-      },
-      {
-         "active" : true,
-         "activeInHierarchy" : true,
-         "classname" : "Entity",
-         "components" : [
-            {
-               "angles" : "0 -0 179.9998932",
-               "classname" : "ComTransform",
-               "enabled" : true,
-               "guid" : "005C7136250C1214002003AB18802E8B",
-               "origin" : "2 5.224 -2.7449999",
-               "scale" : "1 2.5 2.5"
-            },
-            {
-               "alpha" : 1.0,
-               "billboard" : false,
-               "castShadows" : false,
-               "classname" : "ComStaticMeshRenderer",
-               "color" : "1 1 1",
-               "enabled" : true,
-               "guid" : "005D52DE250C1214002003AB18802E91",
-               "materials" : [ "008530171F070C19000C023E16F0C062" ],
-               "maxVisDist" : 16384.0,
-               "mesh" : "00000000000000000000000000000191",
-               "occluder" : false,
-               "receiveShadows" : false,
-               "timeOffset" : 0.0,
-               "timeScale" : 1.0,
-               "useEnvironmentProveLighting" : true
-            },
-            {
-               "center" : "0 0 0",
-               "classname" : "ComBoxCollider",
-               "enabled" : true,
-               "extents" : "0.002 0.5 0.5",
-               "guid" : "005E768A250C1214002003AB18802E98"
-            },
-            {
-               "anchor_max" : "0.05 0.95",
-               "anchor_min" : "0.05 0.95",
-               "anchored_position" : "1.4 -1.4",
-               "classname" : "ComScript",
-               "enabled" : true,
-               "guid" : "0156546137091007001C03578E42D478",
-               "pivot" : "0.5 0.5",
-               "script" : "01552CAD2F091007001B01927FEAC248",
-               "size_delta" : "2.5 2.5"
-            },
-            {
-               "classname" : "ComScript",
-               "enabled" : true,
-               "guid" : "005F0D4C250C1214002003AB18802E9E",
-               "knob_radius" : 0.079999998211860657,
-               "script" : "00F93EC108010B13002003AD64899094"
-            }
-         ],
-         "frozen" : false,
-         "guid" : "005B3290250C1214002003AB18802E83",
-         "layer" : 2,
-         "name" : "JoypadL",
-         "parent" : "0050604E250C1214002003AA18801ECE",
-         "prefab" : false,
-         "prefabSource" : "003E0D541B0C12140020025316E0E8BD",
-         "staticMask" : 0,
-         "tag" : "Untagged"
-      },
-      {
-         "active" : true,
-         "activeInHierarchy" : true,
-         "classname" : "Entity",
-         "components" : [
-            {
-               "angles" : "0 -0 0",
-               "classname" : "ComTransform",
-               "enabled" : true,
-               "guid" : "006108F5250C1214002003AC18803459",
-               "origin" : "0.02 0 0",
-               "scale" : "0.5 0.5 0.5"
-            },
-            {
-               "alpha" : 1.0,
-               "billboard" : false,
-               "castShadows" : false,
-               "classname" : "ComStaticMeshRenderer",
-               "color" : "1 1 1",
-               "enabled" : true,
-               "guid" : "00620D65250C1214002003AC1880345F",
-               "materials" : [ "008E77031F070C19000C028316F387E3" ],
-               "maxVisDist" : 16384.0,
-               "mesh" : "00000000000000000000000000000191",
-               "occluder" : false,
-               "receiveShadows" : false,
-               "timeOffset" : 0.0,
-               "timeScale" : 1.0,
-               "useEnvironmentProveLighting" : true
-            }
-         ],
-         "frozen" : false,
-         "guid" : "006070A4250C1214002003AC18803451",
-         "layer" : 2,
-         "name" : "knob",
-         "parent" : "005B3290250C1214002003AB18802E83",
-         "prefab" : false,
-         "prefabSource" : "004360B31B0C12140020025316E0F04C",
-         "staticMask" : 0,
-         "tag" : "Untagged"
-      },
-      {
-         "active" : true,
-         "activeInHierarchy" : true,
-         "classname" : "Entity",
-         "components" : [
-            {
-               "angles" : "0 -0 179.9998932",
-               "classname" : "ComTransform",
-               "enabled" : true,
-               "guid" : "00544264250C1214002003AA18802370",
-               "origin" : "2 -5.224 -2.7449999",
-               "scale" : "1 2.5 2.5"
-            },
-            {
-               "alpha" : 1.0,
-               "billboard" : false,
-               "castShadows" : false,
-               "classname" : "ComStaticMeshRenderer",
-               "color" : "1 1 1",
-               "enabled" : true,
-               "guid" : "005548DA250C1214002003AA18802376",
-               "materials" : [ "008530171F070C19000C023E16F0C062" ],
-               "maxVisDist" : 16384.0,
-               "mesh" : "00000000000000000000000000000191",
-               "occluder" : false,
-               "receiveShadows" : false,
-               "timeOffset" : 0.0,
-               "timeScale" : 1.0,
-               "useEnvironmentProveLighting" : true
-            },
-            {
-               "center" : "0 0 0",
-               "classname" : "ComBoxCollider",
-               "enabled" : true,
-               "extents" : "0.002 0.5 0.5",
-               "guid" : "00560784250C1214002003AA1880237D"
-            },
-            {
-               "classname" : "ComScript",
-               "enabled" : true,
-               "guid" : "00577313250C1214002003AA18802343",
-               "knob_radius" : 0.079999998211860657,
-               "script" : "00F93EC108010B13002003AD64899094"
-            },
-            {
-               "anchor_max" : "0.95 0.95",
-               "anchor_min" : "0.95 0.95",
-               "anchored_position" : "-1.4 -1.4",
-               "classname" : "ComScript",
-               "enabled" : true,
-               "guid" : "0183272821091007002903B22D1E0CF5",
-               "pivot" : "0.5 0.5",
-               "script" : "01552CAD2F091007001B01927FEAC248",
-               "size_delta" : "2.5 2.5"
-            }
-         ],
-         "frozen" : false,
-         "guid" : "00535A9D250C1214002003AA18802368",
-         "layer" : 2,
-         "name" : "JoypadR",
-         "parent" : "0050604E250C1214002003AA18801ECE",
-         "prefab" : false,
-         "prefabSource" : "00463E951B0C12140020025316E0F43A",
-         "staticMask" : 0,
-         "tag" : "Untagged"
-      },
-      {
-         "active" : true,
-         "activeInHierarchy" : true,
-         "classname" : "Entity",
-         "components" : [
-            {
-               "angles" : "0 -0 0",
-               "classname" : "ComTransform",
-               "enabled" : true,
-               "guid" : "0059522D250C1214002003AB18802A09",
-               "origin" : "0.02 0 0",
-               "scale" : "0.5 0.5 0.5"
-            },
-            {
-               "alpha" : 1.0,
-               "billboard" : false,
-               "castShadows" : false,
-               "classname" : "ComStaticMeshRenderer",
-               "color" : "1 1 1",
-               "enabled" : true,
-               "guid" : "005A2D29250C1214002003AB18802A10",
-               "materials" : [ "008E77031F070C19000C028316F387E3" ],
-               "maxVisDist" : 16384.0,
-               "mesh" : "00000000000000000000000000000191",
-               "occluder" : false,
-               "receiveShadows" : false,
-               "timeOffset" : 0.0,
-               "timeScale" : 1.0,
-               "useEnvironmentProveLighting" : true
-            }
-         ],
-         "frozen" : false,
-         "guid" : "005820B0250C1214002003AB18802A01",
-         "layer" : 2,
-         "name" : "knob",
-         "parent" : "00535A9D250C1214002003AA18802368",
-         "prefab" : false,
-         "prefabSource" : "004B23B71B0C12140020025416E0FD28",
-         "staticMask" : 0,
-         "tag" : "Untagged"
-      },
-      {
-         "active" : true,
-         "activeInHierarchy" : true,
-         "classname" : "Entity",
-         "components" : [
-            {
-               "angles" : "0 -0 0",
-               "classname" : "ComTransform",
-               "enabled" : true,
                "guid" : "01E6196D3009091C000D015DBB56E7E2",
                "origin" : "0 -0.0001 0",
+               "rotation" : "0 0 0 1",
                "scale" : "5 5 1"
             },
             {
@@ -747,6 +795,7 @@
                "enabled" : true,
                "guid" : "08CB746B01060B15002401B37797E3ED",
                "origin" : "0 0 0",
+               "rotation" : "0 0 0 1",
                "scale" : "1 1 1"
             },
             {
@@ -774,8 +823,8 @@
                "footstep4_sound" : "022C5C20180B120C001801BC8F9697E1",
                "gravity" : 9.8000001907348633,
                "guid" : "09751E7936060B15002502B98F53BA00",
-               "joypad_l" : "005F0D4C250C1214002003AB18802E9E",
-               "joypad_r" : "00577313250C1214002003AA18802343",
+               "joypad_l" : "0152144D12010B16000501BBDC538F6E",
+               "joypad_r" : "015939CA12010B16000501BBDC539255",
                "script" : "00FA366B08010B13002003B46489D75F",
                "slide_sound" : "02372BE3200B120C001C0351B68A1631"
             }
@@ -801,6 +850,7 @@
                "enabled" : true,
                "guid" : "01DE4B6F1709111D00300042916A2389",
                "origin" : "0 0 1.6043",
+               "rotation" : "0 0 0 1",
                "scale" : "1 1 1"
             },
             {
@@ -830,6 +880,7 @@
                "enabled" : true,
                "guid" : "02153BD3290917190021039372E79CAC",
                "origin" : "-3.7 0 3.4043",
+               "rotation" : "0 0.190809 0 0.9816272",
                "scale" : "1 1 1"
             },
             {
@@ -874,6 +925,7 @@
                "enabled" : true,
                "guid" : "08CE08CB01060B15002401B47797E2EA",
                "origin" : "0.0255 0 0.8321",
+               "rotation" : "0.5 0.4999996 0.5 0.5000005",
                "scale" : "0.01 0.01 0.01"
             }
          ],
@@ -898,6 +950,7 @@
                "enabled" : true,
                "guid" : "08D07BAD01060B15002401B47797E5A9",
                "origin" : "0 0 0",
+               "rotation" : "0 0 0 1",
                "scale" : "1 1 1"
             }
          ],
@@ -922,6 +975,7 @@
                "enabled" : true,
                "guid" : "08D2393E01060B15002401B47797E503",
                "origin" : "8.4797001 -4.7954998 -0.3791",
+               "rotation" : "0.0020039 0.0006214 -0.9999841 0.005238",
                "scale" : "1 1 1"
             }
          ],
@@ -946,6 +1000,7 @@
                "enabled" : true,
                "guid" : "08D47C8201060B15002401B47797E490",
                "origin" : "-0.1444 32.5545998 0.1546",
+               "rotation" : "-0.0440259 -0.0116948 0.0017553 0.9989604",
                "scale" : "1 1 1"
             }
          ],
@@ -970,6 +1025,7 @@
                "enabled" : true,
                "guid" : "08D648F501060B15002401B47797E460",
                "origin" : "-0.002 32.7771988 -0.0869",
+               "rotation" : "0.3963138 -0.0051931 0.0124108 0.9180166",
                "scale" : "1 1 1"
             }
          ],
@@ -994,6 +1050,7 @@
                "enabled" : true,
                "guid" : "08D850DE01060B15002401B47797E7F6",
                "origin" : "-0.0633 17.7931995 0.0994",
+               "rotation" : "0.4180137 -0.0335458 0.0101729 0.9077642",
                "scale" : "1 1 1"
             }
          ],
@@ -1018,6 +1075,7 @@
                "enabled" : true,
                "guid" : "08DA234C01060B15002401B47797E745",
                "origin" : "-0.8578 5.2672 4.2863998",
+               "rotation" : "0.1144986 -0.6953126 -0.1525485 0.6929354",
                "scale" : "1 1 1"
             }
          ],
@@ -1042,6 +1100,7 @@
                "enabled" : true,
                "guid" : "08DC070A01060B15002401B47797E6D7",
                "origin" : "-0.9462 16.6711998 -0.7816",
+               "rotation" : "-0.475726 -0.5132535 0.478549 0.5303268",
                "scale" : "1 1 1"
             }
          ],
@@ -1066,6 +1125,7 @@
                "enabled" : true,
                "guid" : "08DE520201060B15002401B47797E9A6",
                "origin" : "-8.4797001 -4.7955999 -0.3791",
+               "rotation" : "0.0015676 -0.0006191 0.9999849 0.0052377",
                "scale" : "1 1 1"
             }
          ],
@@ -1090,6 +1150,7 @@
                "enabled" : true,
                "guid" : "08E048E901060B15002401B47797E930",
                "origin" : "0.1444 32.5545998 0.1546",
+               "rotation" : "-0.044023 0.011964 -0.0019181 0.998957",
                "scale" : "1 1 1"
             }
          ],
@@ -1114,6 +1175,7 @@
                "enabled" : true,
                "guid" : "08E2313101060B15002401B47797E887",
                "origin" : "0.002 32.7771988 -0.0869",
+               "rotation" : "0.3963105 0.0045522 -0.0121342 0.9180251",
                "scale" : "1 1 1"
             }
          ],
@@ -1138,6 +1200,7 @@
                "enabled" : true,
                "guid" : "08E44F8B01060B15002401B47797E81A",
                "origin" : "0.0633 17.7931995 0.0994",
+               "rotation" : "0.4180137 0.0335458 -0.0101729 0.9077642",
                "scale" : "1 1 1"
             }
          ],
@@ -1162,6 +1225,7 @@
                "enabled" : true,
                "guid" : "08E61F8401060B15002401B47797EBE8",
                "origin" : "0.8576 5.2672 4.2863998",
+               "rotation" : "0.1499128 -0.6910794 -0.1169511 0.6973219",
                "scale" : "1 1 1"
             }
          ],
@@ -1186,6 +1250,7 @@
                "enabled" : true,
                "guid" : "08E8350001060B15002401B47797EB7F",
                "origin" : "0.9477 16.6713009 -0.7802",
+               "rotation" : "-0.4789062 -0.5306599 0.4754458 0.5128356",
                "scale" : "1 1 1"
             }
          ],
@@ -1210,6 +1275,7 @@
                "enabled" : true,
                "guid" : "08EA7EA401060B15002401B47797EACC",
                "origin" : "-0 7.7220001 1.1662",
+               "rotation" : "0.0097737 -0.0000111 -0.0011344 0.9999516",
                "scale" : "1 1 1"
             }
          ],
@@ -1234,6 +1300,7 @@
                "enabled" : true,
                "guid" : "08EC186A01060B15002401B47797EA5D",
                "origin" : "-0.0269 12.0267 0.0128",
+               "rotation" : "-0.0338529 -0 0 0.9994268",
                "scale" : "1 1 1"
             }
          ],
@@ -1258,6 +1325,7 @@
                "enabled" : true,
                "guid" : "08EE17F301060B15002401B47797ED36",
                "origin" : "-0.0257 11.5132999 0.0626",
+               "rotation" : "-0.0604387 0 0 0.9981719",
                "scale" : "1 1 1"
             }
          ],
@@ -1282,6 +1350,7 @@
                "enabled" : true,
                "guid" : "08F0485601060B15002401B47797EC8A",
                "origin" : "-0.0412 18.6933002 0.0231",
+               "rotation" : "0.0844606 -0.0000781 0.0011452 0.9964262",
                "scale" : "1 1 1"
             }
          ],
@@ -1306,6 +1375,7 @@
                "enabled" : true,
                "guid" : "08F2397D01060B15002401B47797EC19",
                "origin" : "-0 9.0510998 1.034",
+               "rotation" : "0 0 0 1",
                "scale" : "1 1 1"
             }
          ],
@@ -1330,6 +1400,7 @@
                "enabled" : true,
                "guid" : "08F4674D01060B15002401B47797EFF0",
                "origin" : "0.2084 24.7861004 24.8223",
+               "rotation" : "0.7369393 -0.0606955 -0.269464 0.6169487",
                "scale" : "1 1 1"
             }
          ],
@@ -1354,6 +1425,7 @@
                "enabled" : true,
                "guid" : "08F61F2C01060B15002401B47797EF46",
                "origin" : "-7.0809999 24.4284 23.1966",
+               "rotation" : "0.6972534 -0.2308851 -0.123634 0.6672664",
                "scale" : "1 1 1"
             }
          ],
@@ -1378,6 +1450,7 @@
                "enabled" : true,
                "guid" : "08F83EA501060B15002401B47797EED0",
                "origin" : "16.7287006 15.0482998 -15.4397001",
+               "rotation" : "-0.1893051 0.3787828 -0.2006506 0.8834175",
                "scale" : "1 1 1"
             }
          ],
@@ -1402,6 +1475,7 @@
                "enabled" : true,
                "guid" : "08FA7C3B01060B15002401B47797F1A2",
                "origin" : "6.1672001 14.1680002 -1.7048",
+               "rotation" : "-0.4365011 -0.5890337 0.50599 -0.4544011",
                "scale" : "1 1 1"
             }
          ],
@@ -1426,6 +1500,7 @@
                "enabled" : true,
                "guid" : "08FC339D01060B15002401B57797F138",
                "origin" : "0.0783 7.9313002 0.7375",
+               "rotation" : "0.0382968 0.0529674 0.0625569 0.9958988",
                "scale" : "1 1 1"
             }
          ],
@@ -1450,6 +1525,7 @@
                "enabled" : true,
                "guid" : "08FE38EC01060B15002401B57797F092",
                "origin" : "0.1161 22.0489998 0",
+               "rotation" : "0 0 0.026177 0.9996573",
                "scale" : "1 1 1"
             }
          ],
@@ -1474,6 +1550,7 @@
                "enabled" : true,
                "guid" : "090012AA01060B15002401B57797F061",
                "origin" : "0.0645 23.0093002 0",
+               "rotation" : "0 0 0 1",
                "scale" : "1 1 1"
             }
          ],
@@ -1498,6 +1575,7 @@
                "enabled" : true,
                "guid" : "0902387E01060B15002401B57797F3F7",
                "origin" : "-3.4895 3.4737 1.4604",
+               "rotation" : "-0.9177543 -0.3331724 0.1918724 0.0995399",
                "scale" : "1 1 1"
             }
          ],
@@ -1522,6 +1600,7 @@
                "enabled" : true,
                "guid" : "0904250B01060B15002401B57797F348",
                "origin" : "-0.1023 -3.9895 -0.3242",
+               "rotation" : "0.1056041 0.064652 0.0470355 0.9911889",
                "scale" : "1 1 1"
             }
          ],
@@ -1546,6 +1625,7 @@
                "enabled" : true,
                "guid" : "09063B5901060B15002401B57797F220",
                "origin" : "-0.0138 -3.9398 -0.2647",
+               "rotation" : "0.0505183 0.0592191 0.0789213 0.9938373",
                "scale" : "1 1 1"
             }
          ],
@@ -1570,6 +1650,7 @@
                "enabled" : true,
                "guid" : "090844A301060B15002401B57797F5B2",
                "origin" : "-4.0955 11.2358999 -0.0649",
+               "rotation" : "-0.9964113 0.0128715 0.0073308 0.0833364",
                "scale" : "1 1 1"
             }
          ],
@@ -1594,6 +1675,7 @@
                "enabled" : true,
                "guid" : "090A318D01060B15002401B57797F501",
                "origin" : "-0.0583 -3.2825 -0.0296",
+               "rotation" : "0.0823367 -0.0281913 0.0053036 0.9961916",
                "scale" : "1 1 1"
             }
          ],
@@ -1618,6 +1700,7 @@
                "enabled" : true,
                "guid" : "090C620801060B15002401B57797F498",
                "origin" : "0.0227 -3.3232 -0.0609",
+               "rotation" : "0.0002618 0.005236 -0.0000014 0.9999862",
                "scale" : "1 1 1"
             }
          ],
@@ -1642,6 +1725,7 @@
                "enabled" : true,
                "guid" : "090E117A01060B15002401B57797F46C",
                "origin" : "-0.2989 11.3238001 -0.4267",
+               "rotation" : "-0.9932195 0.011581 0.0182564 0.1142263",
                "scale" : "1 1 1"
             }
          ],
@@ -1666,6 +1750,7 @@
                "enabled" : true,
                "guid" : "091030D801060B15002401B57797F7C3",
                "origin" : "-0.025 -3.4087999 -0.105",
+               "rotation" : "0.0239715 0.0106083 0.0019275 0.9996545",
                "scale" : "1 1 1"
             }
          ],
@@ -1690,6 +1775,7 @@
                "enabled" : true,
                "guid" : "091206D001060B15002401B57797F759",
                "origin" : "0.0497 -3.3016 -0.2606",
+               "rotation" : "0.0692706 -0.029438 0.0043164 0.9971542",
                "scale" : "1 1 1"
             }
          ],
@@ -1714,6 +1800,7 @@
                "enabled" : true,
                "guid" : "09146E4C01060B15002401B57797F632",
                "origin" : "2.6652 11.5977001 0.0089",
+               "rotation" : "-0.9887719 0.0362184 -0.0305108 0.1417307",
                "scale" : "1 1 1"
             }
          ],
@@ -1738,6 +1825,7 @@
                "enabled" : true,
                "guid" : "09160DBB01060B15002401B57797F9C2",
                "origin" : "-0.0967 -3.0483999 -0.1425",
+               "rotation" : "-0.0256903 -0.0103742 -0.0039324 0.9996083",
                "scale" : "1 1 1"
             }
          ],
@@ -1762,6 +1850,7 @@
                "enabled" : true,
                "guid" : "0918760F01060B15002401B57797F95C",
                "origin" : "0.0212 -3.2514 -0.539",
+               "rotation" : "0.0114641 0.0236705 0.0019085 0.9996523",
                "scale" : "1 1 1"
             }
          ],
@@ -1786,6 +1875,7 @@
                "enabled" : true,
                "guid" : "091A4E5701060B15002401B57797F829",
                "origin" : "5.2530999 10.7202997 1.3731",
+               "rotation" : "-0.9882831 0.0295233 -0.014254 0.1490695",
                "scale" : "1 1 1"
             }
          ],
@@ -1810,6 +1900,7 @@
                "enabled" : true,
                "guid" : "091C195001060B15002401B57797FBBF",
                "origin" : "0.086 -2.8583 -0.1086",
+               "rotation" : "-0.0007848 0.0063705 -0.0000823 0.9999794",
                "scale" : "1 1 1"
             }
          ],
@@ -1834,6 +1925,7 @@
                "enabled" : true,
                "guid" : "091E4C6A01060B15002401B57797FB09",
                "origin" : "0.0025 -2.8633001 -0.0015",
+               "rotation" : "-0.0028861 -0.0197198 -0.0004058 0.9998013",
                "scale" : "1 1 1"
             }
          ],
@@ -1858,6 +1950,7 @@
                "enabled" : true,
                "guid" : "09206C1601060B15002401B57797FA9B",
                "origin" : "1.0304 6.6733999 0.3449",
+               "rotation" : "-0.4811163 -0.5181961 0.4989954 0.5010025",
                "scale" : "1 1 1"
             }
          ],
@@ -1882,6 +1975,7 @@
                "enabled" : true,
                "guid" : "09223F5201060B15002401B57797FA64",
                "origin" : "-6.2283001 14.1406002 -1.7095",
+               "rotation" : "-0.4738938 0.6292422 -0.4549702 -0.4153084",
                "scale" : "1 1 1"
             }
          ],
@@ -1906,6 +2000,7 @@
                "enabled" : true,
                "guid" : "09247CD301060B15002401B57797FDF7",
                "origin" : "-0.0576 7.8972998 1.0423",
+               "rotation" : "0.0519258 0.0303142 -0.0580809 0.9964996",
                "scale" : "1 1 1"
             }
          ],
@@ -1930,6 +2025,7 @@
                "enabled" : true,
                "guid" : "0926263C01060B15002401B57797FD47",
                "origin" : "-0.0923 22.0492001 0",
+               "rotation" : "0 -0 -0.0276599 0.9996174",
                "scale" : "1 1 1"
             }
          ],
@@ -1954,6 +2050,7 @@
                "enabled" : true,
                "guid" : "09282A3D01060B15002401B57797FCD5",
                "origin" : "-0.1094 23.0091 0",
+               "rotation" : "0 0 0 1",
                "scale" : "1 1 1"
             }
          ],
@@ -1978,6 +2075,7 @@
                "enabled" : true,
                "guid" : "092A6C9701060B15002401B57797FFA4",
                "origin" : "3.4827001 3.4807 1.4603",
+               "rotation" : "-0.8990052 0.3219737 -0.2698278 0.1237561",
                "scale" : "1 1 1"
             }
          ],
@@ -2002,6 +2100,7 @@
                "enabled" : true,
                "guid" : "092C0B5901060B15002401B67797FEEE",
                "origin" : "0.1667 -3.9986999 0.1097",
+               "rotation" : "0.1056041 -0.064652 -0.0470355 0.9911889",
                "scale" : "1 1 1"
             }
          ],
@@ -2026,6 +2125,7 @@
                "enabled" : true,
                "guid" : "092E32C901060B15002401B67797FE43",
                "origin" : "0.2365 -3.9405 0.0956",
+               "rotation" : "0.0505183 -0.0592191 -0.0789213 0.9938373",
                "scale" : "1 1 1"
             }
          ],
@@ -2050,6 +2150,7 @@
                "enabled" : true,
                "guid" : "09301DD801060B15002401B6779801CD",
                "origin" : "4.0735002 11.2439003 -0.065",
+               "rotation" : "-0.9925482 -0.0207391 -0.0912955 0.0779939",
                "scale" : "1 1 1"
             }
          ],
@@ -2074,6 +2175,7 @@
                "enabled" : true,
                "guid" : "09320F2001060B15002401B67798015D",
                "origin" : "0.1571 -3.2788 -0.0522",
+               "rotation" : "0.0823367 0.0281913 -0.0053036 0.9961916",
                "scale" : "1 1 1"
             }
          ],
@@ -2098,6 +2200,7 @@
                "enabled" : true,
                "guid" : "09342EA701060B15002401B67798002C",
                "origin" : "0.1743 -3.3181 -0.0876",
+               "rotation" : "0.0002618 -0.005236 0.0000014 0.9999862",
                "scale" : "1 1 1"
             }
          ],
@@ -2122,6 +2225,7 @@
                "enabled" : true,
                "guid" : "09365B0B01060B15002401B6779803BF",
                "origin" : "0.2768 11.3243999 -0.4267",
+               "rotation" : "-0.9885724 -0.0221887 -0.1018498 0.1088989",
                "scale" : "1 1 1"
             }
          ],
@@ -2146,6 +2250,7 @@
                "enabled" : true,
                "guid" : "093830C201060B15002401B67798030C",
                "origin" : "0.1755 -3.4036 -0.1272",
+               "rotation" : "0.0239715 -0.0106083 -0.0019275 0.9996545",
                "scale" : "1 1 1"
             }
          ],
@@ -2170,6 +2275,7 @@
                "enabled" : true,
                "guid" : "093A608A01060B15002401B67798029F",
                "origin" : "0.1478 -3.2958 -0.2952",
+               "rotation" : "0.0692706 0.029438 -0.0043164 0.9971542",
                "scale" : "1 1 1"
             }
          ],
@@ -2194,6 +2300,7 @@
                "enabled" : true,
                "guid" : "093C764901060B15002401B67798026E",
                "origin" : "-2.6877999 11.5923996 0.0089",
+               "rotation" : "-0.9883367 -0.0488542 -0.0527385 0.1342479",
                "scale" : "1 1 1"
             }
          ],
@@ -2218,6 +2325,7 @@
                "enabled" : true,
                "guid" : "093E7BE301060B15002401B6779805FB",
                "origin" : "0.2636 -3.0366001 -0.1795",
+               "rotation" : "-0.0256903 0.0103742 0.0039324 0.9996083",
                "scale" : "1 1 1"
             }
          ],
@@ -2242,6 +2350,7 @@
                "enabled" : true,
                "guid" : "09407FD501060B15002401B677980548",
                "origin" : "0.1958 -3.2370999 -0.588",
+               "rotation" : "0.0114641 -0.0236705 -0.0019085 0.9996523",
                "scale" : "1 1 1"
             }
          ],
@@ -2266,6 +2375,7 @@
                "enabled" : true,
                "guid" : "0942059701060B15002401B6779804D5",
                "origin" : "-5.2740002 10.7098999 1.3731",
+               "rotation" : "-0.9865132 -0.042802 -0.0689219 0.1421602",
                "scale" : "1 1 1"
             }
          ],
@@ -2290,6 +2400,7 @@
                "enabled" : true,
                "guid" : "0944560C01060B15002401B6779807A5",
                "origin" : "0.0767 -2.8559999 -0.1629",
+               "rotation" : "-0.0007848 -0.0063705 0.0000823 0.9999794",
                "scale" : "1 1 1"
             }
          ],
@@ -2314,6 +2425,7 @@
                "enabled" : true,
                "guid" : "0946189401060B15002401B67798073A",
                "origin" : "0.1408 -2.8594999 -0.0457",
+               "rotation" : "-0.0028861 0.0197198 0.0004058 0.9998013",
                "scale" : "1 1 1"
             }
          ],
@@ -2338,6 +2450,7 @@
                "enabled" : true,
                "guid" : "0948217301060B15002401B677980684",
                "origin" : "-1.0434 6.6714001 0.3449",
+               "rotation" : "-0.4985142 -0.5014814 0.4816136 0.5177339",
                "scale" : "1 1 1"
             }
          ],
@@ -2362,6 +2475,7 @@
                "enabled" : true,
                "guid" : "094A08AC01060B15002401B677980610",
                "origin" : "0.0055 -8.6085997 35.7383995",
+               "rotation" : "0.0844606 -0.0000781 0.0011452 0.9964262",
                "scale" : "1 1 1"
             }
          ],
@@ -2386,6 +2500,7 @@
                "enabled" : true,
                "guid" : "094C748401060B15002401B6779809E6",
                "origin" : "-0.042 20.2418995 -7.1262002",
+               "rotation" : "-0.1442985 0.6921015 -0.1427273 0.6926777",
                "scale" : "1 1 1"
             }
          ],
@@ -2410,6 +2525,7 @@
                "enabled" : true,
                "guid" : "094E1D4601060B15002401B677980974",
                "origin" : "9.1751003 0 -0",
+               "rotation" : "0 -0 -0.1914085 0.9815105",
                "scale" : "1 1 1"
             }
          ],
@@ -2434,6 +2550,7 @@
                "enabled" : true,
                "guid" : "09507C0101060B15002401B6779808C5",
                "origin" : "5.2138 15.6554003 5.8073001",
+               "rotation" : "0.3930382 -0.558079 -0.4123977 0.6033216",
                "scale" : "1 1 1"
             }
          ],
@@ -2458,6 +2575,7 @@
                "enabled" : true,
                "guid" : "0952645301060B15002401B67798085A",
                "origin" : "7.3635001 0 0",
+               "rotation" : "0.0320323 -0.0135442 -0.127629 0.9912121",
                "scale" : "1 1 1"
             }
          ],
@@ -2482,6 +2600,7 @@
                "enabled" : true,
                "guid" : "0954098701060B15002401B677980B28",
                "origin" : "10.0091 -0 0",
+               "rotation" : "-0.0807457 -0.0184694 -0.0872925 0.9927332",
                "scale" : "1 1 1"
             }
          ],
@@ -2506,6 +2625,7 @@
                "enabled" : true,
                "guid" : "0956318401060B15002401B677980ABB",
                "origin" : "-5.2870998 15.6322002 5.8034",
+               "rotation" : "0.4139546 -0.6025947 -0.3916568 0.5586826",
                "scale" : "1 1 1"
             }
          ],
@@ -2530,6 +2650,7 @@
                "enabled" : true,
                "guid" : "09582C6601060B15002401B677980A0D",
                "origin" : "7.3635001 0 -0",
+               "rotation" : "-0.0320323 0.0135442 -0.127629 0.9912121",
                "scale" : "1 1 1"
             }
          ],
@@ -2554,6 +2675,7 @@
                "enabled" : true,
                "guid" : "095A1DBA01060B15002401B777980DEE",
                "origin" : "10.0091 -0 -0",
+               "rotation" : "0.0479607 0.0213383 -0.0866358 0.9948562",
                "scale" : "1 1 1"
             }
          ],
@@ -2578,6 +2700,7 @@
                "enabled" : true,
                "guid" : "095C4CB001060B15002401B777980D79",
                "origin" : "15.2404003 -7.3589001 -6.9728999",
+               "rotation" : "0.0240833 -0.0000599 0.0011362 0.9997093",
                "scale" : "1 1 1"
             }
          ],
@@ -2602,6 +2725,7 @@
                "enabled" : true,
                "guid" : "095E1ABF01060B15002401B777980CC8",
                "origin" : "-15.2056999 -7.4268999 -6.9762001",
+               "rotation" : "0.0240833 -0.0000599 0.0011362 0.9997093",
                "scale" : "1 1 1"
             }
          ],
@@ -2626,6 +2750,7 @@
                "enabled" : true,
                "guid" : "09607C9001060B15002401B777980C59",
                "origin" : "1 -82.2080994 -1.5509",
+               "rotation" : "-0.4997551 -0.4999821 -0.5000179 0.5002448",
                "scale" : "100 100 100"
             }
          ],
@@ -2650,6 +2775,7 @@
                "enabled" : true,
                "guid" : "09626F3301060B15002401B777980F68",
                "origin" : "0 0 0",
+               "rotation" : "0 0 0 1",
                "scale" : "1 1 1"
             },
             {
@@ -2691,6 +2817,7 @@
                "enabled" : true,
                "guid" : "096524C101060B15002401B7779811E8",
                "origin" : "0 0 0",
+               "rotation" : "0 0 0 1",
                "scale" : "1 1 1"
             },
             {
@@ -2732,6 +2859,7 @@
                "enabled" : true,
                "guid" : "096869EF01060B15002401B777981080",
                "origin" : "0 0 0",
+               "rotation" : "0 0 0 1",
                "scale" : "1 1 1"
             },
             {
@@ -2773,6 +2901,7 @@
                "enabled" : true,
                "guid" : "096B4F4001060B15002401B77798105B",
                "origin" : "0 0 0",
+               "rotation" : "0 0 0 1",
                "scale" : "1 1 1"
             },
             {
@@ -2802,82 +2931,11 @@
          "prefabSource" : "0085418F05051718000101879CC7FF44",
          "staticMask" : 0,
          "tag" : "Untagged"
-      },
-      {
-         "active" : true,
-         "activeInHierarchy" : true,
-         "classname" : "Entity",
-         "components" : [
-            {
-               "angles" : "0 -0 0",
-               "classname" : "ComTransform",
-               "enabled" : true,
-               "guid" : "004717FE14041015002403CFFF9BDA57",
-               "origin" : "0 -12 1.0001",
-               "scale" : "1 1 1"
-            },
-            {
-               "alpha" : 1.0,
-               "billboard" : false,
-               "castShadows" : true,
-               "classname" : "ComStaticMeshRenderer",
-               "color" : "1 1 1",
-               "enabled" : true,
-               "guid" : "004875B514041015002403CFFF9BDA58",
-               "materials" : [ "0000000000000000000000000000012D" ],
-               "maxVisDist" : 1000.0,
-               "mesh" : "00000000000000000000000000000196",
-               "occluder" : false,
-               "receiveShadows" : true,
-               "timeOffset" : 0.0,
-               "timeScale" : 1.0,
-               "useEnvironmentProveLighting" : true
-            },
-            {
-               "center" : "0 0 0",
-               "classname" : "ComCylinderCollider",
-               "enabled" : true,
-               "guid" : "0049279014041015002403CFFF9BDDA2",
-               "height" : 2.0,
-               "radius" : 0.5
-            },
-            {
-               "center" : "0 0 0",
-               "classname" : "ComCylinderCollider",
-               "enabled" : true,
-               "guid" : "004E131630041015002401DB055F175D",
-               "height" : 2.0002000331878662,
-               "radius" : 0.50010001659393311
-            },
-            {
-               "angularDamping" : 0.0099999997764825821,
-               "ccd" : false,
-               "classname" : "ComRigidBody",
-               "enabled" : true,
-               "friction" : 1.0,
-               "guid" : "005317C5310410150024033E05A7C607",
-               "kinematic" : false,
-               "linearDamping" : 0.05000000074505806,
-               "mass" : 0.0,
-               "restitution" : 0.0,
-               "rollingFriction" : 1.0,
-               "spinningFriction" : 1.0
-            }
-         ],
-         "frozen" : false,
-         "guid" : "0046515214041015002403CFFF9BDA40",
-         "layer" : 0,
-         "name" : "Cylinder 4",
-         "parent" : "00000000000000000000000000000000",
-         "prefab" : false,
-         "prefabSource" : "00000000000000000000000000000000",
-         "staticMask" : -1,
-         "tag" : "Untagged"
       }
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "00094D7305051105002D00117B749FD6",
+      "guid" : "00093C742C010A16002403DDDF071758",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1

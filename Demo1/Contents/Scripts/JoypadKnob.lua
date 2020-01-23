@@ -1,13 +1,11 @@
 local blueshift = require "blueshift"
-local Common = blueshift.Common
 local Point = blueshift.Point
 local Vec2 = blueshift.Vec2
 local Plane = blueshift.Plane
 local Input = blueshift.Input
-local Screen = blueshift.Screen
 
 properties = {
-	knob_radius = { label = "Knob Radius", type = "float", minimum = 1, maximum = 100, value = 40 },
+	knob_radius = { label = "Knob Radius", type = "float", value = 96 },
 }
 
 property_names = {
@@ -20,7 +18,7 @@ m = {
 }
 
 function start()
-    local canvas_entity = owner.game_world:find_entity("Canvas")
+    local canvas_entity = owner.entity:parent()
     m.canvas = canvas_entity:canvas()
     m.canvas_transform = canvas_entity:transform()
     m.knob_transform = owner.entity:find_child("knob"):transform()

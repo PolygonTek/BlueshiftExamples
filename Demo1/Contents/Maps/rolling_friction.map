@@ -6,11 +6,238 @@
          "classname" : "Entity",
          "components" : [
             {
+               "anchorMaxs" : "0.5 0.5",
+               "anchorMins" : "0.5 0.5",
+               "anchoredPosition" : "0 0",
+               "angles" : "0 0 0",
+               "classname" : "ComRectTransform",
+               "enabled" : true,
+               "guid" : "00FB774908010A16003B0363000ABB63",
+               "origin" : "0 0 0",
+               "pivot" : "0.5 0.5",
+               "rayCastTarget" : true,
+               "rotation" : "0 0 0 1",
+               "scale" : "1 1 1",
+               "sizeDelta" : "1434 925"
+            },
+            {
+               "classname" : "ComCanvas",
+               "enabled" : true,
+               "guid" : "00FC3E5D08010A16003B0363000ABA8C"
+            }
+         ],
+         "frozen" : false,
+         "guid" : "00FA586408010A16003B0363000AB85D",
+         "layer" : 2,
+         "name" : "Canvas",
+         "parent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00700C1A07010A16003901F8B7B42A4B",
+         "staticMask" : 0,
+         "tag" : "Untagged"
+      },
+      {
+         "active" : true,
+         "activeInHierarchy" : true,
+         "classname" : "Entity",
+         "components" : [
+            {
+               "anchorMaxs" : "0 0",
+               "anchorMins" : "0 0",
+               "anchoredPosition" : "144 144",
+               "angles" : "0 0 0",
+               "classname" : "ComRectTransform",
+               "enabled" : true,
+               "guid" : "00FE41C208010A16003B0363000ABC9F",
+               "origin" : "-573 -318.5 0",
+               "pivot" : "0.5 0.5",
+               "rayCastTarget" : true,
+               "rotation" : "0 0 0 1",
+               "scale" : "1 1 1",
+               "sizeDelta" : "192 192"
+            },
+            {
+               "alpha" : 1.0,
+               "billboard" : false,
+               "classname" : "ComImage",
+               "color" : "1 1 1",
+               "enabled" : true,
+               "guid" : "00FF4E8E08010A16003B0363000ABC39",
+               "imageMaterial" : "008530171F070C19000C023E16F0C062",
+               "imageType" : 0,
+               "maxVisDist" : 4000.0,
+               "timeOffset" : 0.0,
+               "timeScale" : 1.0
+            },
+            {
+               "classname" : "ComScript",
+               "enabled" : true,
+               "guid" : "01003FB008010A16003B0363000ABC5F",
+               "knob_radius" : 96.0,
+               "script" : "00F93EC108010B13002003AD64899094"
+            }
+         ],
+         "frozen" : false,
+         "guid" : "00FD0DC908010A16003B0363000ABD74",
+         "layer" : 2,
+         "name" : "JoyPadL",
+         "parent" : "00FA586408010A16003B0363000AB85D",
+         "prefab" : false,
+         "prefabSource" : "00734C7307010A16003901F8B7B42EE4",
+         "staticMask" : 0,
+         "tag" : "Untagged"
+      },
+      {
+         "active" : true,
+         "activeInHierarchy" : true,
+         "classname" : "Entity",
+         "components" : [
+            {
+               "anchorMaxs" : "0.5 0.5",
+               "anchorMins" : "0.5 0.5",
+               "anchoredPosition" : "0 0",
+               "angles" : "0 0 0",
+               "classname" : "ComRectTransform",
+               "enabled" : true,
+               "guid" : "01022FD908010A16003B0363000ABE46",
+               "origin" : "0 0 0",
+               "pivot" : "0.5 0.5",
+               "rayCastTarget" : true,
+               "rotation" : "0 0 0 1",
+               "scale" : "1 1 1",
+               "sizeDelta" : "96 96"
+            },
+            {
+               "alpha" : 1.0,
+               "billboard" : false,
+               "classname" : "ComImage",
+               "color" : "1 1 1",
+               "enabled" : true,
+               "guid" : "01031E7008010A16003B0363000AC1E7",
+               "imageMaterial" : "008E77031F070C19000C028316F387E3",
+               "imageType" : 0,
+               "maxVisDist" : 4000.0,
+               "timeOffset" : 0.0,
+               "timeScale" : 1.0
+            }
+         ],
+         "frozen" : false,
+         "guid" : "010130A708010A16003B0363000ABEDD",
+         "layer" : 2,
+         "name" : "knob",
+         "parent" : "00FD0DC908010A16003B0363000ABD74",
+         "prefab" : false,
+         "prefabSource" : "007737B907010A16003901F8B7B433FE",
+         "staticMask" : 0,
+         "tag" : "Untagged"
+      },
+      {
+         "active" : true,
+         "activeInHierarchy" : true,
+         "classname" : "Entity",
+         "components" : [
+            {
+               "anchorMaxs" : "1 0",
+               "anchorMins" : "1 0",
+               "anchoredPosition" : "-144 144",
+               "angles" : "0 0 0",
+               "classname" : "ComRectTransform",
+               "enabled" : true,
+               "guid" : "0105073208010A16003B0363000AC3FF",
+               "origin" : "573 -318.5 0",
+               "pivot" : "0.5 0.5",
+               "rayCastTarget" : true,
+               "rotation" : "0 0 0 1",
+               "scale" : "1 1 1",
+               "sizeDelta" : "192 192"
+            },
+            {
+               "alpha" : 1.0,
+               "billboard" : false,
+               "classname" : "ComImage",
+               "color" : "1 1 1",
+               "enabled" : true,
+               "guid" : "010657B708010A16003B0363000AC31A",
+               "imageMaterial" : "008530171F070C19000C023E16F0C062",
+               "imageType" : 0,
+               "maxVisDist" : 4000.0,
+               "timeOffset" : 0.0,
+               "timeScale" : 1.0
+            },
+            {
+               "classname" : "ComScript",
+               "enabled" : true,
+               "guid" : "0107369808010A16003B0363000AC2B9",
+               "knob_radius" : 96.0,
+               "script" : "00F93EC108010B13002003AD64899094"
+            }
+         ],
+         "frozen" : false,
+         "guid" : "010426D008010A16003B0363000AC050",
+         "layer" : 2,
+         "name" : "JoyPadR",
+         "parent" : "00FA586408010A16003B0363000AB85D",
+         "prefab" : false,
+         "prefabSource" : "007A483707010A16003901F8B7B434E7",
+         "staticMask" : 0,
+         "tag" : "Untagged"
+      },
+      {
+         "active" : true,
+         "activeInHierarchy" : true,
+         "classname" : "Entity",
+         "components" : [
+            {
+               "anchorMaxs" : "0.5 0.5",
+               "anchorMins" : "0.5 0.5",
+               "anchoredPosition" : "0 0",
+               "angles" : "0 0 0",
+               "classname" : "ComRectTransform",
+               "enabled" : true,
+               "guid" : "010968EF08010A16003B0363000AC4AB",
+               "origin" : "0 0 0",
+               "pivot" : "0.5 0.5",
+               "rayCastTarget" : true,
+               "rotation" : "0 0 0 1",
+               "scale" : "1 1 1",
+               "sizeDelta" : "96 96"
+            },
+            {
+               "alpha" : 1.0,
+               "billboard" : false,
+               "classname" : "ComImage",
+               "color" : "1 1 1",
+               "enabled" : true,
+               "guid" : "010A42DD08010A16003B0363000AC4CB",
+               "imageMaterial" : "008E77031F070C19000C028316F387E3",
+               "imageType" : 0,
+               "maxVisDist" : 4000.0,
+               "timeOffset" : 0.0,
+               "timeScale" : 1.0
+            }
+         ],
+         "frozen" : false,
+         "guid" : "0108785508010A16003B0363000AC50C",
+         "layer" : 2,
+         "name" : "knob",
+         "parent" : "010426D008010A16003B0363000AC050",
+         "prefab" : false,
+         "prefabSource" : "007E1D7907010A16003901F9B7B438AA",
+         "staticMask" : 0,
+         "tag" : "Untagged"
+      },
+      {
+         "active" : true,
+         "activeInHierarchy" : true,
+         "classname" : "Entity",
+         "components" : [
+            {
                "angles" : "-89.9999771 -0 179.9999542",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "00602D922F03101C0001019E0065A613",
                "origin" : "23.2453003 -15 2.1094",
+               "rotation" : "-0.0000003 -0.7071066 0.7071069 0.0000003",
                "scale" : "1 1 1"
             },
             {
@@ -74,6 +301,7 @@
                "enabled" : true,
                "guid" : "0056632D2103101C000002D5F0F4A6A0",
                "origin" : "23.2453003 -12 2.1094",
+               "rotation" : "-0.0000003 -0.7071066 0.7071069 0.0000003",
                "scale" : "1 1 1"
             },
             {
@@ -137,6 +365,7 @@
                "enabled" : true,
                "guid" : "00511C902103101C00000273F0EF60CF",
                "origin" : "23.2453003 -9 2.1094",
+               "rotation" : "-0.0000003 -0.7071066 0.7071069 0.0000003",
                "scale" : "1 1 1"
             },
             {
@@ -200,6 +429,7 @@
                "enabled" : true,
                "guid" : "004C6C8D2103101C0000020DF0E9E93C",
                "origin" : "23.2453003 -6 2.1094",
+               "rotation" : "-0.0000003 -0.7071066 0.7071069 0.0000003",
                "scale" : "1 1 1"
             },
             {
@@ -263,6 +493,7 @@
                "enabled" : true,
                "guid" : "004760942103101C000001A8F0E485EA",
                "origin" : "23.2453003 -3 2.1094",
+               "rotation" : "-0.0000003 -0.7071066 0.7071069 0.0000003",
                "scale" : "1 1 1"
             },
             {
@@ -326,6 +557,7 @@
                "enabled" : true,
                "guid" : "004270612103101C00000141F0DEFC64",
                "origin" : "23.2453003 0 2.1094",
+               "rotation" : "-0.0000003 -0.7071066 0.7071069 0.0000003",
                "scale" : "1 1 1"
             },
             {
@@ -389,6 +621,7 @@
                "enabled" : true,
                "guid" : "003D382B2103101C000000DDF0D99B56",
                "origin" : "23.2453003 3 2.1094",
+               "rotation" : "-0.0000003 -0.7071066 0.7071069 0.0000003",
                "scale" : "1 1 1"
             },
             {
@@ -452,6 +685,7 @@
                "enabled" : true,
                "guid" : "003835112103101C00000074F0D3FA3E",
                "origin" : "23.2453003 6 2.1094",
+               "rotation" : "-0.0000003 -0.7071066 0.7071069 0.0000003",
                "scale" : "1 1 1"
             },
             {
@@ -515,6 +749,7 @@
                "enabled" : true,
                "guid" : "00333F212103101C00000010F0CE9FB8",
                "origin" : "23.2453003 9 2.1094",
+               "rotation" : "-0.0000003 -0.7071066 0.7071069 0.0000003",
                "scale" : "1 1 1"
             },
             {
@@ -578,6 +813,7 @@
                "enabled" : true,
                "guid" : "002E021E2003101C0000038FF0C9013A",
                "origin" : "23.2453003 12 2.1094",
+               "rotation" : "-0.0000003 -0.7071066 0.7071069 0.0000003",
                "scale" : "1 1 1"
             },
             {
@@ -641,6 +877,7 @@
                "enabled" : true,
                "guid" : "0008216F16030F1C0009018A6D5DDC1B",
                "origin" : "23.2453003 15 2.1094",
+               "rotation" : "-0.0000003 -0.7071066 0.7071069 0.0000003",
                "scale" : "1 1 1"
             },
             {
@@ -699,247 +936,12 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "0 -0 0",
-               "classname" : "ComTransform",
-               "enabled" : true,
-               "guid" : "005159E4250C1214002003AA18801E21",
-               "origin" : "51 0 4.9000001",
-               "scale" : "1 1 1"
-            },
-            {
-               "applyPostProcessing" : false,
-               "classname" : "ComCamera",
-               "clear" : 1,
-               "clearAlpha" : 0.0,
-               "clearColor" : "0 0 0",
-               "enabled" : true,
-               "far" : 4.0,
-               "fov" : 45.0,
-               "guid" : "005219D4250C1214002003AA18801E28",
-               "h" : 1.0,
-               "layerMask" : 4,
-               "near" : 1.0,
-               "order" : 1,
-               "projection" : 1,
-               "size" : 7.3600001335144043,
-               "w" : 1.0,
-               "x" : 0.0,
-               "y" : 0.0
-            }
-         ],
-         "frozen" : false,
-         "guid" : "0050604E250C1214002003AA18801ECE",
-         "layer" : 2,
-         "name" : "UICamera",
-         "parent" : "00000000000000000000000000000000",
-         "prefab" : false,
-         "prefabSource" : "003B43C81B0C12140020025216E0E4D3",
-         "staticMask" : 0,
-         "tag" : "Untagged"
-      },
-      {
-         "active" : true,
-         "activeInHierarchy" : true,
-         "classname" : "Entity",
-         "components" : [
-            {
-               "angles" : "0 -0 179.9999542",
-               "classname" : "ComTransform",
-               "enabled" : true,
-               "guid" : "005C7136250C1214002003AB18802E8B",
-               "origin" : "2 5.5 -2.3",
-               "scale" : "2.5 2.5 2.5"
-            },
-            {
-               "alpha" : 1.0,
-               "billboard" : false,
-               "castShadows" : false,
-               "classname" : "ComStaticMeshRenderer",
-               "color" : "1 1 1",
-               "enabled" : true,
-               "guid" : "005D52DE250C1214002003AB18802E91",
-               "materials" : [ "008530171F070C19000C023E16F0C062" ],
-               "maxVisDist" : 16384.0,
-               "mesh" : "00000000000000000000000000000191",
-               "occluder" : false,
-               "receiveShadows" : false,
-               "timeOffset" : 0.0,
-               "timeScale" : 1.0,
-               "useEnvironmentProveLighting" : true
-            },
-            {
-               "center" : "0 0 0",
-               "classname" : "ComBoxCollider",
-               "enabled" : true,
-               "extents" : "0.002 0.5 0.5",
-               "guid" : "005E768A250C1214002003AB18802E98"
-            },
-            {
-               "classname" : "ComScript",
-               "enabled" : true,
-               "guid" : "005F0D4C250C1214002003AB18802E9E",
-               "knob_radius" : 0.079999998211860657,
-               "script" : "00F93EC108010B13002003AD64899094"
-            }
-         ],
-         "frozen" : false,
-         "guid" : "005B3290250C1214002003AB18802E83",
-         "layer" : 2,
-         "name" : "JoypadL",
-         "parent" : "0050604E250C1214002003AA18801ECE",
-         "prefab" : false,
-         "prefabSource" : "003E0D541B0C12140020025316E0E8BD",
-         "staticMask" : 0,
-         "tag" : "Untagged"
-      },
-      {
-         "active" : true,
-         "activeInHierarchy" : true,
-         "classname" : "Entity",
-         "components" : [
-            {
-               "angles" : "0 -0 0",
-               "classname" : "ComTransform",
-               "enabled" : true,
-               "guid" : "006108F5250C1214002003AC18803459",
-               "origin" : "0.02 0 0",
-               "scale" : "0.5 0.5 0.5"
-            },
-            {
-               "alpha" : 1.0,
-               "billboard" : false,
-               "castShadows" : false,
-               "classname" : "ComStaticMeshRenderer",
-               "color" : "1 1 1",
-               "enabled" : true,
-               "guid" : "00620D65250C1214002003AC1880345F",
-               "materials" : [ "008E77031F070C19000C028316F387E3" ],
-               "maxVisDist" : 16384.0,
-               "mesh" : "00000000000000000000000000000191",
-               "occluder" : false,
-               "receiveShadows" : false,
-               "timeOffset" : 0.0,
-               "timeScale" : 1.0,
-               "useEnvironmentProveLighting" : true
-            }
-         ],
-         "frozen" : false,
-         "guid" : "006070A4250C1214002003AC18803451",
-         "layer" : 2,
-         "name" : "knob",
-         "parent" : "005B3290250C1214002003AB18802E83",
-         "prefab" : false,
-         "prefabSource" : "004360B31B0C12140020025316E0F04C",
-         "staticMask" : 0,
-         "tag" : "Untagged"
-      },
-      {
-         "active" : true,
-         "activeInHierarchy" : true,
-         "classname" : "Entity",
-         "components" : [
-            {
-               "angles" : "0 -0 179.9999542",
-               "classname" : "ComTransform",
-               "enabled" : true,
-               "guid" : "00544264250C1214002003AA18802370",
-               "origin" : "2 -5.5 -2.3",
-               "scale" : "2.5 2.5 2.5"
-            },
-            {
-               "alpha" : 1.0,
-               "billboard" : false,
-               "castShadows" : false,
-               "classname" : "ComStaticMeshRenderer",
-               "color" : "1 1 1",
-               "enabled" : true,
-               "guid" : "005548DA250C1214002003AA18802376",
-               "materials" : [ "008530171F070C19000C023E16F0C062" ],
-               "maxVisDist" : 16384.0,
-               "mesh" : "00000000000000000000000000000191",
-               "occluder" : false,
-               "receiveShadows" : false,
-               "timeOffset" : 0.0,
-               "timeScale" : 1.0,
-               "useEnvironmentProveLighting" : true
-            },
-            {
-               "center" : "0 0 0",
-               "classname" : "ComBoxCollider",
-               "enabled" : true,
-               "extents" : "0.002 0.5 0.5",
-               "guid" : "00560784250C1214002003AA1880237D"
-            },
-            {
-               "classname" : "ComScript",
-               "enabled" : true,
-               "guid" : "00577313250C1214002003AA18802343",
-               "knob_radius" : 0.079999998211860657,
-               "script" : "00F93EC108010B13002003AD64899094"
-            }
-         ],
-         "frozen" : false,
-         "guid" : "00535A9D250C1214002003AA18802368",
-         "layer" : 2,
-         "name" : "JoypadR",
-         "parent" : "0050604E250C1214002003AA18801ECE",
-         "prefab" : false,
-         "prefabSource" : "00463E951B0C12140020025316E0F43A",
-         "staticMask" : 0,
-         "tag" : "Untagged"
-      },
-      {
-         "active" : true,
-         "activeInHierarchy" : true,
-         "classname" : "Entity",
-         "components" : [
-            {
-               "angles" : "0 -0 0",
-               "classname" : "ComTransform",
-               "enabled" : true,
-               "guid" : "0059522D250C1214002003AB18802A09",
-               "origin" : "0.02 0 0",
-               "scale" : "0.5 0.5 0.5"
-            },
-            {
-               "alpha" : 1.0,
-               "billboard" : false,
-               "castShadows" : false,
-               "classname" : "ComStaticMeshRenderer",
-               "color" : "1 1 1",
-               "enabled" : true,
-               "guid" : "005A2D29250C1214002003AB18802A10",
-               "materials" : [ "008E77031F070C19000C028316F387E3" ],
-               "maxVisDist" : 16384.0,
-               "mesh" : "00000000000000000000000000000191",
-               "occluder" : false,
-               "receiveShadows" : false,
-               "timeOffset" : 0.0,
-               "timeScale" : 1.0,
-               "useEnvironmentProveLighting" : true
-            }
-         ],
-         "frozen" : false,
-         "guid" : "005820B0250C1214002003AB18802A01",
-         "layer" : 2,
-         "name" : "knob",
-         "parent" : "00535A9D250C1214002003AA18802368",
-         "prefab" : false,
-         "prefabSource" : "004B23B71B0C12140020025416E0FD28",
-         "staticMask" : 0,
-         "tag" : "Untagged"
-      },
-      {
-         "active" : true,
-         "activeInHierarchy" : true,
-         "classname" : "Entity",
-         "components" : [
-            {
                "angles" : "22.2000008 60.2499962 8.3299999",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "0297635D0E090B19002E01C772F7903D",
                "origin" : "-53.1717987 -0.8882 28.8742008",
+               "rotation" : "0.130309 0.5032926 -0.0347253 0.8535281",
                "scale" : "1 1 1"
             },
             {
@@ -983,6 +985,7 @@
                "enabled" : true,
                "guid" : "01E6196D3009091C000D015DBB56E7E2",
                "origin" : "0 -0 0",
+               "rotation" : "0 0 0 1",
                "scale" : "5 5 1"
             },
             {
@@ -1045,6 +1048,7 @@
                "enabled" : true,
                "guid" : "0010379E2C030F1C00390152CD760606",
                "origin" : "19.4892998 0.1238 0.8722",
+               "rotation" : "-0.0871557 0 0.9961947 0.0000004",
                "scale" : "1.1 4 1"
             },
             {
@@ -1107,6 +1111,7 @@
                "enabled" : true,
                "guid" : "02D07A5917060D15000C00E83327BE7A",
                "origin" : "-10 0 0.004",
+               "rotation" : "0 0 0 1",
                "scale" : "1 1 1"
             },
             {
@@ -1134,8 +1139,8 @@
                "footstep4_sound" : "022C5C20180B120C001801BC8F9697E1",
                "gravity" : 9.8000001907348633,
                "guid" : "02D3398517060D15000C00E83327C1E0",
-               "joypad_l" : "005F0D4C250C1214002003AB18802E9E",
-               "joypad_r" : "00577313250C1214002003AA18802343",
+               "joypad_l" : "01003FB008010A16003B0363000ABC5F",
+               "joypad_r" : "0107369808010A16003B0363000AC2B9",
                "script" : "00FA366B08010B13002003B46489D75F",
                "slide_sound" : "02372BE3200B120C001C0351B68A1631"
             }
@@ -1161,6 +1166,7 @@
                "enabled" : true,
                "guid" : "02D5207E17060D15000C00E83327C0A7",
                "origin" : "0 0 0",
+               "rotation" : "0 0 0 1",
                "scale" : "1 1 1"
             },
             {
@@ -1202,6 +1208,7 @@
                "enabled" : true,
                "guid" : "02D87AE917060D15000C00E83327C046",
                "origin" : "0 0 0",
+               "rotation" : "0 0 0 1",
                "scale" : "1 1 1"
             },
             {
@@ -1243,6 +1250,7 @@
                "enabled" : true,
                "guid" : "02DB42F017060D15000C00E83327C360",
                "origin" : "0 0 0",
+               "rotation" : "0 0 0 1",
                "scale" : "1 1 1"
             },
             {
@@ -1284,6 +1292,7 @@
                "enabled" : true,
                "guid" : "02DE63C617060D15000C00E83327C23D",
                "origin" : "0 0 0",
+               "rotation" : "0 0 0 1",
                "scale" : "1 1 1"
             },
             {
@@ -1325,6 +1334,7 @@
                "enabled" : true,
                "guid" : "02E100C917060D15000C00E93327C524",
                "origin" : "0.0255 0 0.8321",
+               "rotation" : "0.5 0.4999997 0.5 0.5000002",
                "scale" : "0.01 0.01 0.01"
             }
          ],
@@ -1349,6 +1359,7 @@
                "enabled" : true,
                "guid" : "02E36D1517060D15000C00E93327C4FE",
                "origin" : "1 -82.2080994 -1.5509",
+               "rotation" : "-0.4998547 -0.4998833 -0.5001167 0.5001453",
                "scale" : "100 100 100"
             }
          ],
@@ -1373,6 +1384,7 @@
                "enabled" : true,
                "guid" : "02E53B7417060D15000C00E93327C450",
                "origin" : "-0 7.7220001 1.1662",
+               "rotation" : "0.0097737 -0.0000111 -0.0011344 0.9999516",
                "scale" : "1 1 1"
             }
          ],
@@ -1397,6 +1409,7 @@
                "enabled" : true,
                "guid" : "02E7449117060D15000C00E93327C72B",
                "origin" : "-0.0269 12.0267 0.0128",
+               "rotation" : "-0.0338529 -0 0 0.9994268",
                "scale" : "1 1 1"
             }
          ],
@@ -1421,6 +1434,7 @@
                "enabled" : true,
                "guid" : "02E93B1917060D15000C00E93327C6B8",
                "origin" : "-15.2056999 -7.4268999 -6.9762001",
+               "rotation" : "0.0240833 -0.0000599 0.0011362 0.9997093",
                "scale" : "1 1 1"
             }
          ],
@@ -1445,6 +1459,7 @@
                "enabled" : true,
                "guid" : "02EB40D817060D15000C00E93327C60B",
                "origin" : "15.2404003 -7.3589001 -6.9728999",
+               "rotation" : "0.0240833 -0.0000599 0.0011362 0.9997093",
                "scale" : "1 1 1"
             }
          ],
@@ -1469,6 +1484,7 @@
                "enabled" : true,
                "guid" : "02ED4DED17060D15000C00E93327C999",
                "origin" : "-0.0257 11.5132999 0.0626",
+               "rotation" : "-0.0604388 0 0 0.9981719",
                "scale" : "1 1 1"
             }
          ],
@@ -1493,6 +1509,7 @@
                "enabled" : true,
                "guid" : "02EF426A17060D15000C00E93327C96E",
                "origin" : "-5.2870998 15.6322002 5.8034",
+               "rotation" : "0.4139544 -0.602595 -0.3916567 0.5586826",
                "scale" : "1 1 1"
             }
          ],
@@ -1517,6 +1534,7 @@
                "enabled" : true,
                "guid" : "02F17E1517060D15000C00E93327C8FF",
                "origin" : "7.3635001 0 -0",
+               "rotation" : "-0.0320323 0.0135442 -0.127629 0.9912121",
                "scale" : "1 1 1"
             }
          ],
@@ -1541,6 +1559,7 @@
                "enabled" : true,
                "guid" : "02F3773017060D15000C00E93327C850",
                "origin" : "10.0091 -0 -0",
+               "rotation" : "0.0479607 0.0213383 -0.0866358 0.9948562",
                "scale" : "1 1 1"
             }
          ],
@@ -1565,6 +1584,7 @@
                "enabled" : true,
                "guid" : "02F5506817060D15000C00E93327CB20",
                "origin" : "5.2138 15.6554003 5.8073001",
+               "rotation" : "0.3930381 -0.558079 -0.4123977 0.6033216",
                "scale" : "1 1 1"
             }
          ],
@@ -1589,6 +1609,7 @@
                "enabled" : true,
                "guid" : "02F72F6117060D15000C00E93327CAB6",
                "origin" : "7.3635001 0 0",
+               "rotation" : "0.0320323 -0.0135442 -0.127629 0.9912121",
                "scale" : "1 1 1"
             }
          ],
@@ -1613,6 +1634,7 @@
                "enabled" : true,
                "guid" : "02F9607717060D15000C00E93327CA07",
                "origin" : "10.0091 -0 0",
+               "rotation" : "-0.0807457 -0.0184693 -0.0872924 0.9927332",
                "scale" : "1 1 1"
             }
          ],
@@ -1637,6 +1659,7 @@
                "enabled" : true,
                "guid" : "02FB79A717060D15000C00E93327CD96",
                "origin" : "-0.042 20.2418995 -7.1262002",
+               "rotation" : "-0.1442984 0.6921015 -0.1427274 0.6926777",
                "scale" : "1 1 1"
             }
          ],
@@ -1661,6 +1684,7 @@
                "enabled" : true,
                "guid" : "02FD7DCA17060D15000C00E93327CD61",
                "origin" : "9.1751003 0 -0",
+               "rotation" : "0 -0 -0.1914085 0.9815105",
                "scale" : "1 1 1"
             }
          ],
@@ -1685,6 +1709,7 @@
                "enabled" : true,
                "guid" : "02FF4A7E17060D15000C00E93327CCF2",
                "origin" : "0.0055 -8.6085997 35.7383995",
+               "rotation" : "0.0844606 -0.0000781 0.0011452 0.9964262",
                "scale" : "1 1 1"
             }
          ],
@@ -1709,6 +1734,7 @@
                "enabled" : true,
                "guid" : "03012E6D17060D15000C00E93327CC7C",
                "origin" : "-6.2283001 14.1406002 -1.7095",
+               "rotation" : "-0.4738938 0.6292422 -0.4549702 -0.4153084",
                "scale" : "1 1 1"
             }
          ],
@@ -1733,6 +1759,7 @@
                "enabled" : true,
                "guid" : "030332DD17060D15000C00E93327CFCD",
                "origin" : "-0.0576 7.8972998 1.0423",
+               "rotation" : "0.0519258 0.0303142 -0.0580809 0.9964996",
                "scale" : "1 1 1"
             }
          ],
@@ -1757,6 +1784,7 @@
                "enabled" : true,
                "guid" : "03053AAC17060D15000C00E93327CF5E",
                "origin" : "-0.0923 22.0492001 0",
+               "rotation" : "0 -0 -0.0276599 0.9996174",
                "scale" : "1 1 1"
             }
          ],
@@ -1781,6 +1809,7 @@
                "enabled" : true,
                "guid" : "03076A1917060D15000C00E93327CE2E",
                "origin" : "-1.0434 6.6714001 0.3449",
+               "rotation" : "-0.4985142 -0.5014814 0.4816136 0.5177339",
                "scale" : "1 1 1"
             }
          ],
@@ -1805,6 +1834,7 @@
                "enabled" : true,
                "guid" : "0309261A17060D15000C00E93327D1F2",
                "origin" : "-0.1094 23.0091 0",
+               "rotation" : "0 0 0 1",
                "scale" : "1 1 1"
             }
          ],
@@ -1829,6 +1859,7 @@
                "enabled" : true,
                "guid" : "030B2F0617060D15000C00E93327D0A9",
                "origin" : "-5.2740002 10.7098999 1.3731",
+               "rotation" : "-0.9865132 -0.042802 -0.0689221 0.1421602",
                "scale" : "1 1 1"
             }
          ],
@@ -1853,6 +1884,7 @@
                "enabled" : true,
                "guid" : "030D39D817060D15000C00EA3327D003",
                "origin" : "0.0767 -2.8559999 -0.1629",
+               "rotation" : "-0.0007848 -0.0063705 0.0000823 0.9999794",
                "scale" : "1 1 1"
             }
          ],
@@ -1877,6 +1909,7 @@
                "enabled" : true,
                "guid" : "030F445F17060D15000C00EA3327D333",
                "origin" : "0.1408 -2.8594999 -0.0457",
+               "rotation" : "-0.0028861 0.0197198 0.0004058 0.9998013",
                "scale" : "1 1 1"
             }
          ],
@@ -1901,6 +1934,7 @@
                "enabled" : true,
                "guid" : "0311041317060D15000C00EA3327D2BC",
                "origin" : "-2.6877999 11.5923996 0.0089",
+               "rotation" : "-0.9883368 -0.0488542 -0.0527386 0.1342476",
                "scale" : "1 1 1"
             }
          ],
@@ -1925,6 +1959,7 @@
                "enabled" : true,
                "guid" : "03130C6817060D15000C00EA3327D212",
                "origin" : "0.2636 -3.0366001 -0.1795",
+               "rotation" : "-0.0256903 0.0103742 0.0039324 0.9996083",
                "scale" : "1 1 1"
             }
          ],
@@ -1949,6 +1984,7 @@
                "enabled" : true,
                "guid" : "031570CF17060D15000C00EA3327D59C",
                "origin" : "0.1958 -3.2370999 -0.588",
+               "rotation" : "0.0114641 -0.0236705 -0.0019085 0.9996523",
                "scale" : "1 1 1"
             }
          ],
@@ -1973,6 +2009,7 @@
                "enabled" : true,
                "guid" : "031707D117060D15000C00EA3327D572",
                "origin" : "0.2768 11.3243999 -0.4267",
+               "rotation" : "-0.9885725 -0.0221886 -0.1018497 0.1088986",
                "scale" : "1 1 1"
             }
          ],
@@ -1997,6 +2034,7 @@
                "enabled" : true,
                "guid" : "03195FE317060D15000C00EA3327D4FF",
                "origin" : "0.1755 -3.4036 -0.1272",
+               "rotation" : "0.0239715 -0.0106083 -0.0019275 0.9996545",
                "scale" : "1 1 1"
             }
          ],
@@ -2021,6 +2059,7 @@
                "enabled" : true,
                "guid" : "031B3BDE17060D15000C00EA3327D450",
                "origin" : "0.1478 -3.2958 -0.2952",
+               "rotation" : "0.0692706 0.029438 -0.0043164 0.9971542",
                "scale" : "1 1 1"
             }
          ],
@@ -2045,6 +2084,7 @@
                "enabled" : true,
                "guid" : "031D5C4517060D15000C00EA3327D722",
                "origin" : "4.0735002 11.2439003 -0.065",
+               "rotation" : "-0.9925482 -0.0207391 -0.0912957 0.0779939",
                "scale" : "1 1 1"
             }
          ],
@@ -2069,6 +2109,7 @@
                "enabled" : true,
                "guid" : "031F43C517060D15000C00EA3327D6B1",
                "origin" : "0.1571 -3.2788 -0.0522",
+               "rotation" : "0.0823369 0.0281913 -0.0053036 0.9961916",
                "scale" : "1 1 1"
             }
          ],
@@ -2093,6 +2134,7 @@
                "enabled" : true,
                "guid" : "0321588817060D15000C00EA3327D606",
                "origin" : "0.1743 -3.3181 -0.0876",
+               "rotation" : "0.0002618 -0.005236 0.0000014 0.9999862",
                "scale" : "1 1 1"
             }
          ],
@@ -2117,6 +2159,7 @@
                "enabled" : true,
                "guid" : "0323115817060D15000C00EA3327D992",
                "origin" : "3.4827001 3.4807 1.4603",
+               "rotation" : "-0.8990052 0.3219737 -0.2698278 0.1237561",
                "scale" : "1 1 1"
             }
          ],
@@ -2141,6 +2184,7 @@
                "enabled" : true,
                "guid" : "032514A317060D15000C00EA3327D966",
                "origin" : "0.1667 -3.9986999 0.1097",
+               "rotation" : "0.1056041 -0.0646521 -0.0470355 0.9911889",
                "scale" : "1 1 1"
             }
          ],
@@ -2165,6 +2209,7 @@
                "enabled" : true,
                "guid" : "032720E317060D15000C00EA3327D8F1",
                "origin" : "0.2365 -3.9405 0.0956",
+               "rotation" : "0.0505183 -0.0592191 -0.0789212 0.9938372",
                "scale" : "1 1 1"
             }
          ],
@@ -2189,6 +2234,7 @@
                "enabled" : true,
                "guid" : "032910F417060D15000C00EA3327D841",
                "origin" : "6.1672001 14.1680002 -1.7048",
+               "rotation" : "-0.4364996 -0.5890348 0.5059885 -0.4544027",
                "scale" : "1 1 1"
             }
          ],
@@ -2213,6 +2259,7 @@
                "enabled" : true,
                "guid" : "032B245817060D15000C00EA3327DBD5",
                "origin" : "0.0783 7.9313002 0.7375",
+               "rotation" : "0.0382968 0.0529674 0.0625568 0.9958988",
                "scale" : "1 1 1"
             }
          ],
@@ -2237,6 +2284,7 @@
                "enabled" : true,
                "guid" : "032D328517060D15000C00EA3327DAA6",
                "origin" : "0.1161 22.0489998 0",
+               "rotation" : "0 0 0.026177 0.9996573",
                "scale" : "1 1 1"
             }
          ],
@@ -2261,6 +2309,7 @@
                "enabled" : true,
                "guid" : "032F69A917060D15000C00EA3327DA34",
                "origin" : "1.0304 6.6733999 0.3449",
+               "rotation" : "-0.4811163 -0.5181961 0.4989954 0.5010025",
                "scale" : "1 1 1"
             }
          ],
@@ -2285,6 +2334,7 @@
                "enabled" : true,
                "guid" : "03317C8D17060D15000C00EA3327DD85",
                "origin" : "0.0645 23.0093002 0",
+               "rotation" : "0 0 0 1",
                "scale" : "1 1 1"
             }
          ],
@@ -2309,6 +2359,7 @@
                "enabled" : true,
                "guid" : "0333007617060D15000C00EA3327DD19",
                "origin" : "5.2530999 10.7202997 1.3731",
+               "rotation" : "-0.9882832 0.0295234 -0.014254 0.1490692",
                "scale" : "1 1 1"
             }
          ],
@@ -2333,6 +2384,7 @@
                "enabled" : true,
                "guid" : "0335033A17060D15000C00EA3327DCEF",
                "origin" : "0.086 -2.8583 -0.1086",
+               "rotation" : "-0.0007848 0.0063705 -0.0000823 0.9999794",
                "scale" : "1 1 1"
             }
          ],
@@ -2357,6 +2409,7 @@
                "enabled" : true,
                "guid" : "033762E817060D15000C00EA3327DC42",
                "origin" : "0.0025 -2.8633001 -0.0015",
+               "rotation" : "-0.0028861 -0.0197198 -0.0004058 0.9998013",
                "scale" : "1 1 1"
             }
          ],
@@ -2381,6 +2434,7 @@
                "enabled" : true,
                "guid" : "03397BAD17060D15000C00EA3327DE8B",
                "origin" : "2.6652 11.5977001 0.0089",
+               "rotation" : "-0.9887719 0.0362184 -0.0305108 0.1417307",
                "scale" : "1 1 1"
             }
          ],
@@ -2405,6 +2459,7 @@
                "enabled" : true,
                "guid" : "033B25DD17060D15000C00EB3327E111",
                "origin" : "-0.0967 -3.0483999 -0.1425",
+               "rotation" : "-0.0256903 -0.0103742 -0.0039324 0.9996083",
                "scale" : "1 1 1"
             }
          ],
@@ -2429,6 +2484,7 @@
                "enabled" : true,
                "guid" : "033D0D4717060D15000C00EB3327E3A4",
                "origin" : "0.0212 -3.2514 -0.539",
+               "rotation" : "0.0114641 0.0236705 0.0019085 0.9996523",
                "scale" : "1 1 1"
             }
          ],
@@ -2453,6 +2509,7 @@
                "enabled" : true,
                "guid" : "033F744517060D15000C00EB3327E30A",
                "origin" : "-0.2989 11.3238001 -0.4267",
+               "rotation" : "-0.9932195 0.011581 0.0182564 0.1142262",
                "scale" : "1 1 1"
             }
          ],
@@ -2477,6 +2534,7 @@
                "enabled" : true,
                "guid" : "0341482317060D15000C00EB3327E2EE",
                "origin" : "-0.025 -3.4087999 -0.105",
+               "rotation" : "0.0239715 0.0106083 0.0019275 0.9996545",
                "scale" : "1 1 1"
             }
          ],
@@ -2501,6 +2559,7 @@
                "enabled" : true,
                "guid" : "034359CB17060D15000C00EB3327E249",
                "origin" : "0.0497 -3.3016 -0.2606",
+               "rotation" : "0.0692706 -0.029438 0.0043164 0.9971542",
                "scale" : "1 1 1"
             }
          ],
@@ -2525,6 +2584,7 @@
                "enabled" : true,
                "guid" : "034564E317060D15000C00EB3327E523",
                "origin" : "-4.0955 11.2358999 -0.0649",
+               "rotation" : "-0.9964113 0.0128715 0.0073308 0.0833363",
                "scale" : "1 1 1"
             }
          ],
@@ -2549,6 +2609,7 @@
                "enabled" : true,
                "guid" : "034720B917060D15000C00EB3327E482",
                "origin" : "-0.0583 -3.2825 -0.0296",
+               "rotation" : "0.0823369 -0.0281913 0.0053036 0.9961916",
                "scale" : "1 1 1"
             }
          ],
@@ -2573,6 +2634,7 @@
                "enabled" : true,
                "guid" : "034931B017060D15000C00EB3327E441",
                "origin" : "0.0227 -3.3232 -0.0609",
+               "rotation" : "0.0002618 0.005236 -0.0000014 0.9999862",
                "scale" : "1 1 1"
             }
          ],
@@ -2597,6 +2659,7 @@
                "enabled" : true,
                "guid" : "034B471517060D15000C00EB3327E7D7",
                "origin" : "-3.4895 3.4737 1.4604",
+               "rotation" : "-0.9177542 -0.3331725 0.1918724 0.0995398",
                "scale" : "1 1 1"
             }
          ],
@@ -2621,6 +2684,7 @@
                "enabled" : true,
                "guid" : "034D507C17060D15000C00EB3327E6A9",
                "origin" : "-0.1023 -3.9895 -0.3242",
+               "rotation" : "0.1056041 0.0646521 0.0470355 0.9911889",
                "scale" : "1 1 1"
             }
          ],
@@ -2645,6 +2709,7 @@
                "enabled" : true,
                "guid" : "034F4F1017060D15000C00EB3327E601",
                "origin" : "-0.0138 -3.9398 -0.2647",
+               "rotation" : "0.0505183 0.0592191 0.0789212 0.9938372",
                "scale" : "1 1 1"
             }
          ],
@@ -2669,6 +2734,7 @@
                "enabled" : true,
                "guid" : "03512A8A17060D15000C00EB3327E994",
                "origin" : "-0.0412 18.6933002 0.0231",
+               "rotation" : "0.0844606 -0.0000781 0.0011452 0.9964262",
                "scale" : "1 1 1"
             }
          ],
@@ -2693,6 +2759,7 @@
                "enabled" : true,
                "guid" : "03536EA217060D15000C00EB3327E96F",
                "origin" : "-0 9.0510998 1.034",
+               "rotation" : "0 0 0 1",
                "scale" : "1 1 1"
             }
          ],
@@ -2717,6 +2784,7 @@
                "enabled" : true,
                "guid" : "03553D3117060D15000C00EB3327E8C3",
                "origin" : "16.7287006 15.0482998 -15.4397001",
+               "rotation" : "-0.1893051 0.3787828 -0.2006506 0.8834175",
                "scale" : "1 1 1"
             }
          ],
@@ -2741,6 +2809,7 @@
                "enabled" : true,
                "guid" : "0357626E17060D15000C00EB3327E85B",
                "origin" : "-7.0809999 24.4284 23.1966",
+               "rotation" : "0.6972534 -0.2308852 -0.1236339 0.6672664",
                "scale" : "1 1 1"
             }
          ],
@@ -2765,6 +2834,7 @@
                "enabled" : true,
                "guid" : "035923DD17060D15000C00EB3327EB2C",
                "origin" : "0.2084 24.7861004 24.8223",
+               "rotation" : "0.7369394 -0.0606956 -0.2694642 0.6169485",
                "scale" : "1 1 1"
             }
          ],
@@ -2789,6 +2859,7 @@
                "enabled" : true,
                "guid" : "035B67EB17060D15000C00EB3327EABD",
                "origin" : "0 0 0",
+               "rotation" : "0 0 0 1",
                "scale" : "1 1 1"
             }
          ],
@@ -2813,6 +2884,7 @@
                "enabled" : true,
                "guid" : "035D035617060D15000C00EB3327EA14",
                "origin" : "-8.4797001 -4.7955999 -0.3791",
+               "rotation" : "0.0015676 -0.0006191 0.9999849 0.0052374",
                "scale" : "1 1 1"
             }
          ],
@@ -2837,6 +2909,7 @@
                "enabled" : true,
                "guid" : "035F22C517060D15000C00EB3327EDEC",
                "origin" : "0.1444 32.5545998 0.1546",
+               "rotation" : "-0.0440231 0.011964 -0.0019181 0.998957",
                "scale" : "1 1 1"
             }
          ],
@@ -2861,6 +2934,7 @@
                "enabled" : true,
                "guid" : "03613A4517060D15000C00EC3327EC87",
                "origin" : "0.9477 16.6713009 -0.7802",
+               "rotation" : "-0.4789062 -0.5306598 0.4754459 0.5128355",
                "scale" : "1 1 1"
             }
          ],
@@ -2885,6 +2959,7 @@
                "enabled" : true,
                "guid" : "0363718117060D15000C00EC3327EC7C",
                "origin" : "0.002 32.7771988 -0.0869",
+               "rotation" : "0.3963105 0.0045522 -0.0121342 0.9180251",
                "scale" : "1 1 1"
             }
          ],
@@ -2909,6 +2984,7 @@
                "enabled" : true,
                "guid" : "03657AF417060D15000C00EC3327EFDF",
                "origin" : "0.8576 5.2672 4.2863998",
+               "rotation" : "0.1499128 -0.6910794 -0.116951 0.6973219",
                "scale" : "1 1 1"
             }
          ],
@@ -2933,6 +3009,7 @@
                "enabled" : true,
                "guid" : "0367756117060D15000C00EC3327EEEB",
                "origin" : "0.0633 17.7931995 0.0994",
+               "rotation" : "0.4180136 0.0335458 -0.0101729 0.9077643",
                "scale" : "1 1 1"
             }
          ],
@@ -2957,6 +3034,7 @@
                "enabled" : true,
                "guid" : "0369325517060D15000C00EC3327F1BE",
                "origin" : "8.4797001 -4.7954998 -0.3791",
+               "rotation" : "0.0020039 0.0006214 -0.9999841 0.0052377",
                "scale" : "1 1 1"
             }
          ],
@@ -2981,6 +3059,7 @@
                "enabled" : true,
                "guid" : "036B518717060D15000C00EC3327F142",
                "origin" : "-0.1444 32.5545998 0.1546",
+               "rotation" : "-0.0440259 -0.0116948 0.0017553 0.9989604",
                "scale" : "1 1 1"
             }
          ],
@@ -3005,6 +3084,7 @@
                "enabled" : true,
                "guid" : "036D604617060D15000C00EC3327F022",
                "origin" : "-0.9462 16.6711998 -0.7816",
+               "rotation" : "-0.4757259 -0.5132535 0.4785489 0.530327",
                "scale" : "1 1 1"
             }
          ],
@@ -3029,6 +3109,7 @@
                "enabled" : true,
                "guid" : "036F655C17060D15000C00EC3327F381",
                "origin" : "-0.002 32.7771988 -0.0869",
+               "rotation" : "0.3963138 -0.0051931 0.0124108 0.9180166",
                "scale" : "1 1 1"
             }
          ],
@@ -3053,6 +3134,7 @@
                "enabled" : true,
                "guid" : "0371451317060D15000C00EC3327F2AC",
                "origin" : "-0.8578 5.2672 4.2863998",
+               "rotation" : "0.1144986 -0.6953126 -0.1525485 0.6929354",
                "scale" : "1 1 1"
             }
          ],
@@ -3077,6 +3159,7 @@
                "enabled" : true,
                "guid" : "0373063317060D15000C00EC3327F279",
                "origin" : "-0.0633 17.7931995 0.0994",
+               "rotation" : "0.4180136 -0.0335458 0.0101729 0.9077643",
                "scale" : "1 1 1"
             }
          ],
@@ -3101,6 +3184,7 @@
                "enabled" : true,
                "guid" : "0375083C17060D15000C00EC3327F53D",
                "origin" : "-3.7 0 3.4043",
+               "rotation" : "0 0.190809 0 0.9816272",
                "scale" : "1 1 1"
             },
             {
@@ -3145,6 +3229,7 @@
                "enabled" : true,
                "guid" : "037824DE17060D15000C00EC3327F4CB",
                "origin" : "0 0 1.6043",
+               "rotation" : "0 0 0 1",
                "scale" : "1 1 1"
             },
             {
@@ -3166,7 +3251,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "0004228B2C031605001300A454A355B2",
+      "guid" : "00093C742C010A16002403DDDF071758",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1

@@ -6,42 +6,33 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "0 -0 0",
-               "classname" : "ComTransform",
+               "anchorMaxs" : "0.5 0.5",
+               "anchorMins" : "0.5 0.5",
+               "anchoredPosition" : "0 0",
+               "angles" : "0 0 0",
+               "classname" : "ComRectTransform",
                "enabled" : true,
-               "guid" : "005159E4250C1214002003AA18801E21",
-               "origin" : "51 0 4.9000001",
+               "guid" : "00C0748322010A1600390389C809298A",
+               "origin" : "0 0 0",
+               "pivot" : "0.5 0.5",
+               "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
-               "scale" : "1 1 1"
+               "scale" : "1 1 1",
+               "sizeDelta" : "1434 925"
             },
             {
-               "applyPostProcessing" : false,
-               "classname" : "ComCamera",
-               "clear" : 1,
-               "clearAlpha" : 0.0,
-               "clearColor" : "0 0 0",
+               "classname" : "ComCanvas",
                "enabled" : true,
-               "far" : 4.0,
-               "fov" : 45.0,
-               "guid" : "005219D4250C1214002003AA18801E28",
-               "h" : 1.0,
-               "layerMask" : 4,
-               "near" : 0.10000000149011612,
-               "order" : 1,
-               "projection" : 1,
-               "size" : 7.3600001335144043,
-               "w" : 1.0,
-               "x" : 0.0,
-               "y" : 0.0
+               "guid" : "00C13C0A22010A1600390389C8092934"
             }
          ],
          "frozen" : false,
-         "guid" : "0050604E250C1214002003AA18801ECE",
+         "guid" : "00BF028522010A1600390389C80926C1",
          "layer" : 2,
-         "name" : "UICamera",
+         "name" : "Canvas",
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
-         "prefabSource" : "003B43C81B0C12140020025216E0E4D3",
+         "prefabSource" : "00700C1A07010A16003901F8B7B42A4B",
          "staticMask" : 0,
          "tag" : "Untagged"
       },
@@ -51,53 +42,48 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "0 -0 179.9998932",
-               "classname" : "ComTransform",
+               "anchorMaxs" : "0 0",
+               "anchorMins" : "0 0",
+               "anchoredPosition" : "144 144",
+               "angles" : "0 0 0",
+               "classname" : "ComRectTransform",
                "enabled" : true,
-               "guid" : "005C7136250C1214002003AB18802E8B",
-               "origin" : "2 5.5 -2.3",
-               "rotation" : "0 0 1 0.0000009",
-               "scale" : "2.5 2.5 2.5"
+               "guid" : "00C36A5022010A1600390389C8092B07",
+               "origin" : "-573 -318.5 0",
+               "pivot" : "0.5 0.5",
+               "rayCastTarget" : true,
+               "rotation" : "0 0 0 1",
+               "scale" : "1 1 1",
+               "sizeDelta" : "192 192"
             },
             {
                "alpha" : 1.0,
                "billboard" : false,
-               "castShadows" : false,
-               "classname" : "ComStaticMeshRenderer",
+               "classname" : "ComImage",
                "color" : "1 1 1",
                "enabled" : true,
-               "guid" : "005D52DE250C1214002003AB18802E91",
-               "materials" : [ "008530171F070C19000C023E16F0C062" ],
-               "maxVisDist" : 16384.0,
-               "mesh" : "00000000000000000000000000000191",
-               "occluder" : false,
-               "receiveShadows" : false,
+               "guid" : "00C47D1922010A1600390389C8092AA0",
+               "imageMaterial" : "008530171F070C19000C023E16F0C062",
+               "imageType" : 0,
+               "maxVisDist" : 4000.0,
                "timeOffset" : 0.0,
-               "timeScale" : 1.0,
-               "useEnvironmentProveLighting" : true
-            },
-            {
-               "center" : "0 0 0",
-               "classname" : "ComBoxCollider",
-               "enabled" : true,
-               "extents" : "0.002 0.5 0.5",
-               "guid" : "005E768A250C1214002003AB18802E98"
+               "timeScale" : 1.0
             },
             {
                "classname" : "ComScript",
                "enabled" : true,
-               "guid" : "005F0D4C250C1214002003AB18802E9E",
-               "knob_radius" : 0.079999998211860657,
+               "guid" : "00C532A222010A1600390389C8092AC7",
+               "knob_radius" : 96.0,
                "script" : "00F93EC108010B13002003AD64899094"
             }
          ],
          "frozen" : false,
-         "guid" : "005B3290250C1214002003AB18802E83",
+         "guid" : "00C23C2022010A1600390389C8092B9C",
          "layer" : 2,
-         "name" : "JoypadL",
-         "parent" : "0050604E250C1214002003AA18801ECE",
+         "name" : "JoyPadL",
+         "parent" : "00BF028522010A1600390389C80926C1",
          "prefab" : false,
-         "prefabSource" : "003E0D541B0C12140020025316E0E8BD",
+         "prefabSource" : "00734C7307010A16003901F8B7B42EE4",
          "staticMask" : 0,
          "tag" : "Untagged"
       },
@@ -107,39 +93,41 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "0 -0 0",
-               "classname" : "ComTransform",
+               "anchorMaxs" : "0.5 0.5",
+               "anchorMins" : "0.5 0.5",
+               "anchoredPosition" : "0 0",
+               "angles" : "0 0 0",
+               "classname" : "ComRectTransform",
                "enabled" : true,
-               "guid" : "006108F5250C1214002003AC18803459",
-               "origin" : "0.02 0 0",
+               "guid" : "00C732CC22010A1600390389C8092CED",
+               "origin" : "0 0 0",
+               "pivot" : "0.5 0.5",
+               "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
-               "scale" : "0.5 0.5 0.5"
+               "scale" : "1 1 1",
+               "sizeDelta" : "96 96"
             },
             {
                "alpha" : 1.0,
                "billboard" : false,
-               "castShadows" : false,
-               "classname" : "ComStaticMeshRenderer",
+               "classname" : "ComImage",
                "color" : "1 1 1",
                "enabled" : true,
-               "guid" : "00620D65250C1214002003AC1880345F",
-               "materials" : [ "008E77031F070C19000C028316F387E3" ],
-               "maxVisDist" : 16384.0,
-               "mesh" : "00000000000000000000000000000191",
-               "occluder" : false,
-               "receiveShadows" : false,
+               "guid" : "00C805D222010A1600390389C8092C0D",
+               "imageMaterial" : "008E77031F070C19000C028316F387E3",
+               "imageType" : 0,
+               "maxVisDist" : 4000.0,
                "timeOffset" : 0.0,
-               "timeScale" : 1.0,
-               "useEnvironmentProveLighting" : true
+               "timeScale" : 1.0
             }
          ],
          "frozen" : false,
-         "guid" : "006070A4250C1214002003AC18803451",
+         "guid" : "00C6368722010A1600390389C8092D46",
          "layer" : 2,
          "name" : "knob",
-         "parent" : "005B3290250C1214002003AB18802E83",
+         "parent" : "00C23C2022010A1600390389C8092B9C",
          "prefab" : false,
-         "prefabSource" : "004360B31B0C12140020025316E0F04C",
+         "prefabSource" : "007737B907010A16003901F8B7B433FE",
          "staticMask" : 0,
          "tag" : "Untagged"
       },
@@ -149,53 +137,48 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "0 -0 179.9998932",
-               "classname" : "ComTransform",
+               "anchorMaxs" : "1 0",
+               "anchorMins" : "1 0",
+               "anchoredPosition" : "-144 144",
+               "angles" : "0 0 0",
+               "classname" : "ComRectTransform",
                "enabled" : true,
-               "guid" : "00544264250C1214002003AA18802370",
-               "origin" : "2 -5.5 -2.3",
-               "rotation" : "0 0 1 0.0000009",
-               "scale" : "2.5 2.5 2.5"
+               "guid" : "00CA65D922010A1600390389C8092E6C",
+               "origin" : "573 -318.5 0",
+               "pivot" : "0.5 0.5",
+               "rayCastTarget" : true,
+               "rotation" : "0 0 0 1",
+               "scale" : "1 1 1",
+               "sizeDelta" : "192 192"
             },
             {
                "alpha" : 1.0,
                "billboard" : false,
-               "castShadows" : false,
-               "classname" : "ComStaticMeshRenderer",
+               "classname" : "ComImage",
                "color" : "1 1 1",
                "enabled" : true,
-               "guid" : "005548DA250C1214002003AA18802376",
-               "materials" : [ "008530171F070C19000C023E16F0C062" ],
-               "maxVisDist" : 16384.0,
-               "mesh" : "00000000000000000000000000000191",
-               "occluder" : false,
-               "receiveShadows" : false,
+               "guid" : "00CB5CF022010A1600390389C809318C",
+               "imageMaterial" : "008530171F070C19000C023E16F0C062",
+               "imageType" : 0,
+               "maxVisDist" : 4000.0,
                "timeOffset" : 0.0,
-               "timeScale" : 1.0,
-               "useEnvironmentProveLighting" : true
-            },
-            {
-               "center" : "0 0 0",
-               "classname" : "ComBoxCollider",
-               "enabled" : true,
-               "extents" : "0.002 0.5 0.5",
-               "guid" : "00560784250C1214002003AA1880237D"
+               "timeScale" : 1.0
             },
             {
                "classname" : "ComScript",
                "enabled" : true,
-               "guid" : "00577313250C1214002003AA18802343",
-               "knob_radius" : 0.079999998211860657,
+               "guid" : "00CC4C5722010A1600390389C8093123",
+               "knob_radius" : 96.0,
                "script" : "00F93EC108010B13002003AD64899094"
             }
          ],
          "frozen" : false,
-         "guid" : "00535A9D250C1214002003AA18802368",
+         "guid" : "00C9563522010A1600390389C8092EFB",
          "layer" : 2,
-         "name" : "JoypadR",
-         "parent" : "0050604E250C1214002003AA18801ECE",
+         "name" : "JoyPadR",
+         "parent" : "00BF028522010A1600390389C80926C1",
          "prefab" : false,
-         "prefabSource" : "00463E951B0C12140020025316E0F43A",
+         "prefabSource" : "007A483707010A16003901F8B7B434E7",
          "staticMask" : 0,
          "tag" : "Untagged"
       },
@@ -205,39 +188,41 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "0 -0 0",
-               "classname" : "ComTransform",
+               "anchorMaxs" : "0.5 0.5",
+               "anchorMins" : "0.5 0.5",
+               "anchoredPosition" : "0 0",
+               "angles" : "0 0 0",
+               "classname" : "ComRectTransform",
                "enabled" : true,
-               "guid" : "0059522D250C1214002003AB18802A09",
-               "origin" : "0.02 0 0",
+               "guid" : "00CE3F3C22010A1600390389C80933D4",
+               "origin" : "0 0 0",
+               "pivot" : "0.5 0.5",
+               "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
-               "scale" : "0.5 0.5 0.5"
+               "scale" : "1 1 1",
+               "sizeDelta" : "96 96"
             },
             {
                "alpha" : 1.0,
                "billboard" : false,
-               "castShadows" : false,
-               "classname" : "ComStaticMeshRenderer",
+               "classname" : "ComImage",
                "color" : "1 1 1",
                "enabled" : true,
-               "guid" : "005A2D29250C1214002003AB18802A10",
-               "materials" : [ "008E77031F070C19000C028316F387E3" ],
-               "maxVisDist" : 16384.0,
-               "mesh" : "00000000000000000000000000000191",
-               "occluder" : false,
-               "receiveShadows" : false,
+               "guid" : "00CF7A1A22010A1600390389C809336B",
+               "imageMaterial" : "008E77031F070C19000C028316F387E3",
+               "imageType" : 0,
+               "maxVisDist" : 4000.0,
                "timeOffset" : 0.0,
-               "timeScale" : 1.0,
-               "useEnvironmentProveLighting" : true
+               "timeScale" : 1.0
             }
          ],
          "frozen" : false,
-         "guid" : "005820B0250C1214002003AB18802A01",
+         "guid" : "00CD6C1222010A1600390389C80933AF",
          "layer" : 2,
          "name" : "knob",
-         "parent" : "00535A9D250C1214002003AA18802368",
+         "parent" : "00C9563522010A1600390389C8092EFB",
          "prefab" : false,
-         "prefabSource" : "004B23B71B0C12140020025416E0FD28",
+         "prefabSource" : "007E1D7907010A16003901F9B7B438AA",
          "staticMask" : 0,
          "tag" : "Untagged"
       },
@@ -387,8 +372,8 @@
                "footstep4_sound" : "022C5C20180B120C001801BC8F9697E1",
                "gravity" : 9.8000001907348633,
                "guid" : "021C5B942B060D15000B00142ABA9C78",
-               "joypad_l" : "005F0D4C250C1214002003AB18802E9E",
-               "joypad_r" : "00577313250C1214002003AA18802343",
+               "joypad_l" : "00C532A222010A1600390389C8092AC7",
+               "joypad_r" : "00CC4C5722010A1600390389C8093123",
                "script" : "00FA366B08010B13002003B46489D75F",
                "slide_sound" : "02372BE3200B120C001C0351B68A1631"
             }
@@ -4178,6 +4163,8 @@
                "text" : "Fixed Joint",
                "textAlignment" : 1,
                "textAnchor" : 4,
+               "textSecondaryAlpha" : 1.0,
+               "textSecondaryColor" : "0 0 0",
                "timeOffset" : 0.0,
                "timeScale" : 1.0
             }
@@ -4221,6 +4208,8 @@
                "text" : "Hinge Joint",
                "textAlignment" : 1,
                "textAnchor" : 4,
+               "textSecondaryAlpha" : 1.0,
+               "textSecondaryColor" : "0 0 0",
                "timeOffset" : 0.0,
                "timeScale" : 1.0
             }
@@ -4264,6 +4253,8 @@
                "text" : "Socket Joint",
                "textAlignment" : 1,
                "textAnchor" : 4,
+               "textSecondaryAlpha" : 1.0,
+               "textSecondaryColor" : "0 0 0",
                "timeOffset" : 0.0,
                "timeScale" : 1.0
             }
@@ -4307,6 +4298,8 @@
                "text" : "Slider Joint",
                "textAlignment" : 1,
                "textAnchor" : 4,
+               "textSecondaryAlpha" : 1.0,
+               "textSecondaryColor" : "0 0 0",
                "timeOffset" : 0.0,
                "timeScale" : 1.0
             }
@@ -4350,6 +4343,8 @@
                "text" : "Spring Joint",
                "textAlignment" : 1,
                "textAnchor" : 4,
+               "textSecondaryAlpha" : 1.0,
+               "textSecondaryColor" : "0 0 0",
                "timeOffset" : 0.0,
                "timeScale" : 1.0
             }
@@ -4393,6 +4388,8 @@
                "text" : "Character Joint",
                "textAlignment" : 1,
                "textAnchor" : 4,
+               "textSecondaryAlpha" : 1.0,
+               "textSecondaryColor" : "0 0 0",
                "timeOffset" : 0.0,
                "timeScale" : 1.0
             }
@@ -4436,6 +4433,8 @@
                "text" : "Wheel Joint",
                "textAlignment" : 1,
                "textAnchor" : 4,
+               "textSecondaryAlpha" : 1.0,
+               "textSecondaryColor" : "0 0 0",
                "timeOffset" : 0.0,
                "timeScale" : 1.0
             }
@@ -4453,7 +4452,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "00094861360114110035036AF581819F",
+      "guid" : "00093C742C010A16002403DDDF071758",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1

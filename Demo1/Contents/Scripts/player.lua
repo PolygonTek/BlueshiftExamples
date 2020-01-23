@@ -67,7 +67,8 @@ m = {
 
 function start()
 	--[[
-	if Common.platform_id() ~= Common.PlatformId.IOS and Common.platform_id() ~= Common.PlatformId.Android then
+	if Common.platform_id() ~= Common.PlatformId.IOS and 
+       Common.platform_id() ~= Common.PlatformId.Android then
 		if properties.joypad_l.value then
 			local joypad_l = properties.joypad_l.value:cast_script()
 			joypad_l:entity():set_active(false)
