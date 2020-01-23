@@ -11,7 +11,9 @@ local map_buttons = {
 	['MapButton 7'] = 'Contents/Maps/particle_system.map',
 	['MapButton 8'] = 'Contents/Maps/skinned_instancing.map',
 	['MapButton 9'] = 'Contents/Maps/sensor.map',
-	['MapButton 10'] = 'Contents/Maps/3d_sound.map'
+	['MapButton 10'] = 'Contents/Maps/3d_sound.map',
+	['MapButton 11'] = 'Contents/Maps/3d_sound.map',
+	['MapButton 12'] = 'Contents/Maps/3d_sound.map'
 }
 
 function awake()

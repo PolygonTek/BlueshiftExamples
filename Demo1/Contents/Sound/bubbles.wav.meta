@@ -1,0 +1,12 @@
+{
+   "classname" : "Asset",
+   "guid" : "006065B5090100170039015C12041D7E",
+   "importer" : {
+      "classname" : "SoundImporter",
+      "guid" : "0061701D090100170039015D12041C70"
+   },
+   "resource" : {
+      "classname" : "SoundResource",
+      "guid" : "00632B620C0100170039014513CA6390"
+   }
+}

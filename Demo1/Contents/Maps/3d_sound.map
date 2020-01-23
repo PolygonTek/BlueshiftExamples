@@ -2525,8 +2525,8 @@
                "enabled" : true,
                "guid" : "007625E101010B16000E012713F87A0D",
                "looping" : true,
-               "maxDistance" : 8.0,
-               "minDistance" : 1.0,
+               "maxDistance" : 7.0,
+               "minDistance" : 2.0,
                "playOnAwake" : true,
                "spatial" : true,
                "volume" : 1.0
@@ -2586,8 +2586,8 @@
                "enabled" : true,
                "guid" : "00774D7D01010B16000E012713F880C1",
                "looping" : true,
-               "maxDistance" : 8.0,
-               "minDistance" : 1.0,
+               "maxDistance" : 7.0,
+               "minDistance" : 2.0,
                "playOnAwake" : true,
                "spatial" : true,
                "volume" : 1.0
@@ -2642,13 +2642,13 @@
                "guid" : "00715CEE3B010B16000C0011EED97D41"
             },
             {
-               "audioClip" : "00072718060417010012010051A47D08",
+               "audioClip" : "006065B5090100170039015C12041D7E",
                "classname" : "ComAudioSource",
                "enabled" : true,
                "guid" : "0078544D01010B16000E012713F884C6",
                "looping" : true,
-               "maxDistance" : 8.0,
-               "minDistance" : 1.0,
+               "maxDistance" : 7.0,
+               "minDistance" : 2.0,
                "playOnAwake" : true,
                "spatial" : true,
                "volume" : 1.0
@@ -2667,7 +2667,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "000924342D010B16002302BE1D752F56",
+      "guid" : "0009103806010017003902031053ED1B",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1

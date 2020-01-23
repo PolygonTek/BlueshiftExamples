@@ -1380,7 +1380,7 @@
                "horzOverflow" : 0,
                "lineSpacing" : 1.0,
                "maxVisDist" : 4000.0,
-               "text" : "Sensor",
+               "text" : "Lights",
                "textSecondaryAlpha" : 1.0,
                "textSecondaryColor" : "0 0 0",
                "timeOffset" : 0.0,
@@ -1513,7 +1513,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "00093C742C010A16002403DDDF071758",
+      "guid" : "0009103806010017003902031053ED1B",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1

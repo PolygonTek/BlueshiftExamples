@@ -229,7 +229,7 @@ stage {
   }
   module "LTSpeed" {
     speed "Curve" {
-      scalar 32.000
+      scalar 16.000
       wrapMode "Clamp" "Clamp"
       minCurve {
         numKeys 1
