@@ -27,6 +27,8 @@ function on_clicked(name)
 	else 
 		for k, v in pairs(map_buttons) do
 			if k == name then
+				map_buttons:set_active(false)
+				
 				owner.game_world:restart_game(v)
 				return
 			end

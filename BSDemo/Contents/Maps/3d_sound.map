@@ -451,6 +451,14 @@
                "w" : 1.0,
                "x" : 0.0,
                "y" : 0.0
+            },
+            {
+               "classname" : "ComScript",
+               "enabled" : true,
+               "guid" : "009479AD2001151B002E029843E5E119",
+               "max_distance" : 4.5,
+               "script" : "00B65C5510040A1C00050378D9219B9A",
+               "z_offset" : 1.8999999761581421
             }
          ],
          "frozen" : false,
@@ -2667,7 +2675,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "0009103806010017003902031053ED1B",
+      "guid" : "00093A661E01151B0029018E8FBBBA96",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1

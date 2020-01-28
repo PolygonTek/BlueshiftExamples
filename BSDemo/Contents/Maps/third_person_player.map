@@ -18,7 +18,7 @@
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
                "scale" : "1 1 1",
-               "sizeDelta" : "1434 925"
+               "sizeDelta" : "1351 925"
             },
             {
                "classname" : "ComCanvas",
@@ -49,7 +49,7 @@
                "classname" : "ComRectTransform",
                "enabled" : true,
                "guid" : "00642A320F010F12002501622E26BF14",
-               "origin" : "-573 -318.5 0",
+               "origin" : "-531.5 -318.5 0",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
@@ -144,7 +144,7 @@
                "classname" : "ComRectTransform",
                "enabled" : true,
                "guid" : "00A20A4B0A010F12002F01D990DEC73C",
-               "origin" : "573 -318.5 0",
+               "origin" : "531.5 -318.5 0",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
@@ -451,6 +451,14 @@
                "w" : 1.0,
                "x" : 0.0,
                "y" : 0.0
+            },
+            {
+               "classname" : "ComScript",
+               "enabled" : true,
+               "guid" : "006440BA0E01151B002C0051F14BBE00",
+               "max_distance" : 4.5,
+               "script" : "00B65C5510040A1C00050378D9219B9A",
+               "z_offset" : 1.8999999761581421
             }
          ],
          "frozen" : false,
@@ -2548,7 +2556,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "00093C742C010A16002403DDDF071758",
+      "guid" : "00093A661E01151B0029018E8FBBBA96",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1

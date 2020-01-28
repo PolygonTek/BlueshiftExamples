@@ -416,8 +416,9 @@ function on_footstep_left()
     local index = math.random(1, 4)
     local sound_asset = m.footsteps[index]
     if sound_asset then
+        local volume = m.anim_speed * 0.5
         local s = sound_asset:sound():instantiate()
-        s:play2d(0.5, false)--owner.transform:origin(), blueshift.meter_to_unit(4), blueshift.meter_to_unit(15), 1.0, false)
+        s:play2d(volume, false)--owner.transform:origin(), blueshift.meter_to_unit(4), blueshift.meter_to_unit(15), 1.0, false)
     end
 end
 
@@ -425,7 +426,8 @@ function on_footstep_right()
     local index = math.random(1, 4)
     local sound_asset = m.footsteps[index]
     if sound_asset then
+        local volume = m.anim_speed * 0.5
         local s = sound_asset:sound():instantiate()
-        s:play2d(0.5, false)--owner.transform:origin(), blueshift.meter_to_unit(4), blueshift.meter_to_unit(15), 1.0, false)
+        s:play2d(volume, false)--owner.transform:origin(), blueshift.meter_to_unit(4), blueshift.meter_to_unit(15), 1.0, false)
     end
 end
