@@ -1,0 +1,8 @@
+{
+   "classname" : "Asset",
+   "guid" : "00BA0D982C0B0D19000B03831256BA82",
+   "resource" : {
+      "classname" : "PrefabResource",
+      "guid" : "00BB52652C0B0D19000B03831256BD3D"
+   }
+}
