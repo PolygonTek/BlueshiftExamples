@@ -137,102 +137,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "anchorMaxs" : "1 0",
-               "anchorMins" : "1 0",
-               "anchoredPosition" : "-144 144",
                "angles" : "0 0 0",
-               "classname" : "ComRectTransform",
-               "enabled" : true,
-               "guid" : "008124ED0C010B16000901BC67CD5303",
-               "origin" : "573 -318.5 0",
-               "pivot" : "0.5 0.5",
-               "rayCastTarget" : true,
-               "rotation" : "0 0 0 1",
-               "scale" : "1 1 1",
-               "sizeDelta" : "192 192"
-            },
-            {
-               "alpha" : 1.0,
-               "billboard" : false,
-               "classname" : "ComImage",
-               "color" : "1 1 1",
-               "enabled" : true,
-               "guid" : "008218370C010B16000901BC67CD52A3",
-               "imageMaterial" : "008530171F070C19000C023E16F0C062",
-               "imageType" : 0,
-               "maxVisDist" : 4000.0,
-               "timeOffset" : 0.0,
-               "timeScale" : 1.0
-            },
-            {
-               "classname" : "ComScript",
-               "enabled" : true,
-               "guid" : "008368080C010B16000901BC67CD52C2",
-               "knob_radius" : 96.0,
-               "script" : "00F93EC108010B13002003AD64899094"
-            }
-         ],
-         "frozen" : false,
-         "guid" : "008004B70C010B16000901BC67CD539A",
-         "layer" : 2,
-         "name" : "JoyPadR",
-         "parent" : "007662D00C010B16000901BC67CD4BAA",
-         "prefab" : false,
-         "prefabSource" : "007A483707010A16003901F8B7B434E7",
-         "staticMask" : 0,
-         "tag" : "Untagged"
-      },
-      {
-         "active" : true,
-         "activeInHierarchy" : true,
-         "classname" : "Entity",
-         "components" : [
-            {
-               "anchorMaxs" : "0.5 0.5",
-               "anchorMins" : "0.5 0.5",
-               "anchoredPosition" : "0 0",
-               "angles" : "0 0 0",
-               "classname" : "ComRectTransform",
-               "enabled" : true,
-               "guid" : "00857ABF0C010B16000901BC67CD54FC",
-               "origin" : "0 0 0",
-               "pivot" : "0.5 0.5",
-               "rayCastTarget" : true,
-               "rotation" : "0 0 0 1",
-               "scale" : "1 1 1",
-               "sizeDelta" : "96 96"
-            },
-            {
-               "alpha" : 1.0,
-               "billboard" : false,
-               "classname" : "ComImage",
-               "color" : "1 1 1",
-               "enabled" : true,
-               "guid" : "00862E1C0C010B16000901BC67CD541F",
-               "imageMaterial" : "008E77031F070C19000C028316F387E3",
-               "imageType" : 0,
-               "maxVisDist" : 4000.0,
-               "timeOffset" : 0.0,
-               "timeScale" : 1.0
-            }
-         ],
-         "frozen" : false,
-         "guid" : "00844B350C010B16000901BC67CD5554",
-         "layer" : 2,
-         "name" : "knob",
-         "parent" : "008004B70C010B16000901BC67CD539A",
-         "prefab" : false,
-         "prefabSource" : "007E1D7907010A16003901F9B7B438AA",
-         "staticMask" : 0,
-         "tag" : "Untagged"
-      },
-      {
-         "active" : true,
-         "activeInHierarchy" : true,
-         "classname" : "Entity",
-         "components" : [
-            {
-               "angles" : "0 -0 0",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "00500D070503170900130163237AB163",
@@ -743,7 +648,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "0 -0 0",
+               "angles" : "0 0 0",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "00452DE804030D17003000FDA80B5CD6",
@@ -806,7 +711,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "0 -0 0",
+               "angles" : "0 0 0",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "005A19B938041101002D01DB01693B6B",
@@ -1179,7 +1084,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "0 -0 0",
+               "angles" : "0 0 0",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "005E4E3C38041101002D01DB01693A43",
@@ -1228,7 +1133,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "0 -0 0",
+               "angles" : "0 0 0",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "000952700404160200350217CFD8999D",
@@ -1278,7 +1183,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "0 -0 0",
+               "angles" : "0 0 0",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "00191C7E0B03140E001603C480E69D42",
@@ -1303,7 +1208,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "0 -0 0",
+               "angles" : "0 0 0",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "01E6196D3009091C000D015DBB56E7E2",
@@ -1366,7 +1271,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "0 -0 0",
+               "angles" : "0 0 0",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "001C68173103151C003B005D95D30ADA",
@@ -1492,7 +1397,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "0 -0 0",
+               "angles" : "0 0 0",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "00244A2F2203161C000001159F4AEE9A",
@@ -2446,7 +2351,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "00093FEA29010B160006020D0DD8CF79",
+      "guid" : "0009264B3B01091B0012021ED5F41635",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1

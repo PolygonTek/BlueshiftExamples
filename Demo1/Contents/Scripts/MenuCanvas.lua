@@ -1,5 +1,5 @@
 local blueshift = require "blueshift"
-local Entity = blueshift.Entity
+local admob = require "admob"
 
 local map_buttons = {
 	['MapButton 1'] = 'Contents/Maps/third_person_player.map',
@@ -12,12 +12,10 @@ local map_buttons = {
 	['MapButton 8'] = 'Contents/Maps/skinned_instancing.map',
 	['MapButton 9'] = 'Contents/Maps/sensor.map',
 	['MapButton 10'] = 'Contents/Maps/3d_sound.map',
-	['MapButton 11'] = 'Contents/Maps/3d_sound.map',
-	['MapButton 12'] = 'Contents/Maps/3d_sound.map'
 }
 
 function awake()
-	owner.game_world:dont_destroy_on_load(owner.game_world:find_entity("Canvas"))
+	owner.game_world:dont_destroy_on_load(owner.game_world:find_entity("Menu Canvas"))
 
 	owner.game_world:restart_game(map_buttons['MapButton 1'])
 end
@@ -30,7 +28,16 @@ function on_clicked(name)
 		for k, v in pairs(map_buttons) do
 			if k == name then
 				owner.game_world:restart_game(v)
+				return
 			end
 		end
-	end
+
+		if name == 'MapButton 11' then
+			if admob ~= true then    
+		    	if admob.InterstitialAd.is_ready() then
+		        	admob.InterstitialAd.present()
+		    	end
+	    	end			
+		end
+	end	
 end
