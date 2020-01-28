@@ -1,5 +1,6 @@
 local blueshift = require "blueshift"
 local admob = require "admob"
+local Common = blueshift.Common
 local App = blueshift.App
 
 -- ad app ID

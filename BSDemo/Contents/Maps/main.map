@@ -12,29 +12,29 @@
                "angles" : "0 0 0",
                "classname" : "ComRectTransform",
                "enabled" : true,
-               "guid" : "006137CB04010F12002303ADE06B4787",
+               "guid" : "00614BE30C01131B002E03E674A433CF",
                "origin" : "0 0 0",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
                "scale" : "1 1 1",
-               "sizeDelta" : "1434 925"
+               "sizeDelta" : "1351 925"
             },
             {
                "classname" : "ComCanvas",
                "enabled" : true,
-               "guid" : "0062258A04010F12002303ADE06B555A"
+               "guid" : "006210880C01131B002E03E674A4413F"
             },
             {
                "classname" : "ComScript",
                "enabled" : true,
-               "guid" : "00660D2C35010B1500120043967CCFF4",
+               "guid" : "006353121C01131B002E011B7DC09BE3",
                "script" : "006012C307010B150011036757C93EB4"
             }
          ],
          "frozen" : false,
-         "guid" : "006052D304010F12002303ADE06B3DBF",
-         "layer" : 2,
+         "guid" : "006047050C01131B002E03E574A42773",
+         "layer" : 0,
          "name" : "Menu Canvas",
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
@@ -55,7 +55,7 @@
                "classname" : "ComRectTransform",
                "enabled" : true,
                "guid" : "006E4B9C2C011412001A01999F10D38D",
-               "origin" : "-617 412.5 0",
+               "origin" : "-575.5 412.5 0",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
@@ -86,7 +86,7 @@
                "normal_color" : "1 1 1",
                "press_color" : "0.5 0.5 0.5",
                "script" : "0035361E0D0C0C040034005CDAD9E240",
-               "target" : "006052D304010F12002303ADE06B3DBF",
+               "target" : "006047050C01131B002E03E574A42773",
                "translation" : 2.0
             }
          ],
@@ -94,7 +94,7 @@
          "guid" : "006D19772C011412001A01999F10BC05",
          "layer" : 2,
          "name" : "ChangeMapButton",
-         "parent" : "006052D304010F12002303ADE06B3DBF",
+         "parent" : "006047050C01131B002E03E574A42773",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
          "staticMask" : 0,
@@ -172,7 +172,7 @@
          "guid" : "0060120D1D011314000002FDE80D2C00",
          "layer" : 0,
          "name" : "MapButtons",
-         "parent" : "006052D304010F12002303ADE06B3DBF",
+         "parent" : "006047050C01131B002E03E574A42773",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
          "staticMask" : 0,
@@ -191,7 +191,7 @@
                "classname" : "ComRectTransform",
                "enabled" : true,
                "guid" : "00E85C4209011412003603AE73E11082",
-               "origin" : "-427 412.5 0",
+               "origin" : "-385.5 412.5 0",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
@@ -222,7 +222,7 @@
                "normal_color" : "1 1 1",
                "press_color" : "0.5 0.5 0.5",
                "script" : "0035361E0D0C0C040034005CDAD9E240",
-               "target" : "006052D304010F12002303ADE06B3DBF",
+               "target" : "006047050C01131B002E03E574A42773",
                "translation" : 2.0
             }
          ],
@@ -302,7 +302,7 @@
                "classname" : "ComRectTransform",
                "enabled" : true,
                "guid" : "00DA300C3201141200350208684D84DB",
-               "origin" : "-237 412.5 0",
+               "origin" : "-195.5 412.5 0",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
@@ -333,7 +333,7 @@
                "normal_color" : "1 1 1",
                "press_color" : "0.5 0.5 0.5",
                "script" : "0035361E0D0C0C040034005CDAD9E240",
-               "target" : "006052D304010F12002303ADE06B3DBF",
+               "target" : "006047050C01131B002E03E574A42773",
                "translation" : 2.0
             }
          ],
@@ -413,7 +413,7 @@
                "classname" : "ComRectTransform",
                "enabled" : true,
                "guid" : "00A871FA3801141200310059DC924CF4",
-               "origin" : "-47 412.5 0",
+               "origin" : "-5.5 412.5 0",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
@@ -444,7 +444,7 @@
                "normal_color" : "1 1 1",
                "press_color" : "0.5 0.5 0.5",
                "script" : "0035361E0D0C0C040034005CDAD9E240",
-               "target" : "006052D304010F12002303ADE06B3DBF",
+               "target" : "006047050C01131B002E03E574A42773",
                "translation" : 2.0
             }
          ],
@@ -524,7 +524,7 @@
                "classname" : "ComRectTransform",
                "enabled" : true,
                "guid" : "00CC309D200114120035005A5D515239",
-               "origin" : "143 412.5 0",
+               "origin" : "184.5 412.5 0",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
@@ -555,7 +555,7 @@
                "normal_color" : "1 1 1",
                "press_color" : "0.5 0.5 0.5",
                "script" : "0035361E0D0C0C040034005CDAD9E240",
-               "target" : "006052D304010F12002303ADE06B3DBF",
+               "target" : "006047050C01131B002E03E574A42773",
                "translation" : 2.0
             }
          ],
@@ -635,7 +635,7 @@
                "classname" : "ComRectTransform",
                "enabled" : true,
                "guid" : "00BE6E7011011412003400CB30AE941C",
-               "origin" : "333 412.5 0",
+               "origin" : "374.5 412.5 0",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
@@ -666,7 +666,7 @@
                "normal_color" : "1 1 1",
                "press_color" : "0.5 0.5 0.5",
                "script" : "0035361E0D0C0C040034005CDAD9E240",
-               "target" : "006052D304010F12002303ADE06B3DBF",
+               "target" : "006047050C01131B002E03E574A42773",
                "translation" : 2.0
             }
          ],
@@ -746,7 +746,7 @@
                "classname" : "ComRectTransform",
                "enabled" : true,
                "guid" : "00740FE92A010A15002C0244D04D573C",
-               "origin" : "523 412.5 0",
+               "origin" : "564.5 412.5 0",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
@@ -777,7 +777,7 @@
                "normal_color" : "1 1 1",
                "press_color" : "0.5 0.5 0.5",
                "script" : "0035361E0D0C0C040034005CDAD9E240",
-               "target" : "006052D304010F12002303ADE06B3DBF",
+               "target" : "006047050C01131B002E03E574A42773",
                "translation" : 2.0
             }
          ],
@@ -857,7 +857,7 @@
                "classname" : "ComRectTransform",
                "enabled" : true,
                "guid" : "008A546216010A15002E00970BA6C09C",
-               "origin" : "-427 322.5 0",
+               "origin" : "-385.5 322.5 0",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
@@ -888,7 +888,7 @@
                "normal_color" : "1 1 1",
                "press_color" : "0.5 0.5 0.5",
                "script" : "0035361E0D0C0C040034005CDAD9E240",
-               "target" : "006052D304010F12002303ADE06B3DBF",
+               "target" : "006047050C01131B002E03E574A42773",
                "translation" : 2.0
             }
          ],
@@ -968,7 +968,7 @@
                "classname" : "ComRectTransform",
                "enabled" : true,
                "guid" : "009F677F05010A15002F00042531B860",
-               "origin" : "-237 322.5 0",
+               "origin" : "-195.5 322.5 0",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
@@ -999,7 +999,7 @@
                "normal_color" : "1 1 1",
                "press_color" : "0.5 0.5 0.5",
                "script" : "0035361E0D0C0C040034005CDAD9E240",
-               "target" : "006052D304010F12002303ADE06B3DBF",
+               "target" : "006047050C01131B002E03E574A42773",
                "translation" : 2.0
             }
          ],
@@ -1079,7 +1079,7 @@
                "classname" : "ComRectTransform",
                "enabled" : true,
                "guid" : "00AD516304010A15003101B26C61270B",
-               "origin" : "-47 322.5 0",
+               "origin" : "-5.5 322.5 0",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
@@ -1110,7 +1110,7 @@
                "normal_color" : "1 1 1",
                "press_color" : "0.5 0.5 0.5",
                "script" : "0035361E0D0C0C040034005CDAD9E240",
-               "target" : "006052D304010F12002303ADE06B3DBF",
+               "target" : "006047050C01131B002E03E574A42773",
                "translation" : 2.0
             }
          ],
@@ -1190,7 +1190,7 @@
                "classname" : "ComRectTransform",
                "enabled" : true,
                "guid" : "00BF40862B010A15003102BD83C8DFE2",
-               "origin" : "143 322.5 0",
+               "origin" : "184.5 322.5 0",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
@@ -1221,7 +1221,7 @@
                "normal_color" : "1 1 1",
                "press_color" : "0.5 0.5 0.5",
                "script" : "0035361E0D0C0C040034005CDAD9E240",
-               "target" : "006052D304010F12002303ADE06B3DBF",
+               "target" : "006047050C01131B002E03E574A42773",
                "translation" : 2.0
             }
          ],
@@ -1301,7 +1301,7 @@
                "classname" : "ComRectTransform",
                "enabled" : true,
                "guid" : "00CD724B38010A150031035F8BA148D4",
-               "origin" : "333 322.5 0",
+               "origin" : "374.5 322.5 0",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
@@ -1332,7 +1332,7 @@
                "normal_color" : "1 1 1",
                "press_color" : "0.5 0.5 0.5",
                "script" : "0035361E0D0C0C040034005CDAD9E240",
-               "target" : "006052D304010F12002303ADE06B3DBF",
+               "target" : "006047050C01131B002E03E574A42773",
                "translation" : 2.0
             }
          ],
@@ -1402,7 +1402,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "000966E43A01091B000903E593C36285",
+      "guid" : "00091AF73101131B003301713D226F58",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1
