@@ -23,7 +23,11 @@
             {
                "classname" : "ComCanvas",
                "enabled" : true,
-               "guid" : "007870860C010B16000901BC67CD4ACE"
+               "guid" : "007870860C010B16000901BC67CD4ACE",
+               "match" : 0.0,
+               "matchMode" : 0,
+               "referenceResolution" : "1280 720",
+               "scaleMode" : 1
             }
          ],
          "frozen" : false,
@@ -2351,7 +2355,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "0009264B3B01091B0012021ED5F41635",
+      "guid" : "00095F6C15010E1C003003A23FFA705E",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1

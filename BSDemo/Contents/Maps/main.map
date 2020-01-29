@@ -18,12 +18,16 @@
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
                "scale" : "1 1 1",
-               "sizeDelta" : "1351 925"
+               "sizeDelta" : "1230 692"
             },
             {
                "classname" : "ComCanvas",
                "enabled" : true,
-               "guid" : "006210880C01131B002E03E674A4413F"
+               "guid" : "006210880C01131B002E03E674A4413F",
+               "match" : 0.0,
+               "matchMode" : 0,
+               "referenceResolution" : "1280 720",
+               "scaleMode" : 1
             },
             {
                "classname" : "ComScript",
@@ -50,17 +54,17 @@
             {
                "anchorMaxs" : "0 1",
                "anchorMins" : "0 1",
-               "anchoredPosition" : "100 -50",
+               "anchoredPosition" : "90 -50",
                "angles" : "0 0 0",
                "classname" : "ComRectTransform",
                "enabled" : true,
                "guid" : "006E4B9C2C011412001A01999F10D38D",
-               "origin" : "-575.5 412.5 0",
+               "origin" : "-525 296 0",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
                "scale" : "1 1 1",
-               "sizeDelta" : "180 80"
+               "sizeDelta" : "160 80"
             },
             {
                "alpha" : 1.0,
@@ -128,7 +132,7 @@
                "drawMode" : 1,
                "enabled" : true,
                "font" : "006661FF380C1006001F0110D966C526",
-               "fontSize" : 26,
+               "fontSize" : 25,
                "guid" : "007213612C011412001A01D79F1A3349",
                "horzAlignment" : 1,
                "horzOverflow" : 0,
@@ -186,17 +190,17 @@
             {
                "anchorMaxs" : "0 1",
                "anchorMins" : "0 1",
-               "anchoredPosition" : "290 -50",
+               "anchoredPosition" : "260 -50",
                "angles" : "0 0 0",
                "classname" : "ComRectTransform",
                "enabled" : true,
                "guid" : "00E85C4209011412003603AE73E11082",
-               "origin" : "-385.5 412.5 0",
+               "origin" : "-355 296 0",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
                "scale" : "1 1 1",
-               "sizeDelta" : "180 80"
+               "sizeDelta" : "160 80"
             },
             {
                "alpha" : 1.0,
@@ -264,7 +268,7 @@
                "drawMode" : 1,
                "enabled" : true,
                "font" : "006661FF380C1006001F0110D966C526",
-               "fontSize" : 26,
+               "fontSize" : 25,
                "guid" : "00ED121C09011412003603AE73E115C8",
                "horzAlignment" : 1,
                "horzOverflow" : 0,
@@ -297,17 +301,17 @@
             {
                "anchorMaxs" : "0 1",
                "anchorMins" : "0 1",
-               "anchoredPosition" : "480 -50",
+               "anchoredPosition" : "430 -50",
                "angles" : "0 0 0",
                "classname" : "ComRectTransform",
                "enabled" : true,
                "guid" : "00DA300C3201141200350208684D84DB",
-               "origin" : "-195.5 412.5 0",
+               "origin" : "-185 296 0",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
                "scale" : "1 1 1",
-               "sizeDelta" : "180 80"
+               "sizeDelta" : "160 80"
             },
             {
                "alpha" : 1.0,
@@ -375,7 +379,7 @@
                "drawMode" : 1,
                "enabled" : true,
                "font" : "006661FF380C1006001F0110D966C526",
-               "fontSize" : 26,
+               "fontSize" : 25,
                "guid" : "00DF0BEE3201141200350208684D891A",
                "horzAlignment" : 1,
                "horzOverflow" : 0,
@@ -408,17 +412,17 @@
             {
                "anchorMaxs" : "0 1",
                "anchorMins" : "0 1",
-               "anchoredPosition" : "670 -50",
+               "anchoredPosition" : "600 -50",
                "angles" : "0 0 0",
                "classname" : "ComRectTransform",
                "enabled" : true,
                "guid" : "00A871FA3801141200310059DC924CF4",
-               "origin" : "-5.5 412.5 0",
+               "origin" : "-15 296 0",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
                "scale" : "1 1 1",
-               "sizeDelta" : "180 80"
+               "sizeDelta" : "160 80"
             },
             {
                "alpha" : 1.0,
@@ -486,7 +490,7 @@
                "drawMode" : 1,
                "enabled" : true,
                "font" : "006661FF380C1006001F0110D966C526",
-               "fontSize" : 26,
+               "fontSize" : 25,
                "guid" : "00AD79733801141200310059DC92513F",
                "horzAlignment" : 1,
                "horzOverflow" : 0,
@@ -519,17 +523,17 @@
             {
                "anchorMaxs" : "0 1",
                "anchorMins" : "0 1",
-               "anchoredPosition" : "860 -50",
+               "anchoredPosition" : "770 -50",
                "angles" : "0 0 0",
                "classname" : "ComRectTransform",
                "enabled" : true,
                "guid" : "00CC309D200114120035005A5D515239",
-               "origin" : "184.5 412.5 0",
+               "origin" : "155 296 0",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
                "scale" : "1 1 1",
-               "sizeDelta" : "180 80"
+               "sizeDelta" : "160 80"
             },
             {
                "alpha" : 1.0,
@@ -597,7 +601,7 @@
                "drawMode" : 1,
                "enabled" : true,
                "font" : "006661FF380C1006001F0110D966C526",
-               "fontSize" : 26,
+               "fontSize" : 25,
                "guid" : "00D15B31200114120035005A5D5156A6",
                "horzAlignment" : 1,
                "horzOverflow" : 0,
@@ -630,17 +634,17 @@
             {
                "anchorMaxs" : "0 1",
                "anchorMins" : "0 1",
-               "anchoredPosition" : "1050 -50",
+               "anchoredPosition" : "940 -50",
                "angles" : "0 0 0",
                "classname" : "ComRectTransform",
                "enabled" : true,
                "guid" : "00BE6E7011011412003400CB30AE941C",
-               "origin" : "374.5 412.5 0",
+               "origin" : "325 296 0",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
                "scale" : "1 1 1",
-               "sizeDelta" : "180 80"
+               "sizeDelta" : "160 80"
             },
             {
                "alpha" : 1.0,
@@ -708,7 +712,7 @@
                "drawMode" : 1,
                "enabled" : true,
                "font" : "006661FF380C1006001F0110D966C526",
-               "fontSize" : 26,
+               "fontSize" : 25,
                "guid" : "00C31D5011011412003400CB30AE9951",
                "horzAlignment" : 1,
                "horzOverflow" : 0,
@@ -741,17 +745,17 @@
             {
                "anchorMaxs" : "0 1",
                "anchorMins" : "0 1",
-               "anchoredPosition" : "1240 -50",
+               "anchoredPosition" : "1110 -50",
                "angles" : "0 0 0",
                "classname" : "ComRectTransform",
                "enabled" : true,
                "guid" : "00740FE92A010A15002C0244D04D573C",
-               "origin" : "564.5 412.5 0",
+               "origin" : "495 296 0",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
                "scale" : "1 1 1",
-               "sizeDelta" : "180 80"
+               "sizeDelta" : "160 80"
             },
             {
                "alpha" : 1.0,
@@ -819,7 +823,7 @@
                "drawMode" : 1,
                "enabled" : true,
                "font" : "006661FF380C1006001F0110D966C526",
-               "fontSize" : 26,
+               "fontSize" : 25,
                "guid" : "007942962A010A15002C0244D04D584A",
                "horzAlignment" : 1,
                "horzOverflow" : 0,
@@ -852,17 +856,17 @@
             {
                "anchorMaxs" : "0 1",
                "anchorMins" : "0 1",
-               "anchoredPosition" : "290 -140",
+               "anchoredPosition" : "260 -140",
                "angles" : "0 0 0",
                "classname" : "ComRectTransform",
                "enabled" : true,
                "guid" : "008A546216010A15002E00970BA6C09C",
-               "origin" : "-385.5 322.5 0",
+               "origin" : "-355 206 0",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
                "scale" : "1 1 1",
-               "sizeDelta" : "180 80"
+               "sizeDelta" : "160 80"
             },
             {
                "alpha" : 1.0,
@@ -930,7 +934,7 @@
                "drawMode" : 1,
                "enabled" : true,
                "font" : "006661FF380C1006001F0110D966C526",
-               "fontSize" : 26,
+               "fontSize" : 25,
                "guid" : "008F640816010A15002E00970BA6C525",
                "horzAlignment" : 1,
                "horzOverflow" : 0,
@@ -963,17 +967,17 @@
             {
                "anchorMaxs" : "0 1",
                "anchorMins" : "0 1",
-               "anchoredPosition" : "480 -140",
+               "anchoredPosition" : "430 -140",
                "angles" : "0 0 0",
                "classname" : "ComRectTransform",
                "enabled" : true,
                "guid" : "009F677F05010A15002F00042531B860",
-               "origin" : "-195.5 322.5 0",
+               "origin" : "-185 206 0",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
                "scale" : "1 1 1",
-               "sizeDelta" : "180 80"
+               "sizeDelta" : "160 80"
             },
             {
                "alpha" : 1.0,
@@ -1041,7 +1045,7 @@
                "drawMode" : 1,
                "enabled" : true,
                "font" : "006661FF380C1006001F0110D966C526",
-               "fontSize" : 26,
+               "fontSize" : 25,
                "guid" : "00A42C6A05010A15002F00052531BC91",
                "horzAlignment" : 1,
                "horzOverflow" : 0,
@@ -1074,17 +1078,17 @@
             {
                "anchorMaxs" : "0 1",
                "anchorMins" : "0 1",
-               "anchoredPosition" : "670 -140",
+               "anchoredPosition" : "600 -140",
                "angles" : "0 0 0",
                "classname" : "ComRectTransform",
                "enabled" : true,
                "guid" : "00AD516304010A15003101B26C61270B",
-               "origin" : "-5.5 322.5 0",
+               "origin" : "-15 206 0",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
                "scale" : "1 1 1",
-               "sizeDelta" : "180 80"
+               "sizeDelta" : "160 80"
             },
             {
                "alpha" : 1.0,
@@ -1152,7 +1156,7 @@
                "drawMode" : 1,
                "enabled" : true,
                "font" : "006661FF380C1006001F0110D966C526",
-               "fontSize" : 26,
+               "fontSize" : 25,
                "guid" : "00B20BA804010A15003101B26C612BAC",
                "horzAlignment" : 1,
                "horzOverflow" : 0,
@@ -1185,17 +1189,17 @@
             {
                "anchorMaxs" : "0 1",
                "anchorMins" : "0 1",
-               "anchoredPosition" : "860 -140",
+               "anchoredPosition" : "770 -140",
                "angles" : "0 0 0",
                "classname" : "ComRectTransform",
                "enabled" : true,
                "guid" : "00BF40862B010A15003102BD83C8DFE2",
-               "origin" : "184.5 322.5 0",
+               "origin" : "155 206 0",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
                "scale" : "1 1 1",
-               "sizeDelta" : "180 80"
+               "sizeDelta" : "160 80"
             },
             {
                "alpha" : 1.0,
@@ -1263,7 +1267,7 @@
                "drawMode" : 1,
                "enabled" : true,
                "font" : "006661FF380C1006001F0110D966C526",
-               "fontSize" : 26,
+               "fontSize" : 25,
                "guid" : "00C41D8B2B010A15003102BD83C8E03B",
                "horzAlignment" : 1,
                "horzOverflow" : 0,
@@ -1296,17 +1300,17 @@
             {
                "anchorMaxs" : "0 1",
                "anchorMins" : "0 1",
-               "anchoredPosition" : "1050 -140",
+               "anchoredPosition" : "940 -140",
                "angles" : "0 0 0",
                "classname" : "ComRectTransform",
                "enabled" : true,
                "guid" : "00CD724B38010A150031035F8BA148D4",
-               "origin" : "374.5 322.5 0",
+               "origin" : "325 206 0",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
                "scale" : "1 1 1",
-               "sizeDelta" : "180 80"
+               "sizeDelta" : "160 80"
             },
             {
                "alpha" : 1.0,
@@ -1374,7 +1378,7 @@
                "drawMode" : 1,
                "enabled" : true,
                "font" : "006661FF380C1006001F0110D966C526",
-               "fontSize" : 26,
+               "fontSize" : 25,
                "guid" : "00D2073538010A150031035F8BA14D67",
                "horzAlignment" : 1,
                "horzOverflow" : 0,
@@ -1402,7 +1406,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "00091AF73101131B003301713D226F58",
+      "guid" : "00095F6C15010E1C003003A23FFA705E",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1

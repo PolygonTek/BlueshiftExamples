@@ -1,7 +1,7 @@
 local blueshift = require "blueshift"
 local admob = require "admob"
 
-local map_buttons = {
+local maps_for_buttons = {
 	['MapButton 1'] = 'Contents/Maps/third_person_player.map',
 	['MapButton 2'] = 'Contents/Maps/joints.map',
 	['MapButton 3'] = 'Contents/Maps/rolling_friction.map',
@@ -14,20 +14,23 @@ local map_buttons = {
 	['MapButton 10'] = 'Contents/Maps/3d_sound.map',
 }
 
+m = {}
+
 function awake()
+	m.map_buttons = owner.game_world:find_entity("MapButtons")
+
 	owner.game_world:dont_destroy_on_load(owner.game_world:find_entity("Menu Canvas"))
 
-	owner.game_world:restart_game(map_buttons['MapButton 1'])
+	owner.game_world:restart_game(maps_for_buttons['MapButton 1'])
 end
 
 function on_clicked(name)
 	if name == 'ChangeMapButton' then
-		local map_buttons = owner.game_world:find_entity("MapButtons")
-		map_buttons:set_active(not map_buttons:is_active_self())
+		m.map_buttons:set_active(not m.map_buttons:is_active_self())
 	else 
-		for k, v in pairs(map_buttons) do
+		for k, v in pairs(maps_for_buttons) do
 			if k == name then
-				map_buttons:set_active(false)
+				m.map_buttons:set_active(false)
 				
 				owner.game_world:restart_game(v)
 				return
