@@ -29,15 +29,17 @@ function update()
 
     if touch_count > 0 then
         local knob_center = owner.transform:origin()
-        -- knob center position in screen coordinates
-        local knob_screen_center = m.canvas:world_to_screen(knob_center) 
-        local knob_screen_radius = properties.knob_radius.value
+        -- knob center position in canvas space.
+        local knob_center_in_canvas = m.canvas:world_to_canvas_point(knob_center) 
+        local knob_radius_in_canvas = properties.knob_radius.value
 
-        for i = 0, touch_count do
+        for i = 0, touch_count - 1 do
             local touch = Input.touch(i)
+            local touch_point_in_canvas = m.canvas:screen_to_canvas_point(touch:position())
+
             if touch:phase() == Input.Touch.Started then
-                -- Check if touch screen coordinates are within knob radius.
-                if touch:position():distance_squared(knob_screen_center) <= knob_screen_radius * knob_screen_radius then
+                -- Check if touch point is within knob radius.
+                if touch_point_in_canvas:distance_squared(knob_center_in_canvas) <= knob_radius_in_canvas * knob_radius_in_canvas then
                     m.clicked_id = touch:id()
                 end
             elseif touch:phase() == Input.Touch.Ended or touch:phase() == Input.Touch.Canceled then
@@ -53,15 +55,16 @@ function update()
                 end
             elseif touch:phase() == Input.Touch.Moved then
                 if touch:id() == m.clicked_id then
-                    m.knob_delta:set_x(touch:position():x() - knob_screen_center:x())
-                    m.knob_delta:set_y(touch:position():y() - knob_screen_center:y())
+                    m.knob_delta:set_x(touch_point_in_canvas:x() - knob_center_in_canvas:x())
+                    m.knob_delta:set_y(touch_point_in_canvas:y() - knob_center_in_canvas:y())
+                    --m.knob_delta = touch_point_in_canvas - knob_center_in_canvas
 
-                    if m.knob_delta:length_squared() >= knob_screen_radius * knob_screen_radius then
+                    if m.knob_delta:length_squared() >= knob_radius_in_canvas * knob_radius_in_canvas then
                         m.knob_delta:normalize()
-                        m.knob_delta = m.knob_delta:mul(knob_screen_radius)
+                        m.knob_delta = m.knob_delta:mul(knob_radius_in_canvas)
                     end
 
-                    local ray = m.canvas:screen_to_ray(knob_screen_center + Point(m.knob_delta:x(), m.knob_delta:y()))
+                    local ray = m.canvas:canvas_point_to_ray(knob_center_in_canvas + Point(m.knob_delta:x(), m.knob_delta:y()))
 
                     local knob_plane = Plane(-m.canvas_transform:axis():at(2), 0)
                     knob_plane:fit_through_point(knob_center)
@@ -70,7 +73,7 @@ function update()
                     m.knob_transform:set_origin(ray:origin() + ray:direction():mul(s))
 
                     -- Normalize.
-                    m.knob_delta = m.knob_delta:div(knob_screen_radius)
+                    m.knob_delta = m.knob_delta:div(knob_radius_in_canvas)
                 end
             end
         end

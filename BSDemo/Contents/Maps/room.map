@@ -55,7 +55,7 @@
                "guid" : "013D20D02E010B1600030319A5B2D7A9",
                "origin" : "-573 -318.5 0",
                "pivot" : "0.5 0.5",
-               "rayCastTarget" : true,
+               "rayCastTarget" : false,
                "rotation" : "0 0 0 1",
                "scale" : "1 1 1",
                "sizeDelta" : "192 192"
@@ -106,7 +106,7 @@
                "guid" : "01417AA32E010B1600030319A5B2D913",
                "origin" : "0 0 0",
                "pivot" : "0.5 0.5",
-               "rayCastTarget" : true,
+               "rayCastTarget" : false,
                "rotation" : "0 0 0 1",
                "scale" : "1 1 1",
                "sizeDelta" : "96 96"
@@ -150,7 +150,7 @@
                "guid" : "01442E7B2E010B1600030319A5B2DA97",
                "origin" : "573 -318.5 0",
                "pivot" : "0.5 0.5",
-               "rayCastTarget" : true,
+               "rayCastTarget" : false,
                "rotation" : "0 0 0 1",
                "scale" : "1 1 1",
                "sizeDelta" : "192 192"
@@ -201,7 +201,7 @@
                "guid" : "014839212E010B1600030319A5B2DC7B",
                "origin" : "0 0 0",
                "pivot" : "0.5 0.5",
-               "rayCastTarget" : true,
+               "rayCastTarget" : false,
                "rotation" : "0 0 0 1",
                "scale" : "1 1 1",
                "sizeDelta" : "96 96"
@@ -2820,7 +2820,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "00095F6C15010E1C003003A23FFA705E",
+      "guid" : "0009658F0001161C00390273828DBAC6",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1

@@ -29,10 +29,10 @@ function on_clicked(name)
 		m.map_buttons:set_active(not m.map_buttons:is_active_self())
 	else 
 		for k, v in pairs(maps_for_buttons) do
-			if k == name then
-				m.map_buttons:set_active(false)
-				
+			if k == name then			
 				owner.game_world:restart_game(v)
+
+				m.map_buttons:set_active(false)
 				return
 			end
 		end

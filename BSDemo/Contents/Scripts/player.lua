@@ -215,7 +215,7 @@ function handle_mouse_shoot()
     if Input.is_key_down(Input.KeyCode.Mouse1) then
         local camera = m.camera_entity:camera()
         local mouse_pos = Input.mouse_pos()
-        local ray = camera:screen_to_ray(mouse_pos)
+        local ray = camera:screen_point_to_ray(mouse_pos)
         local min_scale = blueshift.meter_to_unit(100)
         local cast_result = Physics.CastResult()
 
@@ -240,7 +240,7 @@ function handle_mouse_joint()
         if touch:phase() == Input.Touch.Started then
             if not is_point_over_entity(touch:position()) then
                 local camera = m.camera_entity:camera()
-                local ray = camera:screen_to_ray(touch:position())
+                local ray = camera:screen_point_to_ray(touch:position())
                 local max_dist = blueshift.meter_to_unit(30)
                 local cast_result = Physics.CastResult()
 
@@ -266,7 +266,7 @@ function handle_mouse_joint()
         elseif touch:phase() == Input.Touch.Moved then
             if touch:id() == m.clicked_id then
                 local camera = m.camera_entity:camera()
-                local ray = camera:screen_to_ray(touch:position())
+                local ray = camera:screen_point_to_ray(touch:position())
 
                 m.dragger_entity:socket_joint():set_local_anchor(ray:get_point(m.old_picking_dist))
 
@@ -275,7 +275,7 @@ function handle_mouse_joint()
         else
             if m.dragger_entity:socket_joint():connected_body() then
                 local camera = m.camera_entity:camera()
-                local ray = camera:screen_to_ray(m.last_touch_position)
+                local ray = camera:screen_point_to_ray(m.last_touch_position)
 
                 m.dragger_entity:socket_joint():set_local_anchor(ray:get_point(m.old_picking_dist))
             end
