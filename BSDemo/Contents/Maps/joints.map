@@ -18,7 +18,7 @@
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
                "scale" : "1 1 1",
-               "sizeDelta" : "1434 925"
+               "sizeDelta" : "1280 968"
             },
             {
                "classname" : "ComCanvas",
@@ -53,7 +53,7 @@
                "classname" : "ComRectTransform",
                "enabled" : true,
                "guid" : "00C36A5022010A1600390389C8092B07",
-               "origin" : "-573 -318.5 0",
+               "origin" : "-496 -340 0",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : false,
                "rotation" : "0 0 0 1",
@@ -148,7 +148,7 @@
                "classname" : "ComRectTransform",
                "enabled" : true,
                "guid" : "00CA65D922010A1600390389C8092E6C",
-               "origin" : "573 -318.5 0",
+               "origin" : "496 -340 0",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : false,
                "rotation" : "0 0 0 1",
@@ -3712,9 +3712,9 @@
                "swing2Stiffness" : 80.0,
                "swing2UpperLimit" : 45.0,
                "twistDamping" : 1.0,
-               "twistLowerLimit" : 0.0,
-               "twistStiffness" : 0.0,
-               "twistUpperLimit" : 0.0
+               "twistLowerLimit" : -30.0,
+               "twistStiffness" : 6.0,
+               "twistUpperLimit" : 30.0
             }
          ],
          "frozen" : false,
@@ -3797,9 +3797,9 @@
                "swing2Stiffness" : 80.0,
                "swing2UpperLimit" : 45.0,
                "twistDamping" : 1.0,
-               "twistLowerLimit" : 0.0,
-               "twistStiffness" : 0.0,
-               "twistUpperLimit" : 0.0
+               "twistLowerLimit" : -30.0,
+               "twistStiffness" : 6.0,
+               "twistUpperLimit" : 30.0
             }
          ],
          "frozen" : false,
@@ -3882,9 +3882,9 @@
                "swing2Stiffness" : 80.0,
                "swing2UpperLimit" : 45.0,
                "twistDamping" : 1.0,
-               "twistLowerLimit" : 0.0,
-               "twistStiffness" : 0.0,
-               "twistUpperLimit" : 0.0
+               "twistLowerLimit" : -30.0,
+               "twistStiffness" : 6.0,
+               "twistUpperLimit" : 30.0
             }
          ],
          "frozen" : false,
@@ -4464,7 +4464,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "00094F6C2201001D000A02A1C987CDCE",
+      "guid" : "00090CE22F01171D001103A89531B806",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1

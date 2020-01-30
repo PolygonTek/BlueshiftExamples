@@ -12,7 +12,7 @@ properties = {
 	press_color = { label = "Press Color", type = "color3", value = Color3(0.5, 0.5, 0.5) },
     disable_color = { label = "Disable Color", type = "color3", value = Color3(0.3, 0.3, 0.3) },
     disable_material = { label = "Disable Material", type = "object", classname = "MaterialResource", value = nil },
-	button_sound = { label = "Button Sound", type = "object", classname = "SoundResource", value = nil },
+	click_sound = { label = "Click Sound", type = "object", classname = "SoundResource", value = nil },
 	translation = { label = "Translation", type = "float", value = 2.0 }
 }
 
@@ -23,7 +23,7 @@ property_names = {
 	"press_color",
     "disable_color",
     "disable_material",
-	"button_sound",
+	"click_sound",
 	"translation"
 }
 
@@ -37,8 +37,8 @@ m = {
 }
 
 function awake()
-    if properties.button_sound.value then
-		m.button_sound = properties.button_sound.value:cast_asset():sound()		
+    if properties.click_sound.value then
+		m.click_sound = properties.click_sound.value:cast_asset():sound()		
 	end
 
     -- List up target script states
@@ -202,8 +202,8 @@ function on_pointer_click()
         return
     end
     
-    if m.button_sound then
-		m.button_sound:instantiate():play2d(1.0, false)
+    if m.click_sound then
+		m.click_sound:instantiate():play2d(1.0, false)
 	end
             
     for i = 1, #m.target_script_states do
