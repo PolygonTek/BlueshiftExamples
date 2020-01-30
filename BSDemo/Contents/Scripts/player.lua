@@ -235,7 +235,7 @@ function is_point_over_entity(point)
 end
 
 function handle_mouse_joint()
-    for i = 0, Input.touch_count() do
+    for i = 0, Input.touch_count() - 1 do
         local touch = Input.touch(i)
         if touch:phase() == Input.Touch.Started then
             if not is_point_over_entity(touch:position()) then

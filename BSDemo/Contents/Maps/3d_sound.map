@@ -2532,13 +2532,27 @@
                "guid" : "006541E603010B16000C0031CD7D8E19"
             },
             {
+               "angularDamping" : 0.0099999997764825821,
+               "ccd" : false,
+               "classname" : "ComRigidBody",
+               "enabled" : true,
+               "friction" : 1.0,
+               "guid" : "00682F5702010B1D003700C6337F7817",
+               "kinematic" : false,
+               "linearDamping" : 0.05000000074505806,
+               "mass" : 1.0,
+               "restitution" : 0.0,
+               "rollingFriction" : 1.0,
+               "spinningFriction" : 1.0
+            },
+            {
                "audioClip" : "00857F242E010B1600150387297E7795",
                "classname" : "ComAudioSource",
                "enabled" : true,
                "guid" : "007625E101010B16000E012713F87A0D",
                "looping" : true,
                "maxDistance" : 7.0,
-               "minDistance" : 2.0,
+               "minDistance" : 1.0,
                "playOnAwake" : true,
                "spatial" : true,
                "volume" : 1.0
@@ -2593,13 +2607,27 @@
                "guid" : "006D2DC33A010B16000C03A4EECC7BD8"
             },
             {
+               "angularDamping" : 0.0099999997764825821,
+               "ccd" : false,
+               "classname" : "ComRigidBody",
+               "enabled" : true,
+               "friction" : 1.0,
+               "guid" : "006934920D010B1D003701BC3A336E1F",
+               "kinematic" : false,
+               "linearDamping" : 0.05000000074505806,
+               "mass" : 1.0,
+               "restitution" : 0.0,
+               "rollingFriction" : 1.0,
+               "spinningFriction" : 1.0
+            },
+            {
                "audioClip" : "004B16FE22010C1C0034038315C064A6",
                "classname" : "ComAudioSource",
                "enabled" : true,
                "guid" : "00774D7D01010B16000E012713F880C1",
                "looping" : true,
                "maxDistance" : 7.0,
-               "minDistance" : 2.0,
+               "minDistance" : 1.0,
                "playOnAwake" : true,
                "spatial" : true,
                "volume" : 1.0
@@ -2654,13 +2682,27 @@
                "guid" : "00715CEE3B010B16000C0011EED97D41"
             },
             {
+               "angularDamping" : 0.0099999997764825821,
+               "ccd" : false,
+               "classname" : "ComRigidBody",
+               "enabled" : true,
+               "friction" : 1.0,
+               "guid" : "006A190D0D010B1D003701BC3A337A95",
+               "kinematic" : false,
+               "linearDamping" : 0.05000000074505806,
+               "mass" : 1.0,
+               "restitution" : 0.0,
+               "rollingFriction" : 1.0,
+               "spinningFriction" : 1.0
+            },
+            {
                "audioClip" : "006065B5090100170039015C12041D7E",
                "classname" : "ComAudioSource",
                "enabled" : true,
                "guid" : "0078544D01010B16000E012713F884C6",
                "looping" : true,
                "maxDistance" : 7.0,
-               "minDistance" : 2.0,
+               "minDistance" : 1.0,
                "playOnAwake" : true,
                "spatial" : true,
                "volume" : 1.0
@@ -2679,7 +2721,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "0009658F0001161C00390273828DBAC6",
+      "guid" : "000970A00A010B1D0036028814C58F76",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1
