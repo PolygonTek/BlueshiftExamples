@@ -76,6 +76,24 @@ function set_disable(disable)
     set_enable(not disable)
 end
 
+function is_checked()
+    return m.checked
+end
+
+function set_checked(checked) 
+    m.checked = checked
+    
+    local target_alpha = m.checked and 1.0 or 0.0
+
+    tween.add(tween.EaseOutQuadratic, 0.15, false, m.checkmark_image:alpha(), target_alpha, function(alpha)
+        m.checkmark_image:set_alpha(alpha)
+    end)
+            
+    for i = 1, #m.target_script_states do
+        m.target_script_states[i].on_clicked(owner.name)
+    end
+end
+
 function on_pointer_down()
     if not m.enabled then
         return
@@ -159,20 +177,10 @@ function on_pointer_click()
         return
     end
 
-    m.checked = not m.checked
-
-    local target_alpha = m.checked and 1.0 or 0.0
-
-    tween.add(tween.EaseOutQuadratic, 0.15, false, m.checkmark_image:alpha(), target_alpha, function(alpha)
-        m.checkmark_image:set_alpha(alpha)
-    end)
+    set_checked(not m.checked)
 
     if m.click_sound then
-		m.click_sound:instantiate():play2d(1.0, false)
-	end
-            
-    for i = 1, #m.target_script_states do
-        m.target_script_states[i].on_clicked(owner.name)
+        m.click_sound:instantiate():play2d(1.0, false)
     end
 end
 

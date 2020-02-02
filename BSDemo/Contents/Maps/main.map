@@ -80,8 +80,8 @@
                "timeScale" : 1.0
             },
             {
-               "button_sound" : "00000000000000000000000000000000",
                "classname" : "ComScript",
+               "click_sound" : "00000000000000000000000000000000",
                "disable_color" : "0.3 0.3 0.3",
                "disable_material" : "00000000000000000000000000000000",
                "enabled" : true,
@@ -216,8 +216,8 @@
                "timeScale" : 1.0
             },
             {
-               "button_sound" : "00000000000000000000000000000000",
                "classname" : "ComScript",
+               "click_sound" : "00000000000000000000000000000000",
                "disable_color" : "0.3 0.3 0.3",
                "disable_material" : "00000000000000000000000000000000",
                "enabled" : true,
@@ -327,8 +327,8 @@
                "timeScale" : 1.0
             },
             {
-               "button_sound" : "00000000000000000000000000000000",
                "classname" : "ComScript",
+               "click_sound" : "00000000000000000000000000000000",
                "disable_color" : "0.3 0.3 0.3",
                "disable_material" : "00000000000000000000000000000000",
                "enabled" : true,
@@ -438,8 +438,8 @@
                "timeScale" : 1.0
             },
             {
-               "button_sound" : "00000000000000000000000000000000",
                "classname" : "ComScript",
+               "click_sound" : "00000000000000000000000000000000",
                "disable_color" : "0.3 0.3 0.3",
                "disable_material" : "00000000000000000000000000000000",
                "enabled" : true,
@@ -549,8 +549,8 @@
                "timeScale" : 1.0
             },
             {
-               "button_sound" : "00000000000000000000000000000000",
                "classname" : "ComScript",
+               "click_sound" : "00000000000000000000000000000000",
                "disable_color" : "0.3 0.3 0.3",
                "disable_material" : "00000000000000000000000000000000",
                "enabled" : true,
@@ -660,8 +660,8 @@
                "timeScale" : 1.0
             },
             {
-               "button_sound" : "00000000000000000000000000000000",
                "classname" : "ComScript",
+               "click_sound" : "00000000000000000000000000000000",
                "disable_color" : "0.3 0.3 0.3",
                "disable_material" : "00000000000000000000000000000000",
                "enabled" : true,
@@ -771,8 +771,8 @@
                "timeScale" : 1.0
             },
             {
-               "button_sound" : "00000000000000000000000000000000",
                "classname" : "ComScript",
+               "click_sound" : "00000000000000000000000000000000",
                "disable_color" : "0.3 0.3 0.3",
                "disable_material" : "00000000000000000000000000000000",
                "enabled" : true,
@@ -882,8 +882,8 @@
                "timeScale" : 1.0
             },
             {
-               "button_sound" : "00000000000000000000000000000000",
                "classname" : "ComScript",
+               "click_sound" : "00000000000000000000000000000000",
                "disable_color" : "0.3 0.3 0.3",
                "disable_material" : "00000000000000000000000000000000",
                "enabled" : true,
@@ -993,8 +993,8 @@
                "timeScale" : 1.0
             },
             {
-               "button_sound" : "00000000000000000000000000000000",
                "classname" : "ComScript",
+               "click_sound" : "00000000000000000000000000000000",
                "disable_color" : "0.3 0.3 0.3",
                "disable_material" : "00000000000000000000000000000000",
                "enabled" : true,
@@ -1104,8 +1104,8 @@
                "timeScale" : 1.0
             },
             {
-               "button_sound" : "00000000000000000000000000000000",
                "classname" : "ComScript",
+               "click_sound" : "00000000000000000000000000000000",
                "disable_color" : "0.3 0.3 0.3",
                "disable_material" : "00000000000000000000000000000000",
                "enabled" : true,
@@ -1215,8 +1215,8 @@
                "timeScale" : 1.0
             },
             {
-               "button_sound" : "00000000000000000000000000000000",
                "classname" : "ComScript",
+               "click_sound" : "00000000000000000000000000000000",
                "disable_color" : "0.3 0.3 0.3",
                "disable_material" : "00000000000000000000000000000000",
                "enabled" : true,
@@ -1326,8 +1326,8 @@
                "timeScale" : 1.0
             },
             {
-               "button_sound" : "00000000000000000000000000000000",
                "classname" : "ComScript",
+               "click_sound" : "00000000000000000000000000000000",
                "disable_color" : "0.3 0.3 0.3",
                "disable_material" : "00000000000000000000000000000000",
                "enabled" : true,
@@ -1384,7 +1384,7 @@
                "horzOverflow" : 0,
                "lineSpacing" : 1.0,
                "maxVisDist" : 4000.0,
-               "text" : "Interstitial AD",
+               "text" : "GUI",
                "textSecondaryAlpha" : 0.80000001192092896,
                "textSecondaryColor" : "0 0 0",
                "timeOffset" : 0.0,
@@ -1402,11 +1402,122 @@
          "prefabSource" : "00000000000000000000000000000000",
          "staticMask" : 0,
          "tag" : "Untagged"
+      },
+      {
+         "active" : true,
+         "activeInHierarchy" : false,
+         "classname" : "Entity",
+         "components" : [
+            {
+               "anchorMaxs" : "0 1",
+               "anchorMins" : "0 1",
+               "anchoredPosition" : "1110 -140",
+               "angles" : "0 0 0",
+               "classname" : "ComRectTransform",
+               "enabled" : true,
+               "guid" : "006913FA35020B01001A0088C29F27EF",
+               "origin" : "495 206 0",
+               "pivot" : "0.5 0.5",
+               "rayCastTarget" : true,
+               "rotation" : "0 0 0 1",
+               "scale" : "1 1 1",
+               "sizeDelta" : "160 80"
+            },
+            {
+               "alpha" : 1.0,
+               "billboard" : false,
+               "classname" : "ComImage",
+               "color" : "1 1 1",
+               "enabled" : true,
+               "guid" : "006A0E7D35020B01001A0088C29F2710",
+               "imageMaterial" : "00803BBC320C160C0038003C24FA7327",
+               "imageType" : 1,
+               "maxVisDist" : 4000.0,
+               "timeOffset" : 0.0,
+               "timeScale" : 1.0
+            },
+            {
+               "classname" : "ComScript",
+               "click_sound" : "00000000000000000000000000000000",
+               "disable_color" : "0.3 0.3 0.3",
+               "disable_material" : "00000000000000000000000000000000",
+               "enabled" : true,
+               "guid" : "006B0CF235020B01001A0088C29F26B3",
+               "hover_color" : "0.82 0.82 0.82",
+               "normal_color" : "1 1 1",
+               "press_color" : "0.5 0.5 0.5",
+               "script" : "0035361E0D0C0C040034005CDAD9E240",
+               "target" : "006047050C01131B002E03E574A42773",
+               "translation" : 2.0
+            }
+         ],
+         "frozen" : false,
+         "guid" : "0068178B35020B01001A0088C29F2424",
+         "layer" : 2,
+         "name" : "MapButton 12",
+         "parent" : "0060120D1D011314000002FDE80D2C00",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
+         "staticMask" : 0,
+         "tag" : "Untagged"
+      },
+      {
+         "active" : true,
+         "activeInHierarchy" : false,
+         "classname" : "Entity",
+         "components" : [
+            {
+               "anchorMaxs" : "1 1",
+               "anchorMins" : "0 0",
+               "anchoredPosition" : "0 0",
+               "angles" : "0 0 0",
+               "classname" : "ComRectTransform",
+               "enabled" : true,
+               "guid" : "006D781235020B01001A0088C29F2889",
+               "origin" : "0 0 0",
+               "pivot" : "0.5 0.5",
+               "rayCastTarget" : false,
+               "rotation" : "0 0 0 1",
+               "scale" : "1 1 1",
+               "sizeDelta" : "0 0"
+            },
+            {
+               "alpha" : 1.0,
+               "billboard" : false,
+               "classname" : "ComText",
+               "color" : "1 1 1",
+               "drawMode" : 1,
+               "enabled" : true,
+               "font" : "006661FF380C1006001F0110D966C526",
+               "fontSize" : 25,
+               "guid" : "006E737A35020B01001A0088C29F2829",
+               "horzAlignment" : 1,
+               "horzOverflow" : 0,
+               "lineSpacing" : 1.0,
+               "maxVisDist" : 4000.0,
+               "text" : "Interstitial AD",
+               "textSecondaryAlpha" : 0.80000001192092896,
+               "textSecondaryColor" : "0 0 0",
+               "timeOffset" : 0.0,
+               "timeScale" : 1.0,
+               "vertAlignment" : 1,
+               "vertOverflow" : 0
+            }
+         ],
+         "frozen" : false,
+         "guid" : "006C4F4935020B01001A0088C29F2966",
+         "layer" : 2,
+         "name" : "Text",
+         "parent" : "0068178B35020B01001A0088C29F2424",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
+         "staticMask" : 0,
+         "tag" : "Untagged"
       }
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "00094F6C2201001D000A02A1C987CDCE",
+      "guid" : "000955460D020B010011018A69119926",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1

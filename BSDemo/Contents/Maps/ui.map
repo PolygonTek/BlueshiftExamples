@@ -63,7 +63,7 @@
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
                "scale" : "1 1 1",
-               "sizeDelta" : "662 926"
+               "sizeDelta" : "1280 968"
             },
             {
                "classname" : "ComCanvas",
@@ -80,6 +80,50 @@
          "layer" : 2,
          "name" : "Canvas",
          "parent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
+         "staticMask" : 0,
+         "tag" : "Untagged"
+      },
+      {
+         "active" : true,
+         "activeInHierarchy" : true,
+         "classname" : "Entity",
+         "components" : [
+            {
+               "anchorMaxs" : "1 1",
+               "anchorMins" : "0 0",
+               "anchoredPosition" : "0 0",
+               "angles" : "0 0 0",
+               "classname" : "ComRectTransform",
+               "enabled" : true,
+               "guid" : "00664873280210010013031EA9C390D0",
+               "origin" : "0 0 0",
+               "pivot" : "0.5 0.5",
+               "rayCastTarget" : true,
+               "rotation" : "0 0 0 1",
+               "scale" : "1 1 1",
+               "sizeDelta" : "0 0"
+            },
+            {
+               "alpha" : 1.0,
+               "billboard" : false,
+               "classname" : "ComImage",
+               "color" : "1 1 1",
+               "enabled" : true,
+               "guid" : "006718A5280210010013031EA9C3958D",
+               "imageMaterial" : "00851CD006021001001400DCB8EADD69",
+               "imageType" : 0,
+               "maxVisDist" : 4000.0,
+               "timeOffset" : 0.0,
+               "timeScale" : 1.0
+            }
+         ],
+         "frozen" : false,
+         "guid" : "00652570280210010013031EA9C38E0B",
+         "layer" : 2,
+         "name" : "Background",
+         "parent" : "00345220130A10060032033B6B6B2ADF",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
          "staticMask" : 0,
@@ -123,7 +167,7 @@
          "guid" : "01216ED72102130000310230D326BFB0",
          "layer" : 2,
          "name" : "Pannel Window",
-         "parent" : "00345220130A10060032033B6B6B2ADF",
+         "parent" : "00652570280210010013031EA9C38E0B",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
          "staticMask" : 0,
@@ -247,7 +291,7 @@
                "enabled" : true,
                "guid" : "006476501D021300002502DE23B782E4",
                "imageMaterial" : "039B2DA738021400000402C7F9645532",
-               "imageType" : 0,
+               "imageType" : 1,
                "maxVisDist" : 4000.0,
                "timeOffset" : 0.0,
                "timeScale" : 1.0
@@ -434,7 +478,7 @@
                "enabled" : true,
                "guid" : "038915F81502140000030163C08E20E5",
                "imageMaterial" : "039B2DA738021400000402C7F9645532",
-               "imageType" : 0,
+               "imageType" : 1,
                "maxVisDist" : 4000.0,
                "timeOffset" : 0.0,
                "timeScale" : 1.0
@@ -936,7 +980,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "000955460D020B010011018A69119926",
+      "guid" : "000967091B021001001101285A30E133",
       "skyboxMaterial" : "00000000000000000000000000000131"
    },
    "version" : 1

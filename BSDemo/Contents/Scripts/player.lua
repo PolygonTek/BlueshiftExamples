@@ -272,13 +272,15 @@ function handle_mouse_joint()
 
                 m.last_touch_position:assign(touch:position())
             end
-        else
-            if m.dragger_entity:socket_joint():connected_body() then
-                local camera = m.camera_entity:camera()
-                local ray = camera:screen_point_to_ray(m.last_touch_position)
+        end
+    end
 
-                m.dragger_entity:socket_joint():set_local_anchor(ray:get_point(m.old_picking_dist))
-            end
+    if Input.touch_count() == 0 then
+        if m.dragger_entity:socket_joint():connected_body() then
+            local camera = m.camera_entity:camera()
+            local ray = camera:screen_point_to_ray(m.last_touch_position)
+
+            m.dragger_entity:socket_joint():set_local_anchor(ray:get_point(m.old_picking_dist))
         end
     end
 end

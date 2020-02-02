@@ -8,8 +8,9 @@ pass {
     intensity "1.0000"
   }
   tc (1.000 1.000) (0.000 0.000)
-  imageBorders 30 30 30 30
+  imageBorders 13 13 13 13
   colorMask RGB
+  depthTest ALWAYS
   blendFunc SRC_ALPHA ONE_MINUS_SRC_ALPHA
   vertexColor
   useOwnerColor
