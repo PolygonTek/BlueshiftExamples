@@ -2619,10 +2619,10 @@
                "billboard" : false,
                "castShadows" : true,
                "classname" : "ComStaticMeshRenderer",
-               "color" : "0.0941176 0.1843137 1",
+               "color" : "1 1 1",
                "enabled" : true,
                "guid" : "00FF056C26010919001B0164B6CC6B6B",
-               "materials" : [ "0000000000000000000000000000012D" ],
+               "materials" : [ "000F26203501151E000503329113A0DD" ],
                "maxVisDist" : 4000.0,
                "mesh" : "00000000000000000000000000000194",
                "occluder" : false,
@@ -2666,7 +2666,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "0009658F0001161C00390273828DBAC6",
+      "guid" : "00092C462F021201003B038A080BF2BE",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1

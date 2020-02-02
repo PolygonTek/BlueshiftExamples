@@ -117,7 +117,7 @@ stage {
 stage {
   name "stage 1"
   module "Standard" {
-    count 33
+    count 44
     spawnBunching 0.046
     lifeTime 1.000
     deadTime 1.000
@@ -212,8 +212,8 @@ stage {
         }
       }
     }
-    randomizeRotation 1.000
-    gravity 0.000
+    randomizeRotation 0.000
+    gravity 9.800
   }
   module "Shape" {
     shape "Sphere"

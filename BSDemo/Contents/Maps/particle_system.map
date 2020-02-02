@@ -2541,7 +2541,7 @@
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "003B7CA500011016000A03354A243BD2",
-               "origin" : "8 8 0.2",
+               "origin" : "8 5 0.2",
                "rotation" : "0 0 0 1",
                "scale" : "1 1 1"
             },
@@ -2579,7 +2579,7 @@
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "01842F4A33011016001A013EA471F395",
-               "origin" : "8 -8 0.2",
+               "origin" : "8 -5 0.2",
                "rotation" : "0 0 0 1",
                "scale" : "1 1 1"
             },
@@ -2610,7 +2610,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "0009658F0001161C00390273828DBAC6",
+      "guid" : "00092C462F021201003B038A080BF2BE",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1
