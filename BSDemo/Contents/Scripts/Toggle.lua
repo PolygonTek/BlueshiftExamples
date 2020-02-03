@@ -38,7 +38,7 @@ function awake()
     m.checked = properties.is_on.value
 
     if properties.click_sound.value then
-		m.click_sound = properties.click_sound.value:cast_asset():sound()		
+		m.click_sound = properties.click_sound.value:cast_asset():sound()
 	end
 
     -- List up target script states

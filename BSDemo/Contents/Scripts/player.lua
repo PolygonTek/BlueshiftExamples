@@ -231,7 +231,7 @@ function handle_mouse_shoot()
 end
 
 function is_point_over_entity(point)
-    return m.canvas_entity:canvas():is_point_over_child_rect(point)
+    return m.canvas_entity:canvas():is_screen_point_over_child_rect(point)
 end
 
 function handle_mouse_joint()

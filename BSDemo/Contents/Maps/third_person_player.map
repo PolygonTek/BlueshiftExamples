@@ -55,7 +55,7 @@
                "guid" : "00642A320F010F12002501622E26BF14",
                "origin" : "-531.5 -318.5 0",
                "pivot" : "0.5 0.5",
-               "rayCastTarget" : false,
+               "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
                "scale" : "1 1 1",
                "sizeDelta" : "192 192"
@@ -150,7 +150,7 @@
                "guid" : "00A20A4B0A010F12002F01D990DEC73C",
                "origin" : "531.5 -318.5 0",
                "pivot" : "0.5 0.5",
-               "rayCastTarget" : false,
+               "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
                "scale" : "1 1 1",
                "sizeDelta" : "192 192"
@@ -280,7 +280,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "0 -0 0",
+               "angles" : "0 0 0",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "01E6196D3009091C000D015DBB56E7E2",
@@ -343,7 +343,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "0 -0 0",
+               "angles" : "0 0 0",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "08CB746B01060B15002401B37797E3ED",
@@ -398,7 +398,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "0 -0 0",
+               "angles" : "0 0 0",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "01DE4B6F1709111D00300042916A2389",
@@ -506,7 +506,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "0 -0 0",
+               "angles" : "0 0 0",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "08D07BAD01060B15002401B47797E5A9",
@@ -931,7 +931,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "0 -0 0",
+               "angles" : "0 0 0",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "08F2397D01060B15002401B47797EC19",
@@ -1081,7 +1081,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "0 -0 3.0000002",
+               "angles" : "0 0 3.0000002",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "08FE38EC01060B15002401B57797F092",
@@ -1106,7 +1106,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "0 -0 0",
+               "angles" : "0 0 0",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "090012AA01060B15002401B57797F061",
@@ -1606,7 +1606,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "0 -0 0",
+               "angles" : "0 0 0",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "09282A3D01060B15002401B57797FCD5",
@@ -2331,7 +2331,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "0 -0 0",
+               "angles" : "0 0 0",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "09626F3301060B15002401B777980F68",
@@ -2373,7 +2373,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "0 -0 0",
+               "angles" : "0 0 0",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "096524C101060B15002401B7779811E8",
@@ -2415,7 +2415,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "0 -0 0",
+               "angles" : "0 0 0",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "096869EF01060B15002401B777981080",
@@ -2457,7 +2457,7 @@
          "classname" : "Entity",
          "components" : [
             {
-               "angles" : "0 -0 0",
+               "angles" : "0 0 0",
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "096B4F4001060B15002401B77798105B",
@@ -2537,14 +2537,14 @@
                "ccd" : false,
                "classname" : "ComRigidBody",
                "enabled" : true,
-               "friction" : 1.0,
+               "friction" : 0.80000001192092896,
                "guid" : "008A6F270D010A15000103A4BD6D4E15",
                "kinematic" : false,
                "linearDamping" : 0.05000000074505806,
                "mass" : 1.0,
-               "restitution" : 0.25,
-               "rollingFriction" : 1.0,
-               "spinningFriction" : 1.0
+               "restitution" : 0.5,
+               "rollingFriction" : 0.80000001192092896,
+               "spinningFriction" : 0.80000001192092896
             }
          ],
          "frozen" : false,
@@ -2560,7 +2560,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "0009658F0001161C00390273828DBAC6",
+      "guid" : "00096D4D1A02150200290371C8E330BD",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1

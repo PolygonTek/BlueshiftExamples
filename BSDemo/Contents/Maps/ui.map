@@ -137,12 +137,12 @@
             {
                "anchorMaxs" : "0.5 0.5",
                "anchorMins" : "0.5 0.5",
-               "anchoredPosition" : "0 0",
+               "anchoredPosition" : "0 -50",
                "angles" : "0 0 0",
                "classname" : "ComRectTransform",
                "enabled" : true,
                "guid" : "012205352102130000310230D326D3A2",
-               "origin" : "0 0 0",
+               "origin" : "0 -50 0",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
@@ -980,7 +980,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "000967091B021001001101285A30E133",
+      "guid" : "00094A062A020B02002802A1DCA75006",
       "skyboxMaterial" : "00000000000000000000000000000131"
    },
    "version" : 1
