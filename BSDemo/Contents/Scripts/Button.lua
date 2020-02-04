@@ -77,6 +77,14 @@ function start()
 	set_button_color(properties.normal_color.value)
 end
 
+function update()
+    if m.button_color_tweener then
+        if not tween.update(m.button_color_tweener, owner.game_world:unscaled_delta_time()) then
+            m.button_color_tweener = nil
+        end
+    end
+end
+
 function get_button_color()
     for i = 1, #m.renderables do
 		return m.renderables[i]:color()
@@ -108,11 +116,7 @@ function on_pointer_down()
         return
     end
     
-    if m.button_color_tweener then
-        tween.cancel(m.button_color_tweener)
-    end
-    
-    m.button_color_tweener = tween.add(tween.EaseOutQuadratic, 0.1, false, get_button_color(), properties.press_color.value, function(color)
+    m.button_color_tweener = tween.create(tween.EaseOutQuadratic, 100, get_button_color(), properties.press_color.value, function(color)
         set_button_color(color)
     end)
     
@@ -134,12 +138,8 @@ function on_pointer_up()
 	else
 		color = properties.normal_color.value
 	end
-    
-    if m.button_color_tweener then
-        tween.cancel(m.button_color_tweener)
-    end
-    
-    tween.add(tween.EaseOutQuadratic, 0.1, false, get_button_color(), color, function(color)
+      
+    m.button_color_tweener = tween.create(tween.EaseOutQuadratic, 100, get_button_color(), color, function(color)
         set_button_color(color)
     end)
 
@@ -153,11 +153,7 @@ end
 function on_pointer_enter()
     if not m.enabled then
         return
-    end
-    
-    if m.button_color_tweener then
-        tween.cancel(m.button_color_tweener)
-    end
+    end   
     
     local color
 	if m.pressed then
@@ -170,7 +166,7 @@ function on_pointer_enter()
         color = properties.hover_color.value
     end
 
-    m.button_color_tweener = tween.add(tween.EaseOutQuadratic, 0.15, false, get_button_color(), color, function(color)
+    m.button_color_tweener = tween.create(tween.EaseOutQuadratic, 150, get_button_color(), color, function(color)
         set_button_color(color)
     end)
 
@@ -180,13 +176,9 @@ end
 function on_pointer_exit()
     if not m.enabled then
         return
-    end
+    end   
     
-    if m.button_color_tweener then
-        tween.cancel(m.button_color_tweener)
-    end
-    
-	tween.add(tween.EaseOutQuadratic, 0.15, false, get_button_color(), properties.normal_color.value, function(color)
+	m.button_color_tweener = tween.create(tween.EaseOutQuadratic, 150, get_button_color(), properties.normal_color.value, function(color)
         set_button_color(color)
     end)
 

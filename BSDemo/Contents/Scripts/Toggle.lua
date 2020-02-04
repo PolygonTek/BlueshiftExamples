@@ -68,6 +68,14 @@ function start()
     m.background_image:set_color(properties.normal_color.value)
 end
 
+function update()
+    if m.checkmark_color_tweener then
+        if not tween.update(m.checkmark_color_tweener, owner.game_world:unscaled_delta_time()) then
+            m.checkmark_color_tweener = nil
+        end
+    end
+end
+
 function set_enable(enable)
     m.enabled = enable
 end
@@ -85,7 +93,7 @@ function set_checked(checked)
     
     local target_alpha = m.checked and 1.0 or 0.0
 
-    tween.add(tween.EaseOutQuadratic, 0.15, false, m.checkmark_image:alpha(), target_alpha, function(alpha)
+    m.checkmark_color_tweener = tween.create(tween.EaseOutQuadratic, 150, m.checkmark_image:alpha(), target_alpha, function(alpha)
         m.checkmark_image:set_alpha(alpha)
     end)
             
@@ -99,11 +107,7 @@ function on_pointer_down()
         return
     end
     
-    if m.checkmark_color_tweener then
-        tween.cancel(m.checkmark_color_tweener)
-    end
-    
-    m.checkmark_color_tweener = tween.add(tween.EaseOutQuadratic, 0.1, false, m.background_image:color(), properties.press_color.value, function(color)
+     m.checkmark_color_tweener = tween.create(tween.EaseOutQuadratic, 100, m.background_image:color(), properties.press_color.value, function(color)
         m.background_image:set_color(color)
     end)
     
@@ -122,11 +126,7 @@ function on_pointer_up()
 		color = properties.normal_color.value
 	end
     
-    if m.checkmark_color_tweener then
-        tween.cancel(m.checkmark_color_tweener)
-    end
-    
-    tween.add(tween.EaseOutQuadratic, 0.1, false, m.background_image:color(), color, function(color)
+     m.checkmark_color_tweener = tween.create(tween.EaseOutQuadratic, 100, m.background_image:color(), color, function(color)
         m.background_image:set_color(color)
     end)
 
@@ -137,11 +137,7 @@ function on_pointer_enter()
     if not m.enabled then
         return
     end
-    
-    if m.checkmark_color_tweener then
-        tween.cancel(m.checkmark_color_tweener)
-    end
-    
+        
     local color
 	if m.pressed then
         color = properties.press_color.value
@@ -149,7 +145,7 @@ function on_pointer_enter()
         color = properties.hover_color.value
     end
 
-    m.checkmark_color_tweener = tween.add(tween.EaseOutQuadratic, 0.15, false, m.background_image:color(), color, function(color)
+     m.checkmark_color_tweener = tween.create(tween.EaseOutQuadratic, 150, m.background_image:color(), color, function(color)
         m.background_image:set_color(color)
     end)
 
@@ -161,11 +157,7 @@ function on_pointer_exit()
         return
     end
     
-    if m.checkmark_color_tweener then
-        tween.cancel(m.checkmark_color_tweener)
-    end
-    
-	tween.add(tween.EaseOutQuadratic, 0.15, false, m.background_image:color(), properties.normal_color.value, function(color)
+	 m.checkmark_color_tweener = tween.create(tween.EaseOutQuadratic, 150, m.background_image:color(), properties.normal_color.value, function(color)
         m.background_image:set_color(color)
     end)
 
