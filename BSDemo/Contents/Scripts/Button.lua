@@ -73,8 +73,12 @@ function awake()
     m.original_material = owner.entity:image():material()
 end
 
-function start()
-	set_button_color(properties.normal_color.value)
+function on_enable()
+    set_button_color(properties.normal_color.value)
+end
+
+function on_disable()
+    m.button_color_tweener = nil
 end
 
 function update()
@@ -176,8 +180,8 @@ end
 function on_pointer_exit()
     if not m.enabled then
         return
-    end   
-    
+    end
+
 	m.button_color_tweener = tween.create(tween.EaseOutQuadratic, 150, get_button_color(), properties.normal_color.value, function(color)
         set_button_color(color)
     end)
