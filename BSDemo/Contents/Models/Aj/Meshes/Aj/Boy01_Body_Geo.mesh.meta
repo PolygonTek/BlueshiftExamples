@@ -10,7 +10,7 @@
       "normals" : 0,
       "optimize" : true,
       "prefabEntityGuid" : "000979BA3A05091200310341C8F0334C",
-      "tangents" : 2
+      "tangents" : 0
    },
    "resource" : {
       "classname" : "MeshResource",
