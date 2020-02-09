@@ -1,6 +1,6 @@
 material 2
 pass {
-  renderingMode alphaBlend
+  renderingMode alphaCutoff
   cull back
   transparency default
   shader "{00000000-0000-0000-0000-0000000000C8}" {
@@ -40,6 +40,6 @@ pass {
   tc (1.000 1.000) (0.000 0.000)
   imageBorders 0 0 0 0
   colorMask RGB
-  blendFunc SRC_ALPHA ONE_MINUS_SRC_ALPHA
+  cutoffAlpha 0.500
   color (1 1 1 1)
 }

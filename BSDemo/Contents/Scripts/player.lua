@@ -7,6 +7,7 @@ local Vec3 = blueshift.Vec3
 local Angles = blueshift.Angles
 local Input = blueshift.Input
 local Physics = blueshift.Physics
+local ComRigidBody = blueshift.ComRigidBody
 local Entity = blueshift.Entity
 
 properties = {
@@ -220,7 +221,7 @@ function handle_mouse_shoot()
         local cast_result = Physics.CastResult()
 
         if Physics.ray_cast(ray:origin(), ray:get_point(min_scale), Physics.FilterGroup.DefaultGroup, Physics.FilterGroup.DefaultGroup, cast_result) then
-            local hit_rigid_body = cast_result:rigid_body()
+            local hit_rigid_body = ComRigidBody.from_cast_result(cast_result);
 
             if hit_rigid_body then
                 local forward = m.camera_entity:transform():axis():at(0)
@@ -245,7 +246,7 @@ function handle_mouse_joint()
                 local cast_result = Physics.CastResult()
 
                 if Physics.ray_cast(ray:origin(), ray:get_point(max_dist), 1, cast_result) then
-                    local hit_rigid_body = cast_result:rigid_body()
+                    local hit_rigid_body = ComRigidBody.from_cast_result(cast_result)
 
                     if hit_rigid_body then
                         m.dragger_entity:socket_joint():set_local_anchor(cast_result:point())
