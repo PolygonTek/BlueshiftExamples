@@ -674,7 +674,7 @@
                "billboard" : false,
                "classname" : "ComText",
                "color" : "1 1 1",
-               "drawMode" : 0,
+               "drawMode" : 1,
                "enabled" : true,
                "font" : "00604D190502140000130205F351D148",
                "fontSize" : 24,
@@ -785,7 +785,7 @@
                "billboard" : false,
                "classname" : "ComText",
                "color" : "1 1 1",
-               "drawMode" : 0,
+               "drawMode" : 1,
                "enabled" : true,
                "font" : "00604D190502140000130205F351D148",
                "fontSize" : 24,
@@ -896,7 +896,7 @@
                "billboard" : false,
                "classname" : "ComText",
                "color" : "1 1 1",
-               "drawMode" : 0,
+               "drawMode" : 1,
                "enabled" : true,
                "font" : "00604D190502140000130205F351D148",
                "fontSize" : 24,
@@ -980,7 +980,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "00096A490402000A002F03B686A930DF",
+      "guid" : "0009691E3402110A001A00FD311496E4",
       "skyboxMaterial" : "00000000000000000000000000000131"
    },
    "version" : 1

@@ -5,8 +5,7 @@ local Input = blueshift.Input
 properties = {
     torque = { label = "Torque", type = "float", value = 160 },
     brakingTorque = { label = "Braking Torque", type = "float", value = 2.5 },
-    joypad_l = { label = "Left Joypad", type = "object", classname = "ComScript", value = nil },
-    joypad_r = { label = "Right Joypad", type = "object", classname = "ComScript", value = nil },
+    steering_wheel = { label = "Steering Wheel", type = "object", classname = "ComScript", value = nil },
     clunk_sound = { label = "Sounds/Clunk", type = "object", classname = "SoundResource", value = nil },
     accel_sound = { label = "Sounds/Accel", type = "object", classname = "SoundResource", value = nil },
     skid_sound = { label = "Sounds/Skid", type = "object", classname = "SoundResource", value = nil },
@@ -15,14 +14,14 @@ properties = {
 property_names = {
     "torque",
     "brakingTorque",
-    "joypad_l",
-    "joypad_r",
+    "steering_wheel",
     "clunk_sound",
     "accel_sound",
     "skid_sound"
 }
 
 m = {
+    drive = true,
 	front_wheels = {},
 	wheels = {},
 	steering_angle = 0,
@@ -32,10 +31,14 @@ m = {
 }
 
 function start()
+    -- Get steering wheel script state
+    local steering_wheel_script = properties.steering_wheel.value:cast_script()
+    m.steering_wheel_state = _G[steering_wheel_script:sandbox_name()]
+
 	local components = owner.entity:components_in_children(ComVehicleWheel.meta_object)
 
-	for i = 1, components:count() do 
-		 local vehicle_wheel = components:at(i - 1):cast_vehicle_wheel()
+	for i = 0, components:count() - 1 do 
+		 local vehicle_wheel = components:at(i):cast_vehicle_wheel()
 		 if vehicle_wheel then
 		 	m.wheels[#m.wheels + 1] = vehicle_wheel
 
@@ -55,64 +58,26 @@ function start()
 end
 
 function update()
-    local steering_delta = 0
-
     m.torque = 0
     m.brakingTorque = 0
 
-    if properties.joypad_l.value then
-        local joypad_l = properties.joypad_l.value:cast_script()
-        if joypad_l then
-            local joypad_l_state = _G[joypad_l:sandbox_name()]
-            local knob_delta = joypad_l_state.m.knob_delta
+    if m.steering_wheel_state then
+        m.steering_angle = 40 * m.steering_wheel_state.m.wheel_angle / m.steering_wheel_state.properties.wheel_max_angle.value
+    end
 
-            if knob_delta:length() >= 0.1 then
-                steering_delta = -knob_delta:x()
+    if m.brake_pedal or Input.is_key_pressed(Input.KeyCode.Space) then
+        m.brakingTorque = properties.brakingTorque.value
+    end
 
-                m.torque = -properties.torque.value * knob_delta:y()
-            end
+    if m.drive then -- drive
+        if m.accel_pedal or Input.is_key_pressed(Input.KeyCode.UpArrow) then
+            m.torque = properties.torque.value
         end
-    end
-
-	if Input.is_key_pressed(Input.KeyCode.LeftArrow) then
-        steering_delta = steering_delta + 1
-    end
-
-    if Input.is_key_pressed(Input.KeyCode.RightArrow) then
-        steering_delta = steering_delta - 1
-    end
-    
-    if steering_delta == 0 then
-    	if m.steering_angle > 0 then
-    		m.steering_angle = m.steering_angle - 0.1 * owner.game_world:delta_time()
-    		if m.steering_angle < 0 then
-    			m.steering_angle = 0
-    		end
-    	else 
-    		m.steering_angle = m.steering_angle + 0.1 * owner.game_world:delta_time()
-    		if m.steering_angle > 0 then
-    			m.steering_angle = 0
-    		end
-    	end
-    else
-        m.steering_angle = m.steering_angle + 0.1 * steering_delta * owner.game_world:delta_time()
-
-        if m.steering_angle > 40 then
-            m.steering_angle = 40
-        elseif m.steering_angle < -40 then
-            m.steering_angle = -40
+    else -- reverse
+        if m.accel_pedal or Input.is_key_pressed(Input.KeyCode.UpArrow) then
+            m.torque = -properties.torque.value
         end
-    end
-
-    if Input.is_key_pressed(Input.KeyCode.UpArrow) then
-    	m.torque = properties.torque.value
-    elseif Input.is_key_pressed(Input.KeyCode.DownArrow) then
-    	m.torque = -properties.torque.value
-    end
-
-    if Input.is_key_pressed(Input.KeyCode.Space) then
-    	m.brakingTorque = properties.brakingTorque.value
-    end
+    end    
 
 	for i = 1, #m.front_wheels do
     	m.front_wheels[i]:set_steering_angle(m.steering_angle)
@@ -148,4 +113,19 @@ function update()
             m.skid_sound:stop()
         end
     end
+end
+
+function on_button(name, pressed)
+    if name == "Accel Pedal" then
+        m.accel_pedal = pressed
+    elseif name == "Brake Pedal" then
+        m.brake_pedal = pressed
+    end
+end
+
+function on_clicked(name)
+    m.drive = not m.drive
+
+    local button = owner.game_world:find_entity(name)
+    button:find_child("Text"):text():set_text(m.drive and "D" or "R")
 end

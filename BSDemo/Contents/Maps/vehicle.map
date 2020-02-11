@@ -18,7 +18,7 @@
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
                "scale" : "1 1 1",
-               "sizeDelta" : "1434 925"
+               "sizeDelta" : "1280 970"
             },
             {
                "classname" : "ComCanvas",
@@ -48,17 +48,17 @@
             {
                "anchorMaxs" : "0 0",
                "anchorMins" : "0 0",
-               "anchoredPosition" : "144 144",
+               "anchoredPosition" : "160 160",
                "classname" : "ComRectTransform",
                "enabled" : true,
                "guid" : "007A7C990C010B16000901BC67CD4CDB",
                "localEulerAnglesHint" : "0 0 0",
-               "origin" : "-573 -318.5 0",
+               "origin" : "-480 -325 0",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
                "scale" : "1 1 1",
-               "sizeDelta" : "192 192"
+               "sizeDelta" : "288 288"
             },
             {
                "alpha" : 1.0,
@@ -67,7 +67,7 @@
                "color" : "1 1 1",
                "enabled" : true,
                "guid" : "007B0AFA0C010B16000901BC67CD4C45",
-               "imageMaterial" : "008530171F070C19000C023E16F0C062",
+               "imageMaterial" : "008E578939020B0A002002A2C036CFCC",
                "imageType" : 0,
                "maxVisDist" : 4000.0,
                "timeOffset" : 0.0,
@@ -76,15 +76,17 @@
             {
                "classname" : "ComScript",
                "enabled" : true,
-               "guid" : "007C039B0C010B16000901BC67CD4FE5",
-               "knob_radius" : 96.0,
-               "script" : "00F93EC108010B13002003AD64899094"
+               "guid" : "00BC4C1334020B0A00300187F9450ED9",
+               "script" : "00BA1FB927020B0A002401614458538D",
+               "target_car" : "00595BCF38041101002D01DB01693BD9",
+               "wheel_max_angle" : 450.0,
+               "wheel_radius" : 168.0
             }
          ],
          "frozen" : false,
          "guid" : "007958BC0C010B16000901BC67CD4CB1",
          "layer" : 2,
-         "name" : "JoyPadL",
+         "name" : "Steering Wheel",
          "parent" : "007662D00C010B16000901BC67CD4BAA",
          "prefab" : false,
          "prefabSource" : "00734C7307010A16003901F8B7B42EE4",
@@ -97,16 +99,118 @@
          "classname" : "Entity",
          "components" : [
             {
-               "anchorMaxs" : "0.5 0.5",
-               "anchorMins" : "0.5 0.5",
-               "anchoredPosition" : "0 0",
+               "anchorMaxs" : "1 0",
+               "anchorMins" : "1 0",
+               "anchoredPosition" : "-80 16",
                "classname" : "ComRectTransform",
                "enabled" : true,
-               "guid" : "007E58770C010B16000901BC67CD518E",
+               "guid" : "006567A12E020C0A00080319C1304440",
                "localEulerAnglesHint" : "0 0 0",
-               "origin" : "0 0 0",
+               "origin" : "560 -469 0",
+               "pivot" : "0.5 0",
+               "rayCastTarget" : true,
+               "rotation" : "0 0 0 1",
+               "scale" : "1 1 1",
+               "sizeDelta" : "128 256"
+            },
+            {
+               "alpha" : 1.0,
+               "billboard" : false,
+               "classname" : "ComImage",
+               "color" : "1 1 1",
+               "enabled" : true,
+               "guid" : "006615CE2E020C0A00080319C1304453",
+               "imageMaterial" : "007840ED3B020C0A000A01C310426B73",
+               "imageType" : 0,
+               "maxVisDist" : 4000.0,
+               "timeOffset" : 0.0,
+               "timeScale" : 1.0
+            },
+            {
+               "classname" : "ComScript",
+               "enabled" : true,
+               "guid" : "012A0DFF29020C0A0026013CEECED5D8",
+               "script" : "00B84B1627020B0A0024013E4452F857",
+               "target_car" : "00595BCF38041101002D01DB01693BD9"
+            }
+         ],
+         "frozen" : false,
+         "guid" : "00646F642E020C0A00080319C1304464",
+         "layer" : 2,
+         "name" : "Accel Pedal",
+         "parent" : "007662D00C010B16000901BC67CD4BAA",
+         "prefab" : false,
+         "prefabSource" : "00734C7307010A16003901F8B7B42EE4",
+         "staticMask" : 0,
+         "tag" : "Untagged"
+      },
+      {
+         "active" : true,
+         "activeInHierarchy" : true,
+         "classname" : "Entity",
+         "components" : [
+            {
+               "anchorMaxs" : "1 0",
+               "anchorMins" : "1 0",
+               "anchoredPosition" : "-256 16",
+               "classname" : "ComRectTransform",
+               "enabled" : true,
+               "guid" : "00E7737126020C0A0012009E21AB8CEB",
+               "localEulerAnglesHint" : "0 0 0",
+               "origin" : "384 -469 0",
+               "pivot" : "0.5 0",
+               "rayCastTarget" : true,
+               "rotation" : "0 0 0 1",
+               "scale" : "1 1 1",
+               "sizeDelta" : "128 168"
+            },
+            {
+               "alpha" : 1.0,
+               "billboard" : false,
+               "classname" : "ComImage",
+               "color" : "1 1 1",
+               "enabled" : true,
+               "guid" : "00E85BC126020C0A0012009E21AB8CC6",
+               "imageMaterial" : "00F461FB34020C0A0013029C4E14CB96",
+               "imageType" : 0,
+               "maxVisDist" : 4000.0,
+               "timeOffset" : 0.0,
+               "timeScale" : 1.0
+            },
+            {
+               "classname" : "ComScript",
+               "enabled" : true,
+               "guid" : "012B28FD35020C0A002603D0F65AA8E2",
+               "script" : "00B84B1627020B0A0024013E4452F857",
+               "target_car" : "00595BCF38041101002D01DB01693BD9"
+            }
+         ],
+         "frozen" : false,
+         "guid" : "00E644A626020C0A0012009E21AB8C8D",
+         "layer" : 2,
+         "name" : "Brake Pedal",
+         "parent" : "007662D00C010B16000901BC67CD4BAA",
+         "prefab" : false,
+         "prefabSource" : "00734C7307010A16003901F8B7B42EE4",
+         "staticMask" : 0,
+         "tag" : "Untagged"
+      },
+      {
+         "active" : true,
+         "activeInHierarchy" : true,
+         "classname" : "Entity",
+         "components" : [
+            {
+               "anchorMaxs" : "1 0",
+               "anchorMins" : "1 0",
+               "anchoredPosition" : "-64 400",
+               "classname" : "ComRectTransform",
+               "enabled" : true,
+               "guid" : "0065734F0B020D0A002702F662B86245",
+               "localEulerAnglesHint" : "0 0 0",
+               "origin" : "576 -85 0",
                "pivot" : "0.5 0.5",
-               "rayCastTarget" : false,
+               "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
                "scale" : "1 1 1",
                "sizeDelta" : "96 96"
@@ -117,21 +221,88 @@
                "classname" : "ComImage",
                "color" : "1 1 1",
                "enabled" : true,
-               "guid" : "007F1C890C010B16000901BC67CD512E",
-               "imageMaterial" : "008E77031F070C19000C028316F387E3",
-               "imageType" : 0,
+               "guid" : "0061388C3602110A00100274CCDE351A",
+               "imageMaterial" : "00A966D202021300002D0211319ABED0",
+               "imageType" : 1,
                "maxVisDist" : 4000.0,
                "timeOffset" : 0.0,
                "timeScale" : 1.0
+            },
+            {
+               "classname" : "ComScript",
+               "click_sound" : "00602B2817020A01002E02431A7E25B3",
+               "disable_color" : "0.3 0.3 0.3",
+               "disable_material" : "00000000000000000000000000000000",
+               "enabled" : true,
+               "guid" : "006047A40002110A00100261ACAB8EC5",
+               "hover_color" : "0.82 0.82 0.82",
+               "normal_color" : "1 1 1",
+               "press_color" : "0.5 0.5 0.5",
+               "script" : "0035361E0D0C0C040034005CDAD9E240",
+               "target" : "00595BCF38041101002D01DB01693BD9",
+               "translation" : 2.0
             }
          ],
          "frozen" : false,
-         "guid" : "007D39580C010B16000901BC67CD4E64",
+         "guid" : "006462D50B020D0A002702F662B86218",
          "layer" : 2,
-         "name" : "knob",
-         "parent" : "007958BC0C010B16000901BC67CD4CB1",
+         "name" : "DriveToggle",
+         "parent" : "007662D00C010B16000901BC67CD4BAA",
          "prefab" : false,
-         "prefabSource" : "007737B907010A16003901F8B7B433FE",
+         "prefabSource" : "00734C7307010A16003901F8B7B42EE4",
+         "staticMask" : 0,
+         "tag" : "Untagged"
+      },
+      {
+         "active" : true,
+         "activeInHierarchy" : true,
+         "classname" : "Entity",
+         "components" : [
+            {
+               "anchorMaxs" : "1 1",
+               "anchorMins" : "0 0",
+               "anchoredPosition" : "0 0",
+               "classname" : "ComRectTransform",
+               "enabled" : true,
+               "guid" : "00615AE00802110A00170067AB79FEC6",
+               "localEulerAnglesHint" : "0 0 0",
+               "origin" : "0 0 0",
+               "pivot" : "0.5 0.5",
+               "rayCastTarget" : false,
+               "rotation" : "0 0 0 1",
+               "scale" : "1 1 1",
+               "sizeDelta" : "0 0"
+            },
+            {
+               "alpha" : 1.0,
+               "billboard" : false,
+               "classname" : "ComText",
+               "color" : "1 1 1",
+               "drawMode" : 1,
+               "enabled" : true,
+               "font" : "00604D190502140000130205F351D148",
+               "fontSize" : 60,
+               "guid" : "0062571D0802110A00170068AB7A0D5B",
+               "horzAlignment" : 1,
+               "horzOverflow" : 0,
+               "lineSpacing" : 1.0,
+               "maxVisDist" : 4000.0,
+               "text" : "D",
+               "textSecondaryAlpha" : 1.0,
+               "textSecondaryColor" : "0 0 0",
+               "timeOffset" : 0.0,
+               "timeScale" : 1.0,
+               "vertAlignment" : 1,
+               "vertOverflow" : 0
+            }
+         ],
+         "frozen" : false,
+         "guid" : "006024CC0802110A00170067AB79F453",
+         "layer" : 2,
+         "name" : "Text",
+         "parent" : "006462D50B020D0A002702F662B86218",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
          "staticMask" : 0,
          "tag" : "Untagged"
       },
@@ -744,10 +915,9 @@
                "clunk_sound" : "000B6A6023040D030037037B231D9165",
                "enabled" : true,
                "guid" : "000914F934041401000A01E41FA2D86A",
-               "joypad_l" : "007C039B0C010B16000901BC67CD4FE5",
-               "joypad_r" : "008368080C010B16000901BC67CD52C2",
                "script" : "000702402A0410010033037557A15FAD",
                "skid_sound" : "00072718060417010012010051A47D08",
+               "steering_wheel" : "00BC4C1334020B0A00300187F9450ED9",
                "torque" : 160.0
             }
          ],
@@ -800,50 +970,6 @@
          "guid" : "002E6F912D040F11001F0309CFAE7DD3",
          "layer" : 0,
          "name" : "BackCamera",
-         "parent" : "00595BCF38041101002D01DB01693BD9",
-         "prefab" : false,
-         "prefabSource" : "00000000000000000000000000000000",
-         "staticMask" : 0,
-         "tag" : "Untagged"
-      },
-      {
-         "active" : true,
-         "activeInHierarchy" : true,
-         "classname" : "Entity",
-         "components" : [
-            {
-               "classname" : "ComTransform",
-               "enabled" : true,
-               "guid" : "000B16F20E040E11002700A33B44E661",
-               "localEulerAnglesHint" : "0 20 0",
-               "origin" : "1.3837 0 0.9225",
-               "rotation" : "0 0.1736482 0 0.9848077",
-               "scale" : "1 1 1"
-            },
-            {
-               "castShadows" : false,
-               "classname" : "ComLight",
-               "color" : "1 1 1",
-               "enabled" : true,
-               "fallOffExponent" : 2.0,
-               "guid" : "000C7EA90E040E11002700A33B44E84A",
-               "intensity" : 8.0,
-               "lightSize" : "20 12 12",
-               "lightType" : 1,
-               "lightZNear" : 0.40000000596046448,
-               "material" : "00000000000000000000000000000130",
-               "maxVisDist" : 16384.0,
-               "primaryLight" : false,
-               "shadowOffsetFactor" : 3.0,
-               "shadowOffsetUnits" : 200.0,
-               "timeScale" : 1.0,
-               "timerOffset" : 0.0
-            }
-         ],
-         "frozen" : false,
-         "guid" : "000A2A070E040E11002700A33B44E544",
-         "layer" : 0,
-         "name" : "Spot Light",
          "parent" : "00595BCF38041101002D01DB01693BD9",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
@@ -1344,7 +1470,7 @@
                "localEulerAnglesHint" : "-10 0 0",
                "origin" : "-2.0500996 -12.2494984 -0.2046376",
                "rotation" : "-0.0871556 -0 0 0.9961947",
-               "scale" : "5.9999995 3.9999998 1"
+               "scale" : "20 3.9999998 1"
             },
             {
                "alpha" : 1.0,
@@ -2355,7 +2481,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "00096A490402000A002F03B686A930DF",
+      "guid" : "00090D061402110A003800C54EDB5313",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1

@@ -10,7 +10,7 @@ properties = {
 	press_color = { label = "Press Color", type = "color3", value = Color3(0.5, 0.5, 0.5) },
     disable_color = { label = "Disable Color", type = "color3", value = Color3(0.3, 0.3, 0.3) },
     background = { label = "Background", type = "object", classname = "ComImage", value = nil },
-    checkmark = { label = "Checkmark", type = "object", classname = "ComImage", value = nil },
+    checkmark = { label = "Check Mark", type = "object", classname = "ComImage", value = nil },
     is_on = { label = "Is On", type = "bool", value = false },
 	click_sound = { label = "Click Sound", type = "object", classname = "SoundResource", value = nil },
 }
@@ -50,7 +50,7 @@ function awake()
             local script = script_components:at(i):cast_script()
             local script_state = _G[script:sandbox_name()]
             
-            if script_state.on_clicked then
+            if script_state.on_checked then
                table.insert(m.target_script_states, script_state)
             end
         end
@@ -59,15 +59,21 @@ function awake()
     -- Background
     m.background_image = properties.background.value and properties.background.value:cast_image()
 
-    -- Checkmark
+    -- Checkmark    
     m.checkmark_image = properties.checkmark.value and properties.checkmark.value:cast_image()
-    m.checkmark_image:set_alpha(m.checked and 1.0 or 0.0)
+    if m.checkmark_image then
+        m.checkmark_image:set_alpha(m.checked and 1.0 or 0.0)
+    end
 end
 
 function on_enable()
-    m.background_image:set_color(properties.normal_color.value)
+    if m.background_image then
+        m.background_image:set_color(properties.normal_color.value)
+    end
 
-    m.checkmark_image:set_alpha(m.checked and 1.0 or 0.0)
+    if m.checkmark_image then
+        m.checkmark_image:set_alpha(m.checked and 1.0 or 0.0)
+    end
 end
 
 function on_disable()
@@ -107,12 +113,14 @@ function set_checked(checked)
     
     local target_alpha = m.checked and 1.0 or 0.0
 
-    m.checkmark_alpha_tweener = tween.create(tween.EaseOutQuadratic, 150, m.checkmark_image:alpha(), target_alpha, function(alpha)
-        m.checkmark_image:set_alpha(alpha)
-    end)
-            
+    if m.checkmark_image then
+        m.checkmark_alpha_tweener = tween.create(tween.EaseOutQuadratic, 150, m.checkmark_image:alpha(), target_alpha, function(alpha)
+            m.checkmark_image:set_alpha(alpha)
+        end)
+    end
+
     for i = 1, #m.target_script_states do
-        m.target_script_states[i].on_clicked(owner.name)
+        m.target_script_states[i].on_checked(owner.name, checked)
     end
 end
 
@@ -121,9 +129,11 @@ function on_pointer_down()
         return
     end
     
-     m.background_color_tweener = tween.create(tween.EaseOutQuadratic, 100, m.background_image:color(), properties.press_color.value, function(color)
-        m.background_image:set_color(color)
-    end)
+    if m.background_image then
+        m.background_color_tweener = tween.create(tween.EaseOutQuadratic, 100, m.background_image:color(), properties.press_color.value, function(color)
+            m.background_image:set_color(color)
+        end)
+    end
     
     m.pressed = true
 end
@@ -140,9 +150,11 @@ function on_pointer_up()
 		color = properties.normal_color.value
 	end
     
-     m.background_color_tweener = tween.create(tween.EaseOutQuadratic, 100, m.background_image:color(), color, function(color)
-        m.background_image:set_color(color)
-    end)
+    if m.background_image then
+        m.background_color_tweener = tween.create(tween.EaseOutQuadratic, 100, m.background_image:color(), color, function(color)
+            m.background_image:set_color(color)
+        end)
+    end
 
 	m.pressed = false
 end
@@ -159,9 +171,11 @@ function on_pointer_enter()
         color = properties.hover_color.value
     end
 
-    m.background_color_tweener = tween.create(tween.EaseOutQuadratic, 150, m.background_image:color(), color, function(color)
-        m.background_image:set_color(color)
-    end)
+    if m.background_image then
+        m.background_color_tweener = tween.create(tween.EaseOutQuadratic, 150, m.background_image:color(), color, function(color)
+            m.background_image:set_color(color)
+        end)
+    end
 
 	m.hover = true
 end
@@ -171,9 +185,11 @@ function on_pointer_exit()
         return
     end
     
-	m.background_color_tweener = tween.create(tween.EaseOutQuadratic, 150, m.background_image:color(), properties.normal_color.value, function(color)
-        m.background_image:set_color(color)
-    end)
+    if background_image then
+    	m.background_color_tweener = tween.create(tween.EaseOutQuadratic, 150, m.background_image:color(), properties.normal_color.value, function(color)
+            m.background_image:set_color(color)
+        end)
+    end
 
 	m.hover = false
 end
