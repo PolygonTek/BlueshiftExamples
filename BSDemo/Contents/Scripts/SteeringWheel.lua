@@ -4,16 +4,11 @@ local Input = blueshift.Input
 local Math = blueshift.Math
 local Vec2 = blueshift.Vec2
 
+--[properties]--
 properties = {
     wheel_max_angle = { label = "Angle Limit", type = "float", value = 450 },
 	wheel_radius = { label = "Wheel Radius", type = "float", minimum = 1, maximum = 100, value = 100 },
     target_car = { label = "Target Car", type = "object", classname = "Entity", value = nil }
-}
-
-property_names = {
-    "wheel_max_angle",
-    "wheel_radius",
-    "target_car"
 }
 
 m = {

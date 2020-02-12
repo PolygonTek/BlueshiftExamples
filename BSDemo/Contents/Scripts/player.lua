@@ -10,6 +10,7 @@ local Physics = blueshift.Physics
 local ComRigidBody = blueshift.ComRigidBody
 local Entity = blueshift.Entity
 
+--[properties]--
 properties = {
     gravity = { label = "Gravity", type = "float", value = 9.8 },
     joypad_l = { label = "Left Joypad", type = "object", classname = "ComScript", value = nil },
@@ -19,17 +20,6 @@ properties = {
     footstep3_sound = { label = "Sounds/Footstep3", type = "object", classname = "SoundResource", value = nil },
     footstep4_sound = { label = "Sounds/Footstep4", type = "object", classname = "SoundResource", value = nil },
     slide_sound = { label = "Sounds/Slide", type = "object", classname = "SoundResource", value = nil }
-}
-
-property_names = {
-    "gravity", 
-    "joypad_l",
-    "joypad_r",
-    "footstep1_sound",
-    "footstep2_sound",
-    "footstep3_sound",
-    "footstep4_sound",
-    "slide_sound"
 }
 
 m = {

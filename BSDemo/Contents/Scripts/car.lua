@@ -2,6 +2,7 @@ local blueshift = require "blueshift"
 local ComVehicleWheel = blueshift.ComVehicleWheel
 local Input = blueshift.Input
 
+--[properties]--
 properties = {
     torque = { label = "Torque", type = "float", value = 160 },
     brakingTorque = { label = "Braking Torque", type = "float", value = 2.5 },
@@ -9,15 +10,6 @@ properties = {
     clunk_sound = { label = "Sounds/Clunk", type = "object", classname = "SoundResource", value = nil },
     accel_sound = { label = "Sounds/Accel", type = "object", classname = "SoundResource", value = nil },
     skid_sound = { label = "Sounds/Skid", type = "object", classname = "SoundResource", value = nil },
-}
-
-property_names = {
-    "torque",
-    "brakingTorque",
-    "steering_wheel",
-    "clunk_sound",
-    "accel_sound",
-    "skid_sound"
 }
 
 m = {

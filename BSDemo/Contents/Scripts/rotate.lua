@@ -4,16 +4,11 @@ local Math = blueshift.Math
 local Vec3 = blueshift.Vec3
 local ComTransform = blueshift.ComTransform
 
+--[properties]--
 properties = {
     rotation_speed = { label = "Rotation Speed", type = "float", value = 180 },
     bounce_speed = { label = "Bounce Speed", type = "float", value = 1 },
     bounce_delta = { label = "Bounce Delta", type = "float", value = 0.2 },
-}
-
-property_names = {
-	"rotation_speed",
-	"bounce_speed",
-	"bounce_delta"
 }
 
 m = {

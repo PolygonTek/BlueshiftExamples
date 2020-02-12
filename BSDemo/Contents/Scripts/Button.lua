@@ -5,6 +5,7 @@ local ComTransform = blueshift.ComTransform
 local ComScript = blueshift.ComScript
 local EntityPtrArray = blueshift.EntityPtrArray
 
+--[properties]--
 properties = {
 	target = { label = "Target", type = "object", classname = "Entity", value = nil },
 	normal_color = { label = "Normal Color", type = "color3", value = Color3(1.0, 1.0, 1.0) },
@@ -14,17 +15,6 @@ properties = {
     disable_material = { label = "Disable Material", type = "object", classname = "MaterialResource", value = nil },
 	click_sound = { label = "Click Sound", type = "object", classname = "SoundResource", value = nil },
 	translation = { label = "Translation", type = "float", value = 2.0 }
-}
-
-property_names = {
-    "target",
-    "normal_color",
-    "hover_color",
-	"press_color",
-    "disable_color",
-    "disable_material",
-	"click_sound",
-	"translation"
 }
 
 m = {

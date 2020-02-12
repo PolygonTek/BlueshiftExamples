@@ -4,12 +4,9 @@ local Vec2 = blueshift.Vec2
 local Plane = blueshift.Plane
 local Input = blueshift.Input
 
+--[properties]--
 properties = {
 	knob_radius = { label = "Knob Radius", type = "float", value = 96 },
-}
-
-property_names = {
-    "knob_radius"
 }
 
 m = {

@@ -3,6 +3,7 @@ local Color3 = blueshift.Color3
 local ComScript = blueshift.ComScript
 local EntityPtrArray = blueshift.EntityPtrArray
 
+--[properties]--
 properties = {
 	target = { label = "Target", type = "object", classname = "Entity", value = nil },
 	normal_color = { label = "Normal Color", type = "color3", value = Color3(1.0, 1.0, 1.0) },
@@ -13,18 +14,6 @@ properties = {
     checkmark = { label = "Check Mark", type = "object", classname = "ComImage", value = nil },
     is_on = { label = "Is On", type = "bool", value = false },
 	click_sound = { label = "Click Sound", type = "object", classname = "SoundResource", value = nil },
-}
-
-property_names = {
-    "target",
-    "normal_color",
-    "hover_color",
-	"press_color",
-    "disable_color",
-    "background",
-    "checkmark",
-    "is_on",
-	"click_sound"
 }
 
 m = {

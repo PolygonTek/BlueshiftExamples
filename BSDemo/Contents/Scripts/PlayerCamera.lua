@@ -4,14 +4,10 @@ local Vec3 = blueshift.Vec3
 local Mat3 = blueshift.Mat3
 local Physics = blueshift.Physics
 
+--[properties]--
 properties = {
 	max_distance = { label = "Max Distance", type = "float", value = 4.5 },
 	z_offset = { label = "Z Offset", type = "float", value = 1.9 }
-}
-
-property_names = {
-	"max_distance",
-	"z_offset"
 }
 
 m = {

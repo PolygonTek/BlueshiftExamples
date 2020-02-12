@@ -1,12 +1,9 @@
 local blueshift = require "blueshift"
 local Vec2 = blueshift.Vec2
 
+--[properties]--
 properties = {
     target_car = { label = "Target Car", type = "object", classname = "Entity", value = nil }
-}
-
-property_names = {
-    "target_car",
 }
 
 m = {
