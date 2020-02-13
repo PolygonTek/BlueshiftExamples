@@ -312,14 +312,6 @@
                "center" : "0 0 0",
                "classname" : "ComCylinderCollider",
                "enabled" : true,
-               "guid" : "001B0D4B3B041015001D0136AFA1BE08",
-               "height" : 2.0,
-               "radius" : 0.5
-            },
-            {
-               "center" : "0 0 0",
-               "classname" : "ComCylinderCollider",
-               "enabled" : true,
                "guid" : "004A506B30041015002401DB055F1492",
                "height" : 2.0002000331878662,
                "radius" : 0.50010001659393311
@@ -379,14 +371,6 @@
                "timeOffset" : 0.0,
                "timeScale" : 1.0,
                "useEnvironmentProveLighting" : true
-            },
-            {
-               "center" : "0 0 0",
-               "classname" : "ComCylinderCollider",
-               "enabled" : true,
-               "guid" : "00230AB516041015001E00DFB46EE83E",
-               "height" : 2.0,
-               "radius" : 0.5
             },
             {
                "center" : "0 0 0",
@@ -461,14 +445,6 @@
                "radius" : 0.5
             },
             {
-               "center" : "0 0 0",
-               "classname" : "ComCylinderCollider",
-               "enabled" : true,
-               "guid" : "004C206630041015002401DB055F17F0",
-               "height" : 2.0002000331878662,
-               "radius" : 0.50010001659393311
-            },
-            {
                "angularDamping" : 0.0099999997764825821,
                "ccd" : false,
                "classname" : "ComRigidBody",
@@ -523,14 +499,6 @@
                "timeOffset" : 0.0,
                "timeScale" : 1.0,
                "useEnvironmentProveLighting" : true
-            },
-            {
-               "center" : "0 0 0",
-               "classname" : "ComCylinderCollider",
-               "enabled" : true,
-               "guid" : "0033446F2E04101500200043D293461B",
-               "height" : 2.0,
-               "radius" : 0.5
             },
             {
                "center" : "0 0 0",
@@ -603,14 +571,6 @@
                "guid" : "0049279014041015002403CFFF9BDDA2",
                "height" : 2.0,
                "radius" : 0.5
-            },
-            {
-               "center" : "0 0 0",
-               "classname" : "ComCylinderCollider",
-               "enabled" : true,
-               "guid" : "004E131630041015002401DB055F175D",
-               "height" : 2.0002000331878662,
-               "radius" : 0.50010001659393311
             },
             {
                "angularDamping" : 0.0099999997764825821,
@@ -1260,7 +1220,7 @@
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "08E8350001060B15002401B47797EB7F",
-               "localEulerAnglesHint" : "0 0 0",
+               "localEulerAnglesHint" : "-91.2600021 -5.1000004 90.8800049",
                "origin" : "0.9477 16.6713009 -0.7802",
                "rotation" : "-0.4789062 -0.5306599 0.4754458 0.5128356",
                "scale" : "1 1 1"
@@ -2485,7 +2445,7 @@
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "094A08AC01060B15002401B677980610",
-               "localEulerAnglesHint" : "0 0 0",
+               "localEulerAnglesHint" : "9.6900005 -0.02 0.13",
                "origin" : "0.0055 -8.6085997 35.7383995",
                "rotation" : "0.0844606 -0.0000781 0.0011452 0.9964262",
                "scale" : "1 1 1"
@@ -2947,7 +2907,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "00096A490402000A002F03B686A930DF",
+      "guid" : "000970FD0F020E0B003B00BABC58724C",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1
