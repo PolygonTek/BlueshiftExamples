@@ -114,7 +114,7 @@ function on_pointer_down()
         set_button_color(color)
     end)
     
-    m.translation:set(properties.translation.value, -properties.translation.value, 0.0)
+    m.translation:set(0, properties.translation.value, -properties.translation.value)
     
     owner.transform:translate(m.translation, ComTransform.TransformSpace.WorldSpace)
 

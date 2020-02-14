@@ -56,7 +56,7 @@ function update()
     end
 
     local local_angles = owner.transform:local_angles()
-    local_angles:set_yaw(m.wheel_angle)
+    local_angles:set_roll(m.wheel_angle)
     owner.transform:set_local_angles(local_angles)
 end
 

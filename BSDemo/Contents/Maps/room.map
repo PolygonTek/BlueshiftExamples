@@ -53,7 +53,7 @@
                "enabled" : true,
                "guid" : "013D20D02E010B1600030319A5B2D7A9",
                "localEulerAnglesHint" : "0 0 0",
-               "origin" : "-573 -318.5 0",
+               "origin" : "0 -573 -318.5",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
@@ -148,7 +148,7 @@
                "enabled" : true,
                "guid" : "01442E7B2E010B1600030319A5B2DA97",
                "localEulerAnglesHint" : "0 0 0",
-               "origin" : "573 -318.5 0",
+               "origin" : "0 573 -318.5",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
@@ -252,7 +252,7 @@
                "color" : "1 1 1",
                "enabled" : true,
                "guid" : "01E72B683009091C000D015DBB56E998",
-               "materials" : [ "00207FEC2B030F090007005D018B5F7F" ],
+               "materials" : [ "0000000000000000000000000000012C" ],
                "maxVisDist" : 1000.0,
                "mesh" : "00000000000000000000000000000192",
                "occluder" : false,
@@ -2118,7 +2118,7 @@
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "091206D001060B15002401B57797F759",
-               "localEulerAnglesHint" : "0 0 0",
+               "localEulerAnglesHint" : "7.9400005 -3.4000001 0.26",
                "origin" : "0.0497 -3.3016 -0.2606",
                "rotation" : "0.0692706 -0.029438 0.0043164 0.9971542",
                "scale" : "1 1 1"
@@ -2820,7 +2820,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "00096A490402000A002F03B686A930DF",
+      "guid" : "000911193B02110D001303C40F45F215",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1

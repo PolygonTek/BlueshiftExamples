@@ -53,7 +53,7 @@
                "enabled" : true,
                "guid" : "00642A320F010F12002501622E26BF14",
                "localEulerAnglesHint" : "0 0 0",
-               "origin" : "-573 -318.5 0",
+               "origin" : "0 -573 -318.5",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
@@ -148,7 +148,7 @@
                "enabled" : true,
                "guid" : "00A20A4B0A010F12002F01D990DEC73C",
                "localEulerAnglesHint" : "0 0 0",
-               "origin" : "573 -318.5 0",
+               "origin" : "0 573 -318.5",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
@@ -1434,7 +1434,7 @@
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "091A4E5701060B15002401B57797F829",
-               "localEulerAnglesHint" : "0 0 0",
+               "localEulerAnglesHint" : "-162.8100128 -1.11 -3.5900002",
                "origin" : "5.2530999 10.7202997 1.3731",
                "rotation" : "-0.9882831 0.0295233 -0.014254 0.1490695",
                "scale" : "1 1 1"
@@ -1934,7 +1934,7 @@
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "0942059701060B15002401B6779804D5",
-               "localEulerAnglesHint" : "0 0 0",
+               "localEulerAnglesHint" : "-163.8800049 -8.5200005 3.7600002",
                "origin" : "-5.2740002 10.7098999 1.3731",
                "rotation" : "-0.9865132 -0.042802 -0.068922 0.1421602",
                "scale" : "1 1 1"
@@ -2610,7 +2610,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "00096A490402000A002F03B686A930DF",
+      "guid" : "000907F70D02100D002701755E4E1194",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1

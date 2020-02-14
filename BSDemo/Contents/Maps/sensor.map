@@ -53,7 +53,7 @@
                "enabled" : true,
                "guid" : "00642A320F010F12002501622E26BF14",
                "localEulerAnglesHint" : "0 0 0",
-               "origin" : "-573 -318.5 0",
+               "origin" : "0 -573 -318.5",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
@@ -148,7 +148,7 @@
                "enabled" : true,
                "guid" : "00A20A4B0A010F12002F01D990DEC73C",
                "localEulerAnglesHint" : "0 0 0",
-               "origin" : "573 -318.5 0",
+               "origin" : "0 573 -318.5",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
@@ -1909,7 +1909,7 @@
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "09407FD501060B15002401B677980548",
-               "localEulerAnglesHint" : "0 0 0",
+               "localEulerAnglesHint" : "1.3200001 -2.71 -0.25",
                "origin" : "0.1958 -3.2370999 -0.588",
                "rotation" : "0.0114641 -0.0236705 -0.0019085 0.9996523",
                "scale" : "1 1 1"
@@ -2666,7 +2666,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "00096A490402000A002F03B686A930DF",
+      "guid" : "000911193B02110D001303C40F45F215",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1

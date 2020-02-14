@@ -53,7 +53,7 @@
                "enabled" : true,
                "guid" : "00C36A5022010A1600390389C8092B07",
                "localEulerAnglesHint" : "0 0 0",
-               "origin" : "-496 -340 0",
+               "origin" : "0 -496 -340",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
@@ -148,7 +148,7 @@
                "enabled" : true,
                "guid" : "00CA65D922010A1600390389C8092E6C",
                "localEulerAnglesHint" : "0 0 0",
-               "origin" : "496 -340 0",
+               "origin" : "0 496 -340",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
@@ -4155,9 +4155,9 @@
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "002F75212C030F14000E03CDBF7BDBD4",
-               "localEulerAnglesHint" : "90.0000076 0 -90.0000076",
+               "localEulerAnglesHint" : "0 0 180",
                "origin" : "-3.9001 6 0.255",
-               "rotation" : "0.5 -0.5 -0.4999999 0.4999999",
+               "rotation" : "-0 0 1 -0",
                "scale" : "1 1 1"
             },
             {
@@ -4200,9 +4200,9 @@
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "000A320427031013002401C50C63E73E",
-               "localEulerAnglesHint" : "90.0000076 0 -90.0000076",
+               "localEulerAnglesHint" : "0 0 180",
                "origin" : "-3.9001 4 0.255",
-               "rotation" : "0.5 -0.5000001 -0.5 0.4999999",
+               "rotation" : "-0 0 1 -0",
                "scale" : "1 1 1"
             },
             {
@@ -4245,9 +4245,9 @@
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "0022163A00031013002901E64316C83B",
-               "localEulerAnglesHint" : "90.0000076 0 -90.0000076",
+               "localEulerAnglesHint" : "0 0 180",
                "origin" : "-3.9001 2 0.255",
-               "rotation" : "0.5 -0.5 -0.5 0.5",
+               "rotation" : "-0 0 1 -0",
                "scale" : "1 1 1"
             },
             {
@@ -4290,9 +4290,9 @@
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "000B3D842B030C18001E034D9497EAF9",
-               "localEulerAnglesHint" : "90.0000076 0 -90.0000076",
+               "localEulerAnglesHint" : "0 0 180",
                "origin" : "-3.9001 0 0.255",
-               "rotation" : "0.5 -0.5 -0.5 0.5",
+               "rotation" : "-0 0 1 -0",
                "scale" : "1 1 1"
             },
             {
@@ -4335,9 +4335,9 @@
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "0035741133031013002902784DCE7B3A",
-               "localEulerAnglesHint" : "90.0000076 0 -90.0000076",
+               "localEulerAnglesHint" : "0 0 180",
                "origin" : "-3.9001 -2 0.255",
-               "rotation" : "0.5 -0.5 -0.5 0.5",
+               "rotation" : "-0 0 1 -0",
                "scale" : "1 1 1"
             },
             {
@@ -4380,9 +4380,9 @@
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "00485BB423031013002A025C5705572B",
-               "localEulerAnglesHint" : "90.0000076 0 -90.0000076",
+               "localEulerAnglesHint" : "0 0 180",
                "origin" : "-3.9001 -4 0.255",
-               "rotation" : "0.5 -0.5 -0.5 0.5",
+               "rotation" : "-0 0 1 -0",
                "scale" : "1 1 1"
             },
             {
@@ -4425,9 +4425,9 @@
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "003237F703030A1500040048360B92A6",
-               "localEulerAnglesHint" : "90.0000076 0 -90.0000076",
+               "localEulerAnglesHint" : "0 0 180",
                "origin" : "-3.9001 -6 0.255",
-               "rotation" : "0.5 -0.5 -0.5 0.5",
+               "rotation" : "-0 0 1 -0",
                "scale" : "1 1 1"
             },
             {
@@ -4464,7 +4464,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "00096A490402000A002F03B686A930DF",
+      "guid" : "000911193B02110D001303C40F45F215",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1

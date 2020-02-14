@@ -53,7 +53,7 @@
                "enabled" : true,
                "guid" : "01506C3E12010B16000501BBDC538FA1",
                "localEulerAnglesHint" : "0 0 0",
-               "origin" : "-573 -318.5 0",
+               "origin" : "0 -573 -318.5",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
@@ -148,7 +148,7 @@
                "enabled" : true,
                "guid" : "0157734D12010B16000501BBDC539296",
                "localEulerAnglesHint" : "0 0 0",
-               "origin" : "573 -318.5 0",
+               "origin" : "0 573 -318.5",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
@@ -2907,7 +2907,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "000970FD0F020E0B003B00BABC58724C",
+      "guid" : "000911193B02110D001303C40F45F215",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1

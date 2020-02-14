@@ -63,7 +63,7 @@ function update()
 
                     local ray = m.canvas:canvas_point_to_ray(knob_center_in_canvas + Point(m.knob_delta:x(), m.knob_delta:y()))
 
-                    local knob_plane = Plane(-m.canvas_transform:axis():at(2), 0)
+                    local knob_plane = Plane(-m.canvas_transform:axis():at(0), 0)
                     knob_plane:fit_through_point(knob_center)
 
                     local s = knob_plane:intersect_ray(ray)
