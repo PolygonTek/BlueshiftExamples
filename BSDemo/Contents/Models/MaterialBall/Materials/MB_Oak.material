@@ -5,39 +5,28 @@ pass {
   transparency default
   shader "{00000000-0000-0000-0000-0000000000C8}" {
     _ALBEDO "1"
-    albedoColor "1 1 1"
-    albedoAlpha "1.0000"
     albedoMap "{00C60F4C-2407-001E-0008-019D543478E6}"
     _SPECULAR "0"
     specularColor "0.0392 0.0392 0.0392"
-    specularMap "{00000000-0000-0000-0000-000000000068}"
     _GLOSS "0"
-    glossMap "{00000000-0000-0000-0000-000000000068}"
     glossScale "0.2560"
     _NORMAL "1"
     normalMap "{00CA6765-2807-001E-0008-02FE54E332D2}"
-    detailNormalMap "{00000000-0000-0000-0000-00000000006D}"
-    detailRepeat "8.0000"
     _CLEARCOAT "1"
-    clearCoatMap "{00000000-0000-0000-0000-000000000000}"
     clearCoatScale "0.8560"
     _CC_ROUGHNESS "0"
     clearCoatRoughnessMap "{00000000-0000-0000-0000-000000000000}"
     clearCoatRoughnessScale "0.4020"
-    clearCoatNormalMap "{00B0240D-0C08-0D01-002F-02C973D78002}"
     _CC_NORMAL "1"
+    clearCoatNormalMap "{00B0240D-0C08-0D01-002F-02C973D78002}"
     _PARALLAX "0"
-    heightMap "{00C80094-2607-001E-0008-0208548908C8}"
-    heightScale "0.0150"
     _OCC "1"
     occlusionMap "{00B2617C-1408-0D01-002F-00E67505411B}"
     occlusionStrength "1.0000"
     _EMISSION "0"
-    emissionColor "1 1 1"
-    emissionMap "{00000000-0000-0000-0000-000000000069}"
-    emissionScale "1.0000"
   }
   tc (1.000 1.000) (0.000 0.000)
+  imageBorders 0 0 0 0
   colorMask RGB
   color (1 1 1 1)
 }

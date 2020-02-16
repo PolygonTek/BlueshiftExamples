@@ -1424,7 +1424,7 @@
             {
                "alpha" : 1.0,
                "billboard" : false,
-               "castShadows" : true,
+               "castShadows" : false,
                "classname" : "ComStaticMeshRenderer",
                "color" : "1 1 1",
                "enabled" : true,
@@ -1433,7 +1433,7 @@
                "maxVisDist" : 1000.0,
                "mesh" : "00000000000000000000000000000194",
                "occluder" : false,
-               "receiveShadows" : true,
+               "receiveShadows" : false,
                "timeOffset" : 0.0,
                "timeScale" : 1.0,
                "useEnvironmentProveLighting" : true
@@ -7704,7 +7704,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "000911193B02110D001303C40F45F215",
+      "guid" : "00096FB316020010002C030F76ED5910",
       "skyboxMaterial" : "00073F610201090F0030010A727384A0"
    },
    "version" : 1

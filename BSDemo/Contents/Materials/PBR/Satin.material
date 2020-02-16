@@ -1,43 +1,29 @@
-material 1
+material 2
 pass {
   renderingMode opaque
   cull back
   transparency default
-  shader "000000000000000000000000000000C8" {
+  shader "{00000000-0000-0000-0000-0000000000C8}" {
     _ALBEDO "1"
-    albedoColor "1 1 1"
-    albedoAlpha "1.0000"
-    albedoMap "008056330B070B18002A01AC06CD0C4E"
+    albedoMap "{00805633-0B07-0B18-002A-01AC06CD0C4E}"
     _SPECULAR "1"
-    specularColor "1 1 1"
-    specularMap "00881AF60B070B18002A034706DD86A6"
+    specularMap "{00881AF6-0B07-0B18-002A-034706DD86A6}"
     _GLOSS "3"
-    glossMap "00820D940B070B18002A022B06D220BD"
+    glossMap "{00820D94-0B07-0B18-002A-022B06D220BD}"
     glossScale "1.0000"
     _NORMAL "1"
-    normalMap "0086038D0B070B18002A02C706D865DC"
-    detailNormalMap "0000000000000000000000000000006D"
-    detailRepeat "8.0000"
+    normalMap "{0086038D-0B07-0B18-002A-02C706D865DC}"
     _CLEARCOAT "0"
-    clearCoatMap "00000000000000000000000000000000"
-    clearCoatScale "1.0000"
     _CC_ROUGHNESS "0"
-    clearCoatRoughnessMap "00000000000000000000000000000000"
-    clearCoatRoughnessScale "0.0000"
-    clearCoatNormalMap "00000000000000000000000000000000"
     _CC_NORMAL "0"
     _PARALLAX "1"
-    heightMap "00841DBF0B070B18002A02AC06D74D28"
+    heightMap "{00841DBF-0B07-0B18-002A-02AC06D74D28}"
     heightScale "0.0310"
     _OCC "0"
-    occlusionMap "007E62ED0B070B18002A017C06CB1F83"
-    occlusionStrength "1.0000"
     _EMISSION "0"
-    emissionColor "1 1 1"
-    emissionMap "00000000000000000000000000000069"
-    emissionScale "1.0000"
   }
   tc (1.000 1.000) (0.000 0.000)
+  imageBorders 0 0 0 0
   colorMask RGB
   color (1 1 1 1)
 }

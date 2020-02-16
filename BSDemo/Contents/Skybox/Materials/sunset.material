@@ -10,6 +10,7 @@ pass {
     skyCubeMap "{000E398A-1B07-0F03-0006-03C4453B04AF}"
   }
   tc (1.000 1.000) (0.000 0.000)
+  imageBorders 0 0 0 0
   colorMask RGB
   color (1 1 1 1)
 }
