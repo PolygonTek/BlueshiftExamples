@@ -5,10 +5,10 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "0 0 0",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "1EE457040B090D06002B0057E0E81029",
+            "guid" : "15C6297C01021312000202FA23D27BB8",
+            "localEulerAnglesHint" : "0 0 0",
             "origin" : "0 0 0",
             "rotation" : "0 0 0 1",
             "scale" : "1 1 1"
@@ -30,10 +30,10 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "0 -90 0",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "1EE903590B090D06002B005AE0E88142",
+            "guid" : "15C73AD801021312000202FA23D27CE7",
+            "localEulerAnglesHint" : "0 -90.0000076 0",
             "origin" : "0 0 0.6130056",
             "rotation" : "0 -0.7071068 0 0.7071068",
             "scale" : "0.0536701 0.0536701 0.0536701"
@@ -45,10 +45,10 @@
             "classname" : "ComStaticMeshRenderer",
             "color" : "1 1 1",
             "enabled" : true,
-            "guid" : "1EEA090B0B090D06002B005AE0E88B9A",
-            "materials" : [ "001419611C020A0A003003D430593374" ],
-            "maxVisDist" : 1000.0,
-            "mesh" : "003C5CD41E020A0A00300113309EB05C",
+            "guid" : "15C80FC901021312000202FA23D27F22",
+            "materials" : [ "000A365D1C020A0A003003363050C3AC" ],
+            "maxVisDist" : 4000.0,
+            "mesh" : "00276A461D020A0A00300334308647A8",
             "occluder" : false,
             "receiveShadows" : true,
             "timeOffset" : 0.0,
@@ -57,9 +57,9 @@
          }
       ],
       "frozen" : false,
-      "guid" : "004E4E271E020A0A0030018130A491BD",
+      "guid" : "004C7EA21E020A0A0030018130A48EBC",
       "layer" : 0,
-      "name" : "Object001",
+      "name" : "oldcar_shell",
       "parent" : "004B259B1E020A0A0030018130A48F7C",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
@@ -72,10 +72,10 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "0 -90 0",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "1EE76ED00B090D06002B0059E0E854CE",
+            "guid" : "15C9035801021312000202FA23D2807C",
+            "localEulerAnglesHint" : "0 -90.0000076 0",
             "origin" : "0.4472611 0.021189 0",
             "rotation" : "0 -0.7071068 0 0.7071068",
             "scale" : "1 1 1"
@@ -87,9 +87,9 @@
             "classname" : "ComStaticMeshRenderer",
             "color" : "1 1 1",
             "enabled" : true,
-            "guid" : "1EE811280B090D06002B0059E0E85F56",
+            "guid" : "15CA693401021312000202FA23D282AE",
             "materials" : [ "000B0D001C020A0A003003483051B810" ],
-            "maxVisDist" : 1000.0,
+            "maxVisDist" : 4000.0,
             "mesh" : "002D0B3F1E020A0A003000913097BB8F",
             "occluder" : false,
             "receiveShadows" : true,
@@ -114,10 +114,10 @@
       "classname" : "Entity",
       "components" : [
          {
-            "angles" : "0 -90 0",
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "1EE518900B090D06002B0058E0E828B3",
+            "guid" : "15CB6EF401021312000202FA23D28454",
+            "localEulerAnglesHint" : "0 -90.0000076 0",
             "origin" : "0 0 0.6130056",
             "rotation" : "0 -0.7071068 0 0.7071068",
             "scale" : "0.0536701 0.0536701 0.0536701"
@@ -129,10 +129,10 @@
             "classname" : "ComStaticMeshRenderer",
             "color" : "1 1 1",
             "enabled" : true,
-            "guid" : "1EE64CC40B090D06002B0058E0E83365",
-            "materials" : [ "000A365D1C020A0A003003363050C3AC" ],
-            "maxVisDist" : 1000.0,
-            "mesh" : "00276A461D020A0A00300334308647A8",
+            "guid" : "15CC0CE901021312000202FB23D289F4",
+            "materials" : [ "001419611C020A0A003003D430593374" ],
+            "maxVisDist" : 4000.0,
+            "mesh" : "003C5CD41E020A0A00300113309EB05C",
             "occluder" : false,
             "receiveShadows" : true,
             "timeOffset" : 0.0,
@@ -141,9 +141,9 @@
          }
       ],
       "frozen" : false,
-      "guid" : "004C7EA21E020A0A0030018130A48EBC",
+      "guid" : "004E4E271E020A0A0030018130A491BD",
       "layer" : 0,
-      "name" : "oldcar_shell",
+      "name" : "Object001",
       "parent" : "004B259B1E020A0A0030018130A48F7C",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
