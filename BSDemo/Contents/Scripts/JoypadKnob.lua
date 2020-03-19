@@ -1,4 +1,5 @@
 local blueshift = require "blueshift"
+local Common = blueshift.Common
 local Point = blueshift.Point
 local Vec2 = blueshift.Vec2
 local Plane = blueshift.Plane
@@ -15,6 +16,13 @@ m = {
 }
 
 function start()
+    if not Common.with_editor() then
+        if Common.platform_id() ~= Common.PlatformId.IOS and Common.platform_id() ~= Common.PlatformId.Android then
+            owner.entity:set_active(false)
+            return
+        end
+    end
+
     local canvas_entity = owner.entity:parent()
     m.canvas = canvas_entity:canvas()
     m.canvas_transform = canvas_entity:transform()

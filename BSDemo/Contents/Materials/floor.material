@@ -8,6 +8,7 @@ pass {
     albedoMap "{000C6D4B-0C03-0D03-0005-03DF00433D62}"
     _SPECULAR "0"
     specularColor "0.0471 0.0471 0.0471"
+    specularAlpha "1.0000"
     _GLOSS "0"
     glossScale "0.0000"
     _NORMAL "1"

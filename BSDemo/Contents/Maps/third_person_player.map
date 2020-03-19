@@ -2560,7 +2560,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "000911193B02110D001303C40F45F215",
+      "guid" : "00094D0C290201140032020E658B3A58",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1
