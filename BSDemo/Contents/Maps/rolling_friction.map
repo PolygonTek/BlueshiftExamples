@@ -13,7 +13,7 @@
                "enabled" : true,
                "guid" : "00FB774908010A16003B0363000ABB63",
                "localEulerAnglesHint" : "0 0 0",
-               "origin" : "0 0 0",
+               "origin" : "-10000 0 0",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
@@ -22,6 +22,7 @@
             },
             {
                "classname" : "ComCanvas",
+               "clearDepth" : false,
                "enabled" : true,
                "guid" : "00FC3E5D08010A16003B0363000ABA8C",
                "match" : 0.0,
@@ -30,15 +31,16 @@
                "scaleMode" : 1
             }
          ],
-         "frozen" : false,
          "guid" : "00FA586408010A16003B0363000AB85D",
          "layer" : 2,
          "name" : "Canvas",
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00700C1A07010A16003901F8B7B42A4B",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -81,15 +83,16 @@
                "script" : "00F93EC108010B13002003AD64899094"
             }
          ],
-         "frozen" : false,
          "guid" : "00FD0DC908010A16003B0363000ABD74",
          "layer" : 2,
          "name" : "JoyPadL",
          "parent" : "00FA586408010A16003B0363000AB85D",
          "prefab" : false,
          "prefabSource" : "00734C7307010A16003901F8B7B42EE4",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -125,15 +128,16 @@
                "timeScale" : 1.0
             }
          ],
-         "frozen" : false,
          "guid" : "010130A708010A16003B0363000ABEDD",
          "layer" : 2,
          "name" : "knob",
          "parent" : "00FD0DC908010A16003B0363000ABD74",
          "prefab" : false,
          "prefabSource" : "007737B907010A16003901F8B7B433FE",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -176,15 +180,16 @@
                "script" : "00F93EC108010B13002003AD64899094"
             }
          ],
-         "frozen" : false,
          "guid" : "010426D008010A16003B0363000AC050",
          "layer" : 2,
          "name" : "JoyPadR",
          "parent" : "00FA586408010A16003B0363000AB85D",
          "prefab" : false,
          "prefabSource" : "007A483707010A16003901F8B7B434E7",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -220,15 +225,16 @@
                "timeScale" : 1.0
             }
          ],
-         "frozen" : false,
          "guid" : "0108785508010A16003B0363000AC50C",
          "layer" : 2,
          "name" : "knob",
          "parent" : "010426D008010A16003B0363000AC050",
          "prefab" : false,
          "prefabSource" : "007E1D7907010A16003901F9B7B438AA",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -284,15 +290,16 @@
                "spinningFriction" : 1.0
             }
          ],
-         "frozen" : false,
          "guid" : "005F70432F03101C0001019E0065A6CB",
          "layer" : 0,
          "name" : "Cylinder 10",
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -348,15 +355,16 @@
                "spinningFriction" : 0.89800000190734863
             }
          ],
-         "frozen" : false,
          "guid" : "005544302103101C000002D5F0F4A70E",
          "layer" : 0,
          "name" : "Cylinder 9",
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -412,15 +420,16 @@
                "spinningFriction" : 0.80000001192092896
             }
          ],
-         "frozen" : false,
          "guid" : "0050431A2103101C00000273F0EF6086",
          "layer" : 0,
          "name" : "Cylinder 8",
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -476,15 +485,16 @@
                "spinningFriction" : 0.69999998807907104
             }
          ],
-         "frozen" : false,
          "guid" : "004B7AF62103101C0000020DF0E9E9FA",
          "layer" : 0,
          "name" : "Cylinder 7",
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -540,15 +550,16 @@
                "spinningFriction" : 0.60000002384185791
             }
          ],
-         "frozen" : false,
          "guid" : "00462B742103101C000001A8F0E485A3",
          "layer" : 0,
          "name" : "Cylinder 6",
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -604,15 +615,16 @@
                "spinningFriction" : 0.5
             }
          ],
-         "frozen" : false,
          "guid" : "004174412103101C00000141F0DEFCDE",
          "layer" : 0,
          "name" : "Cylinder 5",
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -668,15 +680,16 @@
                "spinningFriction" : 0.40000000596046448
             }
          ],
-         "frozen" : false,
          "guid" : "003C562F2103101C000000DDF0D99B04",
          "layer" : 0,
          "name" : "Cylinder 4",
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -732,15 +745,16 @@
                "spinningFriction" : 0.30000001192092896
             }
          ],
-         "frozen" : false,
          "guid" : "00373C422103101C00000074F0D3FAF1",
          "layer" : 0,
          "name" : "Cylinder 3",
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -796,15 +810,16 @@
                "spinningFriction" : 0.20000000298023224
             }
          ],
-         "frozen" : false,
          "guid" : "003234842103101C00000010F0CE9C73",
          "layer" : 0,
          "name" : "Cylinder 2",
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -860,15 +875,16 @@
                "spinningFriction" : 0.10000000149011612
             }
          ],
-         "frozen" : false,
          "guid" : "002D7DBE2003101C0000038FF0C901F0",
          "layer" : 0,
          "name" : "Cylinder 1",
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -924,15 +940,16 @@
                "spinningFriction" : 0.0
             }
          ],
-         "frozen" : false,
          "guid" : "000734BB16030F1C0009018A6D5DDB6A",
          "layer" : 0,
          "name" : "Cylinder",
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -968,15 +985,16 @@
                "timerOffset" : 0.0
             }
          ],
-         "frozen" : false,
          "guid" : "02965ADF0E090B19002E01C672F78C66",
          "layer" : 0,
          "name" : "Directional Light",
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : -1,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1031,15 +1049,16 @@
                "spinningFriction" : 1.0
             }
          ],
-         "frozen" : false,
          "guid" : "01E55E863009091C000D015CBB56E37E",
          "layer" : 0,
          "name" : "Floor",
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : -1,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1094,15 +1113,16 @@
                "spinningFriction" : 1.0
             }
          ],
-         "frozen" : false,
          "guid" : "000F10432C030F1C00390152CD76056A",
          "layer" : 0,
          "name" : "Plane",
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : -1,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1149,15 +1169,16 @@
                "slide_sound" : "02372BE3200B120C001C0351B68A1631"
             }
          ],
-         "frozen" : false,
          "guid" : "02CF1B0117060D15000C00E83327BE32",
          "layer" : 0,
          "name" : "Player",
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "000B167310060D15000B00B3251ABF0D",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Player"
+         "tag" : "Player",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1191,15 +1212,16 @@
                "useEnvironmentProveLighting" : true
             }
          ],
-         "frozen" : false,
          "guid" : "02D41F7417060D15000C00E83327C17C",
          "layer" : 0,
          "name" : "Boy01_Brows_Geo",
          "parent" : "02CF1B0117060D15000C00E83327BE32",
          "prefab" : false,
          "prefabSource" : "00B3696E10060D15000B00B7251AF05F",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1233,15 +1255,16 @@
                "useEnvironmentProveLighting" : true
             }
          ],
-         "frozen" : false,
          "guid" : "02D70BD017060D15000C00E83327C01C",
          "layer" : 0,
          "name" : "Boy01_Eyes_Geo",
          "parent" : "02CF1B0117060D15000C00E83327BE32",
          "prefab" : false,
          "prefabSource" : "00B0695B10060D15000B00B7251AF08A",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1275,15 +1298,16 @@
                "useEnvironmentProveLighting" : true
             }
          ],
-         "frozen" : false,
          "guid" : "02DA246A17060D15000C00E83327C339",
          "layer" : 0,
          "name" : "h_Geo",
          "parent" : "02CF1B0117060D15000C00E83327BE32",
          "prefab" : false,
          "prefabSource" : "00AD339710060D15000B00B7251AF1F3",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1317,15 +1341,16 @@
                "useEnvironmentProveLighting" : true
             }
          ],
-         "frozen" : false,
          "guid" : "02DD334E17060D15000C00E83327C2DB",
          "layer" : 0,
          "name" : "Boy01_Body_Geo",
          "parent" : "02CF1B0117060D15000C00E83327BE32",
          "prefab" : false,
          "prefabSource" : "00AA122310060D15000B00B7251AEF29",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1342,15 +1367,16 @@
                "scale" : "0.01 0.01 0.01"
             }
          ],
-         "frozen" : false,
          "guid" : "02E0345417060D15000C00E83327C58F",
          "layer" : 0,
          "name" : "Hips",
          "parent" : "02CF1B0117060D15000C00E83327BE32",
          "prefab" : false,
          "prefabSource" : "00163BEC10060D15000B00B4251AC30A",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1367,15 +1393,16 @@
                "scale" : "100 100 100"
             }
          ],
-         "frozen" : false,
          "guid" : "02E211B017060D15000C00E93327C497",
          "layer" : 0,
          "name" : "BoyFacialAnim_Joint",
          "parent" : "02E0345417060D15000C00E83327C58F",
          "prefab" : false,
          "prefabSource" : "00A8500A10060D15000B00B7251AEC79",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1392,15 +1419,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "02E41DC917060D15000C00E93327C469",
          "layer" : 0,
          "name" : "Spine",
          "parent" : "02E0345417060D15000C00E83327C58F",
          "prefab" : false,
          "prefabSource" : "00324D9410060D15000B00B4251ACAA0",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1417,15 +1445,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "02E629D017060D15000C00E93327C7C1",
          "layer" : 0,
          "name" : "Spine1",
          "parent" : "02E41DC917060D15000C00E93327C469",
          "prefab" : false,
          "prefabSource" : "00342FC210060D15000B00B4251ACA2F",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1442,15 +1471,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "02E84EFE17060D15000C00E93327C757",
          "layer" : 0,
          "name" : "RBackpack_Strap",
          "parent" : "02E629D017060D15000C00E93327C7C1",
          "prefab" : false,
          "prefabSource" : "00A6267E10060D15000B00B7251AECEC",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1467,15 +1497,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "02EA425817060D15000C00E93327C621",
          "layer" : 0,
          "name" : "LBackpack_Strap",
          "parent" : "02E629D017060D15000C00E93327C7C1",
          "prefab" : false,
          "prefabSource" : "00A47ADC10060D15000B00B7251AED63",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1492,15 +1523,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "02EC63D017060D15000C00E93327C9B4",
          "layer" : 0,
          "name" : "Spine2",
          "parent" : "02E629D017060D15000C00E93327C7C1",
          "prefab" : false,
          "prefabSource" : "00367E1E10060D15000B00B4251ACDB8",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1517,15 +1549,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "02EE4B3717060D15000C00E93327C905",
          "layer" : 0,
          "name" : "RHoodieString",
          "parent" : "02EC63D017060D15000C00E93327C9B4",
          "prefab" : false,
          "prefabSource" : "009E456D10060D15000B00B7251AEB4E",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1542,15 +1575,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "02F069CF17060D15000C00E93327C89A",
          "layer" : 0,
          "name" : "RHoodieString1",
          "parent" : "02EE4B3717060D15000C00E93327C905",
          "prefab" : false,
          "prefabSource" : "00A0676310060D15000B00B7251AEA04",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1567,15 +1601,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "02F24D9017060D15000C00E93327C86E",
          "layer" : 0,
          "name" : "RHoodieString2",
          "parent" : "02F069CF17060D15000C00E93327C89A",
          "prefab" : false,
          "prefabSource" : "00A272DB10060D15000B00B7251AED91",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1592,15 +1627,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "02F43B4E17060D15000C00E93327CBFE",
          "layer" : 0,
          "name" : "LHoodieString",
          "parent" : "02EC63D017060D15000C00E93327C9B4",
          "prefab" : false,
          "prefabSource" : "00987F9F10060D15000B00B6251AE94A",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1617,15 +1653,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "02F63F6A17060D15000C00E93327CB4D",
          "layer" : 0,
          "name" : "LHoodieString1",
          "parent" : "02F43B4E17060D15000C00E93327CBFE",
          "prefab" : false,
          "prefabSource" : "009A6BB010060D15000B00B6251AE8D6",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1642,15 +1679,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "02F810B617060D15000C00E93327CADD",
          "layer" : 0,
          "name" : "LHoodieString2",
          "parent" : "02F63F6A17060D15000C00E93327CB4D",
          "prefab" : false,
          "prefabSource" : "009C44E110060D15000B00B7251AEBB1",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1667,15 +1705,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "02FA3FA917060D15000C00E93327CDAC",
          "layer" : 0,
          "name" : "Hood",
          "parent" : "02EC63D017060D15000C00E93327C9B4",
          "prefab" : false,
          "prefabSource" : "0094749D10060D15000B00B6251AE66F",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1692,15 +1731,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "02FC3C2017060D15000C00E93327CD3C",
          "layer" : 0,
          "name" : "Hood1",
          "parent" : "02FA3FA917060D15000C00E93327CDAC",
          "prefab" : false,
          "prefabSource" : "0096637810060D15000B00B6251AE9FF",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1717,15 +1757,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "02FE4E3D17060D15000C00E93327CC88",
          "layer" : 0,
          "name" : "Backpack",
          "parent" : "02EC63D017060D15000C00E93327C9B4",
          "prefab" : false,
          "prefabSource" : "0092643910060D15000B00B6251AE69D",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1742,15 +1783,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "0300432217060D15000C00E93327CC1B",
          "layer" : 0,
          "name" : "RightShoulder",
          "parent" : "02EC63D017060D15000C00E93327C9B4",
          "prefab" : false,
          "prefabSource" : "006A49CF10060D15000B00B5251ADA83",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1767,15 +1809,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "0302549917060D15000C00E93327CFE8",
          "layer" : 0,
          "name" : "RightArm",
          "parent" : "0300432217060D15000C00E93327CC1B",
          "prefab" : false,
          "prefabSource" : "006C48AB10060D15000B00B5251ADA0F",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1792,15 +1835,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "03044AE817060D15000C00E93327CF75",
          "layer" : 0,
          "name" : "RightForeArm",
          "parent" : "0302549917060D15000C00E93327CFE8",
          "prefab" : false,
          "prefabSource" : "006E65EF10060D15000B00B5251ADD99",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1817,15 +1861,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "0306126617060D15000C00E93327CEC4",
          "layer" : 0,
          "name" : "RSleeve",
          "parent" : "03044AE817060D15000C00E93327CF75",
          "prefab" : false,
          "prefabSource" : "00904B7910060D15000B00B6251AE710",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1842,15 +1887,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "03080A8717060D15000C00E93327CE55",
          "layer" : 0,
          "name" : "RightHand",
          "parent" : "03044AE817060D15000C00E93327CF75",
          "prefab" : false,
          "prefabSource" : "007041B810060D15000B00B6251ADCE5",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1867,15 +1913,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "030A427917060D15000C00E93327D144",
          "layer" : 0,
          "name" : "RightHandPinky1",
          "parent" : "03080A8717060D15000C00E93327CE55",
          "prefab" : false,
          "prefabSource" : "008A402F10060D15000B00B6251AE4AA",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1892,15 +1939,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "030C378F17060D15000C00E93327D0DA",
          "layer" : 0,
          "name" : "RightHandPinky2",
          "parent" : "030A427917060D15000C00E93327D144",
          "prefab" : false,
          "prefabSource" : "008C429E10060D15000B00B6251AE434",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1917,15 +1965,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "030E0C0317060D15000C00EA3327D3C9",
          "layer" : 0,
          "name" : "RightHandPinky3",
          "parent" : "030C378F17060D15000C00E93327D0DA",
          "prefab" : false,
          "prefabSource" : "008E6C9710060D15000B00B6251AE786",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1942,15 +1991,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "031020DF17060D15000C00EA3327D35A",
          "layer" : 0,
          "name" : "RightHandRing1",
          "parent" : "03080A8717060D15000C00E93327CE55",
          "prefab" : false,
          "prefabSource" : "0084063510060D15000B00B6251AE2FD",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1967,15 +2017,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "0312140817060D15000C00EA3327D22B",
          "layer" : 0,
          "name" : "RightHandRing2",
          "parent" : "031020DF17060D15000C00EA3327D35A",
          "prefab" : false,
          "prefabSource" : "008601A610060D15000B00B6251AE249",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1992,15 +2043,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "03146BBE17060D15000C00EA3327D5BB",
          "layer" : 0,
          "name" : "RightHandRing3",
          "parent" : "0312140817060D15000C00EA3327D22B",
          "prefab" : false,
          "prefabSource" : "008879B010060D15000B00B6251AE5DC",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2017,15 +2069,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "0316431317060D15000C00EA3327D508",
          "layer" : 0,
          "name" : "RightHandMiddle1",
          "parent" : "03080A8717060D15000C00E93327CE55",
          "prefab" : false,
          "prefabSource" : "007E35E610060D15000B00B6251AE01B",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2042,15 +2095,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "0318272717060D15000C00EA3327D49A",
          "layer" : 0,
          "name" : "RightHandMiddle2",
          "parent" : "0316431317060D15000C00EA3327D508",
          "prefab" : false,
          "prefabSource" : "00805E8710060D15000B00B6251AE3EA",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2067,15 +2121,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "031A132717060D15000C00EA3327D46E",
          "layer" : 0,
          "name" : "RightHandMiddle3",
          "parent" : "0318272717060D15000C00EA3327D49A",
          "prefab" : false,
          "prefabSource" : "008254F210060D15000B00B6251AE377",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2092,15 +2147,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "031C296317060D15000C00EA3327D7F8",
          "layer" : 0,
          "name" : "RightHandIndex1",
          "parent" : "03080A8717060D15000C00E93327CE55",
          "prefab" : false,
          "prefabSource" : "00782D4610060D15000B00B6251ADE2A",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2117,15 +2173,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "031E79F817060D15000C00EA3327D74F",
          "layer" : 0,
          "name" : "RightHandIndex2",
          "parent" : "031C296317060D15000C00EA3327D7F8",
          "prefab" : false,
          "prefabSource" : "007A6F0310060D15000B00B6251AE13B",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2142,15 +2199,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "03206BDE17060D15000C00EA3327D6DC",
          "layer" : 0,
          "name" : "RightHandIndex3",
          "parent" : "031E79F817060D15000C00EA3327D74F",
          "prefab" : false,
          "prefabSource" : "007C66F810060D15000B00B6251AE08F",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2167,15 +2225,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "0322435B17060D15000C00EA3327D9A8",
          "layer" : 0,
          "name" : "RightHandThumb1",
          "parent" : "03080A8717060D15000C00E93327CE55",
          "prefab" : false,
          "prefabSource" : "0072678910060D15000B00B6251ADC75",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2192,15 +2251,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "0324593317060D15000C00EA3327D93C",
          "layer" : 0,
          "name" : "RightHandThumb2",
          "parent" : "0322435B17060D15000C00EA3327D9A8",
          "prefab" : false,
          "prefabSource" : "00741E4010060D15000B00B6251ADFC4",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2217,15 +2277,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "03266FFC17060D15000C00EA3327D88F",
          "layer" : 0,
          "name" : "RightHandThumb3",
          "parent" : "0324593317060D15000C00EA3327D93C",
          "prefab" : false,
          "prefabSource" : "00765C7C10060D15000B00B6251ADF56",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2242,15 +2303,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "0328418917060D15000C00EA3327D81F",
          "layer" : 0,
          "name" : "LeftShoulder",
          "parent" : "02EC63D017060D15000C00E93327C9B4",
          "prefab" : false,
          "prefabSource" : "00423D6510060D15000B00B5251AD1B4",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2267,15 +2329,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "032A6C4F17060D15000C00EA3327DBF3",
          "layer" : 0,
          "name" : "LeftArm",
          "parent" : "0328418917060D15000C00EA3327D81F",
          "prefab" : false,
          "prefabSource" : "004426DF10060D15000B00B5251AD106",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2292,15 +2355,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "032C692217060D15000C00EA3327DB7D",
          "layer" : 0,
          "name" : "LeftForeArm",
          "parent" : "032A6C4F17060D15000C00EA3327DBF3",
          "prefab" : false,
          "prefabSource" : "0046712B10060D15000B00B5251AD090",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2317,15 +2381,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "032E33C917060D15000C00EA3327DAD2",
          "layer" : 0,
          "name" : "LSleeve",
          "parent" : "032C692217060D15000C00EA3327DB7D",
          "prefab" : false,
          "prefabSource" : "006879AD10060D15000B00B5251ADB37",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2342,15 +2407,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "0330653117060D15000C00EA3327DDA3",
          "layer" : 0,
          "name" : "LeftHand",
          "parent" : "032C692217060D15000C00EA3327DB7D",
          "prefab" : false,
          "prefabSource" : "00482B5A10060D15000B00B5251AD062",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2367,15 +2433,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "0332344F17060D15000C00EA3327DD34",
          "layer" : 0,
          "name" : "LeftHandPinky1",
          "parent" : "0330653117060D15000C00EA3327DDA3",
          "prefab" : false,
          "prefabSource" : "006208C210060D15000B00B5251AD953",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2392,15 +2459,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "03343AEC17060D15000C00EA3327DC85",
          "layer" : 0,
          "name" : "LeftHandPinky2",
          "parent" : "0332344F17060D15000C00EA3327DD34",
          "prefab" : false,
          "prefabSource" : "0064479910060D15000B00B5251AD8DF",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2417,15 +2485,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "033605EF17060D15000C00EA3327DC18",
          "layer" : 0,
          "name" : "LeftHandPinky3",
          "parent" : "03343AEC17060D15000C00EA3327DC85",
          "prefab" : false,
          "prefabSource" : "00664DAD10060D15000B00B5251ADBAB",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2442,15 +2511,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "033874E317060D15000C00EA3327DF62",
          "layer" : 0,
          "name" : "LeftHandRing1",
          "parent" : "0330653117060D15000C00EA3327DDA3",
          "prefab" : false,
          "prefabSource" : "005C32B010060D15000B00B5251AD6E5",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2467,15 +2537,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "033A4ACE17060D15000C00EB3327E197",
          "layer" : 0,
          "name" : "LeftHandRing2",
          "parent" : "033874E317060D15000C00EA3327DF62",
          "prefab" : false,
          "prefabSource" : "005E178510060D15000B00B5251AD676",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2492,15 +2563,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "033C229017060D15000C00EB3327E07B",
          "layer" : 0,
          "name" : "LeftHandRing3",
          "parent" : "033A4ACE17060D15000C00EB3327E197",
          "prefab" : false,
          "prefabSource" : "00601E7810060D15000B00B5251AD9C1",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2517,15 +2589,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "033E4B6117060D15000C00EB3327E322",
          "layer" : 0,
          "name" : "LeftHandMiddle1",
          "parent" : "0330653117060D15000C00EA3327DDA3",
          "prefab" : false,
          "prefabSource" : "00565D2C10060D15000B00B5251AD400",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2542,15 +2615,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "0340762F17060D15000C00EB3327E281",
          "layer" : 0,
          "name" : "LeftHandMiddle2",
          "parent" : "033E4B6117060D15000C00EB3327E322",
          "prefab" : false,
          "prefabSource" : "00585E7010060D15000B00B5251AD792",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2567,15 +2641,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "034222E017060D15000C00EB3327E266",
          "layer" : 0,
          "name" : "LeftHandMiddle3",
          "parent" : "0340762F17060D15000C00EB3327E281",
          "prefab" : false,
          "prefabSource" : "005A447610060D15000B00B5251AD71F",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2592,15 +2667,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "034474D017060D15000C00EB3327E5F8",
          "layer" : 0,
          "name" : "LeftHandIndex1",
          "parent" : "0330653117060D15000C00EA3327DDA3",
          "prefab" : false,
          "prefabSource" : "0050567110060D15000B00B5251AD257",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2617,15 +2693,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "03460FF817060D15000C00EB3327E55B",
          "layer" : 0,
          "name" : "LeftHandIndex2",
          "parent" : "034474D017060D15000C00EB3327E5F8",
          "prefab" : false,
          "prefabSource" : "00521FA010060D15000B00B5251AD524",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2642,15 +2719,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "03486CAA17060D15000C00EB3327E41F",
          "layer" : 0,
          "name" : "LeftHandIndex3",
          "parent" : "03460FF817060D15000C00EB3327E55B",
          "prefab" : false,
          "prefabSource" : "0054595A10060D15000B00B5251AD4B7",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2667,15 +2745,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "034A3DC117060D15000C00EB3327E7ED",
          "layer" : 0,
          "name" : "LeftHandThumb1",
          "parent" : "0330653117060D15000C00EA3327DDA3",
          "prefab" : false,
          "prefabSource" : "004A251B10060D15000B00B5251AD3EE",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2692,15 +2771,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "034C25B217060D15000C00EB3327E747",
          "layer" : 0,
          "name" : "LeftHandThumb2",
          "parent" : "034A3DC117060D15000C00EB3327E7ED",
          "prefab" : false,
          "prefabSource" : "004C544410060D15000B00B5251AD378",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2717,15 +2797,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "034E18EF17060D15000C00EB3327E6DB",
          "layer" : 0,
          "name" : "LeftHandThumb3",
          "parent" : "034C25B217060D15000C00EB3327E747",
          "prefab" : false,
          "prefabSource" : "004E6BB910060D15000B00B5251AD2CA",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2742,15 +2823,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "0350006C17060D15000C00EB3327E9B2",
          "layer" : 0,
          "name" : "Neck",
          "parent" : "02EC63D017060D15000C00E93327C9B4",
          "prefab" : false,
          "prefabSource" : "0038307610060D15000B00B4251ACD0B",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2767,15 +2849,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "0352054C17060D15000C00EB3327E90A",
          "layer" : 0,
          "name" : "Head",
          "parent" : "0350006C17060D15000C00EB3327E9B2",
          "prefab" : false,
          "prefabSource" : "003A342110060D15000B00B4251ACC94",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2792,15 +2875,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "0354770117060D15000C00EB3327E899",
          "layer" : 0,
          "name" : "Hat",
          "parent" : "0352054C17060D15000C00EB3327E90A",
          "prefab" : false,
          "prefabSource" : "0040338E10060D15000B00B5251ACEFA",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2817,15 +2901,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "0356076617060D15000C00EB3327E871",
          "layer" : 0,
          "name" : "HairA",
          "parent" : "0352054C17060D15000C00EB3327E90A",
          "prefab" : false,
          "prefabSource" : "003E39E010060D15000B00B4251ACFF7",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2842,15 +2927,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "0358349317060D15000C00EB3327EBCA",
          "layer" : 0,
          "name" : "HairB",
          "parent" : "0352054C17060D15000C00EB3327E90A",
          "prefab" : false,
          "prefabSource" : "003C70E110060D15000B00B4251ACC6A",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2867,15 +2953,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "035A368417060D15000C00EB3327EB5B",
          "layer" : 0,
          "name" : "Pelvis",
          "parent" : "02E0345417060D15000C00E83327C58F",
          "prefab" : false,
          "prefabSource" : "001844AF10060D15000B00B4251AC295",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2892,15 +2979,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "035C36CD17060D15000C00EB3327EA33",
          "layer" : 0,
          "name" : "RightUpLeg",
          "parent" : "035A368417060D15000C00EB3327EB5B",
          "prefab" : false,
          "prefabSource" : "002636B810060D15000B00B4251AC616",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2917,15 +3005,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "035E0ADF17060D15000C00EB3327ED8A",
          "layer" : 0,
          "name" : "RightLeg",
          "parent" : "035C36CD17060D15000C00EB3327EA33",
          "prefab" : false,
          "prefabSource" : "00286E0F10060D15000B00B4251AC9E3",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2942,15 +3031,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "03602DBE17060D15000C00EB3327ED53",
          "layer" : 0,
          "name" : "RightPantLeg",
          "parent" : "035E0ADF17060D15000C00EB3327ED8A",
          "prefab" : false,
          "prefabSource" : "003017FB10060D15000B00B4251ACBD5",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2967,15 +3057,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "03625C0F17060D15000C00EC3327EC16",
          "layer" : 0,
          "name" : "RightFoot",
          "parent" : "035E0ADF17060D15000C00EB3327ED8A",
          "prefab" : false,
          "prefabSource" : "002A6C2A10060D15000B00B4251AC971",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2992,15 +3083,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "03640DE717060D15000C00EC3327EFF7",
          "layer" : 0,
          "name" : "RFootTongue",
          "parent" : "03625C0F17060D15000C00EC3327EC16",
          "prefab" : false,
          "prefabSource" : "002E3F8D10060D15000B00B4251AC849",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -3017,15 +3109,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "036623C417060D15000C00EC3327EF54",
          "layer" : 0,
          "name" : "RightToeBase",
          "parent" : "03625C0F17060D15000C00EC3327EC16",
          "prefab" : false,
          "prefabSource" : "002C104210060D15000B00B4251AC8FD",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -3042,15 +3135,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "0368089217060D15000C00EC3327EE54",
          "layer" : 0,
          "name" : "LeftUpLeg",
          "parent" : "035A368417060D15000C00EB3327EB5B",
          "prefab" : false,
          "prefabSource" : "001A2A1B10060D15000B00B4251AC269",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -3067,15 +3161,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "036A58B617060D15000C00EC3327F11A",
          "layer" : 0,
          "name" : "LeftLeg",
          "parent" : "0368089217060D15000C00EC3327EE54",
          "prefab" : false,
          "prefabSource" : "001C2E6210060D15000B00B4251AC5FF",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -3092,15 +3187,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "036C5E6617060D15000C00EC3327F0FA",
          "layer" : 0,
          "name" : "LeftPantLeg",
          "parent" : "036A58B617060D15000C00EC3327F11A",
          "prefab" : false,
          "prefabSource" : "00244FE010060D15000B00B4251AC680",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -3117,15 +3213,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "036E75DF17060D15000C00EC3327F05F",
          "layer" : 0,
          "name" : "LeftFoot",
          "parent" : "036A58B617060D15000C00EC3327F11A",
          "prefab" : false,
          "prefabSource" : "001E509110060D15000B00B4251AC548",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -3142,15 +3239,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "0370403917060D15000C00EC3327F33A",
          "layer" : 0,
          "name" : "LFootTongue",
          "parent" : "036E75DF17060D15000C00EC3327F05F",
          "prefab" : false,
          "prefabSource" : "002245F110060D15000B00B4251AC7A5",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -3167,15 +3265,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "037201E717060D15000C00EC3327F217",
          "layer" : 0,
          "name" : "LeftToeBase",
          "parent" : "036E75DF17060D15000C00EC3327F05F",
          "prefab" : false,
          "prefabSource" : "00202E2310060D15000B00B4251AC4DB",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -3220,15 +3319,16 @@
                "z_offset" : 1.8999999761581421
             }
          ],
-         "frozen" : false,
          "guid" : "0374322517060D15000C00EC3327F5DA",
          "layer" : 0,
          "name" : "Camera",
          "parent" : "02CF1B0117060D15000C00E83327BE32",
          "prefab" : false,
          "prefabSource" : "00132AC810060D15000B00B4251AC000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "MainCamera"
+         "tag" : "MainCamera",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -3250,20 +3350,21 @@
                "guid" : "03793C7917060D15000C00EC3327F429"
             }
          ],
-         "frozen" : false,
          "guid" : "03777C2A17060D15000C00EC3327F4E2",
          "layer" : 0,
          "name" : "Listener",
          "parent" : "02CF1B0117060D15000C00E83327BE32",
          "prefab" : false,
          "prefabSource" : "001018AF10060D15000B00B3251ABE52",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       }
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "000911193B02110D001303C40F45F215",
+      "guid" : "0009501408031718002401ED4699758C",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1

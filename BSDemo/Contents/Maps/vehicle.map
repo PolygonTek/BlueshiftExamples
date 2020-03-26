@@ -13,7 +13,7 @@
                "enabled" : true,
                "guid" : "007729F60C010B16000901BC67CD4AA1",
                "localEulerAnglesHint" : "0 0 0",
-               "origin" : "0 0 0",
+               "origin" : "-10000 0 0",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
@@ -22,6 +22,7 @@
             },
             {
                "classname" : "ComCanvas",
+               "clearDepth" : false,
                "enabled" : true,
                "guid" : "007870860C010B16000901BC67CD4ACE",
                "match" : 0.0,
@@ -30,15 +31,16 @@
                "scaleMode" : 1
             }
          ],
-         "frozen" : false,
          "guid" : "007662D00C010B16000901BC67CD4BAA",
          "layer" : 2,
          "name" : "Canvas",
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00700C1A07010A16003901F8B7B42A4B",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -83,15 +85,16 @@
                "wheel_radius" : 168.0
             }
          ],
-         "frozen" : false,
          "guid" : "007958BC0C010B16000901BC67CD4CB1",
          "layer" : 2,
          "name" : "Steering Wheel",
          "parent" : "007662D00C010B16000901BC67CD4BAA",
          "prefab" : false,
          "prefabSource" : "00734C7307010A16003901F8B7B42EE4",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -134,15 +137,16 @@
                "target_car" : "00595BCF38041101002D01DB01693BD9"
             }
          ],
-         "frozen" : false,
          "guid" : "00646F642E020C0A00080319C1304464",
          "layer" : 2,
          "name" : "Accel Pedal",
          "parent" : "007662D00C010B16000901BC67CD4BAA",
          "prefab" : false,
          "prefabSource" : "00734C7307010A16003901F8B7B42EE4",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -185,15 +189,16 @@
                "target_car" : "00595BCF38041101002D01DB01693BD9"
             }
          ],
-         "frozen" : false,
          "guid" : "00E644A626020C0A0012009E21AB8C8D",
          "layer" : 2,
          "name" : "Brake Pedal",
          "parent" : "007662D00C010B16000901BC67CD4BAA",
          "prefab" : false,
          "prefabSource" : "00734C7307010A16003901F8B7B42EE4",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -243,15 +248,16 @@
                "translation" : 2.0
             }
          ],
-         "frozen" : false,
          "guid" : "006462D50B020D0A002702F662B86218",
          "layer" : 2,
          "name" : "DriveToggle",
          "parent" : "007662D00C010B16000901BC67CD4BAA",
          "prefab" : false,
          "prefabSource" : "00734C7307010A16003901F8B7B42EE4",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -296,15 +302,16 @@
                "vertOverflow" : 0
             }
          ],
-         "frozen" : false,
          "guid" : "006024CC0802110A00170067AB79F453",
          "layer" : 2,
          "name" : "Text",
          "parent" : "006462D50B020D0A002702F662B86218",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -340,15 +347,16 @@
                "timerOffset" : 0.0
             }
          ],
-         "frozen" : false,
          "guid" : "02965ADF0E090B19002E01C672F78C66",
          "layer" : 0,
          "name" : "Directional Light",
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : -1,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -399,15 +407,16 @@
                "vehicle" : "00595BCF38041101002D01DB01693BD9"
             }
          ],
-         "frozen" : false,
          "guid" : "02147906290917190021039372E79868",
          "layer" : 0,
          "name" : "MainCamera",
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "MainCamera"
+         "tag" : "MainCamera",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -424,15 +433,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "0028376B04030D17003000FDA80B5DBC",
          "layer" : 0,
          "name" : "Car (Joints)",
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -508,15 +518,16 @@
                "useSusLimits" : true
             }
          ],
-         "frozen" : false,
          "guid" : "003E38CA04030D17003000FDA80B5C96",
          "layer" : 0,
          "name" : "Wheel R2",
          "parent" : "0028376B04030D17003000FDA80B5DBC",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -592,15 +603,16 @@
                "useSusLimits" : true
             }
          ],
-         "frozen" : false,
          "guid" : "0038381E04030D17003000FDA80B5D49",
          "layer" : 0,
          "name" : "Wheel R1",
          "parent" : "0028376B04030D17003000FDA80B5DBC",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -676,15 +688,16 @@
                "useSusLimits" : true
             }
          ],
-         "frozen" : false,
          "guid" : "00310F6E04030D17003000FDA80B5D01",
          "layer" : 0,
          "name" : "Wheel L2",
          "parent" : "0028376B04030D17003000FDA80B5DBC",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -760,15 +773,16 @@
                "useSusLimits" : true
             }
          ],
-         "frozen" : false,
          "guid" : "002A434204030D17003000FDA80B5DF6",
          "layer" : 0,
          "name" : "Wheel L1",
          "parent" : "0028376B04030D17003000FDA80B5DBC",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -823,15 +837,16 @@
                "spinningFriction" : 1.0
             }
          ],
-         "frozen" : false,
          "guid" : "0044283F04030D17003000FDA80B5CCC",
          "layer" : 0,
          "name" : "Chasis",
          "parent" : "0028376B04030D17003000FDA80B5DBC",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -874,19 +889,20 @@
                "torque" : 160.0
             }
          ],
-         "frozen" : false,
          "guid" : "00595BCF38041101002D01DB01693BD9",
          "layer" : 0,
          "name" : "Car (Raycast)",
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "003F39C12C041101002D02C2FEF1EA21",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
-         "active" : true,
-         "activeInHierarchy" : true,
+         "active" : false,
+         "activeInHierarchy" : false,
          "classname" : "Entity",
          "components" : [
             {
@@ -919,15 +935,16 @@
                "y" : 0.85000002384185791
             }
          ],
-         "frozen" : false,
          "guid" : "002E6F912D040F11001F0309CFAE7DD3",
          "layer" : 0,
          "name" : "BackCamera",
          "parent" : "00595BCF38041101002D01DB01693BD9",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -977,15 +994,16 @@
                "susStiffness" : 40.0
             }
          ],
-         "frozen" : false,
          "guid" : "006D2E0738041101002D01DB016941C0",
          "layer" : 0,
          "name" : "Wheel R2",
          "parent" : "00595BCF38041101002D01DB01693BD9",
          "prefab" : false,
          "prefabSource" : "00432B6F2C041101002D02C2FEF1ED76",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1035,15 +1053,16 @@
                "susStiffness" : 40.0
             }
          ],
-         "frozen" : false,
          "guid" : "00693D5838041101002D01DB01693E99",
          "layer" : 0,
          "name" : "Wheel R1",
          "parent" : "00595BCF38041101002D01DB01693BD9",
          "prefab" : false,
          "prefabSource" : "00475B942C041101002D02C2FEF1EFCB",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1093,15 +1112,16 @@
                "susStiffness" : 40.0
             }
          ],
-         "frozen" : false,
          "guid" : "0065528738041101002D01DB01693FB9",
          "layer" : 0,
          "name" : "Wheel L2",
          "parent" : "00595BCF38041101002D01DB01693BD9",
          "prefab" : false,
          "prefabSource" : "004B23392C041101002D02C2FEF1EE11",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1151,15 +1171,16 @@
                "susStiffness" : 40.0
             }
          ],
-         "frozen" : false,
          "guid" : "0061576638041101002D01DB01693D56",
          "layer" : 0,
          "name" : "Wheel L1",
          "parent" : "00595BCF38041101002D01DB01693BD9",
          "prefab" : false,
          "prefabSource" : "004F39952C041101002D02C2FEF1F0A7",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1200,15 +1221,16 @@
                "guid" : "00601D5838041101002D01DB01693D8A"
             }
          ],
-         "frozen" : false,
          "guid" : "005D79EB38041101002D01DB01693A18",
          "layer" : 0,
          "name" : "Chasis",
          "parent" : "00595BCF38041101002D01DB01693BD9",
          "prefab" : false,
          "prefabSource" : "005326D62C041101002D02C2FEF1F3B9",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1225,15 +1247,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "0008220A0404160200350217CFD894CA",
          "layer" : 0,
          "name" : "CamPosition",
          "parent" : "00595BCF38041101002D01DB01693BD9",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1250,15 +1273,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "00072C5019041702000E0341DC56B0C0",
          "layer" : 0,
          "name" : "CamLookAtTarget",
          "parent" : "00595BCF38041101002D01DB01693BD9",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1275,15 +1299,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "001854BB0B03140E001603C480E69A06",
          "layer" : 0,
          "name" : "Static Objects",
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : -1,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1338,15 +1363,16 @@
                "spinningFriction" : 1.0
             }
          ],
-         "frozen" : false,
          "guid" : "01E55E863009091C000D015CBB56E37E",
          "layer" : 0,
          "name" : "Floor",
          "parent" : "001854BB0B03140E001603C480E69A06",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : -1,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1401,15 +1427,16 @@
                "spinningFriction" : 1.0
             }
          ],
-         "frozen" : false,
          "guid" : "001B2ACC3103151C003B005D95D30B48",
          "layer" : 0,
          "name" : "Wall PX",
          "parent" : "001854BB0B03140E001603C480E69A06",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : -1,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1464,15 +1491,16 @@
                "spinningFriction" : 1.0
             }
          ],
-         "frozen" : false,
          "guid" : "004365AA2B041401001B0029F3654719",
          "layer" : 0,
          "name" : "Cube",
          "parent" : "001854BB0B03140E001603C480E69A06",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : -1,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1527,15 +1555,16 @@
                "spinningFriction" : 1.0
             }
          ],
-         "frozen" : false,
          "guid" : "00237B1F2203161C000001159F4AEE8B",
          "layer" : 0,
          "name" : "Wall NX",
          "parent" : "001854BB0B03140E001603C480E69A06",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : -1,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1590,15 +1619,16 @@
                "spinningFriction" : 1.0
             }
          ],
-         "frozen" : false,
          "guid" : "002B39723503161C000000A9A3405A9F",
          "layer" : 0,
          "name" : "Wall NY",
          "parent" : "001854BB0B03140E001603C480E69A06",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : -1,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1653,15 +1683,16 @@
                "spinningFriction" : 1.0
             }
          ],
-         "frozen" : false,
          "guid" : "006F10E91A02120A000500CE944DAEE2",
          "layer" : 0,
          "name" : "Wall NY 2",
          "parent" : "001854BB0B03140E001603C480E69A06",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : -1,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1716,15 +1747,16 @@
                "spinningFriction" : 1.0
             }
          ],
-         "frozen" : false,
          "guid" : "003359AE0A03161C0001038EA6F815A3",
          "layer" : 0,
          "name" : "Wall PY",
          "parent" : "001854BB0B03140E001603C480E69A06",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : -1,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1779,15 +1811,16 @@
                "spinningFriction" : 1.0
             }
          ],
-         "frozen" : false,
          "guid" : "0079759E2902120A000501769D583519",
          "layer" : 0,
          "name" : "Wall PY 2",
          "parent" : "001854BB0B03140E001603C480E69A06",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : -1,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1843,15 +1876,16 @@
                "spinningFriction" : 1.0
             }
          ],
-         "frozen" : false,
          "guid" : "000B6D1E36041101003700CE7EAA0234",
          "layer" : 0,
          "name" : "Cylinder",
          "parent" : "001854BB0B03140E001603C480E69A06",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : -1,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1907,15 +1941,16 @@
                "spinningFriction" : 1.0
             }
          ],
-         "frozen" : false,
          "guid" : "001A5B5A32041101003800E18A6715A1",
          "layer" : 0,
          "name" : "Cylinder 1",
          "parent" : "001854BB0B03140E001603C480E69A06",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : -1,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1971,15 +2006,16 @@
                "spinningFriction" : 1.0
             }
          ],
-         "frozen" : false,
          "guid" : "001F6CAB32041101003801478A6C8C93",
          "layer" : 0,
          "name" : "Cylinder 2",
          "parent" : "001854BB0B03140E001603C480E69A06",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : -1,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2035,15 +2071,16 @@
                "spinningFriction" : 1.0
             }
          ],
-         "frozen" : false,
          "guid" : "002469F632041101003801AD8A720C56",
          "layer" : 0,
          "name" : "Cylinder 3",
          "parent" : "001854BB0B03140E001603C480E69A06",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : -1,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2099,15 +2136,16 @@
                "spinningFriction" : 1.0
             }
          ],
-         "frozen" : false,
          "guid" : "0029296B32041101003802108A776185",
          "layer" : 0,
          "name" : "Cylinder 4",
          "parent" : "001854BB0B03140E001603C480E69A06",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : -1,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2163,15 +2201,16 @@
                "spinningFriction" : 1.0
             }
          ],
-         "frozen" : false,
          "guid" : "002E6A2232041101003802788A7CEC58",
          "layer" : 0,
          "name" : "Cylinder 5",
          "parent" : "001854BB0B03140E001603C480E69A06",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : -1,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2227,15 +2266,16 @@
                "spinningFriction" : 1.0
             }
          ],
-         "frozen" : false,
          "guid" : "002576010E04140100190134D43AA164",
          "layer" : 0,
          "name" : "Cylinder 6",
          "parent" : "001854BB0B03140E001603C480E69A06",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : -1,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2291,15 +2331,16 @@
                "spinningFriction" : 1.0
             }
          ],
-         "frozen" : false,
          "guid" : "002A612A0E04140100190145D43B8AB7",
          "layer" : 0,
          "name" : "Cylinder 7",
          "parent" : "001854BB0B03140E001603C480E69A06",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : -1,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2355,15 +2396,16 @@
                "spinningFriction" : 1.0
             }
          ],
-         "frozen" : false,
          "guid" : "002F1F480E04140100190156D43C7996",
          "layer" : 0,
          "name" : "Cylinder 8",
          "parent" : "001854BB0B03140E001603C480E69A06",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : -1,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2419,15 +2461,16 @@
                "spinningFriction" : 1.0
             }
          ],
-         "frozen" : false,
          "guid" : "003419330E04140100190167D43D6303",
          "layer" : 0,
          "name" : "Cylinder 9",
          "parent" : "001854BB0B03140E001603C480E69A06",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : -1,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2483,15 +2526,16 @@
                "spinningFriction" : 1.0
             }
          ],
-         "frozen" : false,
          "guid" : "0039045D0E04140100190179D43E5360",
          "layer" : 0,
          "name" : "Cylinder 10",
          "parent" : "001854BB0B03140E001603C480E69A06",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : -1,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2547,15 +2591,16 @@
                "spinningFriction" : 1.0
             }
          ],
-         "frozen" : false,
          "guid" : "003E2CE80E04140100190189D43F34EF",
          "layer" : 0,
          "name" : "Cylinder 11",
          "parent" : "001854BB0B03140E001603C480E69A06",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : -1,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -2610,20 +2655,21 @@
                "spinningFriction" : 1.0
             }
          ],
-         "frozen" : false,
          "guid" : "00653ABA3202120A000403977F454816",
          "layer" : 0,
          "name" : "Floor 1",
          "parent" : "001854BB0B03140E001603C480E69A06",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : -1,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       }
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "000911193B02110D001303C40F45F215",
+      "guid" : "000921D41303171800220082056A1B93",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1

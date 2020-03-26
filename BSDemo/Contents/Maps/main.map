@@ -13,7 +13,7 @@
                "enabled" : true,
                "guid" : "00614BE30C01131B002E03E674A433CF",
                "localEulerAnglesHint" : "0 0 0",
-               "origin" : "0 0 0",
+               "origin" : "-10000 0 0",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
@@ -22,6 +22,7 @@
             },
             {
                "classname" : "ComCanvas",
+               "clearDepth" : true,
                "enabled" : true,
                "guid" : "006210880C01131B002E03E674A4413F",
                "match" : 0.0,
@@ -36,15 +37,16 @@
                "script" : "006012C307010B150011036757C93EB4"
             }
          ],
-         "frozen" : false,
          "guid" : "006047050C01131B002E03E574A42773",
          "layer" : 0,
          "name" : "Menu Canvas",
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -94,15 +96,16 @@
                "translation" : 2.0
             }
          ],
-         "frozen" : false,
          "guid" : "006D19772C011412001A01999F10BC05",
          "layer" : 2,
          "name" : "ChangeMapButton",
          "parent" : "006047050C01131B002E03E574A42773",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -147,15 +150,16 @@
                "vertOverflow" : 0
             }
          ],
-         "frozen" : false,
          "guid" : "00702AC42C011412001A01D69F1A1B95",
          "layer" : 2,
          "name" : "Text",
          "parent" : "006D19772C011412001A01999F10BC05",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : false,
@@ -172,15 +176,16 @@
                "scale" : "1 1 1"
             }
          ],
-         "frozen" : false,
          "guid" : "0060120D1D011314000002FDE80D2C00",
          "layer" : 0,
          "name" : "MapButtons",
          "parent" : "006047050C01131B002E03E574A42773",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -230,15 +235,16 @@
                "translation" : 2.0
             }
          ],
-         "frozen" : false,
          "guid" : "00E72E9E09011412003603AE73E111F9",
          "layer" : 2,
          "name" : "MapButton 1",
          "parent" : "0060120D1D011314000002FDE80D2C00",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -283,15 +289,16 @@
                "vertOverflow" : 0
             }
          ],
-         "frozen" : false,
          "guid" : "00EB014909011412003603AE73E11204",
          "layer" : 2,
          "name" : "Text",
          "parent" : "00E72E9E09011412003603AE73E111F9",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -341,15 +348,16 @@
                "translation" : 2.0
             }
          ],
-         "frozen" : false,
          "guid" : "00D965113201141200350208684D851A",
          "layer" : 2,
          "name" : "MapButton 2",
          "parent" : "0060120D1D011314000002FDE80D2C00",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -394,15 +402,16 @@
                "vertOverflow" : 0
             }
          ],
-         "frozen" : false,
          "guid" : "00DD36F43201141200350208684D8650",
          "layer" : 2,
          "name" : "Text",
          "parent" : "00D965113201141200350208684D851A",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -452,15 +461,16 @@
                "translation" : 2.0
             }
          ],
-         "frozen" : false,
          "guid" : "00A730183801141200310059DC924D22",
          "layer" : 2,
          "name" : "MapButton 3",
          "parent" : "0060120D1D011314000002FDE80D2C00",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -505,15 +515,16 @@
                "vertOverflow" : 0
             }
          ],
-         "frozen" : false,
          "guid" : "00AB588C3801141200310059DC924E76",
          "layer" : 2,
          "name" : "Text",
          "parent" : "00A730183801141200310059DC924D22",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -563,15 +574,16 @@
                "translation" : 2.0
             }
          ],
-         "frozen" : false,
          "guid" : "00CB6A21200114120035005A5D51537C",
          "layer" : 2,
          "name" : "MapButton 4",
          "parent" : "0060120D1D011314000002FDE80D2C00",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -616,15 +628,16 @@
                "vertOverflow" : 0
             }
          ],
-         "frozen" : false,
          "guid" : "00CF2728200114120035005A5D51579D",
          "layer" : 2,
          "name" : "Text",
          "parent" : "00CB6A21200114120035005A5D51537C",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -674,15 +687,16 @@
                "translation" : 2.0
             }
          ],
-         "frozen" : false,
          "guid" : "00BD384911011412003400CB30AE9557",
          "layer" : 2,
          "name" : "MapButton 5",
          "parent" : "0060120D1D011314000002FDE80D2C00",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -727,15 +741,16 @@
                "vertOverflow" : 0
             }
          ],
-         "frozen" : false,
          "guid" : "00C10C1211011412003400CB30AE9989",
          "layer" : 2,
          "name" : "Text",
          "parent" : "00BD384911011412003400CB30AE9557",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -785,15 +800,16 @@
                "translation" : 2.0
             }
          ],
-         "frozen" : false,
          "guid" : "007315D22A010A15002C0244D04D5477",
          "layer" : 2,
          "name" : "MapButton 6",
          "parent" : "0060120D1D011314000002FDE80D2C00",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -838,15 +854,16 @@
                "vertOverflow" : 0
             }
          ],
-         "frozen" : false,
          "guid" : "00772A542A010A15002C0244D04D5883",
          "layer" : 2,
          "name" : "Text",
          "parent" : "007315D22A010A15002C0244D04D5477",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -896,15 +913,16 @@
                "translation" : 2.0
             }
          ],
-         "frozen" : false,
          "guid" : "008938B416010A15002E00970BA6C1D5",
          "layer" : 2,
          "name" : "MapButton 7",
          "parent" : "0060120D1D011314000002FDE80D2C00",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -949,15 +967,16 @@
                "vertOverflow" : 0
             }
          ],
-         "frozen" : false,
          "guid" : "008D500916010A15002E00970BA6C21D",
          "layer" : 2,
          "name" : "Text",
          "parent" : "008938B416010A15002E00970BA6C1D5",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1007,15 +1026,16 @@
                "translation" : 2.0
             }
          ],
-         "frozen" : false,
          "guid" : "009E719B05010A15002F00042531B959",
          "layer" : 2,
          "name" : "MapButton 8",
          "parent" : "0060120D1D011314000002FDE80D2C00",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1060,15 +1080,16 @@
                "vertOverflow" : 0
             }
          ],
-         "frozen" : false,
          "guid" : "00A223AB05010A15002F00042531BDF8",
          "layer" : 2,
          "name" : "Text",
          "parent" : "009E719B05010A15002F00042531B959",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1118,15 +1139,16 @@
                "translation" : 2.0
             }
          ],
-         "frozen" : false,
          "guid" : "00AC1D1E04010A15003101B26C61247A",
          "layer" : 2,
          "name" : "MapButton 9",
          "parent" : "0060120D1D011314000002FDE80D2C00",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1171,15 +1193,16 @@
                "vertOverflow" : 0
             }
          ],
-         "frozen" : false,
          "guid" : "00B0354D04010A15003101B26C61289B",
          "layer" : 2,
          "name" : "Text",
          "parent" : "00AC1D1E04010A15003101B26C61247A",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1229,15 +1252,16 @@
                "translation" : 2.0
             }
          ],
-         "frozen" : false,
          "guid" : "00BE755F2B010A15003102BD83C8DC21",
          "layer" : 2,
          "name" : "MapButton 10",
          "parent" : "0060120D1D011314000002FDE80D2C00",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1282,15 +1306,16 @@
                "vertOverflow" : 0
             }
          ],
-         "frozen" : false,
          "guid" : "00C25DDD2B010A15003102BD83C8E177",
          "layer" : 2,
          "name" : "Text",
          "parent" : "00BE755F2B010A15003102BD83C8DC21",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1340,15 +1365,16 @@
                "translation" : 2.0
             }
          ],
-         "frozen" : false,
          "guid" : "00CC75A638010A150031035F8BA1490E",
          "layer" : 2,
          "name" : "MapButton 11",
          "parent" : "0060120D1D011314000002FDE80D2C00",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1393,15 +1419,16 @@
                "vertOverflow" : 0
             }
          ],
-         "frozen" : false,
          "guid" : "00D046D338010A150031035F8BA14A5D",
          "layer" : 2,
          "name" : "Text",
          "parent" : "00CC75A638010A150031035F8BA1490E",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1451,15 +1478,16 @@
                "translation" : 2.0
             }
          ],
-         "frozen" : false,
          "guid" : "0068178B35020B01001A0088C29F2424",
          "layer" : 2,
          "name" : "MapButton 12",
          "parent" : "0060120D1D011314000002FDE80D2C00",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -1504,20 +1532,21 @@
                "vertOverflow" : 0
             }
          ],
-         "frozen" : false,
          "guid" : "006C4F4935020B01001A0088C29F2966",
          "layer" : 2,
          "name" : "Text",
          "parent" : "0068178B35020B01001A0088C29F2424",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       }
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "000907F70D02100D002701755E4E1194",
+      "guid" : "0009501408031718002401ED4699758C",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1
