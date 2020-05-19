@@ -148,10 +148,10 @@ function on_pointer_enter()
     if not m.enabled then
         return
     end   
-    
+   
     local color
 	if m.pressed then
-	    m.translation:set(properties.translation.value, -properties.translation.value, 0.0)
+	    m.translation:set(0, properties.translation.value, -properties.translation.value)
     
         owner.transform:translate(m.translation, ComTransform.TransformSpace.WorldSpace)
 

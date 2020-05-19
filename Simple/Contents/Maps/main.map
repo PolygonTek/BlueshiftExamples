@@ -53,15 +53,16 @@
                "spinningFriction" : 1.0
             }
          ],
-         "frozen" : false,
          "guid" : "001643710E04091B000E03429E65F471",
          "layer" : 0,
          "name" : "Sphere",
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -100,15 +101,16 @@
                "type" : 0
             }
          ],
-         "frozen" : false,
          "guid" : "00BC4FFF0C04091B000500F82CB35587",
          "layer" : 0,
          "name" : "Environment Probe",
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -163,15 +165,16 @@
                "spinningFriction" : 1.0
             }
          ],
-         "frozen" : false,
          "guid" : "007D37933A04081B0030024A60AC0BBE",
          "layer" : 0,
          "name" : "Cube",
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -208,15 +211,16 @@
                "y" : 0.0
             }
          ],
-         "frozen" : false,
          "guid" : "00695A4F1C04081B002D01CF34A42C6D",
          "layer" : 0,
          "name" : "Camera",
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -271,15 +275,16 @@
                "spinningFriction" : 1.0
             }
          ],
-         "frozen" : false,
          "guid" : "001134EF0404081B0035025D943999B9",
          "layer" : 0,
          "name" : "Plane",
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : -1,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -315,15 +320,16 @@
                "timerOffset" : 0.0
             }
          ],
-         "frozen" : false,
          "guid" : "00B3453F1604091B000200C40911111D",
          "layer" : 0,
          "name" : "Directional Light",
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : -1,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       },
       {
          "active" : true,
@@ -379,20 +385,21 @@
                "spinningFriction" : 1.0
             }
          ],
-         "frozen" : false,
          "guid" : "00202FFB1F04091B000E0377A1F8C482",
          "layer" : 0,
          "name" : "Capsule",
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
          "staticMask" : 0,
-         "tag" : "Untagged"
+         "tag" : "Untagged",
+         "visibleInEditor" : true
       }
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "000968813902000A003002ABC9DAE1A7",
+      "guid" : "000909961B03091A0008003363C4AC91",
       "skyboxMaterial" : "00C928E13B04091B000600F7431F4079"
    },
    "version" : 1
