@@ -1,0 +1,17 @@
+material 2
+noShadow
+pass {
+  renderingMode alphaBlend
+  cull none
+  transparency default
+  shader "{00000000-0000-0000-0000-0000000000CF}" {
+    albedoMap "{0008470F-3A03-0D03-0022-01C3183B24F8}"
+    intensity "1.0000"
+  }
+  tc (1.000 1.000) (0.000 0.000)
+  imageBorders 0 0 0 0
+  colorMask RGB
+  blendFunc SRC_ALPHA ONE_MINUS_SRC_ALPHA
+  vertexColor
+  color (0.5 0.5 0.5 0.5)
+}

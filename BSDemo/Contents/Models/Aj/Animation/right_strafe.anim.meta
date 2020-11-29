@@ -1,0 +1,19 @@
+{
+   "classname" : "Asset",
+   "guid" : "098C06CA020A0E0D002F01BDFE63C7FD",
+   "importer" : {
+      "classname" : "AnimImporter",
+      "endFrame" : 20,
+      "guid" : "002601CE2F010D0D002402BCA88E4D7A",
+      "loop" : true,
+      "optimize" : true,
+      "rootRotation" : true,
+      "rootTranslationXY" : false,
+      "rootTranslationZ" : true,
+      "startFrame" : 0
+   },
+   "resource" : {
+      "classname" : "AnimResource",
+      "guid" : "1A0F6AFE02091604000103B9E2783A99"
+   }
+}

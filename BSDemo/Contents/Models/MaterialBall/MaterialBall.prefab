@@ -1,0 +1,44 @@
+[
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "158A4157000213120002002322CADEAC",
+            "localEulerAnglesHint" : "0 -90.0000076 0",
+            "origin" : "0 0 0",
+            "rotation" : "0 -0.7071068 0 0.7071068",
+            "scale" : "1 1 1"
+         },
+         {
+            "alpha" : 1.0,
+            "billboard" : false,
+            "castShadows" : true,
+            "classname" : "ComStaticMeshRenderer",
+            "color" : "1 1 1",
+            "enabled" : true,
+            "guid" : "158B40C5000213120002002322CAE3C7",
+            "materials" : [ "00C248BA38080D01003101828D81B589" ],
+            "maxVisDist" : 4000.0,
+            "mesh" : "0009437B0707140400040160D2B89E22",
+            "occluder" : false,
+            "receiveShadows" : true,
+            "timeOffset" : 0.0,
+            "timeScale" : 1.0,
+            "useEnvironmentProveLighting" : true
+         }
+      ],
+      "frozen" : false,
+      "guid" : "002B32112C061116000A01A7A0DA22A7",
+      "layer" : 0,
+      "name" : "MaterialBall",
+      "parent" : "00000000000000000000000000000000",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "staticMask" : 0,
+      "tag" : "Untagged"
+   }
+]

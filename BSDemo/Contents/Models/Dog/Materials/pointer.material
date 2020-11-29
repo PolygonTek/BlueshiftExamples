@@ -1,0 +1,25 @@
+material 2
+pass {
+  renderingMode opaque
+  cull back
+  transparency default
+  shader "{00000000-0000-0000-0000-0000000000CB}" {
+    _ALBEDO "1"
+    albedoMap "{003F35A4-060B-0B19-0027-0283214A7430}"
+    _METALLIC "0"
+    metallicScale "1.0000"
+    _ROUGHNESS "0"
+    roughnessScale "1.0000"
+    _NORMAL "0"
+    _CLEARCOAT "0"
+    _CC_ROUGHNESS "0"
+    _CC_NORMAL "0"
+    _PARALLAX "0"
+    _OCC "0"
+    _EMISSION "0"
+  }
+  tc (1.000 1.000) (0.000 0.000)
+  imageBorders 0 0 0 0
+  colorMask RGB
+  color (1 1 1 1)
+}

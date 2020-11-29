@@ -1,0 +1,8 @@
+{
+   "classname" : "Asset",
+   "guid" : "00264BF51D020A0A003000C73064F0BC",
+   "resource" : {
+      "classname" : "FolderResource",
+      "guid" : "005A45101C091504003700ED1AF6898D"
+   }
+}

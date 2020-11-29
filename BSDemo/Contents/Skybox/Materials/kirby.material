@@ -1,0 +1,16 @@
+material 2
+pass {
+  renderingMode opaque
+  cull front
+  transparency default
+  shader "{00000000-0000-0000-0000-0000000000C9}" {
+    tint "1 1 1"
+    exposure "1.0000"
+    rotation "0.0000"
+    skyCubeMap "{00111E22-1404-1115-0006-018478ABEE9E}"
+  }
+  tc (1.000 1.000) (0.000 0.000)
+  imageBorders 0 0 0 0
+  colorMask RGB
+  color (1 1 1 1)
+}

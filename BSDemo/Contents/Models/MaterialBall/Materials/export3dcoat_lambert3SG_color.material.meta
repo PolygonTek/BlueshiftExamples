@@ -1,0 +1,8 @@
+{
+   "classname" : "Asset",
+   "guid" : "00C248BA38080D01003101828D81B589",
+   "resource" : {
+      "classname" : "MaterialResource",
+      "guid" : "012007141C091504003703881B5C6A3F"
+   }
+}

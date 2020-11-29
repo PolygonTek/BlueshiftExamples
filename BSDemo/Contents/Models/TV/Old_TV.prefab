@@ -1,0 +1,44 @@
+[
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "2C2D12AE1802131200020108313C00BC",
+            "localEulerAnglesHint" : "0 -90.0000076 0",
+            "origin" : "0 0 -0.0000049",
+            "rotation" : "0 -0.7071068 0 0.7071068",
+            "scale" : "0.294704 0.294704 0.294704"
+         },
+         {
+            "alpha" : 1.0,
+            "billboard" : false,
+            "castShadows" : true,
+            "classname" : "ComStaticMeshRenderer",
+            "color" : "1 1 1",
+            "enabled" : true,
+            "guid" : "2C2E46191802131200020108313C0311",
+            "materials" : [ "009E677900070B1A001F0241824839EE" ],
+            "maxVisDist" : 4000.0,
+            "mesh" : "009B313100070B1A001F022582471630",
+            "occluder" : false,
+            "receiveShadows" : true,
+            "timeOffset" : 0.0,
+            "timeScale" : 1.0,
+            "useEnvironmentProveLighting" : true
+         }
+      ],
+      "frozen" : false,
+      "guid" : "009868480006161D0022035E91C42429",
+      "layer" : 0,
+      "name" : "Old_TV",
+      "parent" : "00000000000000000000000000000000",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "staticMask" : 0,
+      "tag" : "Untagged"
+   }
+]

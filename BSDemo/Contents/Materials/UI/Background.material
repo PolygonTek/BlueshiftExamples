@@ -1,0 +1,15 @@
+material 2
+noShadow
+pass {
+  renderingMode opaque
+  cull none
+  transparency default
+  shader "{00000000-0000-0000-0000-0000000000CF}" {
+    albedoMap "{006036FE-0C02-1001-0013-01ED98E4C0E3}"
+    intensity "1.0000"
+  }
+  tc (1.000 1.000) (0.000 0.000)
+  imageBorders 0 0 0 0
+  colorMask RGB
+  color (1 1 1 1)
+}

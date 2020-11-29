@@ -1,0 +1,29 @@
+material 2
+pass {
+  renderingMode opaque
+  cull back
+  transparency default
+  shader "{00000000-0000-0000-0000-0000000000C8}" {
+    _ALBEDO "1"
+    albedoMap "{00586270-0907-0B18-002A-00DE06747B7C}"
+    _SPECULAR "1"
+    specularMap "{00607AE1-0907-0B18-002A-024A06831569}"
+    _GLOSS "3"
+    glossMap "{005A314F-0907-0B18-002A-0174067A7D43}"
+    glossScale "1.0000"
+    _NORMAL "1"
+    normalMap "{005E628D-0907-0B18-002A-01AF067CE195}"
+    _CLEARCOAT "0"
+    _CC_ROUGHNESS "0"
+    _CC_NORMAL "0"
+    _PARALLAX "1"
+    heightMap "{005C5F79-0907-0B18-002A-0193067BBBC1}"
+    heightScale "0.0400"
+    _OCC "0"
+    _EMISSION "0"
+  }
+  tc (1.000 1.000) (0.000 0.000)
+  imageBorders 0 0 0 0
+  colorMask RGB
+  color (1 1 1 1)
+}

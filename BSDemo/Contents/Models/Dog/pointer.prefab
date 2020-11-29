@@ -1,0 +1,1044 @@
+[
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "14F42CE136021312000100AC1F4C4070",
+            "localEulerAnglesHint" : "0 0 0",
+            "origin" : "0 0 0",
+            "rotation" : "0 0 0 1",
+            "scale" : "1 1 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "00665E200D0B0D19000B013FFF842377",
+      "layer" : 0,
+      "name" : "pointer",
+      "parent" : "00000000000000000000000000000000",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "staticMask" : 0,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "14F5166436021312000100AC1F4C45D5",
+            "localEulerAnglesHint" : "0 -90.0000076 -90.0000076",
+            "origin" : "-0.259028 -0.000964 0.4924663",
+            "rotation" : "-0.4999996 -0.5000004 -0.4999996 0.5000004",
+            "scale" : "1 1 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "0067185D0D0B0D19000B013FFF8424C1",
+      "layer" : 0,
+      "name" : "Bip01",
+      "parent" : "00665E200D0B0D19000B013FFF842377",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "staticMask" : 0,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "14F62ED336021312000100AC1F4C477C",
+            "localEulerAnglesHint" : "0 -90.0000076 -90.0000076",
+            "origin" : "0 0 0",
+            "rotation" : "-0.4999996 -0.4999996 -0.5000004 0.5000004",
+            "scale" : "1 1 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "006801080D0B0D19000B013FFF842BE7",
+      "layer" : 0,
+      "name" : "Bip01 Pelvis",
+      "parent" : "0067185D0D0B0D19000B013FFF8424C1",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "staticMask" : 0,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "14F7689036021312000100AC1F4C48B8",
+            "localEulerAnglesHint" : "89.7410049 0 0",
+            "origin" : "-0.0000002 -0.0103197 0.1079177",
+            "rotation" : "0.7055062 -0.000002 -0.000002 0.7087038",
+            "scale" : "1 0.9999999 0.9999999"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "00691DCF0D0B0D19000B0140FF842E46",
+      "layer" : 0,
+      "name" : "Bip01 Spine",
+      "parent" : "006801080D0B0D19000B013FFF842BE7",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "staticMask" : 0,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "14F86C6F36021312000100AC1F4C4AC9",
+            "localEulerAnglesHint" : "0 0 0",
+            "origin" : "-0 0.1903705 -0.0002266",
+            "rotation" : "-0 0 0 1",
+            "scale" : "1 1.0000002 1.0000002"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "006A2C500D0B0D19000B0140FF8435E8",
+      "layer" : 0,
+      "name" : "Bip01 Spine1",
+      "parent" : "00691DCF0D0B0D19000B0140FF842E46",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "staticMask" : 0,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "14F95F0036021312000100AC1F4C4C14",
+            "localEulerAnglesHint" : "-27.5270004 0 0",
+            "origin" : "-0.0000003 0.2148638 -0.1101972",
+            "rotation" : "-0.2379163 -0.0000005 0.0000013 0.9712856",
+            "scale" : "1 1 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "006B56BB0D0B0D19000B0140FF843982",
+      "layer" : 0,
+      "name" : "Bip01 Neck",
+      "parent" : "006A2C500D0B0D19000B0140FF8435E8",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "staticMask" : 0,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "14FA187136021312000100AC1F4C4E56",
+            "localEulerAnglesHint" : "-19.8490009 0 0",
+            "origin" : "0 0.1989439 -0",
+            "rotation" : "-0.1723486 0.0000008 0.000001 0.985036",
+            "scale" : "1 1.0000001 1.0000001"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "006C08650D0B0D19000B0140FF843A57",
+      "layer" : 0,
+      "name" : "Bip01 Head",
+      "parent" : "006B56BB0D0B0D19000B0140FF843982",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "staticMask" : 0,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "14FB55A736021312000100AC1F4C5396",
+            "localEulerAnglesHint" : "0 0 0",
+            "origin" : "0 0.0767637 -0",
+            "rotation" : "-0 0 0 1",
+            "scale" : "1 1.0000001 1.0000001"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "006D089A0D0B0D19000B0140FF843E65",
+      "layer" : 0,
+      "name" : "Bip01 HeadNub",
+      "parent" : "006C08650D0B0D19000B0140FF843A57",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "staticMask" : 0,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "14FC4A9B36021312000100AC1F4C55CE",
+            "localEulerAnglesHint" : "-88.2390137 -176.7649994 -2.7600098",
+            "origin" : "-0.000634 -0.0193643 0.0807325",
+            "rotation" : "0.0369299 0.7169195 0.6961684 -0.0035008",
+            "scale" : "1 1 1.0000001"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "006E108D0D0B0D19000B0140FF844521",
+      "layer" : 0,
+      "name" : "Bip01 Ponytail1",
+      "parent" : "006C08650D0B0D19000B0140FF843A57",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "staticMask" : 0,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "14FD6A6B36021312000100AC1F4C570A",
+            "localEulerAnglesHint" : "-89.9539795 180 0",
+            "origin" : "0 0.1308391 -0.0000001",
+            "rotation" : "0.000001 0.7073883 0.7068253 -0.000001",
+            "scale" : "0.9999999 0.9999999 1.0000001"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "006F466B0D0B0D19000B0140FF8448C7",
+      "layer" : 0,
+      "name" : "Bip01 Ponytail1Nub",
+      "parent" : "006E108D0D0B0D19000B0140FF844521",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "staticMask" : 0,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "14FE41A236021312000100AC1F4C594A",
+            "localEulerAnglesHint" : "148.6690063 0.5700001 -2.0010002",
+            "origin" : "-0.0016891 0.0236349 0.0002511",
+            "rotation" : "0.9627203 -0.0154701 -0.0095059 0.2698888",
+            "scale" : "1 1.0000001 1.0000002"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "0070455C0D0B0D19000B0140FF844C9D",
+      "layer" : 0,
+      "name" : "Bip01 Ponytail2",
+      "parent" : "006C08650D0B0D19000B0140FF843A57",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "staticMask" : 0,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "14FF3FF236021312000100AC1F4C5A97",
+            "localEulerAnglesHint" : "-89.9539795 180 0",
+            "origin" : "0 0.1521218 0",
+            "rotation" : "0.000001 0.7073883 0.7068253 -0.000001",
+            "scale" : "1 0.9999998 0.9999998"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "007109D60D0B0D19000B0140FF8450E2",
+      "layer" : 0,
+      "name" : "Bip01 Ponytail2Nub",
+      "parent" : "0070455C0D0B0D19000B0140FF844C9D",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "staticMask" : 0,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "1500015736021312000100AC1F4C5CD2",
+            "localEulerAnglesHint" : "-25.1289978 -152.3320007 -90.446991",
+            "origin" : "0.0178195 -0.08634 0.0642205",
+            "rotation" : "0.7093983 0.6306091 0.3144484 -0.0144401",
+            "scale" : "0.9999999 1 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "00724FB60D0B0D19000B0141FF8454ED",
+      "layer" : 0,
+      "name" : "Bip01 L Clavicle",
+      "parent" : "006B56BB0D0B0D19000B0140FF843982",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "staticMask" : 0,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "15016F9F36021312000100AC1F4C5E1D",
+            "localEulerAnglesHint" : "-81.9440002 -22.4170017 89.413002",
+            "origin" : "0 0.1007096 0",
+            "rotation" : "-0.3538836 -0.5567716 0.4304308 0.6160366",
+            "scale" : "0.9999999 0.9999999 1.0000001"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "00737EA20D0B0D19000B0141FF845A00",
+      "layer" : 0,
+      "name" : "Bip01 L UpperArm",
+      "parent" : "00724FB60D0B0D19000B0141FF8454ED",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "staticMask" : 0,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "1502171336021312000100AD1F4C6396",
+            "localEulerAnglesHint" : "-23.2890015 0 0",
+            "origin" : "-0 0.0951399 0",
+            "rotation" : "-0.201835 -0 -0 0.9794195",
+            "scale" : "1 1.0000002 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "007400E80D0B0D19000B0141FF845ECB",
+      "layer" : 0,
+      "name" : "Bip01 L Forearm",
+      "parent" : "00737EA20D0B0D19000B0141FF845A00",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "staticMask" : 0,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "15036CC136021312000100AD1F4C65DD",
+            "localEulerAnglesHint" : "4.9999847 -179.9550018 -0.0039978",
+            "origin" : "0 0.2222287 -0",
+            "rotation" : "0.0000174 0.9990482 -0.0436193 -0.0003978",
+            "scale" : "1 0.9999999 0.9999999"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "00755AE70D0B0D19000B0141FF846293",
+      "layer" : 0,
+      "name" : "Bip01 L Hand",
+      "parent" : "007400E80D0B0D19000B0141FF845ECB",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "staticMask" : 0,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "15045EC336021312000100AD1F4C6718",
+            "localEulerAnglesHint" : "50.0000038 -0.046 0",
+            "origin" : "-0.0109294 0.1134338 0.0446778",
+            "rotation" : "0.422618 -0.0003608 0.0001683 0.9063079",
+            "scale" : "0.9999999 1.0000001 0.9999998"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "007640A90D0B0D19000B0141FF8466A2",
+      "layer" : 0,
+      "name" : "Bip01 L Finger0",
+      "parent" : "00755AE70D0B0D19000B0141FF846293",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "staticMask" : 0,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "15056A0B36021312000100AD1F4C6885",
+            "localEulerAnglesHint" : "0 0 0",
+            "origin" : "0 0.0955429 -0",
+            "rotation" : "0 -0 0 1",
+            "scale" : "1 1 0.9999999"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "007731900D0B0D19000B0141FF846B6B",
+      "layer" : 0,
+      "name" : "Bip01 L Finger0Nub",
+      "parent" : "007640A90D0B0D19000B0141FF8466A2",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "staticMask" : 0,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "150634FC36021312000100AD1F4C6AFE",
+            "localEulerAnglesHint" : "-25.1300049 152.3320007 90.4469986",
+            "origin" : "-0.0178192 -0.0863399 0.0642207",
+            "rotation" : "0.7093963 -0.6306099 -0.3144512 -0.0144378",
+            "scale" : "1 0.9999999 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "007840020D0B0D19000B0141FF846F2A",
+      "layer" : 0,
+      "name" : "Bip01 R Clavicle",
+      "parent" : "006B56BB0D0B0D19000B0140FF843982",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "staticMask" : 0,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "15071BBB36021312000100AD1F4C6C3D",
+            "localEulerAnglesHint" : "-81.9450073 22.4160004 -89.413002",
+            "origin" : "-0 0.1007096 -0",
+            "rotation" : "-0.3538839 0.5567719 -0.4304321 0.6160352",
+            "scale" : "0.9999999 1 1.0000002"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "00795A2D0D0B0D19000B0141FF8473EF",
+      "layer" : 0,
+      "name" : "Bip01 R UpperArm",
+      "parent" : "007840020D0B0D19000B0141FF846F2A",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "staticMask" : 0,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "150826FE36021312000100AD1F4C6E72",
+            "localEulerAnglesHint" : "-23.2890015 0 0",
+            "origin" : "-0 0.0951399 0",
+            "rotation" : "-0.201835 0 0 0.9794195",
+            "scale" : "1.0000001 1.0000001 0.9999998"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "007A405C0D0B0D19000B0141FF8477AD",
+      "layer" : 0,
+      "name" : "Bip01 R Forearm",
+      "parent" : "00795A2D0D0B0D19000B0141FF8473EF",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "staticMask" : 0,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "1509442436021312000100AD1F4C73B4",
+            "localEulerAnglesHint" : "4.9999847 179.9550018 0.0039978",
+            "origin" : "0 0.2222287 0",
+            "rotation" : "-0.0000174 0.9990482 -0.0436194 0.0003978",
+            "scale" : "1.0000002 1 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "007B202A0D0B0D19000B0141FF847877",
+      "layer" : 0,
+      "name" : "Bip01 R Hand",
+      "parent" : "007A405C0D0B0D19000B0141FF8477AD",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "staticMask" : 0,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "150A779736021312000100AD1F4C75EF",
+            "localEulerAnglesHint" : "50.0000038 0.046 0",
+            "origin" : "0.0109294 0.1134338 0.0446777",
+            "rotation" : "0.422618 0.0003608 -0.0001683 0.9063079",
+            "scale" : "1 1 0.9999998"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "007C785C0D0B0D19000B0142FF847C06",
+      "layer" : 0,
+      "name" : "Bip01 R Finger0",
+      "parent" : "007B202A0D0B0D19000B0141FF847877",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "staticMask" : 0,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "150B257D36021312000100AD1F4C7720",
+            "localEulerAnglesHint" : "0 0 0",
+            "origin" : "0 0.0955431 -0",
+            "rotation" : "-0 0 0 0.7071068",
+            "scale" : "1.0000001 1 1.0000001"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "007D3CE40D0B0D19000B0142FF8480C8",
+      "layer" : 0,
+      "name" : "Bip01 R Finger0Nub",
+      "parent" : "007C785C0D0B0D19000B0142FF847C06",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "staticMask" : 0,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "150C483B36021312000100AD1F4C791A",
+            "localEulerAnglesHint" : "93.378006 0.9540001 171.4940033",
+            "origin" : "0.0794379 -0.1078698 -0.010808",
+            "rotation" : "0.0482642 0.7260356 0.6835964 0.0569117",
+            "scale" : "0.9999999 1.0000001 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "007E2C2A0D0B0D19000B0142FF84849B",
+      "layer" : 0,
+      "name" : "Bip01 L Thigh",
+      "parent" : "00691DCF0D0B0D19000B0140FF842E46",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "staticMask" : 0,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "150D0B1C36021312000100AD1F4C7B5F",
+            "localEulerAnglesHint" : "-47.3650017 0 0",
+            "origin" : "0 0.1830745 -0",
+            "rotation" : "-0.4016712 0 -0 0.9157839",
+            "scale" : "1 1 1.0000001"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "007F7B2D0D0B0D19000B0142FF84895E",
+      "layer" : 0,
+      "name" : "Bip01 L Calf",
+      "parent" : "007E2C2A0D0B0D19000B0142FF84849B",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "staticMask" : 0,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "150E6FD636021312000100AD1F4C7C90",
+            "localEulerAnglesHint" : "65.9820023 0 0",
+            "origin" : "0 0.1719628 0",
+            "rotation" : "0.5445104 -0 -0 0.838754",
+            "scale" : "0.9999999 1 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "00807D510D0B0D19000B0142FF848D1F",
+      "layer" : 0,
+      "name" : "Bip01 L HorseLink",
+      "parent" : "007F7B2D0D0B0D19000B0142FF84895E",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "staticMask" : 0,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "150F6D8436021312000100AD1F4C7ECB",
+            "localEulerAnglesHint" : "-22.4920006 8.2400007 -2.3230002",
+            "origin" : "0 0.1241109 0.0000001",
+            "rotation" : "-0.1930528 0.0743948 -0.0058252 0.9783466",
+            "scale" : "1.0000001 0.9999999 1.0000001"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "008118480D0B0D19000B0142FF8491D5",
+      "layer" : 0,
+      "name" : "Bip01 L Foot",
+      "parent" : "00807D510D0B0D19000B0142FF848D1F",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "staticMask" : 0,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "1510151836021312000100AD1F4C800D",
+            "localEulerAnglesHint" : "90.0000076 0 0",
+            "origin" : "-0 0.0709457 0.1272014",
+            "rotation" : "0.7071068 0 0 0.7071068",
+            "scale" : "1 1 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "0082566A0D0B0D19000B0142FF8495E1",
+      "layer" : 0,
+      "name" : "Bip01 L Toe0",
+      "parent" : "008118480D0B0D19000B0142FF8491D5",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "staticMask" : 0,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "15110FF136021312000100AD1F4C8244",
+            "localEulerAnglesHint" : "0 0 0",
+            "origin" : "0 0.008285 -0",
+            "rotation" : "0 -0 0 0.7071068",
+            "scale" : "1 1 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "008355600D0B0D19000B0142FF84965D",
+      "layer" : 0,
+      "name" : "Bip01 L Toe0Nub",
+      "parent" : "0082566A0D0B0D19000B0142FF8495E1",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "staticMask" : 0,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "1512105536021312000100AD1F4C87B6",
+            "localEulerAnglesHint" : "93.378006 -0.955 -171.4940033",
+            "origin" : "-0.0794377 -0.1078701 -0.0108073",
+            "rotation" : "-0.0482624 0.7260351 0.6835966 -0.0569156",
+            "scale" : "1 1 1.0000001"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "0084391C0D0B0D19000B0142FF849A1E",
+      "layer" : 0,
+      "name" : "Bip01 R Thigh",
+      "parent" : "00691DCF0D0B0D19000B0140FF842E46",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "staticMask" : 0,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "15132B4D36021312000100AE1F4C89FF",
+            "localEulerAnglesHint" : "-47.3650017 0 0",
+            "origin" : "0 0.1830745 0",
+            "rotation" : "-0.4016709 -0 -0 0.915784",
+            "scale" : "1 1 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "008505FD0D0B0D19000B0142FF849E21",
+      "layer" : 0,
+      "name" : "Bip01 R Calf",
+      "parent" : "0084391C0D0B0D19000B0142FF849A1E",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "staticMask" : 0,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "1514792C36021312000100AE1F4C8B2B",
+            "localEulerAnglesHint" : "65.9820023 0 0",
+            "origin" : "0 0.1719629 -0.0000001",
+            "rotation" : "0.5445103 -0 -0 0.8387542",
+            "scale" : "1 0.9999999 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "008629460D0B0D19000B0142FF84A2E2",
+      "layer" : 0,
+      "name" : "Bip01 R HorseLink",
+      "parent" : "008505FD0D0B0D19000B0142FF849E21",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "staticMask" : 0,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "151519AA36021312000100AE1F4C8D6F",
+            "localEulerAnglesHint" : "-22.4920006 -8.2400007 2.3230002",
+            "origin" : "-0 0.1241109 0.0000001",
+            "rotation" : "-0.1930527 -0.0743947 0.0058253 0.9783466",
+            "scale" : "0.9999999 1.0000001 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "00870B190D0B0D19000B0143FF84A9ED",
+      "layer" : 0,
+      "name" : "Bip01 R Foot",
+      "parent" : "008629460D0B0D19000B0142FF84A2E2",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "staticMask" : 0,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "1516268E36021312000100AE1F4C8EA6",
+            "localEulerAnglesHint" : "90.0000076 0 0",
+            "origin" : "0 0.0709457 0.1272013",
+            "rotation" : "0.7071068 -0 -0 0.7071068",
+            "scale" : "1 1 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "008806490D0B0D19000B0143FF84ADB0",
+      "layer" : 0,
+      "name" : "Bip01 R Toe0",
+      "parent" : "00870B190D0B0D19000B0143FF84A9ED",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "staticMask" : 0,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "15174EBA36021312000100AE1F4C9093",
+            "localEulerAnglesHint" : "0 0 0",
+            "origin" : "-0 0.008285 0",
+            "rotation" : "0 0 0 1",
+            "scale" : "1 1 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "008967AF0D0B0D19000B0143FF84AE72",
+      "layer" : 0,
+      "name" : "Bip01 R Toe0Nub",
+      "parent" : "008806490D0B0D19000B0143FF84ADB0",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "staticMask" : 0,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "15185BDF36021312000100AE1F4C92C7",
+            "localEulerAnglesHint" : "173.5690155 0 0",
+            "origin" : "-0 -0.1404762 -0.0399016",
+            "rotation" : "0.9984257 0.0000007 -0.0000034 0.0560922",
+            "scale" : "1 1.0000001 1.0000001"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "008A6BCB0D0B0D19000B0143FF84B229",
+      "layer" : 0,
+      "name" : "Bip01 Tail",
+      "parent" : "00691DCF0D0B0D19000B0140FF842E46",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "staticMask" : 0,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "15190CDE36021312000100AE1F4C9400",
+            "localEulerAnglesHint" : "1.7010001 0 0",
+            "origin" : "-0 0.0797952 -0.0000513",
+            "rotation" : "0.0148453 0 -0 0.9998898",
+            "scale" : "1 0.9999999 0.9999999"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "008B43020D0B0D19000B0143FF84B6F9",
+      "layer" : 0,
+      "name" : "Bip01 Tail1",
+      "parent" : "008A6BCB0D0B0D19000B0143FF84B229",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "staticMask" : 0,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "151A744C36021312000100AE1F4C967E",
+            "localEulerAnglesHint" : "-1 0 0",
+            "origin" : "-0 0.0644038 -0.0000713",
+            "rotation" : "-0.0087245 0 0 0.9999619",
+            "scale" : "1 1 1"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "008C3D6A0D0B0D19000B0143FF84BA8B",
+      "layer" : 0,
+      "name" : "Bip01 Tail2",
+      "parent" : "008B43020D0B0D19000B0143FF84B6F9",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "staticMask" : 0,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "151B03B836021312000100AE1F4C9BB7",
+            "localEulerAnglesHint" : "-89.9539795 180 0",
+            "origin" : "0 0.0895641 0",
+            "rotation" : "0.000001 0.7073883 0.7068252 -0.000001",
+            "scale" : "1 0.9999999 0.9999999"
+         }
+      ],
+      "frozen" : false,
+      "guid" : "008D0DF60D0B0D19000B0143FF84BEBE",
+      "layer" : 0,
+      "name" : "Bip01 TailNub",
+      "parent" : "008C3D6A0D0B0D19000B0143FF84BA8B",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "staticMask" : 0,
+      "tag" : "Untagged"
+   },
+   {
+      "active" : true,
+      "activeInHierarchy" : true,
+      "classname" : "Entity",
+      "components" : [
+         {
+            "classname" : "ComTransform",
+            "enabled" : true,
+            "guid" : "151C257F36021312000100AE1F4C9DF1",
+            "localEulerAnglesHint" : "0 -90.0000076 0",
+            "origin" : "0 0 0",
+            "rotation" : "0 -0.7071068 0 0.7071068",
+            "scale" : "1 1 1"
+         },
+         {
+            "alpha" : 1.0,
+            "billboard" : false,
+            "castShadows" : true,
+            "classname" : "ComSkinnedMeshRenderer",
+            "color" : "1 1 1",
+            "enabled" : true,
+            "guid" : "151D2C7536021312000100AE1F4C9C20",
+            "materials" : [ "0073137C090B0B19002700CA22D0E2F6" ],
+            "maxVisDist" : 4000.0,
+            "mesh" : "0084157A090B0B1900270339232FF07C",
+            "receiveShadows" : true,
+            "root" : "00665E200D0B0D19000B013FFF842377",
+            "timeOffset" : 0.0,
+            "timeScale" : 1.0,
+            "useEnvironmentProveLighting" : true
+         }
+      ],
+      "frozen" : false,
+      "guid" : "008E5D3C0D0B0D19000B0143FF84C340",
+      "layer" : 0,
+      "name" : "pointer",
+      "parent" : "00665E200D0B0D19000B013FFF842377",
+      "prefab" : true,
+      "prefabSource" : "00000000000000000000000000000000",
+      "staticMask" : 0,
+      "tag" : "Untagged"
+   }
+]
