@@ -5,6 +5,7 @@ local Point = blueshift.Point
 local Vec2 = blueshift.Vec2
 local Vec3 = blueshift.Vec3
 local Angles = blueshift.Angles
+local Plane = blueshift.Plane
 local Input = blueshift.Input
 local Physics = blueshift.Physics
 local ComRigidBody = blueshift.ComRigidBody
@@ -46,6 +47,8 @@ m = {
     anim_angle = 0.0,
     anim_speed = 0.0,
     velocity = Vec3(0, 0, 0),
+
+    slicing_plane = Plane(Vec3(0, 0, 0), 0),
     
     user_cmd = {
         wish_delta_angles = Angles(0, 0, 0),
@@ -250,10 +253,6 @@ function handle_mouse_joint()
                     end
                 end
             end
-        elseif touch:phase() == Input.Touch.Ended or touch:phase() == Input.Touch.Canceled then
-            if touch:id() == m.clicked_id then
-                m.dragger_entity:socket_joint():set_connected_body(blueshift.ComRigidBody())
-            end
         elseif touch:phase() == Input.Touch.Moved then
             if touch:id() == m.clicked_id then
                 local camera = m.camera_entity:camera()
@@ -262,6 +261,10 @@ function handle_mouse_joint()
                 m.dragger_entity:socket_joint():set_local_anchor(ray:get_point(m.old_picking_dist))
 
                 m.last_touch_position:assign(touch:position())
+            end
+        elseif touch:phase() == Input.Touch.Ended or touch:phase() == Input.Touch.Canceled then
+            if touch:id() == m.clicked_id then
+                m.dragger_entity:socket_joint():set_connected_body(blueshift.ComRigidBody())
             end
         end
     end
@@ -276,12 +279,51 @@ function handle_mouse_joint()
     end
 end
 
+function handle_mouse_slice()
+    for i = 0, Input.touch_count() - 1 do
+        local touch = Input.touch(i)
+        if touch:phase() == Input.Touch.Started then
+            if not is_point_over_entity(touch:position()) then
+                local camera = m.camera_entity:camera()
+                local ray = camera:screen_point_to_ray(touch:position())
+
+                m.slice_start_position = ray:get_point(blueshift.meter_to_unit(10))
+                m.slicing = true
+
+                m.clicked_id = touch:id()
+            end
+        elseif touch:phase() == Input.Touch.Moved then
+            if touch:id() == m.clicked_id then
+                if m.slicing then
+                    local camera = m.camera_entity:camera()
+                    local ray = camera:screen_point_to_ray(touch:position())
+                    local new_position = ray:get_point(blueshift.meter_to_unit(10))
+                    local slice_length = new_position:distance(m.slice_start_position)
+
+                    if slice_length >= 0.2 then
+                        m.slicing_plane:set_from_points(m.slice_start_position, ray:origin(), new_position)
+                        m.slicing = false
+                        --print(m.slicing_plane:to_string())
+                    else
+                        m.slice_start_position = new_position
+                    end
+                end
+            end
+        elseif touch:phase() == Input.Touch.Ended or touch:phase() == Input.Touch.Canceled then
+            if touch:id() == m.clicked_id then
+                m.slicing = false
+            end
+        end
+    end    
+end
+
 function update()
     local dx = 0.0
     local dy = 0.0
 
     -- handle mouse1 clicks on rigid body
     handle_mouse_joint()
+    --handle_mouse_slice()
     --handle_mouse_shoot()
 
     -- handle mouse2 clicks to hide cursor in rotation

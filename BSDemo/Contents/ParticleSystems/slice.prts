@@ -1,0 +1,116 @@
+particleSystem 1
+numStages 1
+stage {
+  name "stage 0"
+  module "Standard" {
+    count 10
+    spawnBunching 1.000
+    lifeTime 2.000
+    deadTime 0.000
+    looping true
+    prewarm true
+    maxCycles 1
+    simulationSpace "Local"
+    simulationSpeed 1.000
+    material "008D4AD51C011016001602F407F21DA5"
+    animation false
+    animFrames 1 1
+    animFps 8
+    orientation "View"
+    startDelay "Constant" {
+      scalar 1.000
+      wrapMode "Clamp" "Clamp"
+      minCurve {
+        numKeys 1
+        keys {
+          0.000 0.000 0.000 0.000 0
+        }
+      }
+      maxCurve {
+        numKeys 1
+        keys {
+          0.000 0.000 0.000 0.000 0
+        }
+      }
+    }
+    startColor ( 1 1 1 1 )
+    startSpeed "Constant" {
+      scalar 1.000
+      wrapMode "Clamp" "Clamp"
+      minCurve {
+        numKeys 1
+        keys {
+          0.000 1.000 0.000 0.000 0
+        }
+      }
+      maxCurve {
+        numKeys 1
+        keys {
+          0.000 0.000 0.000 0.000 0
+        }
+      }
+    }
+    startSize "Constant" {
+      scalar 1.000
+      wrapMode "Clamp" "Clamp"
+      minCurve {
+        numKeys 1
+        keys {
+          0.000 0.100 0.000 0.000 0
+        }
+      }
+      maxCurve {
+        numKeys 1
+        keys {
+          0.000 0.500 0.000 0.000 0
+        }
+      }
+    }
+    startAspectRatio "Constant" {
+      scalar 1.000
+      wrapMode "Clamp" "Clamp"
+      minCurve {
+        numKeys 1
+        keys {
+          0.000 1.000 0.000 0.000 0
+        }
+      }
+      maxCurve {
+        numKeys 1
+        keys {
+          0.000 1.000 0.000 0.000 0
+        }
+      }
+    }
+    startRotation "Constant" {
+      scalar 180.000
+      wrapMode "Clamp" "Clamp"
+      minCurve {
+        numKeys 1
+        keys {
+          0.000 0.000 0.000 0.000 0
+        }
+      }
+      maxCurve {
+        numKeys 1
+        keys {
+          0.000 0.000 0.000 0.000 0
+        }
+      }
+    }
+    randomizeRotation 1.000
+    gravity 0.000
+  }
+  module "Shape" {
+    shape "Box"
+    extents ( 0 0 0 )
+    radius 0.000
+    thickness 1.000
+    angle 30.000
+    randomizeDir 0.000
+  }
+  module "LTColor" {
+    targetColor ( 1 1 1 0 )
+    fadeLocation 0.055
+  }
+}
