@@ -12,7 +12,9 @@ local maps_for_buttons = {
 	['MapButton 8'] = 'Contents/Maps/skinned_instancing.map',
 	['MapButton 9'] = 'Contents/Maps/sensor.map',
 	['MapButton 10'] = 'Contents/Maps/3d_sound.map',
-	['MapButton 11'] = 'Contents/Maps/ui.map'
+	['MapButton 11'] = 'Contents/Maps/ui.map',
+	['MapButton 12'] = 'Contents/Maps/slice.map',
+	['MapButton 13'] = 'Contents/Maps/fracture.map'
 }
 
 m = {}
@@ -38,7 +40,7 @@ function on_clicked(name)
 			end
 		end
 
-		if name == 'MapButton 12' then
+		if name == 'MapButton 14' then
 			if admob ~= true then    
 		    	if admob.InterstitialAd.is_ready() then
 		        	admob.InterstitialAd.present()

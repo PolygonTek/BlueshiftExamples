@@ -99,9 +99,9 @@ animController {
       condition "speed" GT 0.100000
       atomic
       hasExitTime
-      fixedDuration
       exitTime 0.870000
       startTime 0.410000
+      fixedDuration
       duration 0.130000
     }
     transition "jump" "idle" {

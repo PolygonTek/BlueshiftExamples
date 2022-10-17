@@ -3,16 +3,16 @@ numStages 1
 stage {
   name "stage 0"
   module "Standard" {
-    count 10
+    count 60
     spawnBunching 1.000
-    lifeTime 2.000
+    lifeTime 0.400
     deadTime 0.000
     looping true
-    prewarm true
+    prewarm false
     maxCycles 1
-    simulationSpace "Local"
+    simulationSpace "Global"
     simulationSpeed 1.000
-    material "008D4AD51C011016001602F407F21DA5"
+    material "00734F091F070C19000C018816E96F81"
     animation false
     animFrames 1 1
     animFps 8
@@ -56,13 +56,13 @@ stage {
       minCurve {
         numKeys 1
         keys {
-          0.000 0.100 0.000 0.000 0
+          0.000 0.600 0.000 0.000 0
         }
       }
       maxCurve {
         numKeys 1
         keys {
-          0.000 0.500 0.000 0.000 0
+          0.000 0.100 0.000 0.000 0
         }
       }
     }
@@ -111,6 +111,25 @@ stage {
   }
   module "LTColor" {
     targetColor ( 1 1 1 0 )
-    fadeLocation 0.055
+    fadeLocation 0.050
+  }
+  module "LTSize" {
+    size "Curve" {
+      scalar 1.000
+      wrapMode "Clamp" "Clamp"
+      minCurve {
+        numKeys 1
+        keys {
+          0.000 0.000 0.000 0.000 0
+        }
+      }
+      maxCurve {
+        numKeys 2
+        keys {
+          0.000 1.000 0.000 0.000 0
+          1.000 0.027 0.000 0.000 0
+        }
+      }
+    }
   }
 }
