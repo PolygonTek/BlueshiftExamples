@@ -23,7 +23,7 @@ function handle_mouse_fracture()
             local cast_result = Physics.CastResult()
 
             if Physics.ray_cast(ray:origin(), ray:get_point(max_dist), 1, cast_result) then
-                local hit_rigid_body = ComRigidBody.from_cast_result(cast_result);
+                local hit_rigid_body = ComRigidBody.from_cast_result(cast_result)
 
                 if hit_rigid_body then
                     local entity = hit_rigid_body:entity()

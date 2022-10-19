@@ -67,20 +67,30 @@ function fragmenter.slice(entity, slicing_plane)
         slicing_plane:transform_by_mat3x4_self(world_to_local_matrix)
 
         if Mesh.try_slice_mesh(src_mesh, slicing_plane, true, 1.0, true, sliced_below_mesh, sliced_above_mesh) == true then
-            local child_entities = EntityPtrArray()
-            entity:children(child_entities)
+            local src_mesh_volume = entity:static_mesh_renderer():aabb():volume()
+            local src_mesh_mass = entity:rigid_body():mass()
+            local below_mesh_volume = sliced_below_mesh:aabb():volume()
+            local below_mesh_mass = src_mesh_mass * below_mesh_volume / src_mesh_volume
+            local above_mesh_volume = sliced_above_mesh:aabb():volume()            
+            local above_mesh_mass = src_mesh_mass * above_mesh_volume / src_mesh_volume
 
-            for k = 0, child_entities:count() - 1 do
-                child_entities:at(k):set_parent(nil) -- fix me
+            -- both sliced meshes have mass greater than 8g
+            if below_mesh_mass > 0.008 and above_mesh_mass > 0.008 then
+                local child_entities = EntityPtrArray()
+                entity:children(child_entities)
+
+                for k = 0, child_entities:count() - 1 do
+                    child_entities:at(k):set_parent(nil) -- fix me
+                end
+
+                local entity_name = entity:name():c_str()
+                sliced_entity_a = fragmenter.create_fragment(entity_name.."-SlicedA", entity, sliced_above_mesh)
+                sliced_entity_b = fragmenter.create_fragment(entity_name.."-SlicedB", entity, sliced_below_mesh)
+                
+                -- Disable original entity
+                entity:set_active(false)
+                --Entity.destroy(entity)
             end
-
-            local entity_name = entity:name():c_str()
-            sliced_entity_a = fragmenter.create_fragment(entity_name.."-SlicedA", entity, sliced_above_mesh)
-            sliced_entity_b = fragmenter.create_fragment(entity_name.."-SlicedB", entity, sliced_below_mesh)
-            
-            -- Disable original entity
-            entity:set_active(false)
-            --Entity.destroy(entity)
         end
 
         Mesh.release(src_mesh)
@@ -104,37 +114,29 @@ function fragmenter.fracture(entity, impact_point, impact_direction, fragment_co
             local current_entity = Queue.pop(fragments)
 
             if current_entity then
-                local volume = current_entity:world_aabb(false):volume()
+                local slicing_plane = Plane(Vec3(0, 0, 0), 0)
+            
+                if i <= 3 then
+                    local rotator = Quat.from_angle_axis(Math.random(-Math.pi, Math.pi), impact_direction)
+                    slicing_plane:set_normal(rotator:rotate_vector(up))
+                    slicing_plane:normalize()
+                    slicing_plane:fit_through_point(impact_point)
+                else
+                    local normal = Vec3(Math.random(-1.0, 1.0), Math.random(-1.0, 1.0), Math.random(-1.0, 1.0))
+                    slicing_plane:set_normal(normal)
+                    slicing_plane:normalize()
+                    local fragment_center = current_entity:world_aabb(false):center()
+                    local plane_position = Vec3.from_lerp(impact_point, fragment_center, i / fragment_count)
+                    slicing_plane:fit_through_point(plane_position)
+                end
 
-                if volume > 0.1 then
-                    --print(volume)
-                    local slicing_plane = Plane(Vec3(0, 0, 0), 0)
-                
-                    if i <= 3 then
-                        local rotator = Quat.from_angle_axis(Math.random(-Math.pi, Math.pi), impact_direction)
-                        slicing_plane:set_normal(rotator:rotate_vector(up))
-                        slicing_plane:normalize()
-                        slicing_plane:fit_through_point(impact_point)
-                    else
-                        local normal = Vec3(Math.random(-1.0, 1.0), Math.random(-1.0, 1.0), Math.random(-1.0, 1.0))
-                        slicing_plane:set_normal(normal)
-                        slicing_plane:normalize()
-                        local fragment_center = current_entity:world_aabb(false):center()
-                        local plane_position = Vec3.from_lerp(impact_point, fragment_center, i / fragment_count)
-                        slicing_plane:fit_through_point(plane_position)
-                    end
+                local sliced_entity_a = nil
+                local sliced_entity_b = nil
+                sliced_entity_a, sliced_entity_b = fragmenter.slice(current_entity, slicing_plane)
 
-                    local sliced_entity_a = nil
-                    local sliced_entity_b = nil
-                    sliced_entity_a, sliced_entity_b = fragmenter.slice(current_entity, slicing_plane)
-
-                    if sliced_entity_a then
-                        Queue.push(fragments, sliced_entity_a)
-                    end
-
-                    if sliced_entity_b then
-                        Queue.push(fragments, sliced_entity_b)
-                    end
+                if sliced_entity_a and sliced_entity_b then
+                    Queue.push(fragments, sliced_entity_a)
+                    Queue.push(fragments, sliced_entity_b)
 
                     coroutine.yield()
                 end
