@@ -165,7 +165,7 @@
                "classname" : "ComScript",
                "enabled" : true,
                "guid" : "0BDF57DD330A1210000C03B3B1BE5312",
-               "script" : "00124E161803161A00380019EB73F628"
+               "script" : "0D961D02240A1014002402B1E62D8204"
             }
          ],
          "guid" : "00D9283518090F160014029ACCE1E2E0",
@@ -236,6 +236,7 @@
                "classname" : "ComAudioSource",
                "enabled" : true,
                "guid" : "003657EE300A1510003401CA6B9CEDA1",
+               "ignoreInactive" : true,
                "looping" : false,
                "maxDistance" : 16.0,
                "minDistance" : 4.0,
@@ -247,7 +248,7 @@
                "classname" : "ComScript",
                "enabled" : true,
                "guid" : "0BDE00F7330A1210000C03B3B1BE501B",
-               "script" : "00124E161803161A00380019EB73F628"
+               "script" : "0D961D02240A1014002402B1E62D8204"
             }
          ],
          "guid" : "00DF180C22090F160015005DF643765D",
@@ -374,7 +375,7 @@
                "classname" : "ComScript",
                "enabled" : true,
                "guid" : "043D62982C0A1410003B038702110543",
-               "script" : "00124E161803161A00380019EB73F628"
+               "script" : "0D961D02240A1014002402B1E62D8204"
             }
          ],
          "guid" : "043834FB2C0A1410003B0387021105D0",
@@ -444,7 +445,7 @@
                "classname" : "ComScript",
                "enabled" : true,
                "guid" : "04497FAA290A15100000017C23BAB3DF",
-               "script" : "00124E161803161A00380019EB73F628"
+               "script" : "0D961D02240A1014002402B1E62D8204"
             }
          ],
          "guid" : "04440B69290A15100000017C23BAB3A8",
@@ -514,7 +515,7 @@
                "classname" : "ComScript",
                "enabled" : true,
                "guid" : "04551BAB2E0A15100000008C2690F142",
-               "script" : "00124E161803161A00380019EB73F628"
+               "script" : "0D961D02240A1014002402B1E62D8204"
             }
          ],
          "guid" : "0450210F2E0A15100000008C2690F1D7",
@@ -584,7 +585,7 @@
                "classname" : "ComScript",
                "enabled" : true,
                "guid" : "046176CC330A1510000000162979C874",
-               "script" : "00124E161803161A00380019EB73F628"
+               "script" : "0D961D02240A1014002402B1E62D8204"
             }
          ],
          "guid" : "045C1F87330A1510000000162979C8FB",
@@ -601,7 +602,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "00091113320A16100005027D3DD3F97A",
+      "guid" : "00090E0A090A1014002600BA1D4F8E19",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1

@@ -1,5 +1,4 @@
 local blueshift = require "blueshift"
-local Fragmenter = require "Scripts/Fragmenter"
 
 m = {}
 
@@ -11,11 +10,6 @@ function on_collision_enter(collision)
 			audio_source:set_volume(volume)
 			audio_source:play()
 		end
-
-		if collision:impulse() > 1.2 then
-			-- collision is polluted after fracture() function is called.
-        	Fragmenter.fracture(owner.entity, collision:point(), collision:normal(), 10)
-        end		
 	end
 end
 

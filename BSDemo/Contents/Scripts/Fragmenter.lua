@@ -74,7 +74,7 @@ function fragmenter.slice(entity, slicing_plane)
             local above_mesh_volume = sliced_above_mesh:aabb():volume()            
             local above_mesh_mass = src_mesh_mass * above_mesh_volume / src_mesh_volume
 
-            -- both sliced meshes have mass greater than 8g
+            -- both sliced meshes should have mass greater than 8g
             if below_mesh_mass > 0.008 and above_mesh_mass > 0.008 then
                 local child_entities = EntityPtrArray()
                 entity:children(child_entities)
