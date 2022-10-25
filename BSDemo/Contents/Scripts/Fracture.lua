@@ -14,7 +14,7 @@ function on_collision_enter(collision)
 
 		if collision:impulse() > 1.2 then
 			-- collision is polluted after fracture() function is called.
-        	Fragmenter.fracture(owner.entity, collision:point(), collision:normal(), 10)
+        	Fragmenter.fracture(owner.entity, collision:point(), collision:normal(), 16)
         end		
 	end
 end

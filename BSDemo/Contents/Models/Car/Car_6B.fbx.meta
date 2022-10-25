@@ -1,0 +1,38 @@
+{
+   "classname" : "Asset",
+   "guid" : "004052F6300A0918001B0193AADC69EE",
+   "importer" : {
+      "classname" : "FbxFileImporter",
+      "compensateRootTransform" : false,
+      "createAnimationFolder" : false,
+      "generateMeshColliders" : false,
+      "guid" : "004166C0300A0918001B0193AADC69D1",
+      "importAnimation" : false,
+      "importMaterials" : true,
+      "importMesh" : true,
+      "importRotation" : "0 0 0",
+      "importSkeleton" : false,
+      "importTranslation" : "0 0 0",
+      "importUniformScale" : 1.0,
+      "importWithVertexConversion" : true,
+      "materialNaming" : 0,
+      "materialSearch" : 1,
+      "mergeMeshes" : true,
+      "prefabEntityGuids" : [
+         "00EA7D92320A0918001B0285AC3289C8",
+         "00EB5685320A0918001B0285AC328BCA",
+         "00EC7634320A0918001B0285AC328ADB",
+         "00ED2002320A0918001B0285AC328DF7",
+         "00EE2EBB320A0918001B0285AC328C86",
+         "00EF2A19320A0918001B0285AC328C55",
+         "00F01D91320A0918001B0285AC328F4C",
+         "00F13DDD320A0918001B0285AC328E1A"
+      ],
+      "prefabRootEntityGuid" : "00000000000000000000000000000000",
+      "targetSkeleton" : "00000000000000000000000000000000"
+   },
+   "resource" : {
+      "classname" : "FbxResource",
+      "guid" : "01116207320A0918001B02CCAC3D6301"
+   }
+}
