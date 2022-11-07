@@ -2330,7 +2330,7 @@
                "rollingInfluence" : 0.20000000298023224,
                "susDampingCompression" : 1.5,
                "susDampingRelaxation" : 2.2999999523162842,
-               "susDistance" : 0.0,
+               "susDistance" : 0.0099999997764825821,
                "susMaxDistance" : 0.30000001192092896,
                "susMaxForce" : 500.0,
                "susStiffness" : 40.0
@@ -2389,7 +2389,7 @@
                "rollingInfluence" : 0.20000000298023224,
                "susDampingCompression" : 1.5,
                "susDampingRelaxation" : 2.2999999523162842,
-               "susDistance" : 0.0,
+               "susDistance" : 0.0099999997764825821,
                "susMaxDistance" : 0.30000001192092896,
                "susMaxForce" : 500.0,
                "susStiffness" : 40.0
@@ -2448,7 +2448,7 @@
                "rollingInfluence" : 0.20000000298023224,
                "susDampingCompression" : 1.5,
                "susDampingRelaxation" : 2.2999999523162842,
-               "susDistance" : 0.0,
+               "susDistance" : 0.0099999997764825821,
                "susMaxDistance" : 0.30000001192092896,
                "susMaxForce" : 500.0,
                "susStiffness" : 40.0
@@ -2507,7 +2507,7 @@
                "rollingInfluence" : 0.20000000298023224,
                "susDampingCompression" : 1.5,
                "susDampingRelaxation" : 2.2999999523162842,
-               "susDistance" : 0.0,
+               "susDistance" : 0.0099999997764825821,
                "susMaxDistance" : 0.30000001192092896,
                "susMaxForce" : 500.0,
                "susStiffness" : 40.0
@@ -2628,7 +2628,7 @@
             },
             {
                "accel_sound" : "00000000000000000000000000000000",
-               "brakingTorque" : 2.5,
+               "brakingTorque" : 2.7999999523162842,
                "classname" : "ComScript",
                "clunk_sound" : "000B6A6023040D030037037B231D9165",
                "enabled" : true,
@@ -2636,7 +2636,7 @@
                "script" : "000702402A0410010033037557A15FAD",
                "skid_sound" : "00072718060417010012010051A47D08",
                "steering_wheel" : "00BC4C1334020B0A00300187F9450ED9",
-               "torque" : 160.0
+               "torque" : 200.0
             }
          ],
          "guid" : "01E673970D0A0918001D02D9DDB81A13",
@@ -2687,23 +2687,15 @@
                "classname" : "ComVehicleWheel",
                "enabled" : true,
                "guid" : "02003E102B0A0918001F00DF36D36A37",
-               "radius" : 0.5,
+               "radius" : 0.43000000715255737,
                "rollingFriction" : 2.0,
                "rollingInfluence" : 0.20000000298023224,
                "susDampingCompression" : 1.5,
                "susDampingRelaxation" : 2.2999999523162842,
-               "susDistance" : 0.0,
+               "susDistance" : 0.05000000074505806,
                "susMaxDistance" : 0.30000001192092896,
                "susMaxForce" : 500.0,
-               "susStiffness" : 30.0
-            },
-            {
-               "center" : "-0 0.0258 -0",
-               "classname" : "ComCylinderCollider",
-               "enabled" : true,
-               "guid" : "020468390F0A0918002100F86DAD8146",
-               "height" : 0.8401990532875061,
-               "radius" : 0.17514608800411224
+               "susStiffness" : 35.0
             }
          ],
          "guid" : "01E930720D0A0918001D02D9DDB81DE7",
@@ -2754,23 +2746,15 @@
                "classname" : "ComVehicleWheel",
                "enabled" : true,
                "guid" : "0201309A2B0A0918001F00DF36D36E02",
-               "radius" : 0.5,
+               "radius" : 0.43000000715255737,
                "rollingFriction" : 2.0,
                "rollingInfluence" : 0.20000000298023224,
                "susDampingCompression" : 1.5,
                "susDampingRelaxation" : 2.2999999523162842,
-               "susDistance" : 0.0,
+               "susDistance" : 0.05000000074505806,
                "susMaxDistance" : 0.30000001192092896,
                "susMaxForce" : 500.0,
-               "susStiffness" : 30.0
-            },
-            {
-               "center" : "-0 -0.0258 -0",
-               "classname" : "ComCylinderCollider",
-               "enabled" : true,
-               "guid" : "020551A00F0A0918002100F96DAD82A6",
-               "height" : 0.8401990532875061,
-               "radius" : 0.17514608800411224
+               "susStiffness" : 35.0
             }
          ],
          "guid" : "01EC517C0D0A0918001D02D9DDB81D03",
@@ -2821,23 +2805,15 @@
                "classname" : "ComVehicleWheel",
                "enabled" : true,
                "guid" : "020252A52B0A0918001F00DF36D373F1",
-               "radius" : 0.5,
+               "radius" : 0.43000000715255737,
                "rollingFriction" : 2.0,
                "rollingInfluence" : 0.20000000298023224,
                "susDampingCompression" : 1.5,
                "susDampingRelaxation" : 2.2999999523162842,
-               "susDistance" : 0.0,
+               "susDistance" : 0.05000000074505806,
                "susMaxDistance" : 0.30000001192092896,
                "susMaxForce" : 500.0,
-               "susStiffness" : 30.0
-            },
-            {
-               "center" : "-0 -0.0258 -0",
-               "classname" : "ComCylinderCollider",
-               "enabled" : true,
-               "guid" : "020616520F0A0918002100F96DAD85E7",
-               "height" : 0.8401990532875061,
-               "radius" : 0.17514608800411224
+               "susStiffness" : 35.0
             }
          ],
          "guid" : "01EF21730D0A0918001D02D9DDB81CA1",
@@ -2888,15 +2864,15 @@
                "classname" : "ComVehicleWheel",
                "enabled" : true,
                "guid" : "0203127E2B0A0918001F00DF36D3754E",
-               "radius" : 0.5,
+               "radius" : 0.43000000715255737,
                "rollingFriction" : 2.0,
                "rollingInfluence" : 0.20000000298023224,
                "susDampingCompression" : 1.5,
                "susDampingRelaxation" : 2.2999999523162842,
-               "susDistance" : 0.0,
+               "susDistance" : 0.05000000074505806,
                "susMaxDistance" : 0.30000001192092896,
                "susMaxForce" : 500.0,
-               "susStiffness" : 30.0
+               "susStiffness" : 35.0
             }
          ],
          "guid" : "01F25C770D0A0918001D02D9DDB81CCA",
@@ -3140,7 +3116,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "00091DB7120A09180023026EB736D33C",
+      "guid" : "00091E7D1A0B0B06001803BEAAA06A4D",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1
