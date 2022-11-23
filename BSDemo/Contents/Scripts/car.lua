@@ -69,7 +69,7 @@ function update()
         if m.accel_pedal or Input.is_key_pressed(Input.KeyCode.UpArrow) then
             m.torque = -properties.torque.value
         end
-    end    
+    end
 
 	for i = 1, #m.front_wheels do
     	m.front_wheels[i]:set_steering_angle(m.steering_angle)

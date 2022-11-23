@@ -63,7 +63,7 @@ function fragmenter.slice(entity, slicing_plane)
         local src_mesh_material_count = src_static_mesh_renderer:num_materials()
         local sliced_below_mesh = Mesh.new()
         local sliced_above_mesh = Mesh.new()
-        local world_to_local_matrix = entity:transform():transform():inverse_orthogonal()
+        local world_to_local_matrix = entity:transform():world_matrix():inverse_orthogonal()
         slicing_plane:transform_by_mat3x4_self(world_to_local_matrix)
 
         if Mesh.try_slice_mesh(src_mesh, slicing_plane, true, 1.0, true, sliced_below_mesh, sliced_above_mesh) == true then

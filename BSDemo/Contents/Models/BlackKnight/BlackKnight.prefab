@@ -7,7 +7,7 @@
          {
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "13FD237834021312000103D91E97397E",
+            "guid" : "004707930C0B17130029001F88DD06B6",
             "localEulerAnglesHint" : "0 0 0",
             "origin" : "0 0 0",
             "rotation" : "0 0 0 1",
@@ -18,21 +18,24 @@
             "anims" : [ "04B4521B03070A010023037DB4591C16" ],
             "classname" : "ComAnimation",
             "enabled" : true,
-            "guid" : "13FE049834021312000103D91E973BF8",
+            "guid" : "004803C00C0B17130029001F88DD0BE3",
+            "rootBoneTransform" : "004548D90C0B17130029001E88DCEABF",
             "skeleton" : "00174FAD35060B16002D0013AC797750",
             "timeOffset" : 0.0,
             "timeScale" : 1.0
          }
       ],
-      "frozen" : false,
       "guid" : "001D52BD37060B15001300E3AD206974",
       "layer" : 0,
+      "lockedInHierarchy" : false,
       "name" : "BlackKnight",
       "parent" : "00000000000000000000000000000000",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
+      "selectableInEditor" : true,
       "staticMask" : 0,
-      "tag" : "Untagged"
+      "tag" : "Untagged",
+      "visibleInEditor" : true
    },
    {
       "active" : true,
@@ -42,22 +45,24 @@
          {
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "13FF1CBD34021312000103DA1E975912",
+            "guid" : "004548D90C0B17130029001E88DCEABF",
             "localEulerAnglesHint" : "0 0 0",
             "origin" : "0 0 0",
             "rotation" : "0 0 0 1",
             "scale" : "0.0393701 0.0393701 0.0393701"
          }
       ],
-      "frozen" : false,
       "guid" : "001E340E37060B15001300E3AD206BCB",
       "layer" : 0,
+      "lockedInHierarchy" : false,
       "name" : "b_MF_Root",
       "parent" : "001D52BD37060B15001300E3AD206974",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
+      "selectableInEditor" : true,
       "staticMask" : 0,
-      "tag" : "Untagged"
+      "tag" : "Untagged",
+      "visibleInEditor" : true
    },
    {
       "active" : true,
@@ -67,22 +72,24 @@
          {
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "140029F034021312000103DA1E975A96",
+            "guid" : "0049488E0C0B17130029001F88DD15FE",
             "localEulerAnglesHint" : "90.0000076 0 179.9999847",
-            "origin" : "-13.5181532 -1.4059243 802.8672485",
-            "rotation" : "-0.0000009 0.7071068 0.7071067 -0.0000009",
-            "scale" : "25.4000015 25.4000015 25.4000015"
+            "origin" : "-13.5181522 -1.4059242 802.8671875",
+            "rotation" : "-0.0000009 0.7071068 0.7071068 -0.0000009",
+            "scale" : "25.3999996 25.3999996 25.3999996"
          }
       ],
-      "frozen" : false,
       "guid" : "001F6BC137060B15001300E3AD206A40",
       "layer" : 0,
+      "lockedInHierarchy" : true,
       "name" : "b_MF_Pelvis",
       "parent" : "001E340E37060B15001300E3AD206BCB",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
+      "selectableInEditor" : true,
       "staticMask" : 0,
-      "tag" : "Untagged"
+      "tag" : "Untagged",
+      "visibleInEditor" : true
    },
    {
       "active" : true,
@@ -92,22 +99,24 @@
          {
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "140128DF34021312000103DA1E975C29",
+            "guid" : "004A678D0C0B17130029001F88DD192D",
             "localEulerAnglesHint" : "90.0000076 0 -179.9999847",
-            "origin" : "-5.6953449 -0.8282852 0.0006788",
+            "origin" : "-5.6953444 -0.8282852 0.0006788",
             "rotation" : "-0.0000009 0.7071068 0.7071068 0.0000009",
-            "scale" : "1 1 1"
+            "scale" : "0.9999999 0.9999999 0.9999999"
          }
       ],
-      "frozen" : false,
       "guid" : "0020252637060B15001300E4AD206F9E",
       "layer" : 0,
+      "lockedInHierarchy" : true,
       "name" : "b_MF_LoinCloth_Front",
       "parent" : "001F6BC137060B15001300E3AD206A40",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
+      "selectableInEditor" : true,
       "staticMask" : 0,
-      "tag" : "Untagged"
+      "tag" : "Untagged",
+      "visibleInEditor" : true
    },
    {
       "active" : true,
@@ -117,22 +126,24 @@
          {
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "1402022F34021312000103DA1E975E6C",
+            "guid" : "004B36050C0B17130029002088DD1C7E",
             "localEulerAnglesHint" : "-177.5840149 0.033 -1.9100001",
-            "origin" : "0.034279 -0.1550312 -4.2474585",
-            "rotation" : "0.9996389 -0.0166671 0.0000676 -0.0210828",
-            "scale" : "0.9999999 0.9999998 1"
+            "origin" : "0.034279 -0.1550312 -4.247458",
+            "rotation" : "0.9996388 -0.0166671 0.0000676 -0.0210828",
+            "scale" : "0.9999998 0.9999998 1"
          }
       ],
-      "frozen" : false,
       "guid" : "00213D2D37060B15001300E4AD206E37",
       "layer" : 0,
+      "lockedInHierarchy" : true,
       "name" : "b_MF_Thigh_R",
       "parent" : "001F6BC137060B15001300E3AD206A40",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
+      "selectableInEditor" : true,
       "staticMask" : 0,
-      "tag" : "Untagged"
+      "tag" : "Untagged",
+      "visibleInEditor" : true
    },
    {
       "active" : true,
@@ -142,22 +153,24 @@
          {
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "140356DA34021312000103DA1E9763A3",
+            "guid" : "004C2D310C0B17130029002088DD204B",
             "localEulerAnglesHint" : "-2.549 0.049 -8.7470007",
-            "origin" : "0.0000005 13.9273834 0",
+            "origin" : "0.0000005 13.9273834 0.0000005",
             "rotation" : "-0.0221413 0.0021194 -0.076233 0.996842",
             "scale" : "1.0000002 1.0000002 0.9999998"
          }
       ],
-      "frozen" : false,
       "guid" : "0022376337060B15001300E4AD207149",
       "layer" : 0,
+      "lockedInHierarchy" : true,
       "name" : "b_MF_Calf_R",
       "parent" : "00213D2D37060B15001300E4AD206E37",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
+      "selectableInEditor" : true,
       "staticMask" : 0,
-      "tag" : "Untagged"
+      "tag" : "Untagged",
+      "visibleInEditor" : true
    },
    {
       "active" : true,
@@ -167,22 +180,24 @@
          {
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "14044E3634021312000103DA1E976598",
+            "guid" : "004D31250C0B17130029002088DD244C",
             "localEulerAnglesHint" : "-0.077 -0.407 32.7890015",
-            "origin" : "0.0000021 14.1703558 0",
+            "origin" : "0.0000021 14.1703539 0",
             "rotation" : "0.0003595 -0.0035961 0.2822424 0.9593363",
-            "scale" : "0.9999998 1.0000001 1"
+            "scale" : "0.9999998 1 1"
          }
       ],
-      "frozen" : false,
       "guid" : "0023151137060B15001300E4AD2073E3",
       "layer" : 0,
+      "lockedInHierarchy" : true,
       "name" : "b_MF_Foot_R",
       "parent" : "0022376337060B15001300E4AD207149",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
+      "selectableInEditor" : true,
       "staticMask" : 0,
-      "tag" : "Untagged"
+      "tag" : "Untagged",
+      "visibleInEditor" : true
    },
    {
       "active" : true,
@@ -192,22 +207,24 @@
          {
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "1405027E34021312000103DA1E9767D6",
+            "guid" : "004E754F0C0B17130029002088DD2873",
             "localEulerAnglesHint" : "177.5840149 -0.033 -1.9100001",
-            "origin" : "0.0342686 -0.1550484 4.2711077",
+            "origin" : "0.0342686 -0.1550484 4.2711072",
             "rotation" : "0.9996388 -0.0166672 -0.0000676 0.0210804",
-            "scale" : "0.9999999 1 1"
+            "scale" : "0.9999998 0.9999999 1"
          }
       ],
-      "frozen" : false,
       "guid" : "00241D8B37060B15001300E4AD207231",
       "layer" : 0,
+      "lockedInHierarchy" : true,
       "name" : "b_MF_Thigh_L",
       "parent" : "001F6BC137060B15001300E3AD206A40",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
+      "selectableInEditor" : true,
       "staticMask" : 0,
-      "tag" : "Untagged"
+      "tag" : "Untagged",
+      "visibleInEditor" : true
    },
    {
       "active" : true,
@@ -217,22 +234,24 @@
          {
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "1406674134021312000103DA1E97690D",
+            "guid" : "004F536F0C0B17130029002088DD2C7F",
             "localEulerAnglesHint" : "2.549 -0.049 -8.7470007",
-            "origin" : "-0.0000013 13.9273834 0.000001",
+            "origin" : "-0.0000013 13.9273834 0.0000005",
             "rotation" : "0.0221412 -0.0021187 -0.0762329 0.996842",
-            "scale" : "1.0000002 1.0000002 1"
+            "scale" : "1.0000002 1.0000001 0.9999999"
          }
       ],
-      "frozen" : false,
       "guid" : "00254C4237060B15001300E4AD207541",
       "layer" : 0,
+      "lockedInHierarchy" : true,
       "name" : "b_MF_Calf_L",
       "parent" : "00241D8B37060B15001300E4AD207231",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
+      "selectableInEditor" : true,
       "staticMask" : 0,
-      "tag" : "Untagged"
+      "tag" : "Untagged",
+      "visibleInEditor" : true
    },
    {
       "active" : true,
@@ -242,22 +261,24 @@
          {
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "1407021734021312000103DA1E976B40",
+            "guid" : "0050292D0C0B17130029002088DD3068",
             "localEulerAnglesHint" : "0.045 0.412 28.3690014",
-            "origin" : "0.0000007 14.1703491 0.0000005",
+            "origin" : "0.0000005 14.1703491 0",
             "rotation" : "-0.0004982 0.0035801 0.2450387 0.9695066",
-            "scale" : "0.9999999 0.9999999 0.9999998"
+            "scale" : "0.9999998 0.9999999 0.9999998"
          }
       ],
-      "frozen" : false,
       "guid" : "0026219A37060B15001300E4AD207796",
       "layer" : 0,
+      "lockedInHierarchy" : true,
       "name" : "b_MF_Foot_L",
       "parent" : "00254C4237060B15001300E4AD207541",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
+      "selectableInEditor" : true,
       "staticMask" : 0,
-      "tag" : "Untagged"
+      "tag" : "Untagged",
+      "visibleInEditor" : true
    },
    {
       "active" : true,
@@ -267,22 +288,24 @@
          {
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "14082C6634021312000103DA1E976CB3",
+            "guid" : "005147C70C0B17130029002088DD3464",
             "localEulerAnglesHint" : "0 0 -2.0580001",
-            "origin" : "-0.46425 3.940527 0.0000054",
+            "origin" : "-0.4642499 3.9405251 0.0000054",
             "rotation" : "0.000001 -0.0000014 -0.0179569 0.9998387",
-            "scale" : "0.9999999 0.9999999 1.0000001"
+            "scale" : "0.9999998 0.9999999 1"
          }
       ],
-      "frozen" : false,
       "guid" : "00270F4837060B15001300E4AD20762E",
       "layer" : 0,
+      "lockedInHierarchy" : true,
       "name" : "b_MF_Spine_01",
       "parent" : "001F6BC137060B15001300E3AD206A40",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
+      "selectableInEditor" : true,
       "staticMask" : 0,
-      "tag" : "Untagged"
+      "tag" : "Untagged",
+      "visibleInEditor" : true
    },
    {
       "active" : true,
@@ -292,22 +315,24 @@
          {
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "14097A7734021312000103DB1E976EFB",
+            "guid" : "00527BE90C0B17130029002088DD380A",
             "localEulerAnglesHint" : "0 0 -6.4310002",
             "origin" : "0.0026798 3.3653831 0.0000005",
             "rotation" : "-0.0000003 -0.0000008 -0.0560928 0.9984255",
-            "scale" : "1.0000002 1.0000001 0.9999999"
+            "scale" : "1.0000002 1.0000001 0.9999998"
          }
       ],
-      "frozen" : false,
       "guid" : "0028069337060B15001300E4AD207946",
       "layer" : 0,
+      "lockedInHierarchy" : true,
       "name" : "b_MF_Spine_02",
       "parent" : "00270F4837060B15001300E4AD20762E",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
+      "selectableInEditor" : true,
       "staticMask" : 0,
-      "tag" : "Untagged"
+      "tag" : "Untagged",
+      "visibleInEditor" : true
    },
    {
       "active" : true,
@@ -317,22 +342,24 @@
          {
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "140A30F934021312000103DB1E977489",
+            "guid" : "005321600C0B17130029002088DD3C3D",
             "localEulerAnglesHint" : "0 0 13.467001",
-            "origin" : "0.0040336 5.0651283 -0.0000002",
+            "origin" : "0.004034 5.0651283 -0.0000002",
             "rotation" : "0.0000002 -0.0000008 0.1172536 0.9931021",
-            "scale" : "0.9999999 1 1"
+            "scale" : "0.9999999 1 0.9999999"
          }
       ],
-      "frozen" : false,
       "guid" : "0029036137060B15001300E5AD207B9D",
       "layer" : 0,
+      "lockedInHierarchy" : true,
       "name" : "b_MF_Spine_03",
       "parent" : "0028069337060B15001300E4AD207946",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
+      "selectableInEditor" : true,
       "staticMask" : 0,
-      "tag" : "Untagged"
+      "tag" : "Untagged",
+      "visibleInEditor" : true
    },
    {
       "active" : true,
@@ -342,22 +369,24 @@
          {
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "140B544434021312000103DB1E9779AF",
+            "guid" : "005456530C0B17130029002088DD4031",
             "localEulerAnglesHint" : "0 0 14.8580008",
             "origin" : "0.3237281 6.0567322 -0.0000003",
             "rotation" : "0.0000013 0.0000009 0.1292958 0.9916061",
-            "scale" : "0.9999998 0.9999998 0.9999999"
+            "scale" : "0.9999997 0.9999998 0.9999999"
          }
       ],
-      "frozen" : false,
       "guid" : "002A39D637060B15001300E5AD207A31",
       "layer" : 0,
+      "lockedInHierarchy" : true,
       "name" : "b_MF_Neck",
       "parent" : "0029036137060B15001300E5AD207B9D",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
+      "selectableInEditor" : true,
       "staticMask" : 0,
-      "tag" : "Untagged"
+      "tag" : "Untagged",
+      "visibleInEditor" : true
    },
    {
       "active" : true,
@@ -367,22 +396,24 @@
          {
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "140C5B2434021312000103DB1E977BE1",
+            "guid" : "005546A80C0B17130029002188DD4438",
             "localEulerAnglesHint" : "0 1.192 -19.8360004",
-            "origin" : "0 3.0359154 0.0000003",
+            "origin" : "0.0000019 3.0359154 0.0000003",
             "rotation" : "0.0017902 0.0102485 -0.1722301 0.9850019",
             "scale" : "0.9999999 0.9999999 1"
          }
       ],
-      "frozen" : false,
       "guid" : "002B510A37060B15001300E5AD207D4B",
       "layer" : 0,
+      "lockedInHierarchy" : true,
       "name" : "b_MF_Head",
       "parent" : "002A39D637060B15001300E5AD207A31",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
+      "selectableInEditor" : true,
       "staticMask" : 0,
-      "tag" : "Untagged"
+      "tag" : "Untagged",
+      "visibleInEditor" : true
    },
    {
       "active" : true,
@@ -392,22 +423,24 @@
          {
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "140D64B034021312000103DB1E977DD0",
+            "guid" : "00560A8F0C0B17130029002188DD483D",
             "localEulerAnglesHint" : "-92.8139954 -168.1029968 -4.2379761",
-            "origin" : "0.22194 2.7304344 1.6576514",
+            "origin" : "0.22194 2.7304382 1.6576512",
             "rotation" : "0.1003647 0.6825745 0.7225056 -0.0447737",
-            "scale" : "1.0000001 0.9999999 0.9999999"
+            "scale" : "1.0000001 0.9999999 0.9999998"
          }
       ],
-      "frozen" : false,
       "guid" : "002C582237060B15001300E5AD207FE2",
       "layer" : 0,
+      "lockedInHierarchy" : true,
       "name" : "b_MF_Clavicle_L",
       "parent" : "0029036137060B15001300E5AD207B9D",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
+      "selectableInEditor" : true,
       "staticMask" : 0,
-      "tag" : "Untagged"
+      "tag" : "Untagged",
+      "visibleInEditor" : true
    },
    {
       "active" : true,
@@ -417,22 +450,24 @@
          {
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "140E5C3734021312000103DB1E977F0D",
+            "guid" : "005778D80C0B17130029002188DD4C31",
             "localEulerAnglesHint" : "-36.9660034 3.9750001 -5.0080004",
-            "origin" : "-0.0000007 5.5081 0",
+            "origin" : "-0.0000006 5.5080991 0.0000038",
             "rotation" : "-0.3150951 0.0467056 -0.0304272 0.9474218",
             "scale" : "0.9999995 0.9999998 0.9999996"
          }
       ],
-      "frozen" : false,
       "guid" : "002D277337060B15001300E5AD207E34",
       "layer" : 0,
+      "lockedInHierarchy" : true,
       "name" : "b_MF_UpperArm_L",
       "parent" : "002C582237060B15001300E5AD207FE2",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
+      "selectableInEditor" : true,
       "staticMask" : 0,
-      "tag" : "Untagged"
+      "tag" : "Untagged",
+      "visibleInEditor" : true
    },
    {
       "active" : true,
@@ -442,22 +477,24 @@
          {
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "140F2D0C34021312000103DB1E978147",
+            "guid" : "005855F60C0B17130029002188DD5036",
             "localEulerAnglesHint" : "0 -1.4310001 0",
-            "origin" : "0.0000005 0.0000019 0",
+            "origin" : "0.0000005 0 0",
             "rotation" : "-0.0000001 -0.0124892 0 0.999922",
-            "scale" : "1.0000001 1 1.0000002"
+            "scale" : "1 1.0000001 1.0000002"
          }
       ],
-      "frozen" : false,
       "guid" : "002E6BAA37060B15001300E5AD208148",
       "layer" : 0,
+      "lockedInHierarchy" : true,
       "name" : "b_MF_Armroll_L",
       "parent" : "002D277337060B15001300E5AD207E34",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
+      "selectableInEditor" : true,
       "staticMask" : 0,
-      "tag" : "Untagged"
+      "tag" : "Untagged",
+      "visibleInEditor" : true
    },
    {
       "active" : true,
@@ -467,22 +504,24 @@
          {
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "1410787B34021312000103DB1E9782B4",
+            "guid" : "005904DE0C0B17130029002188DD5430",
             "localEulerAnglesHint" : "4.3190002 0.47 -18.6690006",
-            "origin" : "0 8.3774796 0",
+            "origin" : "0 8.3774805 0",
             "rotation" : "0.0378493 -0.0020715 -0.1622352 0.9860238",
-            "scale" : "1.0000002 0.9999999 1.0000001"
+            "scale" : "1.0000001 1 1.0000001"
          }
       ],
-      "frozen" : false,
       "guid" : "002F28B537060B15001300E5AD2083E0",
       "layer" : 0,
+      "lockedInHierarchy" : true,
       "name" : "b_MF_Forearm_L",
       "parent" : "002D277337060B15001300E5AD207E34",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
+      "selectableInEditor" : true,
       "staticMask" : 0,
-      "tag" : "Untagged"
+      "tag" : "Untagged",
+      "visibleInEditor" : true
    },
    {
       "active" : true,
@@ -492,22 +531,24 @@
          {
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "14116FD434021312000103DB1E9784E0",
+            "guid" : "005A2ACD0C0B17130029002188DD582A",
             "localEulerAnglesHint" : "-84.9830017 -74.201004 87.9520035",
-            "origin" : "0.0000043 9.5268736 0.0000038",
-            "rotation" : "-0.0788577 -0.6941733 0.1151428 0.7061495",
-            "scale" : "0.9999999 0.9999999 0.9999999"
+            "origin" : "0.0000043 9.5268726 0",
+            "rotation" : "-0.0788577 -0.6941734 0.1151428 0.7061495",
+            "scale" : "0.9999999 0.9999999 0.9999998"
          }
       ],
-      "frozen" : false,
       "guid" : "003033EF37060B15001300E5AD20820A",
       "layer" : 0,
+      "lockedInHierarchy" : true,
       "name" : "b_MF_Hand_L",
       "parent" : "002F28B537060B15001300E5AD2083E0",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
+      "selectableInEditor" : true,
       "staticMask" : 0,
-      "tag" : "Untagged"
+      "tag" : "Untagged",
+      "visibleInEditor" : true
    },
    {
       "active" : true,
@@ -517,22 +558,24 @@
          {
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "1412028934021312000103DB1E9786D8",
+            "guid" : "005B50B70C0B17130029002188DD5C37",
             "localEulerAnglesHint" : "0 0 0",
-            "origin" : "0.0000076 -0.0000038 -0.0000008",
+            "origin" : "0.0000114 -0.0000029 -0.0000005",
             "rotation" : "-0.0000001 -0.0000001 0.0000001 1",
-            "scale" : "1.0000001 1 1.0000002"
+            "scale" : "1.0000002 1.0000001 1"
          }
       ],
-      "frozen" : false,
       "guid" : "00316CDC37060B15001300E5AD20855A",
       "layer" : 0,
+      "lockedInHierarchy" : true,
       "name" : "b_MF_Weapon_L",
       "parent" : "003033EF37060B15001300E5AD20820A",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
+      "selectableInEditor" : true,
       "staticMask" : 0,
-      "tag" : "Untagged"
+      "tag" : "Untagged",
+      "visibleInEditor" : true
    },
    {
       "active" : true,
@@ -542,22 +585,24 @@
          {
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "14130F1E34021312000103DB1E97880C",
+            "guid" : "005C48C30C0B17130029002188DD602E",
             "localEulerAnglesHint" : "92.8119965 168.0890045 -4.2379761",
             "origin" : "0.2247415 2.7522507 -1.6607788",
             "rotation" : "-0.1004506 -0.6825732 0.7224893 -0.0448636",
-            "scale" : "0.9999999 0.9999999 0.9999996"
+            "scale" : "0.9999998 0.9999998 0.9999995"
          }
       ],
-      "frozen" : false,
       "guid" : "00320D3637060B15001300E5AD2087E5",
       "layer" : 0,
+      "lockedInHierarchy" : true,
       "name" : "b_MF_Clavicle_R",
       "parent" : "0029036137060B15001300E5AD207B9D",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
+      "selectableInEditor" : true,
       "staticMask" : 0,
-      "tag" : "Untagged"
+      "tag" : "Untagged",
+      "visibleInEditor" : true
    },
    {
       "active" : true,
@@ -567,22 +612,24 @@
          {
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "14144E7534021312000103DB1E978A7F",
+            "guid" : "005D50730C0B17130029002188DD64DF",
             "localEulerAnglesHint" : "36.9630013 -3.9730003 -5.026",
-            "origin" : "-0.0000005 5.5143538 0",
+            "origin" : "-0.0000007 5.5143542 0.0000038",
             "rotation" : "0.3150611 -0.046738 -0.0305806 0.9474265",
             "scale" : "0.9999998 1 1.0000004"
          }
       ],
-      "frozen" : false,
       "guid" : "003379F337060B15001300E6AD208657",
       "layer" : 0,
+      "lockedInHierarchy" : true,
       "name" : "b_MF_UpperArm_R",
       "parent" : "00320D3637060B15001300E5AD2087E5",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
+      "selectableInEditor" : true,
       "staticMask" : 0,
-      "tag" : "Untagged"
+      "tag" : "Untagged",
+      "visibleInEditor" : true
    },
    {
       "active" : true,
@@ -592,22 +639,24 @@
          {
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "1415079B34021312000103DB1E978FBF",
+            "guid" : "005E22590C0B17130029002288DD68DD",
             "localEulerAnglesHint" : "0 1.4310001 0",
-            "origin" : "-0.000001 -0.0000019 0.0000038",
+            "origin" : "-0.000001 0 0.0000076",
             "rotation" : "-0.0000002 0.0124893 0 0.999922",
             "scale" : "1.0000002 1.0000004 0.9999999"
          }
       ],
-      "frozen" : false,
       "guid" : "00347CD037060B15001300E6AD2088DF",
       "layer" : 0,
+      "lockedInHierarchy" : true,
       "name" : "b_MF_Armroll_R",
       "parent" : "003379F337060B15001300E6AD208657",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
+      "selectableInEditor" : true,
       "staticMask" : 0,
-      "tag" : "Untagged"
+      "tag" : "Untagged",
+      "visibleInEditor" : true
    },
    {
       "active" : true,
@@ -617,22 +666,24 @@
          {
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "1416435734021312000103DB1E9791F4",
+            "guid" : "005F08760C0B17130029002288DD7096",
             "localEulerAnglesHint" : "-4.3070002 -0.467 -18.6290016",
-            "origin" : "0.0000005 8.4077129 -0.0000076",
+            "origin" : "0.0000005 8.4077148 -0.0000038",
             "rotation" : "-0.0377362 0.0020632 -0.1618871 0.9860854",
             "scale" : "1.0000002 1.0000004 1"
          }
       ],
-      "frozen" : false,
       "guid" : "003541B137060B15001300E6AD208B6F",
       "layer" : 0,
+      "lockedInHierarchy" : true,
       "name" : "b_MF_Forearm_R",
       "parent" : "003379F337060B15001300E6AD208657",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
+      "selectableInEditor" : true,
       "staticMask" : 0,
-      "tag" : "Untagged"
+      "tag" : "Untagged",
+      "visibleInEditor" : true
    },
    {
       "active" : true,
@@ -642,22 +693,24 @@
          {
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "1417348B34021312000103DB1E979323",
+            "guid" : "00603EA40C0B17130029002288DD77B4",
             "localEulerAnglesHint" : "84.989006 74.2090073 87.9210052",
-            "origin" : "-0.0000038 9.5536089 -0.0000038",
-            "rotation" : "0.0790335 0.6941678 0.1148654 0.7061804",
-            "scale" : "0.9999996 0.9999998 0.9999997"
+            "origin" : "-0.0000033 9.5536118 -0.0000038",
+            "rotation" : "0.0790336 0.6941678 0.1148654 0.7061804",
+            "scale" : "0.9999996 0.9999997 0.9999996"
          }
       ],
-      "frozen" : false,
       "guid" : "0036509337060B15001300E6AD208DBC",
       "layer" : 0,
+      "lockedInHierarchy" : true,
       "name" : "b_MF_Hand_R",
       "parent" : "003541B137060B15001300E6AD208B6F",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
+      "selectableInEditor" : true,
       "staticMask" : 0,
-      "tag" : "Untagged"
+      "tag" : "Untagged",
+      "visibleInEditor" : true
    },
    {
       "active" : true,
@@ -667,22 +720,24 @@
          {
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "141825E934021312000103DB1E979567",
+            "guid" : "00612EB90C0B17130029002288DD7B37",
             "localEulerAnglesHint" : "-0.825 0.236 62.6810036",
-            "origin" : "0.1143303 4.0584631 0.2601074",
+            "origin" : "0.1143341 4.0584621 0.2601075",
             "rotation" : "-0.0072197 -0.0019867 0.5201182 0.8540614",
             "scale" : "1.0000002 1.0000005 1.0000002"
          }
       ],
-      "frozen" : false,
       "guid" : "0037798B37060B15001300E6AD208CD2",
       "layer" : 0,
+      "lockedInHierarchy" : true,
       "name" : "b_MF_Finger_04_R",
       "parent" : "0036509337060B15001300E6AD208DBC",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
+      "selectableInEditor" : true,
       "staticMask" : 0,
-      "tag" : "Untagged"
+      "tag" : "Untagged",
+      "visibleInEditor" : true
    },
    {
       "active" : true,
@@ -692,22 +747,24 @@
          {
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "14192C4C34021312000103DC1E9799D5",
+            "guid" : "0062020B0C0B17130029002288DD812E",
             "localEulerAnglesHint" : "0 0 0",
-            "origin" : "-0.0000038 0.0000019 0.0000008",
+            "origin" : "0 0.000001 0.000001",
             "rotation" : "-0.0000001 -0.0000005 0.0000003 1",
             "scale" : "1.0000005 1.0000002 1.0000001"
          }
       ],
-      "frozen" : false,
       "guid" : "0038733837060B15001300E6AD208F64",
       "layer" : 0,
+      "lockedInHierarchy" : true,
       "name" : "b_MF_Weapon_R",
       "parent" : "0036509337060B15001300E6AD208DBC",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
+      "selectableInEditor" : true,
       "staticMask" : 0,
-      "tag" : "Untagged"
+      "tag" : "Untagged",
+      "visibleInEditor" : true
    },
    {
       "active" : true,
@@ -717,7 +774,7 @@
          {
             "classname" : "ComTransform",
             "enabled" : true,
-            "guid" : "141A4D5D34021312000103DC1E979DE0",
+            "guid" : "00634B150C0B17130029002288DD866E",
             "localEulerAnglesHint" : "0 0 0",
             "origin" : "0 0 0",
             "rotation" : "0 0 0 1",
@@ -730,7 +787,7 @@
             "classname" : "ComSkinnedMeshRenderer",
             "color" : "1 1 1",
             "enabled" : true,
-            "guid" : "141B426F34021312000103DC1E979F80",
+            "guid" : "00645DE50C0B17130029002288DD88C1",
             "materials" : [ "000F165822051400001C00BECA53381A" ],
             "maxVisDist" : 4000.0,
             "mesh" : "0008551933060B16002D0348AC3A2F7F",
@@ -741,14 +798,16 @@
             "useEnvironmentProveLighting" : true
          }
       ],
-      "frozen" : false,
       "guid" : "0039082537060B15001300E6AD2091B5",
       "layer" : 0,
+      "lockedInHierarchy" : false,
       "name" : "BlackKnight_Mesh",
       "parent" : "001D52BD37060B15001300E3AD206974",
       "prefab" : true,
       "prefabSource" : "00000000000000000000000000000000",
+      "selectableInEditor" : true,
       "staticMask" : 0,
-      "tag" : "Untagged"
+      "tag" : "Untagged",
+      "visibleInEditor" : true
    }
 ]
