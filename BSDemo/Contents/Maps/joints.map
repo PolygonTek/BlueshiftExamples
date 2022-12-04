@@ -19,7 +19,7 @@
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
                "scale" : "1 1 1",
-               "sizeDelta" : "1280 968"
+               "sizeDelta" : "1280 1654"
             },
             {
                "classname" : "ComCanvas",
@@ -58,7 +58,7 @@
                "enabled" : true,
                "guid" : "00C36A5022010A1600390389C8092B07",
                "localEulerAnglesHint" : "0 0 0",
-               "origin" : "0 -496 -340",
+               "origin" : "0 -496 -683",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
@@ -159,7 +159,7 @@
                "enabled" : true,
                "guid" : "00CA65D922010A1600390389C8092E6C",
                "localEulerAnglesHint" : "0 0 0",
-               "origin" : "0 496 -340",
+               "origin" : "0 496 -683",
                "pivot" : "0.5 0.5",
                "rayCastTarget" : true,
                "rotation" : "0 0 0 1",
@@ -324,10 +324,10 @@
                "useEnvironmentProveLighting" : true
             },
             {
-               "center" : "0 0 -0.001",
+               "center" : "0 0 -0.1",
                "classname" : "ComBoxCollider",
                "enabled" : true,
-               "extents" : "5 5 0.001",
+               "extents" : "5 5 0.1",
                "guid" : "01E839193009091C000D015DBB56ECB4"
             },
             {
@@ -1590,25 +1590,24 @@
             },
             {
                "anchor" : "0 0 0.55",
-               "angles" : "0 -0 0",
+               "baseAngles" : "0 0 0",
                "breakImpulse" : 1.0000000150474662e+30,
                "classname" : "ComCharacterJoint",
                "collisionEnabled" : false,
                "connectedBody" : "00000000000000000000000000000000",
                "enabled" : true,
                "guid" : "0007459801031513001601FE10469C51",
+               "swing1Axis" : "1 0 0",
                "swing1Damping" : 0.80000001192092896,
-               "swing1LowerLimit" : -45.0,
-               "swing1Stiffness" : 80.0,
-               "swing1UpperLimit" : 45.0,
+               "swing1Limit" : 20.0,
+               "swing1Stiffness" : 30.0,
+               "swing2Axis" : "0 1 0",
                "swing2Damping" : 0.80000001192092896,
-               "swing2LowerLimit" : -45.0,
-               "swing2Stiffness" : 80.0,
-               "swing2UpperLimit" : 45.0,
+               "swing2Limit" : 20.0,
+               "swing2Stiffness" : 30.0,
                "twistDamping" : 1.0,
-               "twistLowerLimit" : -30.0,
-               "twistStiffness" : 6.0,
-               "twistUpperLimit" : 30.0
+               "twistLimit" : 15.0,
+               "twistStiffness" : 5.0
             }
          ],
          "guid" : "0041705D23031013002A024957045493",
@@ -1677,25 +1676,24 @@
             },
             {
                "anchor" : "0 0 0.55",
-               "angles" : "0 -0 0",
+               "baseAngles" : "0 0 0",
                "breakImpulse" : 1.0000000150474662e+30,
                "classname" : "ComCharacterJoint",
                "collisionEnabled" : false,
                "connectedBody" : "0045137023031013002A024A570457CC",
                "enabled" : true,
                "guid" : "0036319B18030A14003401BBDD18070E",
+               "swing1Axis" : "1 0 0",
                "swing1Damping" : 0.80000001192092896,
-               "swing1LowerLimit" : -45.0,
-               "swing1Stiffness" : 80.0,
-               "swing1UpperLimit" : 45.0,
+               "swing1Limit" : 20.0,
+               "swing1Stiffness" : 30.0,
+               "swing2Axis" : "0 1 0",
                "swing2Damping" : 0.80000001192092896,
-               "swing2LowerLimit" : -45.0,
-               "swing2Stiffness" : 80.0,
-               "swing2UpperLimit" : 45.0,
+               "swing2Limit" : 20.0,
+               "swing2Stiffness" : 30.0,
                "twistDamping" : 1.0,
-               "twistLowerLimit" : -30.0,
-               "twistStiffness" : 6.0,
-               "twistUpperLimit" : 30.0
+               "twistLimit" : 15.0,
+               "twistStiffness" : 5.0
             }
          ],
          "guid" : "0031484118030A14003401BBDD180476",
@@ -1764,25 +1762,24 @@
             },
             {
                "anchor" : "0 0 0.55",
-               "angles" : "0 -0 0",
+               "baseAngles" : "0 0 0",
                "breakImpulse" : 1.0000000150474662e+30,
                "classname" : "ComCharacterJoint",
                "collisionEnabled" : false,
                "connectedBody" : "003509EB18030A14003401BBDD18072A",
                "enabled" : true,
                "guid" : "004E0E7718030A140034034FDD2DB593",
+               "swing1Axis" : "1 0 0",
                "swing1Damping" : 0.80000001192092896,
-               "swing1LowerLimit" : -45.0,
-               "swing1Stiffness" : 80.0,
-               "swing1UpperLimit" : 45.0,
+               "swing1Limit" : 20.0,
+               "swing1Stiffness" : 30.0,
+               "swing2Axis" : "0 1 0",
                "swing2Damping" : 0.80000001192092896,
-               "swing2LowerLimit" : -45.0,
-               "swing2Stiffness" : 80.0,
-               "swing2UpperLimit" : 45.0,
+               "swing2Limit" : 20.0,
+               "swing2Stiffness" : 30.0,
                "twistDamping" : 1.0,
-               "twistLowerLimit" : -30.0,
-               "twistStiffness" : 6.0,
-               "twistUpperLimit" : 30.0
+               "twistLimit" : 15.0,
+               "twistStiffness" : 5.0
             }
          ],
          "guid" : "0049492E18030A140034034FDD2DB288",
@@ -2060,10 +2057,37 @@
             {
                "classname" : "ComTransform",
                "enabled" : true,
+               "guid" : "004362FF170B091D002002ABACDC3FAB",
+               "localEulerAnglesHint" : "0 0 0",
+               "origin" : "-1.9998 0 0.2549999",
+               "rotation" : "0 0 0 1",
+               "scale" : "1 1 1"
+            }
+         ],
+         "guid" : "00424DC1170B091D002002AAACDC359F",
+         "layer" : 0,
+         "lockedInHierarchy" : false,
+         "name" : "3D Text",
+         "parent" : "00000000000000000000000000000000",
+         "prefab" : false,
+         "prefabSource" : "00000000000000000000000000000000",
+         "selectableInEditor" : true,
+         "staticMask" : 0,
+         "tag" : "Untagged",
+         "visibleInEditor" : true
+      },
+      {
+         "active" : true,
+         "activeInHierarchy" : true,
+         "classname" : "Entity",
+         "components" : [
+            {
+               "classname" : "ComTransform",
+               "enabled" : true,
                "guid" : "002F75212C030F14000E03CDBF7BDBD4",
-               "localEulerAnglesHint" : "0 0 180",
-               "origin" : "-3.9001 6 0.255",
-               "rotation" : "-0 0 1 -0",
+               "localEulerAnglesHint" : "0 0 0",
+               "origin" : "-0.0002 6 0",
+               "rotation" : "0 0 0 1",
                "scale" : "1 1 1"
             },
             {
@@ -2091,7 +2115,7 @@
          "layer" : 0,
          "lockedInHierarchy" : false,
          "name" : "3D Text 1",
-         "parent" : "00000000000000000000000000000000",
+         "parent" : "00424DC1170B091D002002AAACDC359F",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
          "selectableInEditor" : true,
@@ -2108,9 +2132,9 @@
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "000A320427031013002401C50C63E73E",
-               "localEulerAnglesHint" : "0 0 180",
-               "origin" : "-3.9001 4 0.255",
-               "rotation" : "-0 0 1 -0",
+               "localEulerAnglesHint" : "0 0 0",
+               "origin" : "-0.0002 4 0",
+               "rotation" : "0 0 0 1",
                "scale" : "1 1 1"
             },
             {
@@ -2138,7 +2162,7 @@
          "layer" : 0,
          "lockedInHierarchy" : false,
          "name" : "3D Text 2",
-         "parent" : "00000000000000000000000000000000",
+         "parent" : "00424DC1170B091D002002AAACDC359F",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
          "selectableInEditor" : true,
@@ -2155,9 +2179,9 @@
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "0022163A00031013002901E64316C83B",
-               "localEulerAnglesHint" : "0 0 180",
-               "origin" : "-3.9001 2 0.255",
-               "rotation" : "-0 0 1 -0",
+               "localEulerAnglesHint" : "0 0 0",
+               "origin" : "-0.0002 2 0",
+               "rotation" : "0 0 0 1",
                "scale" : "1 1 1"
             },
             {
@@ -2185,7 +2209,7 @@
          "layer" : 0,
          "lockedInHierarchy" : false,
          "name" : "3D Text 3",
-         "parent" : "00000000000000000000000000000000",
+         "parent" : "00424DC1170B091D002002AAACDC359F",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
          "selectableInEditor" : true,
@@ -2202,9 +2226,9 @@
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "000B3D842B030C18001E034D9497EAF9",
-               "localEulerAnglesHint" : "0 0 180",
-               "origin" : "-3.9001 0 0.255",
-               "rotation" : "-0 0 1 -0",
+               "localEulerAnglesHint" : "0 0 0",
+               "origin" : "-0.0002 0 0",
+               "rotation" : "0 0 0 1",
                "scale" : "1 1 1"
             },
             {
@@ -2232,7 +2256,7 @@
          "layer" : 0,
          "lockedInHierarchy" : false,
          "name" : "3D Text 4",
-         "parent" : "00000000000000000000000000000000",
+         "parent" : "00424DC1170B091D002002AAACDC359F",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
          "selectableInEditor" : true,
@@ -2249,9 +2273,9 @@
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "0035741133031013002902784DCE7B3A",
-               "localEulerAnglesHint" : "0 0 180",
-               "origin" : "-3.9001 -2 0.255",
-               "rotation" : "-0 0 1 -0",
+               "localEulerAnglesHint" : "0 0 0",
+               "origin" : "-0.0002 -2 0",
+               "rotation" : "0 0 0 1",
                "scale" : "1 1 1"
             },
             {
@@ -2279,7 +2303,7 @@
          "layer" : 0,
          "lockedInHierarchy" : false,
          "name" : "3D Text 5",
-         "parent" : "00000000000000000000000000000000",
+         "parent" : "00424DC1170B091D002002AAACDC359F",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
          "selectableInEditor" : true,
@@ -2296,9 +2320,9 @@
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "00485BB423031013002A025C5705572B",
-               "localEulerAnglesHint" : "0 0 180",
-               "origin" : "-3.9001 -4 0.255",
-               "rotation" : "-0 0 1 -0",
+               "localEulerAnglesHint" : "0 0 0",
+               "origin" : "-0.0002 -4 0",
+               "rotation" : "0 0 0 1",
                "scale" : "1 1 1"
             },
             {
@@ -2326,7 +2350,7 @@
          "layer" : 0,
          "lockedInHierarchy" : false,
          "name" : "3D Text 6",
-         "parent" : "00000000000000000000000000000000",
+         "parent" : "00424DC1170B091D002002AAACDC359F",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
          "selectableInEditor" : true,
@@ -2343,9 +2367,9 @@
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "003237F703030A1500040048360B92A6",
-               "localEulerAnglesHint" : "0 0 180",
-               "origin" : "-3.9001 -6 0.255",
-               "rotation" : "-0 0 1 -0",
+               "localEulerAnglesHint" : "0 0 0",
+               "origin" : "-0.0002 -6 0",
+               "rotation" : "0 0 0 1",
                "scale" : "1 1 1"
             },
             {
@@ -2373,7 +2397,7 @@
          "layer" : 0,
          "lockedInHierarchy" : false,
          "name" : "3D Text 7",
-         "parent" : "00000000000000000000000000000000",
+         "parent" : "00424DC1170B091D002002AAACDC359F",
          "prefab" : false,
          "prefabSource" : "00000000000000000000000000000000",
          "selectableInEditor" : true,
@@ -2390,9 +2414,9 @@
                "classname" : "ComTransform",
                "enabled" : true,
                "guid" : "00E80C482E0B0E140038029A928659DB",
-               "localEulerAnglesHint" : "0 0 0",
-               "origin" : "-10 0 0",
-               "rotation" : "0 0 0 1",
+               "localEulerAnglesHint" : "0 0 180",
+               "origin" : "4.9999995 0.0000001 0",
+               "rotation" : "-0 0 1 -0",
                "scale" : "1 1 1"
             },
             {
@@ -2667,8 +2691,8 @@
                "guid" : "00FD13612E0B0E140038029A92866D72",
                "localEulerAnglesHint" : "179.401001 0.076 0.177",
                "origin" : "-0.0037905 -0.0847969 -0.0479555",
-               "rotation" : "0.9999849 0.0015443 -0.0006549 0.0052246",
-               "scale" : "1.0000002 1 0.9999999"
+               "rotation" : "0.999985 0.0015443 -0.0006549 0.0052246",
+               "scale" : "1.0000002 0.9999997 0.9999996"
             }
          ],
          "guid" : "00FC35F82E0B0E140038029A92866A71",
@@ -2802,8 +2826,8 @@
                "guid" : "010719732E0B0E140038029B92867BEC",
                "localEulerAnglesHint" : "84.878006 0.767 -91.2590027",
                "origin" : "-0.0078016 0.0094775 0.1667128",
-               "rotation" : "0.4754141 -0.4789135 -0.5306994 0.5128231",
-               "scale" : "1.0000143 1.0000144 1.0000125"
+               "rotation" : "0.4755248 -0.4790384 -0.5308224 0.5125692",
+               "scale" : "1.0002774 1.000276 1.000247"
             }
          ],
          "guid" : "0106510A2E0B0E140038029B9286785D",
@@ -3235,7 +3259,7 @@
                "localEulerAnglesHint" : "1.4169922 -170.427002 0.7279968",
                "origin" : "-0.0006493 -0.0409549 0.1123588",
                "rotation" : "-0.0073616 0.9964097 -0.0128513 -0.0833575",
-               "scale" : "1.0000019 1.0000011 1.000003"
+               "scale" : "1.0000043 1.0000011 1.000005"
             }
          ],
          "guid" : "0126273A2E0B0E140038029B92869B22",
@@ -3396,8 +3420,8 @@
                "guid" : "01335F512E0B0E140038029C9286A261",
                "localEulerAnglesHint" : "4.7969971 -163.8540039 -4.21698",
                "origin" : "0.0000885 0.0266523 0.1159773",
-               "rotation" : "0.0305267 0.9887693 -0.0362422 -0.1417384",
-               "scale" : "1.0000002 0.9999998 1.0000001"
+               "rotation" : "0.0305267 0.9887694 -0.0362422 -0.1417384",
+               "scale" : "0.9999997 0.9999998 0.9999996"
             }
          ],
          "guid" : "013274FC2E0B0E140038029C9286A2DE",
@@ -3478,7 +3502,7 @@
                "localEulerAnglesHint" : "3.7569885 -162.9100037 -2.2189941",
                "origin" : "0.0137305 0.0525311 0.1072026",
                "rotation" : "0.014269 0.9882774 -0.0295342 -0.1491034",
-               "scale" : "0.9999977 1.0000005 0.9999981"
+               "scale" : "0.9999952 1.0000005 0.9999961"
             }
          ],
          "guid" : "01385E6F2E0B0E140038029C9286A88B",
@@ -3775,7 +3799,7 @@
                "localEulerAnglesHint" : "-1.5629883 -170.871994 -10.3829956",
                "origin" : "-0.0006505 0.0407355 0.1124392",
                "rotation" : "0.0912664 0.99255 0.0207429 -0.0780051",
-               "scale" : "1.0000026 0.9999994 1.0000026"
+               "scale" : "1.0000048 0.9999994 1.0000048"
             }
          ],
          "guid" : "014E423F2E0B0E140038029C9286B9F7",
@@ -3856,7 +3880,7 @@
                "localEulerAnglesHint" : "-1.2709961 -167.2980042 -11.6220093",
                "origin" : "-0.0042666 0.0027681 0.1132437",
                "rotation" : "0.1018397 0.9885704 0.0221672 -0.1089302",
-               "scale" : "0.9999989 1.0000001 0.9999983"
+               "scale" : "0.9999992 1.0000001 0.9999986"
             }
          ],
          "guid" : "01544CA62E0B0E140038029C9286BDAC",
@@ -4018,7 +4042,7 @@
                "localEulerAnglesHint" : "-3.8839722 -163.3630066 -7.4229736",
                "origin" : "0.0137305 -0.0527398 0.1070993",
                "rotation" : "0.0689028 0.9865192 0.0428189 -0.1421227",
-               "scale" : "1.0000017 1 1.0000007"
+               "scale" : "1.0000029 1 1.0000018"
             }
          ],
          "guid" : "01607E162E0B0E140038029C9286C22E",
@@ -4098,8 +4122,8 @@
                "guid" : "0167609C2E0B0E140038029D9286C605",
                "localEulerAnglesHint" : "87.7640076 -1.8970001 -90.0000076",
                "origin" : "0.0034491 -0.0104342 0.0667137",
-               "rotation" : "0.4816497 -0.4985203 -0.5014797 0.5176978",
-               "scale" : "1.0000041 1.0000037 1.0000035"
+               "rotation" : "0.4816844 -0.4985564 -0.5015146 0.5176223",
+               "scale" : "1.0000806 1.000078 1.0000772"
             }
          ],
          "guid" : "01667AC82E0B0E140038029D9286C6F3",
@@ -4207,7 +4231,7 @@
                "localEulerAnglesHint" : "-69.4600067 0.7970001 -86.0880051",
                "origin" : "0.0580734 0.0521376 0.1565539",
                "rotation" : "-0.4124511 0.3930314 -0.5580491 0.6033173",
-               "scale" : "1.0000006 1.000001 1.0000007"
+               "scale" : "1.0000017 1.000002 1.0000007"
             }
          ],
          "guid" : "016E25442E0B0E140038029D9286CDE9",
@@ -4287,8 +4311,8 @@
                "guid" : "01752D422E0B0E140038029D9286D1EE",
                "localEulerAnglesHint" : "-69.4780045 -0.545 -93.9550018",
                "origin" : "0.0580339 -0.0528713 0.1563224",
-               "rotation" : "-0.3916454 0.4139306 -0.6026198 0.5586817",
-               "scale" : "1.0000054 1.0000054 1.0000038"
+               "rotation" : "-0.3916465 0.4139331 -0.6026222 0.5586766",
+               "scale" : "1.0000112 1.0000111 1.000007"
             }
          ],
          "guid" : "01747B6F2E0B0E140038029D9286CE5B",
@@ -4704,7 +4728,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "000956F3140B1414003200B3F6FFEE73",
+      "guid" : "0009499C0C0B121D0004007F2B4735F1",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1

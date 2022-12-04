@@ -280,6 +280,7 @@
             {
                "center" : "0 0 0",
                "classname" : "ComCylinderCollider",
+               "direction" : 2,
                "enabled" : true,
                "guid" : "00622FCB2F03101C0001019E0065A65C",
                "height" : 2.0,
@@ -346,6 +347,7 @@
             {
                "center" : "0 0 0",
                "classname" : "ComCylinderCollider",
+               "direction" : 2,
                "enabled" : true,
                "guid" : "005876222103101C000002D5F0F4A6C0",
                "height" : 2.0,
@@ -412,6 +414,7 @@
             {
                "center" : "0 0 0",
                "classname" : "ComCylinderCollider",
+               "direction" : 2,
                "enabled" : true,
                "guid" : "005316BC2103101C00000273F0EF6019",
                "height" : 2.0,
@@ -478,6 +481,7 @@
             {
                "center" : "0 0 0",
                "classname" : "ComCylinderCollider",
+               "direction" : 2,
                "enabled" : true,
                "guid" : "004E27352103101C0000020DF0E9E948",
                "height" : 2.0,
@@ -544,6 +548,7 @@
             {
                "center" : "0 0 0",
                "classname" : "ComCylinderCollider",
+               "direction" : 2,
                "enabled" : true,
                "guid" : "00497CC22103101C000001A8F0E48537",
                "height" : 2.0,
@@ -610,6 +615,7 @@
             {
                "center" : "0 0 0",
                "classname" : "ComCylinderCollider",
+               "direction" : 2,
                "enabled" : true,
                "guid" : "00440D7D2103101C00000141F0DEFFB1",
                "height" : 2.0,
@@ -676,6 +682,7 @@
             {
                "center" : "0 0 0",
                "classname" : "ComCylinderCollider",
+               "direction" : 2,
                "enabled" : true,
                "guid" : "003F02CD2103101C000000DDF0D99AE3",
                "height" : 2.0,
@@ -742,6 +749,7 @@
             {
                "center" : "0 0 0",
                "classname" : "ComCylinderCollider",
+               "direction" : 2,
                "enabled" : true,
                "guid" : "003A706C2103101C00000074F0D3FA4E",
                "height" : 2.0,
@@ -808,6 +816,7 @@
             {
                "center" : "0 0 0",
                "classname" : "ComCylinderCollider",
+               "direction" : 2,
                "enabled" : true,
                "guid" : "003561412103101C00000010F0CE9FC4",
                "height" : 2.0,
@@ -874,6 +883,7 @@
             {
                "center" : "0 0 0",
                "classname" : "ComCylinderCollider",
+               "direction" : 2,
                "enabled" : true,
                "guid" : "003068192003101C0000038FF0C90146",
                "height" : 2.0,
@@ -940,6 +950,7 @@
             {
                "center" : "0 0 0",
                "classname" : "ComCylinderCollider",
+               "direction" : 2,
                "enabled" : true,
                "guid" : "000A495C16030F1C0009018B6D5DE5FC",
                "height" : 2.0,
@@ -1050,10 +1061,10 @@
                "useEnvironmentProveLighting" : true
             },
             {
-               "center" : "0 0 -0.001",
+               "center" : "0 0 -0.1",
                "classname" : "ComBoxCollider",
                "enabled" : true,
-               "extents" : "5 5 0.001",
+               "extents" : "5 5 0.1",
                "guid" : "01E839193009091C000D015DBB56ECB4"
             },
             {
@@ -1115,10 +1126,10 @@
                "useEnvironmentProveLighting" : true
             },
             {
-               "center" : "0 0 -0.002",
+               "center" : "0 0 -0.1",
                "classname" : "ComBoxCollider",
                "enabled" : true,
-               "extents" : "5 5 0.002",
+               "extents" : "5 5 0.1",
                "guid" : "00120BFA2C030F1C00390152CD760C42"
             },
             {
@@ -1434,8 +1445,8 @@
                "guid" : "0309719A020B0E14003B01E0E379EE7B",
                "localEulerAnglesHint" : "179.401001 0.076 0.177",
                "origin" : "-0.0037905 -0.0847969 -0.0479555",
-               "rotation" : "0.999985 0.0015443 -0.0006549 0.0052246",
-               "scale" : "1.0000002 0.9999999 0.9999998"
+               "rotation" : "0.9999849 0.0015443 -0.0006549 0.0052246",
+               "scale" : "1.0000002 1 0.9999999"
             }
          ],
          "guid" : "030822BA020B0E14003B01E0E379EE34",
@@ -1569,8 +1580,8 @@
                "guid" : "031319D3020B0E14003B01E1E379F450",
                "localEulerAnglesHint" : "84.878006 0.767 -91.2590027",
                "origin" : "-0.0078016 0.0094775 0.1667128",
-               "rotation" : "0.4754122 -0.4789113 -0.5306973 0.5128275",
-               "scale" : "1.0000098 1.0000099 1.0000085"
+               "rotation" : "0.4754141 -0.4789135 -0.5306994 0.5128231",
+               "scale" : "1.0000143 1.0000144 1.0000125"
             }
          ],
          "guid" : "031222D3020B0E14003B01E1E379F40D",
@@ -2002,7 +2013,7 @@
                "localEulerAnglesHint" : "1.4169922 -170.427002 0.7279968",
                "origin" : "-0.0006493 -0.0409549 0.1123588",
                "rotation" : "-0.0073616 0.9964097 -0.0128513 -0.0833575",
-               "scale" : "1.0000017 1.0000011 1.0000027"
+               "scale" : "1.0000019 1.0000011 1.000003"
             }
          ],
          "guid" : "0332596D020B0E14003B01E1E37A089A",
@@ -2163,8 +2174,8 @@
                "guid" : "033F0F25020B0E14003B01E1E37A1298",
                "localEulerAnglesHint" : "4.7969971 -163.8540039 -4.21698",
                "origin" : "0.0000885 0.0266523 0.1159773",
-               "rotation" : "0.0305267 0.9887694 -0.0362422 -0.1417384",
-               "scale" : "1 0.9999998 1"
+               "rotation" : "0.0305267 0.9887693 -0.0362422 -0.1417384",
+               "scale" : "1.0000002 0.9999998 1.0000001"
             }
          ],
          "guid" : "033E7F66020B0E14003B01E1E37A1352",
@@ -2245,7 +2256,7 @@
                "localEulerAnglesHint" : "3.7569885 -162.9100037 -2.2189941",
                "origin" : "0.0137305 0.0525311 0.1072026",
                "rotation" : "0.014269 0.9882774 -0.0295342 -0.1491034",
-               "scale" : "0.999998 1.0000005 0.9999983"
+               "scale" : "0.9999977 1.0000005 0.9999981"
             }
          ],
          "guid" : "03446C8C020B0E14003B01E1E37A1724",
@@ -2542,7 +2553,7 @@
                "localEulerAnglesHint" : "-1.5629883 -170.871994 -10.3829956",
                "origin" : "-0.0006505 0.0407355 0.1124392",
                "rotation" : "0.0912664 0.99255 0.0207429 -0.0780051",
-               "scale" : "1.0000024 0.9999994 1.0000023"
+               "scale" : "1.0000026 0.9999994 1.0000026"
             }
          ],
          "guid" : "035A1CAC020B0E14003B01E2E37A2543",
@@ -2623,7 +2634,7 @@
                "localEulerAnglesHint" : "-1.2709961 -167.2980042 -11.6220093",
                "origin" : "-0.0042666 0.0027681 0.1132437",
                "rotation" : "0.1018397 0.9885704 0.0221672 -0.1089302",
-               "scale" : "0.999999 1.0000001 0.9999984"
+               "scale" : "0.9999989 1.0000001 0.9999983"
             }
          ],
          "guid" : "036061CF020B0E14003B01E2E37A29D5",
@@ -2785,7 +2796,7 @@
                "localEulerAnglesHint" : "-3.8839722 -163.3630066 -7.4229736",
                "origin" : "0.0137305 -0.0527398 0.1070993",
                "rotation" : "0.0689028 0.9865192 0.0428189 -0.1421227",
-               "scale" : "1.0000015 1 1.0000006"
+               "scale" : "1.0000017 1 1.0000007"
             }
          ],
          "guid" : "036C6158020B0E14003B01E2E37A2E24",
@@ -2865,8 +2876,8 @@
                "guid" : "03730A0F020B0E14003B01E2E37A32ED",
                "localEulerAnglesHint" : "87.7640076 -1.8970001 -90.0000076",
                "origin" : "0.0034491 -0.0104342 0.0667137",
-               "rotation" : "0.4816491 -0.4985196 -0.5014791 0.5176991",
-               "scale" : "1.0000029 1.0000025 1.0000023"
+               "rotation" : "0.4816497 -0.4985203 -0.5014797 0.5176978",
+               "scale" : "1.0000041 1.0000037 1.0000035"
             }
          ],
          "guid" : "037278B7020B0E14003B01E2E37A32A6",
@@ -2974,7 +2985,7 @@
                "localEulerAnglesHint" : "-69.4600067 0.7970001 -86.0880051",
                "origin" : "0.0580734 0.0521376 0.1565539",
                "rotation" : "-0.4124511 0.3930314 -0.5580491 0.6033173",
-               "scale" : "1.0000005 1.0000008 1.0000007"
+               "scale" : "1.0000006 1.000001 1.0000007"
             }
          ],
          "guid" : "037A38E6020B0E14003B01E2E37A3840",
@@ -3054,8 +3065,8 @@
                "guid" : "03810ED7020B0E14003B01E2E37A3C07",
                "localEulerAnglesHint" : "-69.4780045 -0.545 -93.9550018",
                "origin" : "0.0580339 -0.0528713 0.1563224",
-               "rotation" : "-0.3916453 0.4139304 -0.6026196 0.5586821",
-               "scale" : "1.000005 1.0000049 1.0000036"
+               "rotation" : "-0.3916454 0.4139306 -0.6026198 0.5586817",
+               "scale" : "1.0000054 1.0000054 1.0000038"
             }
          ],
          "guid" : "03800D96020B0E14003B01E2E37A3CF1",
@@ -3471,7 +3482,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "000956F3140B1414003200B3F6FFEE73",
+      "guid" : "0009735E340B001B001A00641238929F",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1

@@ -83,7 +83,7 @@ function start()
     rigid_body:cast_rigid_body():set_mass(0)
     --rigid_body:cast_rigid_body():set_kinematic(true)
     local socket_joint = m.dragger_entity:add_new_component(ComSocketJoint.meta_object)
-    socket_joint:cast_socket_joint():set_impulse_clamp(0.3)
+    socket_joint:cast_socket_joint():set_impulse_clamp(2.0)
 
     m.gravity = blueshift.meter_to_unit(properties.gravity.value)
 
@@ -241,7 +241,8 @@ function handle_mouse_joint()
                     local hit_rigid_body = ComRigidBody.from_cast_result(cast_result)
 
                     if hit_rigid_body then
-                        m.dragger_entity:socket_joint():set_local_anchor(cast_result:point())
+                        m.dragger_entity:socket_joint():set_impulse_clamp(hit_rigid_body:mass() * 1.0)
+                        m.dragger_entity:socket_joint():set_anchor(cast_result:point())
                         m.dragger_entity:socket_joint():set_connected_body(hit_rigid_body)
 
                         m.old_picking_dist = max_dist * cast_result:fraction()
@@ -257,7 +258,7 @@ function handle_mouse_joint()
                 local camera = m.camera_entity:camera()
                 local ray = camera:screen_point_to_ray(touch:position())
 
-                m.dragger_entity:socket_joint():set_local_anchor(ray:get_point(m.old_picking_dist))
+                m.dragger_entity:socket_joint():set_anchor(ray:get_point(m.old_picking_dist))
 
                 m.last_touch_position:assign(touch:position())
             end
@@ -273,7 +274,7 @@ function handle_mouse_joint()
             local camera = m.camera_entity:camera()
             local ray = camera:screen_point_to_ray(m.last_touch_position)
 
-            m.dragger_entity:socket_joint():set_local_anchor(ray:get_point(m.old_picking_dist))
+            m.dragger_entity:socket_joint():set_anchor(ray:get_point(m.old_picking_dist))
         end
     end
 end

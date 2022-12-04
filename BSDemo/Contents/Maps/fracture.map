@@ -36,6 +36,7 @@
          ],
          "guid" : "02965ADF0E090B19002E01C672F78C66",
          "layer" : 0,
+         "lockedInHierarchy" : false,
          "name" : "Directional Light",
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
@@ -77,10 +78,10 @@
                "useEnvironmentProveLighting" : true
             },
             {
-               "center" : "0 0 -0.001",
+               "center" : "0 0 -0.1",
                "classname" : "ComBoxCollider",
                "enabled" : true,
-               "extents" : "5 5 0.001",
+               "extents" : "5 5 0.1",
                "guid" : "01E839193009091C000D015DBB56ECB4"
             },
             {
@@ -100,6 +101,7 @@
          ],
          "guid" : "01E55E863009091C000D015CBB56E37E",
          "layer" : 0,
+         "lockedInHierarchy" : false,
          "name" : "Floor",
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
@@ -170,6 +172,7 @@
          ],
          "guid" : "00D9283518090F160014029ACCE1E2E0",
          "layer" : 0,
+         "lockedInHierarchy" : false,
          "name" : "Cube",
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
@@ -253,6 +256,7 @@
          ],
          "guid" : "00DF180C22090F160015005DF643765D",
          "layer" : 0,
+         "lockedInHierarchy" : false,
          "name" : "Sphere",
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
@@ -310,6 +314,7 @@
          ],
          "guid" : "02147906290917190021039372E79868",
          "layer" : 0,
+         "lockedInHierarchy" : false,
          "name" : "MainCamera",
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
@@ -380,6 +385,7 @@
          ],
          "guid" : "043834FB2C0A1410003B0387021105D0",
          "layer" : 0,
+         "lockedInHierarchy" : false,
          "name" : "Cube 1",
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
@@ -450,6 +456,7 @@
          ],
          "guid" : "04440B69290A15100000017C23BAB3A8",
          "layer" : 0,
+         "lockedInHierarchy" : false,
          "name" : "Cube 2",
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
@@ -520,6 +527,7 @@
          ],
          "guid" : "0450210F2E0A15100000008C2690F1D7",
          "layer" : 0,
+         "lockedInHierarchy" : false,
          "name" : "Cube 3",
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
@@ -590,6 +598,7 @@
          ],
          "guid" : "045C1F87330A1510000000162979C8FB",
          "layer" : 0,
+         "lockedInHierarchy" : false,
          "name" : "Cube 4",
          "parent" : "00000000000000000000000000000000",
          "prefab" : false,
@@ -602,7 +611,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "00090E0A090A1014002600BA1D4F8E19",
+      "guid" : "0009735E340B001B001A00641238929F",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1
