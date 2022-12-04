@@ -241,7 +241,7 @@ function handle_mouse_joint()
                     local hit_rigid_body = ComRigidBody.from_cast_result(cast_result)
 
                     if hit_rigid_body then
-                        m.dragger_entity:socket_joint():set_impulse_clamp(hit_rigid_body:mass() * 1.0)
+                        m.dragger_entity:socket_joint():set_impulse_clamp(hit_rigid_body:mass() * 2.0)
                         m.dragger_entity:socket_joint():set_anchor(cast_result:point())
                         m.dragger_entity:socket_joint():set_connected_body(hit_rigid_body)
 

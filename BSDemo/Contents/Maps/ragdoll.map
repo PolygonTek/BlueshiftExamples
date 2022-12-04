@@ -643,8 +643,8 @@
                "guid" : "00FD13612E0B0E140038029A92866D72",
                "localEulerAnglesHint" : "179.401001 0.076 0.177",
                "origin" : "-0.0037905 -0.0847969 -0.0479555",
-               "rotation" : "0.9999849 0.0015443 -0.0006549 0.0052246",
-               "scale" : "1.0000002 0.9999999 0.9999998"
+               "rotation" : "0.999985 0.0015443 -0.0006549 0.0052246",
+               "scale" : "1.0000002 0.9999997 0.9999996"
             }
          ],
          "guid" : "00FC35F82E0B0E140038029A92866A71",
@@ -1211,7 +1211,7 @@
                "localEulerAnglesHint" : "1.4169922 -170.427002 0.7279968",
                "origin" : "-0.0006493 -0.0409549 0.1123588",
                "rotation" : "-0.0073616 0.9964097 -0.0128513 -0.0833575",
-               "scale" : "1.0000229 1.0000011 1.0000204"
+               "scale" : "1.0000293 1.0000011 1.0000259"
             }
          ],
          "guid" : "0126273A2E0B0E140038029B92869B22",
@@ -1372,8 +1372,8 @@
                "guid" : "01335F512E0B0E140038029C9286A261",
                "localEulerAnglesHint" : "4.7969971 -163.8540039 -4.21698",
                "origin" : "0.0000885 0.0266523 0.1159773",
-               "rotation" : "0.0305267 0.9887693 -0.0362422 -0.1417384",
-               "scale" : "1 0.9999998 0.9999999"
+               "rotation" : "0.0305267 0.9887694 -0.0362422 -0.1417384",
+               "scale" : "1 0.9999998 1"
             }
          ],
          "guid" : "013274FC2E0B0E140038029C9286A2DE",
@@ -1454,7 +1454,7 @@
                "localEulerAnglesHint" : "3.7569885 -162.9100037 -2.2189941",
                "origin" : "0.0137305 0.0525311 0.1072026",
                "rotation" : "0.014269 0.9882774 -0.0295342 -0.1491034",
-               "scale" : "0.9999757 1.0000005 0.9999794"
+               "scale" : "0.9999684 1.0000005 0.9999735"
             }
          ],
          "guid" : "01385E6F2E0B0E140038029C9286A88B",
@@ -1751,7 +1751,7 @@
                "localEulerAnglesHint" : "-1.5629883 -170.871994 -10.3829956",
                "origin" : "-0.0006505 0.0407355 0.1124392",
                "rotation" : "0.0912664 0.99255 0.0207429 -0.0780051",
-               "scale" : "1.0000229 0.9999994 1.0000242"
+               "scale" : "1.0000291 0.9999994 1.0000311"
             }
          ],
          "guid" : "014E423F2E0B0E140038029C9286B9F7",
@@ -1831,8 +1831,8 @@
                "guid" : "015562372E0B0E140038029C9286BDF3",
                "localEulerAnglesHint" : "-1.2709961 -167.2980042 -11.6220093",
                "origin" : "-0.0042666 0.0027681 0.1132437",
-               "rotation" : "0.1018397 0.9885704 0.0221672 -0.1089302",
-               "scale" : "0.9999987 1.0000001 0.9999982"
+               "rotation" : "0.1018397 0.9885705 0.0221672 -0.1089302",
+               "scale" : "0.9999989 1.0000001 0.9999985"
             }
          ],
          "guid" : "01544CA62E0B0E140038029C9286BDAC",
@@ -1994,7 +1994,7 @@
                "localEulerAnglesHint" : "-3.8839722 -163.3630066 -7.4229736",
                "origin" : "0.0137305 -0.0527398 0.1070993",
                "rotation" : "0.0689028 0.9865192 0.0428189 -0.1421227",
-               "scale" : "1.000013 1 1.000011"
+               "scale" : "1.0000166 1 1.0000141"
             }
          ],
          "guid" : "01607E162E0B0E140038029C9286C22E",
@@ -2182,8 +2182,8 @@
                "guid" : "016F32FF2E0B0E140038029D9286CD3B",
                "localEulerAnglesHint" : "-69.4600067 0.7970001 -86.0880051",
                "origin" : "0.0580734 0.0521376 0.1565539",
-               "rotation" : "-0.4124511 0.3930314 -0.5580491 0.6033173",
-               "scale" : "1.0000107 1.0000111 1.0000007"
+               "rotation" : "-0.4124514 0.3930317 -0.5580491 0.6033168",
+               "scale" : "1.0000137 1.0000138 1.0000007"
             }
          ],
          "guid" : "016E25442E0B0E140038029D9286CDE9",
@@ -2263,8 +2263,8 @@
                "guid" : "01752D422E0B0E140038029D9286D1EE",
                "localEulerAnglesHint" : "-69.4780045 -0.545 -93.9550018",
                "origin" : "0.0580339 -0.0528713 0.1563224",
-               "rotation" : "-0.39166 0.4139567 -0.6026435 0.5586265",
-               "scale" : "1.0000664 1.0000651 1.0000407"
+               "rotation" : "-0.3916638 0.4139637 -0.6026497 0.5586119",
+               "scale" : "1.0000827 1.0000808 1.0000502"
             }
          ],
          "guid" : "01747B6F2E0B0E140038029D9286CE5B",
@@ -2734,7 +2734,7 @@
                "classname" : "ComBoxCollider",
                "enabled" : true,
                "extents" : "0.1238 0.1398 0.0626",
-               "guid" : "01575D5C2F0B0A1B00240318477582AE"
+               "guid" : "004F2190300C1703000701AD29115518"
             },
             {
                "angularDamping" : 0.0099999997764825821,
@@ -2742,10 +2742,10 @@
                "classname" : "ComRigidBody",
                "enabled" : true,
                "friction" : 1.0,
-               "guid" : "01582F652F0B0A1B00240318477582F4",
+               "guid" : "00527996300C1703000701AE29116EB8",
                "kinematic" : false,
                "linearDamping" : 0.039999999105930328,
-               "mass" : 2.3809523582458496,
+               "mass" : 3.0,
                "restitution" : 0.10000000149011612,
                "rollingFriction" : 1.0,
                "spinningFriction" : 1.0
@@ -2809,7 +2809,7 @@
                "classname" : "ComCapsuleCollider",
                "direction" : 2,
                "enabled" : true,
-               "guid" : "015D0FD12F0B0A1B0024031847758754",
+               "guid" : "003800B8300C1703000701AA2910DA2C",
                "height" : 0.32554608583450317,
                "radius" : 0.081386521458625793
             },
@@ -2819,7 +2819,7 @@
                "classname" : "ComRigidBody",
                "enabled" : true,
                "friction" : 1.0,
-               "guid" : "015E4AF62F0B0A1B002403184775869C",
+               "guid" : "005312E4300C1703000701AE29117BBB",
                "kinematic" : false,
                "linearDamping" : 0.039999999105930328,
                "mass" : 1.4285714626312256,
@@ -2829,25 +2829,24 @@
             },
             {
                "anchor" : "0 0 0",
-               "angles" : "0 -0 0",
+               "baseAngles" : "20 -25 0",
                "breakImpulse" : 1.0000000150474662e+30,
                "classname" : "ComCharacterJoint",
                "collisionEnabled" : false,
-               "connectedBody" : "01582F652F0B0A1B00240318477582F4",
+               "connectedBody" : "00527996300C1703000701AE29116EB8",
                "enabled" : true,
-               "guid" : "015F37C92F0B0A1B0024031847758627",
-               "swing1Damping" : 0.20000000298023224,
-               "swing1LowerLimit" : -20.0,
-               "swing1Stiffness" : 5.0,
-               "swing1UpperLimit" : 20.0,
-               "swing2Damping" : 0.20000000298023224,
-               "swing2LowerLimit" : -20.0,
-               "swing2Stiffness" : 5.0,
-               "swing2UpperLimit" : 70.0,
-               "twistDamping" : 0.20000000298023224,
-               "twistLowerLimit" : 0.0,
-               "twistStiffness" : 5.0,
-               "twistUpperLimit" : 0.0
+               "guid" : "00613D56300C1703000701B3291222F0",
+               "swing1Axis" : "1 -0.004 -0.0013",
+               "swing1Damping" : 0.10000000149011612,
+               "swing1Limit" : 20.0,
+               "swing1Stiffness" : 1.0,
+               "swing2Axis" : "-0.004 -1 -0.0044",
+               "swing2Damping" : 0.10000000149011612,
+               "swing2Limit" : 30.0,
+               "swing2Stiffness" : 1.0,
+               "twistDamping" : 0.10000000149011612,
+               "twistLimit" : 0.0,
+               "twistStiffness" : 1.0
             }
          ],
          "guid" : "015B46602F0B0A1B00240318477587FC",
@@ -2881,7 +2880,7 @@
                "classname" : "ComCapsuleCollider",
                "direction" : 2,
                "enabled" : true,
-               "guid" : "016271192F0B0A1B0024031847758854",
+               "guid" : "003C6CF7300C1703000701AB2910F0F5",
                "height" : 0.32777228951454163,
                "radius" : 0.081943072378635406
             },
@@ -2891,7 +2890,7 @@
                "classname" : "ComRigidBody",
                "enabled" : true,
                "friction" : 1.0,
-               "guid" : "01631DB42F0B0A1B0024031847758B9F",
+               "guid" : "00553FA9300C1703000701AF29119111",
                "kinematic" : false,
                "linearDamping" : 0.039999999105930328,
                "mass" : 1.4285714626312256,
@@ -2901,25 +2900,24 @@
             },
             {
                "anchor" : "0 0 0",
-               "angles" : "0 -0 0",
+               "baseAngles" : "0 50 0",
                "breakImpulse" : 1.0000000150474662e+30,
                "classname" : "ComCharacterJoint",
                "collisionEnabled" : false,
-               "connectedBody" : "015E4AF62F0B0A1B002403184775869C",
+               "connectedBody" : "005312E4300C1703000701AE29117BBB",
                "enabled" : true,
-               "guid" : "016433C02F0B0A1B0024031847758B26",
-               "swing1Damping" : 0.20000000298023224,
-               "swing1LowerLimit" : -5.0,
-               "swing1Stiffness" : 5.0,
-               "swing1UpperLimit" : 5.0,
-               "swing2Damping" : 0.20000000298023224,
-               "swing2LowerLimit" : -110.0,
-               "swing2Stiffness" : 5.0,
-               "swing2UpperLimit" : 0.0,
-               "twistDamping" : 0.20000000298023224,
-               "twistLowerLimit" : 0.0,
-               "twistStiffness" : 5.0,
-               "twistUpperLimit" : 0.0
+               "guid" : "006339C9300C1703000701B429125BFD",
+               "swing1Axis" : "0.9958 0.0192 -0.0893",
+               "swing1Damping" : 0.10000000149011612,
+               "swing1Limit" : 5.0,
+               "swing1Stiffness" : 1.0,
+               "swing2Axis" : "0.0191 -0.9998 -0.0015",
+               "swing2Damping" : 0.10000000149011612,
+               "swing2Limit" : 50.0,
+               "swing2Stiffness" : 1.0,
+               "twistDamping" : 0.10000000149011612,
+               "twistLimit" : 5.0,
+               "twistStiffness" : 1.0
             }
          ],
          "guid" : "01605D3A2F0B0A1B00240318477588FD",
@@ -2949,13 +2947,13 @@
                "scale" : "1.0000002 0.9999998 0.9999999"
             },
             {
-               "center" : "0.01 -0.0043 0.089",
+               "center" : "0.009 -0.0043 0.089",
                "classname" : "ComCapsuleCollider",
                "direction" : 2,
                "enabled" : true,
-               "guid" : "016774EA2F0B0A1B0024031847758D79",
-               "height" : 0.077931672334671021,
-               "radius" : 0.059999998658895493
+               "guid" : "004048B5300C1703000701AB29110997",
+               "height" : 0.07793155312538147,
+               "radius" : 0.070000000298023224
             },
             {
                "angularDamping" : 0.0099999997764825821,
@@ -2963,35 +2961,34 @@
                "classname" : "ComRigidBody",
                "enabled" : true,
                "friction" : 1.0,
-               "guid" : "016821482F0B0A1B0024031847758C80",
+               "guid" : "0057738B300C1703000701B02911A93C",
                "kinematic" : false,
                "linearDamping" : 0.039999999105930328,
-               "mass" : 1.5,
+               "mass" : 1.4285714626312256,
                "restitution" : 0.10000000149011612,
                "rollingFriction" : 1.0,
                "spinningFriction" : 1.0
             },
             {
                "anchor" : "0 0 0",
-               "angles" : "0 -0 0",
+               "baseAngles" : "0 20 0",
                "breakImpulse" : 1.0000000150474662e+30,
                "classname" : "ComCharacterJoint",
                "collisionEnabled" : false,
-               "connectedBody" : "01631DB42F0B0A1B0024031847758B9F",
+               "connectedBody" : "00553FA9300C1703000701AF29119111",
                "enabled" : true,
-               "guid" : "0169431A2F0B0A1B0024031847758CCB",
-               "swing1Damping" : 0.20000000298023224,
-               "swing1LowerLimit" : -15.0,
-               "swing1Stiffness" : 2.0,
-               "swing1UpperLimit" : 15.0,
-               "swing2Damping" : 0.20000000298023224,
-               "swing2LowerLimit" : -15.0,
-               "swing2Stiffness" : 2.0,
-               "swing2UpperLimit" : 10.0,
-               "twistDamping" : 0.20000000298023224,
-               "twistLowerLimit" : -3.0,
-               "twistStiffness" : 2.0,
-               "twistUpperLimit" : 3.0
+               "guid" : "00652769300C1703000701B529128C1B",
+               "swing1Axis" : "0.7479 0.0368 0.6627",
+               "swing1Damping" : 0.10000000149011612,
+               "swing1Limit" : 0.0,
+               "swing1Stiffness" : 1.0,
+               "swing2Axis" : "0.0129 -0.9948 0.0407",
+               "swing2Damping" : 0.10000000149011612,
+               "swing2Limit" : 20.0,
+               "swing2Stiffness" : 1.0,
+               "twistDamping" : 0.10000000149011612,
+               "twistLimit" : 5.0,
+               "twistStiffness" : 1.0
             }
          ],
          "guid" : "016544F52F0B0A1B0024031847758DEC",
@@ -3099,14 +3096,14 @@
                "localEulerAnglesHint" : "179.401001 0.076 0.177",
                "origin" : "-0.0037905 -0.0847969 -0.0479555",
                "rotation" : "0.999985 0.0015443 -0.0006549 0.0052246",
-               "scale" : "1.0000002 0.9999997 0.9999996"
+               "scale" : "1.0000002 0.9999999 0.9999998"
             },
             {
                "center" : "0 0 0.1628",
                "classname" : "ComCapsuleCollider",
                "direction" : 2,
                "enabled" : true,
-               "guid" : "017252FE2F0B0A1B0024031847759200",
+               "guid" : "003A65CE300C1703000701AB2910E7E5",
                "height" : 0.32554560899734497,
                "radius" : 0.081386402249336243
             },
@@ -3116,7 +3113,7 @@
                "classname" : "ComRigidBody",
                "enabled" : true,
                "friction" : 1.0,
-               "guid" : "017368CC2F0B0A1B002403184775924B",
+               "guid" : "00540987300C1703000701AF2911874A",
                "kinematic" : false,
                "linearDamping" : 0.039999999105930328,
                "mass" : 1.4285714626312256,
@@ -3126,25 +3123,24 @@
             },
             {
                "anchor" : "0 0 0",
-               "angles" : "0 -0 0",
+               "baseAngles" : "-20 25 0",
                "breakImpulse" : 1.0000000150474662e+30,
                "classname" : "ComCharacterJoint",
                "collisionEnabled" : false,
-               "connectedBody" : "01582F652F0B0A1B00240318477582F4",
+               "connectedBody" : "00527996300C1703000701AE29116EB8",
                "enabled" : true,
-               "guid" : "01742D222F0B0A1B0024031847759590",
-               "swing1Damping" : 0.20000000298023224,
-               "swing1LowerLimit" : -20.0,
-               "swing1Stiffness" : 5.0,
-               "swing1UpperLimit" : 20.0,
-               "swing2Damping" : 0.20000000298023224,
-               "swing2LowerLimit" : -20.0,
-               "swing2Stiffness" : 5.0,
-               "swing2UpperLimit" : 70.0,
-               "twistDamping" : 0.20000000298023224,
-               "twistLowerLimit" : 0.0,
-               "twistStiffness" : 5.0,
-               "twistUpperLimit" : 0.0
+               "guid" : "006200D2300C1703000701B329123A26",
+               "swing1Axis" : "1 0.0031 -0.0013",
+               "swing1Damping" : 0.10000000149011612,
+               "swing1Limit" : 20.0,
+               "swing1Stiffness" : 1.0,
+               "swing2Axis" : "-0.0031 1 -0.0044",
+               "swing2Damping" : 0.10000000149011612,
+               "swing2Limit" : 30.0,
+               "swing2Stiffness" : 1.0,
+               "twistDamping" : 0.10000000149011612,
+               "twistLimit" : 0.0,
+               "twistStiffness" : 1.0
             }
          ],
          "guid" : "017072202F0B0A1B00240318477592B6",
@@ -3178,7 +3174,7 @@
                "classname" : "ComCapsuleCollider",
                "direction" : 2,
                "enabled" : true,
-               "guid" : "01777DBB2F0B0A1B002403184775973B",
+               "guid" : "003E342E300C1703000701AB2910FAFE",
                "height" : 0.32777228951454163,
                "radius" : 0.081943072378635406
             },
@@ -3188,7 +3184,7 @@
                "classname" : "ComRigidBody",
                "enabled" : true,
                "friction" : 1.0,
-               "guid" : "01782AB42F0B0A1B0024031847759743",
+               "guid" : "00566A15300C1703000701AF29119CB1",
                "kinematic" : false,
                "linearDamping" : 0.039999999105930328,
                "mass" : 1.4285714626312256,
@@ -3198,25 +3194,24 @@
             },
             {
                "anchor" : "0 0 0",
-               "angles" : "0 -0 0",
+               "baseAngles" : "-0 -50 0",
                "breakImpulse" : 1.0000000150474662e+30,
                "classname" : "ComCharacterJoint",
                "collisionEnabled" : false,
-               "connectedBody" : "017368CC2F0B0A1B002403184775924B",
+               "connectedBody" : "00540987300C1703000701AF2911874A",
                "enabled" : true,
-               "guid" : "0179043D2F0B0A1B002403184775968B",
-               "swing1Damping" : 0.20000000298023224,
-               "swing1LowerLimit" : -5.0,
-               "swing1Stiffness" : 5.0,
-               "swing1UpperLimit" : 5.0,
-               "swing2Damping" : 0.20000000298023224,
-               "swing2LowerLimit" : -110.0,
-               "swing2Stiffness" : 5.0,
-               "swing2UpperLimit" : 0.0,
-               "twistDamping" : 0.20000000298023224,
-               "twistLowerLimit" : 0.0,
-               "twistStiffness" : 5.0,
-               "twistUpperLimit" : 0.0
+               "guid" : "0064100F300C1703000701B529127564",
+               "swing1Axis" : "0.9958 -0.0207 -0.0893",
+               "swing1Damping" : 0.10000000149011612,
+               "swing1Limit" : 5.0,
+               "swing1Stiffness" : 1.0,
+               "swing2Axis" : "0.0206 0.9998 -0.0014",
+               "swing2Damping" : 0.10000000149011612,
+               "swing2Limit" : 50.0,
+               "swing2Stiffness" : 1.0,
+               "twistDamping" : 0.10000000149011612,
+               "twistLimit" : 5.0,
+               "twistStiffness" : 1.0
             }
          ],
          "guid" : "017541D12F0B0A1B00240318477597A3",
@@ -3246,13 +3241,13 @@
                "scale" : "1 1 0.9999996"
             },
             {
-               "center" : "0.01 0.0043 0.089",
+               "center" : "0.009 0.0043 0.089",
                "classname" : "ComCapsuleCollider",
                "direction" : 2,
                "enabled" : true,
-               "guid" : "017C6ACE2F0B0A1B0024031847759813",
+               "guid" : "00423C64300C1703000701AC291112DE",
                "height" : 0.077931672334671021,
-               "radius" : 0.059999998658895493
+               "radius" : 0.070000000298023224
             },
             {
                "angularDamping" : 0.0099999997764825821,
@@ -3260,35 +3255,34 @@
                "classname" : "ComRigidBody",
                "enabled" : true,
                "friction" : 1.0,
-               "guid" : "017D0AF32F0B0A1B0024031947759BA8",
+               "guid" : "00582F6A300C1703000701B02911B20B",
                "kinematic" : false,
                "linearDamping" : 0.039999999105930328,
-               "mass" : 1.5,
+               "mass" : 1.4285714626312256,
                "restitution" : 0.10000000149011612,
                "rollingFriction" : 1.0,
                "spinningFriction" : 1.0
             },
             {
                "anchor" : "0 0 0",
-               "angles" : "0 -0 0",
+               "baseAngles" : "0 -20 0",
                "breakImpulse" : 1.0000000150474662e+30,
                "classname" : "ComCharacterJoint",
                "collisionEnabled" : false,
-               "connectedBody" : "01782AB42F0B0A1B0024031847759743",
+               "connectedBody" : "00566A15300C1703000701AF29119CB1",
                "enabled" : true,
-               "guid" : "017E06892F0B0A1B0024031947759BF1",
-               "swing1Damping" : 0.20000000298023224,
-               "swing1LowerLimit" : -15.0,
-               "swing1Stiffness" : 2.0,
-               "swing1UpperLimit" : 15.0,
-               "swing2Damping" : 0.20000000298023224,
-               "swing2LowerLimit" : -15.0,
-               "swing2Stiffness" : 2.0,
-               "swing2UpperLimit" : 10.0,
-               "twistDamping" : 0.20000000298023224,
-               "twistLowerLimit" : -3.0,
-               "twistStiffness" : 2.0,
-               "twistUpperLimit" : 3.0
+               "guid" : "006679C4300C1703000701B62912A7E1",
+               "swing1Axis" : "0.7479 -0.0368 0.6627",
+               "swing1Damping" : 0.10000000149011612,
+               "swing1Limit" : 0.0,
+               "swing1Stiffness" : 1.0,
+               "swing2Axis" : "0.0129 0.9949 0.0407",
+               "swing2Damping" : 0.10000000149011612,
+               "swing2Limit" : 20.0,
+               "swing2Stiffness" : 1.0,
+               "twistDamping" : 0.10000000149011612,
+               "twistLimit" : 5.0,
+               "twistStiffness" : 1.0
             }
          ],
          "guid" : "017A7C772F0B0A1B0024031847759887",
@@ -3399,11 +3393,20 @@
                "scale" : "1.0000004 1.0000004 0.9999999"
             },
             {
-               "center" : "-0.0402 -0.0008 0.22",
+               "center" : "-0.0402 -0.0008 0.21",
                "classname" : "ComBoxCollider",
                "enabled" : true,
-               "extents" : "0.1237 0.1398 0.22",
-               "guid" : "01874BBF2F0B0A1B002403194775A152"
+               "extents" : "0.1237 0.1398 0.23",
+               "guid" : "00503374300C1703000701AE29115EB6"
+            },
+            {
+               "center" : "-0.15 0 0.15",
+               "classname" : "ComCapsuleCollider",
+               "direction" : 2,
+               "enabled" : true,
+               "guid" : "00BF5CF2310C1703002901A5E997E957",
+               "height" : 0.10000000149011612,
+               "radius" : 0.15000000596046448
             },
             {
                "angularDamping" : 0.0099999997764825821,
@@ -3411,35 +3414,34 @@
                "classname" : "ComRigidBody",
                "enabled" : true,
                "friction" : 1.0,
-               "guid" : "018853D52F0B0A1B002403194775A09D",
+               "guid" : "00595BB6300C1703000701B02911C16E",
                "kinematic" : false,
                "linearDamping" : 0.039999999105930328,
-               "mass" : 0.0,
+               "mass" : 3.0,
                "restitution" : 0.10000000149011612,
                "rollingFriction" : 1.0,
                "spinningFriction" : 1.0
             },
             {
                "anchor" : "0 0 0",
-               "angles" : "0 -0 0",
+               "baseAngles" : "0 0 0",
                "breakImpulse" : 1.0000000150474662e+30,
                "classname" : "ComCharacterJoint",
                "collisionEnabled" : false,
-               "connectedBody" : "01582F652F0B0A1B00240318477582F4",
+               "connectedBody" : "00527996300C1703000701AE29116EB8",
                "enabled" : true,
-               "guid" : "0189584F2F0B0A1B002403194775A025",
-               "swing1Damping" : 0.20000000298023224,
-               "swing1LowerLimit" : -15.0,
-               "swing1Stiffness" : 5.0,
-               "swing1UpperLimit" : 15.0,
-               "swing2Damping" : 0.20000000298023224,
-               "swing2LowerLimit" : -10.0,
-               "swing2Stiffness" : 5.0,
-               "swing2UpperLimit" : 20.0,
-               "twistDamping" : 0.20000000298023224,
-               "twistLowerLimit" : -15.0,
-               "twistStiffness" : 5.0,
-               "twistUpperLimit" : 15.0
+               "guid" : "006744A9300C1703000701B62912B75D",
+               "swing1Axis" : "0.9998 0 0.0196",
+               "swing1Damping" : 0.10000000149011612,
+               "swing1Limit" : 5.0,
+               "swing1Stiffness" : 1.0,
+               "swing2Axis" : "-0 1 0.0022",
+               "swing2Damping" : 0.10000000149011612,
+               "swing2Limit" : 20.0,
+               "swing2Stiffness" : 1.0,
+               "twistDamping" : 0.10000000149011612,
+               "twistLimit" : 5.0,
+               "twistStiffness" : 1.0
             }
          ],
          "guid" : "018505202F0B0A1B002403194775A1FA",
@@ -3550,12 +3552,12 @@
                "scale" : "0.9999999 0.9999999 0.9999999"
             },
             {
-               "center" : "0.05 0 0.21",
+               "center" : "0.05 0 0.2",
                "classname" : "ComCapsuleCollider",
                "direction" : 2,
                "enabled" : true,
-               "guid" : "01927F042F0B0A1B002403194775A6D0",
-               "height" : 0.10259662568569183,
+               "guid" : "00513ED0300C1703000701AE2911675F",
+               "height" : 0.079999998211860657,
                "radius" : 0.20000000298023224
             },
             {
@@ -3564,7 +3566,7 @@
                "classname" : "ComRigidBody",
                "enabled" : true,
                "friction" : 1.0,
-               "guid" : "019323F92F0B0A1B002403194775A61B",
+               "guid" : "00603114300C1703000701B2291211A7",
                "kinematic" : false,
                "linearDamping" : 0.039999999105930328,
                "mass" : 0.9523809552192688,
@@ -3574,25 +3576,24 @@
             },
             {
                "anchor" : "0 0 0",
-               "angles" : "0 -0 0",
+               "baseAngles" : "0 10 0",
                "breakImpulse" : 1.0000000150474662e+30,
                "classname" : "ComCharacterJoint",
                "collisionEnabled" : false,
-               "connectedBody" : "018853D52F0B0A1B002403194775A09D",
+               "connectedBody" : "00595BB6300C1703000701B02911C16E",
                "enabled" : true,
-               "guid" : "019457DE2F0B0A1B002403194775A9A3",
-               "swing1Damping" : 0.20000000298023224,
-               "swing1LowerLimit" : -30.0,
-               "swing1Stiffness" : 4.0,
-               "swing1UpperLimit" : 30.0,
-               "swing2Damping" : 0.20000000298023224,
-               "swing2LowerLimit" : -45.0,
-               "swing2Stiffness" : 4.0,
-               "swing2UpperLimit" : 25.0,
-               "twistDamping" : 0.20000000298023224,
-               "twistLowerLimit" : -40.0,
-               "twistStiffness" : 4.0,
-               "twistUpperLimit" : 40.0
+               "guid" : "006E545F300C1703000701BA291343FF",
+               "swing1Axis" : "1 0 -0",
+               "swing1Damping" : 0.10000000149011612,
+               "swing1Limit" : 15.0,
+               "swing1Stiffness" : 1.0,
+               "swing2Axis" : "-0 1 -0",
+               "swing2Damping" : 0.10000000149011612,
+               "swing2Limit" : 40.0,
+               "swing2Stiffness" : 1.0,
+               "twistDamping" : 0.10000000149011612,
+               "twistLimit" : 15.0,
+               "twistStiffness" : 1.0
             }
          ],
          "guid" : "019056BD2F0B0A1B002403194775A747",
@@ -3734,7 +3735,7 @@
                "classname" : "ComCapsuleCollider",
                "direction" : 2,
                "enabled" : true,
-               "guid" : "019F61562F0B0A1B002403194775AEB5",
+               "guid" : "00443E76300C1703000701AC29111A00",
                "height" : 0.22049050033092499,
                "radius" : 0.055122625082731247
             },
@@ -3744,7 +3745,7 @@
                "classname" : "ComRigidBody",
                "enabled" : true,
                "friction" : 1.0,
-               "guid" : "01A0374E2F0B0A1B002403194775AEFF",
+               "guid" : "005A3D09300C1703000701B02911CCE4",
                "kinematic" : false,
                "linearDamping" : 0.039999999105930328,
                "mass" : 0.9523809552192688,
@@ -3754,25 +3755,24 @@
             },
             {
                "anchor" : "0 0 0",
-               "angles" : "0 -0 0",
+               "baseAngles" : "-30 -40 0",
                "breakImpulse" : 1.0000000150474662e+30,
                "classname" : "ComCharacterJoint",
                "collisionEnabled" : false,
-               "connectedBody" : "018853D52F0B0A1B002403194775A09D",
+               "connectedBody" : "00595BB6300C1703000701B02911C16E",
                "enabled" : true,
-               "guid" : "01A126B22F0B0A1B002403194775AE04",
-               "swing1Damping" : 0.20000000298023224,
-               "swing1LowerLimit" : -100.0,
-               "swing1Stiffness" : 5.0,
-               "swing1UpperLimit" : 10.0,
-               "swing2Damping" : 0.20000000298023224,
-               "swing2LowerLimit" : 0.0,
-               "swing2Stiffness" : 5.0,
-               "swing2UpperLimit" : 0.0,
-               "twistDamping" : 0.20000000298023224,
-               "twistLowerLimit" : -10.0,
-               "twistStiffness" : 5.0,
-               "twistUpperLimit" : 70.0
+               "guid" : "00683C8D300C1703000701B72912CACC",
+               "swing1Axis" : "0 -0.9962 -0.0873",
+               "swing1Damping" : 0.10000000149011612,
+               "swing1Limit" : 60.0,
+               "swing1Stiffness" : 1.0,
+               "swing2Axis" : "-0.9957 -0 -0",
+               "swing2Damping" : 0.10000000149011612,
+               "swing2Limit" : 50.0,
+               "swing2Stiffness" : 1.0,
+               "twistDamping" : 0.10000000149011612,
+               "twistLimit" : 20.0,
+               "twistStiffness" : 1.0
             }
          ],
          "guid" : "019D50572F0B0A1B002403194775AFDD",
@@ -3806,7 +3806,7 @@
                "classname" : "ComCapsuleCollider",
                "direction" : 2,
                "enabled" : true,
-               "guid" : "01A47E332F0B0A1B002403194775B052",
+               "guid" : "00486949300C1703000701AC291128C9",
                "height" : 0.23009310662746429,
                "radius" : 0.057523276656866074
             },
@@ -3816,7 +3816,7 @@
                "classname" : "ComRigidBody",
                "enabled" : true,
                "friction" : 1.0,
-               "guid" : "01A508002F0B0A1B002403194775B39D",
+               "guid" : "005C50A2300C1703000701B12911E2D3",
                "kinematic" : false,
                "linearDamping" : 0.039999999105930328,
                "mass" : 0.9523809552192688,
@@ -3826,25 +3826,24 @@
             },
             {
                "anchor" : "0 0 0",
-               "angles" : "0 -0 0",
+               "baseAngles" : "0 -50 0",
                "breakImpulse" : 1.0000000150474662e+30,
                "classname" : "ComCharacterJoint",
                "collisionEnabled" : false,
-               "connectedBody" : "01A0374E2F0B0A1B002403194775AEFF",
+               "connectedBody" : "005A3D09300C1703000701B02911CCE4",
                "enabled" : true,
-               "guid" : "01A6062B2F0B0A1B002403194775B322",
-               "swing1Damping" : 0.20000000298023224,
-               "swing1LowerLimit" : 0.0,
-               "swing1Stiffness" : 5.0,
-               "swing1UpperLimit" : 125.0,
-               "swing2Damping" : 0.20000000298023224,
-               "swing2LowerLimit" : -2.0,
-               "swing2Stiffness" : 5.0,
-               "swing2UpperLimit" : 2.0,
-               "twistDamping" : 0.20000000298023224,
-               "twistLowerLimit" : -4.0,
-               "twistStiffness" : 5.0,
-               "twistUpperLimit" : 4.0
+               "guid" : "006A56EF300C1703000701B829130216",
+               "swing1Axis" : "0 -0.9994 -0.0351",
+               "swing1Damping" : 0.10000000149011612,
+               "swing1Limit" : 5.0,
+               "swing1Stiffness" : 1.0,
+               "swing2Axis" : "-0.9957 -0 -0",
+               "swing2Damping" : 0.10000000149011612,
+               "swing2Limit" : 60.0,
+               "swing2Stiffness" : 1.0,
+               "twistDamping" : 0.10000000149011612,
+               "twistLimit" : 20.0,
+               "twistStiffness" : 1.0
             }
          ],
          "guid" : "01A270CE2F0B0A1B002403194775B0FB",
@@ -3878,9 +3877,9 @@
                "classname" : "ComCapsuleCollider",
                "direction" : 2,
                "enabled" : true,
-               "guid" : "01A969692F0B0A1B002403194775B542",
-               "height" : 0.048407182097434998,
-               "radius" : 0.064403213560581207
+               "guid" : "004C444D300C1703000701AD29113D96",
+               "height" : 0.048407196998596191,
+               "radius" : 0.06440320611000061
             },
             {
                "angularDamping" : 0.0099999997764825821,
@@ -3888,7 +3887,7 @@
                "classname" : "ComRigidBody",
                "enabled" : true,
                "friction" : 1.0,
-               "guid" : "01AA7E422F0B0A1B002403194775B48C",
+               "guid" : "005E64B3300C1703000701B22911F733",
                "kinematic" : false,
                "linearDamping" : 0.039999999105930328,
                "mass" : 0.9523809552192688,
@@ -3898,25 +3897,24 @@
             },
             {
                "anchor" : "0 0 0",
-               "angles" : "0 -0 0",
+               "baseAngles" : "-20 0 5",
                "breakImpulse" : 1.0000000150474662e+30,
                "classname" : "ComCharacterJoint",
                "collisionEnabled" : false,
-               "connectedBody" : "01A508002F0B0A1B002403194775B39D",
+               "connectedBody" : "005C50A2300C1703000701B12911E2D3",
                "enabled" : true,
-               "guid" : "01AB6C662F0B0A1B002403194775B4D4",
-               "swing1Damping" : 0.20000000298023224,
-               "swing1LowerLimit" : -20.0,
-               "swing1Stiffness" : 5.0,
-               "swing1UpperLimit" : 20.0,
-               "swing2Damping" : 0.20000000298023224,
-               "swing2LowerLimit" : -5.0,
-               "swing2Stiffness" : 5.0,
-               "swing2UpperLimit" : 50.0,
-               "twistDamping" : 0.20000000298023224,
-               "twistLowerLimit" : -100.0,
-               "twistStiffness" : 5.0,
-               "twistUpperLimit" : 5.0
+               "guid" : "006C3EB6300C1703000701B9291322D2",
+               "swing1Axis" : "0 -0.9994 -0.0351",
+               "swing1Damping" : 0.10000000149011612,
+               "swing1Limit" : 30.0,
+               "swing1Stiffness" : 1.0,
+               "swing2Axis" : "-0.9993 -0 -0",
+               "swing2Damping" : 0.10000000149011612,
+               "swing2Limit" : 3.0,
+               "swing2Stiffness" : 1.0,
+               "twistDamping" : 0.10000000149011612,
+               "twistLimit" : 30.0,
+               "twistStiffness" : 1.0
             }
          ],
          "guid" : "01A747672F0B0A1B002403194775B5EB",
@@ -4024,7 +4022,7 @@
                "localEulerAnglesHint" : "1.4169922 -170.427002 0.7279968",
                "origin" : "-0.0006493 -0.0409549 0.1123588",
                "rotation" : "-0.0073616 0.9964097 -0.0128513 -0.0833575",
-               "scale" : "1.0000176 1.0000011 1.0000161"
+               "scale" : "1.0000238 1.0000011 1.0000212"
             }
          ],
          "guid" : "01B25AA52F0B0A1B002403194775BB87",
@@ -4185,8 +4183,8 @@
                "guid" : "01BF5EDC2F0B0A1B0024031A4775C077",
                "localEulerAnglesHint" : "4.7969971 -163.8540039 -4.21698",
                "origin" : "0.0000885 0.0266523 0.1159773",
-               "rotation" : "0.0305267 0.9887693 -0.0362422 -0.1417384",
-               "scale" : "1.0000002 0.9999998 1.0000001"
+               "rotation" : "0.0305267 0.9887694 -0.0362422 -0.1417384",
+               "scale" : "0.9999998 0.9999998 0.9999998"
             }
          ],
          "guid" : "01BE57462F0B0A1B0024031A4775C024",
@@ -4267,7 +4265,7 @@
                "localEulerAnglesHint" : "3.7569885 -162.9100037 -2.2189941",
                "origin" : "0.0137305 0.0525311 0.1072026",
                "rotation" : "0.014269 0.9882774 -0.0295342 -0.1491034",
-               "scale" : "0.9999817 1.0000005 0.9999841"
+               "scale" : "0.9999745 1.0000005 0.9999783"
             }
          ],
          "guid" : "01C46A1B2F0B0A1B0024031A4775C4FE",
@@ -4409,7 +4407,7 @@
                "classname" : "ComCapsuleCollider",
                "direction" : 2,
                "enabled" : true,
-               "guid" : "01D022682F0B0A1B0024031A4775CD78",
+               "guid" : "00461BB7300C1703000701AC291120DA",
                "height" : 0.22049179673194885,
                "radius" : 0.055122949182987213
             },
@@ -4419,7 +4417,7 @@
                "classname" : "ComRigidBody",
                "enabled" : true,
                "friction" : 1.0,
-               "guid" : "01D149EC2F0B0A1B0024031A4775CC81",
+               "guid" : "005B149E300C1703000701B12911D692",
                "kinematic" : false,
                "linearDamping" : 0.039999999105930328,
                "mass" : 0.9523809552192688,
@@ -4429,25 +4427,24 @@
             },
             {
                "anchor" : "0 0 0",
-               "angles" : "0 -0 0",
+               "baseAngles" : "30 40 0",
                "breakImpulse" : 1.0000000150474662e+30,
                "classname" : "ComCharacterJoint",
                "collisionEnabled" : false,
-               "connectedBody" : "018853D52F0B0A1B002403194775A09D",
+               "connectedBody" : "00595BB6300C1703000701B02911C16E",
                "enabled" : true,
-               "guid" : "01D2288A2F0B0A1B0024031A4775CCC9",
-               "swing1Damping" : 0.20000000298023224,
-               "swing1LowerLimit" : -100.0,
-               "swing1Stiffness" : 5.0,
-               "swing1UpperLimit" : 10.0,
-               "swing2Damping" : 0.20000000298023224,
-               "swing2LowerLimit" : 0.0,
-               "swing2Stiffness" : 5.0,
-               "swing2UpperLimit" : 0.0,
-               "twistDamping" : 0.20000000298023224,
-               "twistLowerLimit" : -10.0,
-               "twistStiffness" : 5.0,
-               "twistUpperLimit" : 70.0
+               "guid" : "00692FDB300C1703000701B82912E85C",
+               "swing1Axis" : "0 0.9961 -0.0884",
+               "swing1Damping" : 0.10000000149011612,
+               "swing1Limit" : 60.0,
+               "swing1Stiffness" : 1.0,
+               "swing2Axis" : "-0.9957 0 -0",
+               "swing2Damping" : 0.10000000149011612,
+               "swing2Limit" : 50.0,
+               "swing2Stiffness" : 1.0,
+               "twistDamping" : 0.10000000149011612,
+               "twistLimit" : 20.0,
+               "twistStiffness" : 1.0
             }
          ],
          "guid" : "01CE1DC02F0B0A1B0024031A4775CDE3",
@@ -4481,7 +4478,7 @@
                "classname" : "ComCapsuleCollider",
                "direction" : 2,
                "enabled" : true,
-               "guid" : "01D517162F0B0A1B0024031A4775CE1B",
+               "guid" : "004A7651300C1703000701AC29113072",
                "height" : 0.230091392993927,
                "radius" : 0.05752284824848175
             },
@@ -4491,7 +4488,7 @@
                "classname" : "ComRigidBody",
                "enabled" : true,
                "friction" : 1.0,
-               "guid" : "01D6670E2F0B0A1B0024031A4775D1A2",
+               "guid" : "005D73FC300C1703000701B12911EB75",
                "kinematic" : false,
                "linearDamping" : 0.039999999105930328,
                "mass" : 0.9523809552192688,
@@ -4501,25 +4498,24 @@
             },
             {
                "anchor" : "0 0 0",
-               "angles" : "0 -0 0",
+               "baseAngles" : "-0 50 0",
                "breakImpulse" : 1.0000000150474662e+30,
                "classname" : "ComCharacterJoint",
                "collisionEnabled" : false,
-               "connectedBody" : "01D149EC2F0B0A1B0024031A4775CC81",
+               "connectedBody" : "005B149E300C1703000701B12911D692",
                "enabled" : true,
-               "guid" : "01D77D4E2F0B0A1B0024031A4775D1EA",
-               "swing1Damping" : 0.20000000298023224,
-               "swing1LowerLimit" : 0.0,
-               "swing1Stiffness" : 5.0,
-               "swing1UpperLimit" : 125.0,
-               "swing2Damping" : 0.20000000298023224,
-               "swing2LowerLimit" : -2.0,
-               "swing2Stiffness" : 5.0,
-               "swing2UpperLimit" : 2.0,
-               "twistDamping" : 0.20000000298023224,
-               "twistLowerLimit" : -4.0,
-               "twistStiffness" : 5.0,
-               "twistUpperLimit" : 4.0
+               "guid" : "006B68ED300C1703000701B9291312CA",
+               "swing1Axis" : "0 0.9995 -0.0331",
+               "swing1Damping" : 0.10000000149011612,
+               "swing1Limit" : 5.0,
+               "swing1Stiffness" : 1.0,
+               "swing2Axis" : "-0.9957 0 -0",
+               "swing2Damping" : 0.10000000149011612,
+               "swing2Limit" : 60.0,
+               "swing2Stiffness" : 1.0,
+               "twistDamping" : 0.10000000149011612,
+               "twistLimit" : 20.0,
+               "twistStiffness" : 1.0
             }
          ],
          "guid" : "01D34CA42F0B0A1B0024031A4775CE83",
@@ -4553,9 +4549,9 @@
                "classname" : "ComCapsuleCollider",
                "direction" : 2,
                "enabled" : true,
-               "guid" : "01DA62BF2F0B0A1B0024031A4775D369",
-               "height" : 0.048276558518409729,
-               "radius" : 0.064468704164028168
+               "guid" : "004E02E6300C1703000701AD2911482E",
+               "height" : 0.048276528716087341,
+               "radius" : 0.064468719065189362
             },
             {
                "angularDamping" : 0.0099999997764825821,
@@ -4563,7 +4559,7 @@
                "classname" : "ComRigidBody",
                "enabled" : true,
                "friction" : 1.0,
-               "guid" : "01DB110F2F0B0A1B0024031A4775D2B0",
+               "guid" : "005F1F6C300C1703000701B229120352",
                "kinematic" : false,
                "linearDamping" : 0.039999999105930328,
                "mass" : 0.9523809552192688,
@@ -4573,25 +4569,24 @@
             },
             {
                "anchor" : "0 0 0",
-               "angles" : "0 -0 0",
+               "baseAngles" : "20 0 5",
                "breakImpulse" : 1.0000000150474662e+30,
                "classname" : "ComCharacterJoint",
                "collisionEnabled" : false,
-               "connectedBody" : "01D6670E2F0B0A1B0024031A4775D1A2",
+               "connectedBody" : "005D73FC300C1703000701B12911EB75",
                "enabled" : true,
-               "guid" : "01DC6A4B2F0B0A1B0024031A4775D2C6",
-               "swing1Damping" : 0.20000000298023224,
-               "swing1LowerLimit" : -20.0,
-               "swing1Stiffness" : 5.0,
-               "swing1UpperLimit" : 20.0,
-               "swing2Damping" : 0.20000000298023224,
-               "swing2LowerLimit" : -5.0,
-               "swing2Stiffness" : 5.0,
-               "swing2UpperLimit" : 50.0,
-               "twistDamping" : 0.20000000298023224,
-               "twistLowerLimit" : -100.0,
-               "twistStiffness" : 5.0,
-               "twistUpperLimit" : 5.0
+               "guid" : "006D75C0300C1703000701BA2913334B",
+               "swing1Axis" : "0 0.9995 -0.0331",
+               "swing1Damping" : 0.10000000149011612,
+               "swing1Limit" : 30.0,
+               "swing1Stiffness" : 1.0,
+               "swing2Axis" : "-0.9993 0 0",
+               "swing2Damping" : 0.10000000149011612,
+               "swing2Limit" : 3.0,
+               "swing2Stiffness" : 1.0,
+               "twistDamping" : 0.10000000149011612,
+               "twistLimit" : 30.0,
+               "twistStiffness" : 1.0
             }
          ],
          "guid" : "01D830BF2F0B0A1B0024031A4775D39E",
@@ -4699,7 +4694,7 @@
                "localEulerAnglesHint" : "-1.5629883 -170.871994 -10.3829956",
                "origin" : "-0.0006505 0.0407355 0.1124392",
                "rotation" : "0.0912664 0.99255 0.0207429 -0.0780051",
-               "scale" : "1.0000176 0.9999994 1.0000186"
+               "scale" : "1.0000238 0.9999994 1.0000255"
             }
          ],
          "guid" : "01E364322F0B0A1B0024031A4775D986",
@@ -4779,8 +4774,8 @@
                "guid" : "01EA225C2F0B0A1B0024031A4775DD81",
                "localEulerAnglesHint" : "-1.2709961 -167.2980042 -11.6220093",
                "origin" : "-0.0042666 0.0027681 0.1132437",
-               "rotation" : "0.1018397 0.9885705 0.0221672 -0.1089302",
-               "scale" : "0.9999989 1.0000001 0.9999985"
+               "rotation" : "0.1018397 0.9885704 0.0221672 -0.1089302",
+               "scale" : "0.9999992 1.0000001 0.9999987"
             }
          ],
          "guid" : "01E9666C2F0B0A1B0024031A4775DA7D",
@@ -4942,7 +4937,7 @@
                "localEulerAnglesHint" : "-3.8839722 -163.3630066 -7.4229736",
                "origin" : "0.0137305 -0.0527398 0.1070993",
                "rotation" : "0.0689028 0.9865192 0.0428189 -0.1421227",
-               "scale" : "1.0000101 1 1.0000082"
+               "scale" : "1.0000135 1 1.0000114"
             }
          ],
          "guid" : "01F576F22F0B0A1B0024031A4775E2E7",
@@ -5022,8 +5017,8 @@
                "guid" : "01FC0BAE2F0B0A1B0024031B4775E98D",
                "localEulerAnglesHint" : "77.2330017 -9.8100004 -79.6290054",
                "origin" : "0.0034491 -0.0104342 0.0667137",
-               "rotation" : "0.4348318 -0.4494575 -0.4574568 0.6321729",
-               "scale" : "0.8974006 0.9005589 0.9022282"
+               "rotation" : "0.4348315 -0.4494573 -0.4574566 0.6321734",
+               "scale" : "0.8974001 0.900559 0.9022277"
             }
          ],
          "guid" : "01FB29B42F0B0A1B0024031B4775E67B",
@@ -5131,7 +5126,7 @@
                "localEulerAnglesHint" : "-69.4600067 0.7970001 -86.0880051",
                "origin" : "0.0580734 0.0521376 0.1565539",
                "rotation" : "-0.4124511 0.3930314 -0.5580491 0.6033173",
-               "scale" : "1.0000081 1.0000085 1.0000007"
+               "scale" : "1.0000112 1.0000116 1.0000007"
             }
          ],
          "guid" : "020376412F0B0A1B0024031B4775ED6D",
@@ -5211,8 +5206,8 @@
                "guid" : "020A6E642F0B0A1B0024031B4775F110",
                "localEulerAnglesHint" : "-69.4780045 -0.545 -93.9550018",
                "origin" : "0.0580339 -0.0528713 0.1563224",
-               "rotation" : "-0.3916567 0.4139507 -0.6026378 0.5586396",
-               "scale" : "1.0000522 1.0000513 1.0000321"
+               "rotation" : "-0.3916605 0.4139577 -0.6026446 0.5586244",
+               "scale" : "1.0000684 1.0000674 1.0000418"
             }
          ],
          "guid" : "020957E42F0B0A1B0024031B4775F1CC",
@@ -5541,7 +5536,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "000979BD2A0B0B1B000E008F9311EF25",
+      "guid" : "00094DA1320C170300060094065461EF",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1
