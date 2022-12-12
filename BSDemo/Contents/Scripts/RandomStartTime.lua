@@ -7,6 +7,3 @@ function start()
 		animation:set_time_scale(math.random() * 1.5 + 0.5)
 	end
 end
-
-function update()
-end

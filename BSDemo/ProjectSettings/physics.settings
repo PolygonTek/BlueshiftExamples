@@ -1,4 +1,5 @@
 {
+   "airDensity" : 0.5,
    "classname" : "PhysicsSettings",
    "filterMasks" : [ 5, 1, 1 ],
    "frameRate" : 60,
