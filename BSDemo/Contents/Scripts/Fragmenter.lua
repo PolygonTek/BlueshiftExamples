@@ -46,7 +46,7 @@ function fragmenter.create_fragment(name, src_entity, mesh)
     rigid_body:set_spinning_friction(src_rigid_body:spinning_friction())
     rigid_body:set_linear_damping(src_rigid_body:linear_damping())
     rigid_body:set_angular_damping(src_rigid_body:angular_damping())
-    rigid_body:set_ccd(src_rigid_body:is_ccd())
+    rigid_body:set_ccd_enabled(src_rigid_body:is_ccd_enabled())
     rigid_body:set_linear_velocity(src_rigid_body:linear_velocity() * 0.9)
     rigid_body:set_angular_velocity(src_rigid_body:angular_velocity() * 0.9)
 

@@ -3,18 +3,19 @@ local admob = require "admob"
 
 local maps_for_buttons = {
 	['MapButton 1'] = 'Contents/Maps/third_person_player.map',
-	['MapButton 2'] = 'Contents/Maps/joints.map',
-	['MapButton 3'] = 'Contents/Maps/rolling_friction.map',
+	['MapButton 2'] = 'Contents/Maps/3d_sound.map',
+	['MapButton 3'] = 'Contents/Maps/particle_system.map',	
 	['MapButton 4'] = 'Contents/Maps/shadows.map',
 	['MapButton 5'] = 'Contents/Maps/pbr.map',
-	['MapButton 6'] = 'Contents/Maps/vehicle.map',
-	['MapButton 7'] = 'Contents/Maps/particle_system.map',
-	['MapButton 8'] = 'Contents/Maps/ragdoll.map',
+	['MapButton 6'] = 'Contents/Maps/ui.map',
+	['MapButton 7'] = 'Contents/Maps/vehicle.map',	
+	['MapButton 8'] = 'Contents/Maps/rolling_friction.map',	
 	['MapButton 9'] = 'Contents/Maps/sensor.map',
-	['MapButton 10'] = 'Contents/Maps/3d_sound.map',
-	['MapButton 11'] = 'Contents/Maps/ui.map',
+	['MapButton 10'] = 'Contents/Maps/joints.map',
+	['MapButton 11'] = 'Contents/Maps/ragdoll.map',
 	['MapButton 12'] = 'Contents/Maps/slice.map',
-	['MapButton 13'] = 'Contents/Maps/fracture.map'
+	['MapButton 13'] = 'Contents/Maps/fracture.map',
+	['MapButton 14'] = 'Contents/Maps/soft_body.map'
 }
 
 m = {}
@@ -40,7 +41,7 @@ function on_clicked(name)
 			end
 		end
 
-		if name == 'MapButton 14' then
+		if name == 'MapButton 15' then
 			if admob ~= true then    
 		    	if admob.InterstitialAd.is_ready() then
 		        	admob.InterstitialAd.present()
