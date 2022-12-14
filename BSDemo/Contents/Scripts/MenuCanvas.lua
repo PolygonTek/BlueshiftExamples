@@ -1,4 +1,5 @@
 local blueshift = require "blueshift"
+local Common = blueshift.Common
 local admob = require "admob"
 
 local maps_for_buttons = {
@@ -19,6 +20,13 @@ local maps_for_buttons = {
 }
 
 m = {}
+
+function start()
+	if Common.platform_id() ~= Common.PlatformId.IOS and Common.platform_id() ~= Common.PlatformId.Android then
+		local interstitial_ad_button = owner.game_world:find_entity("MapButton 15")
+		interstitial_ad_button:set_active(false)
+	end
+end
 
 function awake()
 	m.map_buttons = owner.game_world:find_entity("MapButtons")

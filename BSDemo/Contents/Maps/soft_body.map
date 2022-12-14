@@ -1211,7 +1211,7 @@
                "localEulerAnglesHint" : "1.4169922 -170.427002 0.7279968",
                "origin" : "-0.0006493 -0.0409549 0.1123588",
                "rotation" : "-0.0073616 0.9964097 -0.0128513 -0.0833575",
-               "scale" : "1.0000548 1.0000011 1.000047"
+               "scale" : "1.0000777 1.0000011 1.0000658"
             }
          ],
          "guid" : "0126273A2E0B0E140038029B92869B22",
@@ -1372,8 +1372,8 @@
                "guid" : "01335F512E0B0E140038029C9286A261",
                "localEulerAnglesHint" : "4.7969971 -163.8540039 -4.21698",
                "origin" : "0.0000885 0.0266523 0.1159773",
-               "rotation" : "0.0305267 0.9887693 -0.0362422 -0.1417384",
-               "scale" : "1 0.9999998 0.9999999"
+               "rotation" : "0.0305267 0.9887694 -0.0362422 -0.1417384",
+               "scale" : "1 0.9999998 1"
             }
          ],
          "guid" : "013274FC2E0B0E140038029C9286A2DE",
@@ -1454,7 +1454,7 @@
                "localEulerAnglesHint" : "3.7569885 -162.9100037 -2.2189941",
                "origin" : "0.0137305 0.0525311 0.1072026",
                "rotation" : "0.014269 0.9882774 -0.0295342 -0.1491034",
-               "scale" : "0.9999416 1.0000005 0.9999507"
+               "scale" : "0.9999167 1.0000005 0.9999295"
             }
          ],
          "guid" : "01385E6F2E0B0E140038029C9286A88B",
@@ -1751,7 +1751,7 @@
                "localEulerAnglesHint" : "-1.5629883 -170.871994 -10.3829956",
                "origin" : "-0.0006505 0.0407355 0.1124392",
                "rotation" : "0.0912664 0.99255 0.0207429 -0.0780051",
-               "scale" : "1.0000546 0.9999994 1.0000587"
+               "scale" : "1.0000775 0.9999994 1.0000834"
             }
          ],
          "guid" : "014E423F2E0B0E140038029C9286B9F7",
@@ -1994,7 +1994,7 @@
                "localEulerAnglesHint" : "-3.8839722 -163.3630066 -7.4229736",
                "origin" : "0.0137305 -0.0527398 0.1070993",
                "rotation" : "0.0689028 0.9865192 0.0428189 -0.1421227",
-               "scale" : "1.0000306 1 1.0000269"
+               "scale" : "1.0000432 1 1.0000385"
             }
          ],
          "guid" : "01607E162E0B0E140038029C9286C22E",
@@ -2689,36 +2689,36 @@
                "localEulerAnglesHint" : "0 0 0",
                "origin" : "4.9999995 0 3",
                "rotation" : "0 0 0 1",
-               "scale" : "0.25 0.25 0.25"
+               "scale" : "0.2 0.2 0.2"
             },
             {
                "alpha" : 1.0,
                "billboard" : false,
                "castShadows" : true,
-               "classname" : "ComStaticMeshRenderer",
+               "classname" : "ComSkinnedMeshRenderer",
                "color" : "1 1 1",
                "enabled" : true,
-               "guid" : "0038267C370C110A003A031743A4AF8A",
+               "guid" : "003A34532C0C070C003201A72B5403D3",
                "materials" : [ "006144DC39070B19003303DB558235C6" ],
                "maxVisDist" : 4000.0,
                "mesh" : "00000000000000000000000000000192",
-               "occluder" : false,
                "receiveShadows" : true,
+               "root" : "00000000000000000000000000000000",
                "timeOffset" : 0.0,
                "timeScale" : 1.0,
                "useEnvironmentProveLighting" : true
             },
             {
+               "bendingConstraintDistance" : 2,
                "ccd" : true,
                "classname" : "ComSoftBody",
-               "enableSelfCollision" : true,
                "enabled" : true,
-               "friction" : 0.80000001192092896,
+               "friction" : 1.0,
                "guid" : "00362B9B280C160A000F039C220C5CF2",
-               "mass" : 30.0,
+               "mass" : 1.0,
                "pointWeights" : [
-                  0.5,
-                  0.60000002384185791,
+                  1.0,
+                  1.0,
                   1.0,
                   1.0,
                   1.0,
@@ -2839,9 +2839,10 @@
                   1.0,
                   1.0
                ],
-               "restitution" : 0.0099999997764825821,
+               "selfCollision" : false,
                "solverIterationCount" : 5,
-               "stiffness" : 0.02500000037252903
+               "stiffness" : 0.05000000074505806,
+               "thickness" : 0.10000000149011612
             }
          ],
          "guid" : "00360467370C110A003A031743A49F03",
@@ -3002,17 +3003,18 @@
                "useEnvironmentProveLighting" : true
             },
             {
+               "bendingConstraintDistance" : 2,
                "ccd" : true,
                "classname" : "ComSoftBody",
-               "enableSelfCollision" : false,
                "enabled" : true,
                "friction" : 0.80000001192092896,
                "guid" : "003A58A20C0C0F0B003803D0D1F52DA4",
-               "mass" : 30.0,
+               "mass" : 1.0,
                "pointWeights" : [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ],
-               "restitution" : 0.0099999997764825821,
+               "selfCollision" : false,
                "solverIterationCount" : 5,
-               "stiffness" : 0.014999999664723873
+               "stiffness" : 0.014999999664723873,
+               "thickness" : 0.014999999664723873
             }
          ],
          "guid" : "00365B2D040C0F0B003803DECD329AE3",
@@ -3039,7 +3041,7 @@
                "localEulerAnglesHint" : "0 0 0",
                "origin" : "4.9206991 3.6900001 2.51",
                "rotation" : "0 0 0 1",
-               "scale" : "1 1 1"
+               "scale" : "1.5 1.5 1.5"
             },
             {
                "alpha" : 1.0,
@@ -3059,13 +3061,13 @@
                "useEnvironmentProveLighting" : true
             },
             {
+               "bendingConstraintDistance" : 3,
                "ccd" : true,
                "classname" : "ComSoftBody",
-               "enableSelfCollision" : true,
                "enabled" : true,
                "friction" : 0.80000001192092896,
                "guid" : "003A10CF2F0C140B0020034A7534DFE1",
-               "mass" : 20.0,
+               "mass" : 1.0,
                "pointWeights" : [
                   1.0,
                   1.0,
@@ -3326,9 +3328,10 @@
                   1.0,
                   1.0
                ],
-               "restitution" : 0.0099999997764825821,
+               "selfCollision" : false,
                "solverIterationCount" : 5,
-               "stiffness" : 0.5
+               "stiffness" : 0.15000000596046448,
+               "thickness" : 0.014999999664723873
             }
          ],
          "guid" : "003664F52A0C140B002002CA722678DC",
@@ -3346,7 +3349,7 @@
    ],
    "renderSettings" : {
       "classname" : "MapRenderSettings",
-      "guid" : "0009269F350C150B001100A9C1950B26",
+      "guid" : "000903000F0C140C001A00FFB712FC10",
       "skyboxMaterial" : "001A417523070F030006033A46769CF3"
    },
    "version" : 1

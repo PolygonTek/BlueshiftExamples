@@ -1,7 +1,7 @@
 material 2
 pass {
   renderingMode opaque
-  cull back
+  cull none
   transparency default
   shader "{00000000-0000-0000-0000-0000000000C8}" {
     _ALBEDO "1"
